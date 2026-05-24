@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Local working notes (not part of the published project)
+CLAUDE.md
+docs/
+logs/
+
+# Local dictionary-build cache (regenerable)
+tools/dictionary-cache.json

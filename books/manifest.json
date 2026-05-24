@@ -1,0 +1,70 @@
+{
+  "_comment": "Each entry = one book. Drop the .md file into books/archive/, add an entry here, reload the site. file = path relative to the books/ folder. chapterMode: 'h2' (split on ## headings), 'h2h3' (## parts + ### chapters), or 'scenes' (no headings, split on *** breaks, grouped into targetChapters). words/minutes/pages are computed automatically from the text.",
+  "books": [
+    {
+      "id": "djatlow-pass",
+      "title": "Djatlow-Pass",
+      "subtitle": "Ein Rätsel aus dem Ural, 1959",
+      "level": "B1",
+      "theme": "navy",
+      "author": "Andreas Maier",
+      "year": 2024,
+      "file": "archive/djatlow.md",
+      "chapterMode": "h2",
+      "blurb": {
+        "de": "Januar 1959: Zehn junge Wanderer brechen in den nördlichen Ural auf. Neun von ihnen kehren nie zurück. Die wahre Geschichte des rätselhaften Unglücks am Djatlow-Pass.",
+        "en": "January 1959: ten young hikers set out into the northern Urals. Nine of them never return. The true story of the mysterious Dyatlov Pass incident.",
+        "ru": "Январь 1959 года: десять молодых туристов уходят в северный Урал. Девять из них не вернутся. Правдивая история загадочной трагедии на перевале Дятлова."
+      }
+    },
+    {
+      "id": "zodiac-killer",
+      "title": "Der Zodiac-Killer",
+      "subtitle": "Der Mörder, der nie gefasst wurde",
+      "level": "B1",
+      "theme": "ink",
+      "author": "Andreas Maier",
+      "year": 2024,
+      "file": "archive/zodiac.md",
+      "chapterMode": "h2",
+      "blurb": {
+        "de": "Kalifornien, Ende der 1960er-Jahre: Ein unbekannter Mörder tötet junge Paare und schickt verschlüsselte Briefe an die Zeitungen. Bis heute wurde er nie gefasst.",
+        "en": "California, late 1960s: an unknown killer murders young couples and mails ciphered letters to the newspapers. To this day he has never been caught.",
+        "ru": "Калифорния, конец 1960-х: неизвестный убийца расправляется с молодыми парами и шлёт зашифрованные письма в газеты. Его так и не поймали."
+      }
+    },
+    {
+      "id": "im-schatten-der-akten",
+      "title": "Im Schatten der Akten",
+      "subtitle": "Ein Roman nach wahren Begebenheiten",
+      "level": "B1",
+      "theme": "brown",
+      "author": "Andreas Maier",
+      "year": 2024,
+      "file": "archive/mkultra_book_final.md",
+      "chapterMode": "h2h3",
+      "blurb": {
+        "de": "Ein Roman nach wahren Begebenheiten: Der Chemiker Henry Reed gerät nach dem Krieg in das geheime CIA-Programm MKUltra. Eine Geschichte über Schuld, Wissenschaft und das lange Schweigen der Akten.",
+        "en": "A novel based on true events: after the war, the chemist Henry Reed is drawn into the CIA's secret MKUltra program. A story of guilt, science, and the long silence of classified files.",
+        "ru": "Роман, основанный на реальных событиях: после войны химик Генри Рид оказывается втянут в секретную программу ЦРУ MKUltra. История о вине, науке и долгом молчании архивов."
+      }
+    },
+    {
+      "id": "moerderland",
+      "title": "Mörderland",
+      "subtitle": "Über Serienmörder und Gift",
+      "level": "B2",
+      "theme": "burgundy",
+      "author": "Andreas Maier",
+      "year": 2024,
+      "file": "archive/serienmörder-geschichte.md",
+      "chapterMode": "scenes",
+      "targetChapters": 9,
+      "blurb": {
+        "de": "Warum kamen so viele Serienmörder aus dem Nordwesten der USA? Eine Spurensuche zwischen Ted Bundy, dem Zodiac-Killer und einer unsichtbaren Ursache: Gift in Luft, Boden und Wasser.",
+        "en": "Why did so many serial killers come from the American Northwest? A search for clues among Ted Bundy, the Zodiac killer, and an invisible cause: poison in the air, soil, and water.",
+        "ru": "Почему так много серийных убийц вышло из северо-запада США? Расследование на стыке Теда Банди, Зодиака и невидимой причины — яда в воздухе, почве и воде."
+      }
+    }
+  ]
+}
