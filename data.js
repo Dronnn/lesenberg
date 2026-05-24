@@ -504,6 +504,12 @@ const makeQuiz = (book) => {
 
 window.UI_STRINGS = UI_STRINGS;
 window.DICT = DICT;
+function fmtReadingTime(m, minUnit) {
+  if (m < 60) return m + " " + minUnit;
+  const h = Math.floor(m / 60), mm = m % 60;
+  return mm ? (h + " h " + mm + " " + minUnit) : (h + " h");
+}
+window.fmtReadingTime = fmtReadingTime;
 window.lookupWord = lookupWord;
 window.BOOKS = BOOKS;
 window.buildVocab = buildVocab;

@@ -23,7 +23,7 @@ const BookDetail = ({ lang, book, progress, savedWords, knownWords, onStartChapt
           <div className="row" style={{ marginBottom: 14, gap: 10 }}>
             <Level value={book.level} />
             <span className="mono mute" style={{ fontSize: 11, letterSpacing: "0.08em" }}>
-              {book.minutes} {t.minutes} · {book.words.toLocaleString()} {t.words} · {book.pages} {t.pages}
+              {fmtReadingTime(book.minutes, t.minutes)} · {book.words.toLocaleString()} {t.words} · {book.pages} {t.pages}
             </span>
           </div>
           <h1 className="h-display" style={{ fontSize: 48, marginBottom: 6 }}>{book.title}</h1>
@@ -63,7 +63,7 @@ const BookDetail = ({ lang, book, progress, savedWords, knownWords, onStartChapt
               document.body.appendChild(a); a.click(); document.body.removeChild(a);
               URL.revokeObjectURL(url);
             }}>↓ {t.download}</button>
-            <button className="btn btn-ghost">€ {t.buy}</button>
+            <button className="btn btn-ghost" onClick={() => { window.location.hash = "#/donate"; }}>€ {t.buy}</button>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@ const BookDetail = ({ lang, book, progress, savedWords, knownWords, onStartChapt
                 <span className="chap-num">{String(i + 1).padStart(2, "0")}</span>
                 <div>
                   <div className="chap-title">{c.title}</div>
-                  <div className="chap-meta">{c.minutes} {t.minutes}</div>
+                  <div className="chap-meta">{fmtReadingTime(c.minutes, t.minutes)}</div>
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
                   {done && <span className="mono" style={{ color: "var(--a1)", fontSize: 11, letterSpacing: "0.08em" }}>✓ {t.finished}</span>}

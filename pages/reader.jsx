@@ -201,7 +201,7 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
                 <span className="mono mute" style={{ fontSize: 11 }}>{String(i+1).padStart(2,"0")}</span>
                 <div>
                   <div style={{ fontSize: 13, fontWeight: current ? 600 : 500, color: "var(--ink)" }}>{c.title}</div>
-                  <div className="mono mute" style={{ fontSize: 10, letterSpacing: "0.05em", marginTop: 2 }}>{c.minutes} {t.minutes}</div>
+                  <div className="mono mute" style={{ fontSize: 10, letterSpacing: "0.05em", marginTop: 2 }}>{fmtReadingTime(c.minutes, t.minutes)}</div>
                 </div>
                 <span style={{ color: done ? "var(--a1)" : current ? "var(--brown)" : "transparent", fontSize: 12 }}>{done ? "✓" : current ? "●" : "○"}</span>
               </button>

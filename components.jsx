@@ -195,7 +195,7 @@ const BookCard = ({ book, lang, status, progress }) => {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", gap: 8, marginBottom: 4 }}>
           <Level value={book.level} />
           <span className="mono" style={{ fontSize: 10, color: "var(--ink-mute)", letterSpacing: "0.06em" }}>
-            {book.minutes} {t.minutes} · {book.pages} {t.pages}
+            {fmtReadingTime(book.minutes, t.minutes)} · {book.pages} {t.pages}
           </span>
         </div>
         <h3 className="h-card" style={{ marginTop: 2 }}>{book.title}</h3>

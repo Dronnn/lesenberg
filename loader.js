@@ -54,11 +54,11 @@ function chapterWordCount(chapter) {
 }
 
 function minutesFor(words) {
-  return Math.max(1, Math.round(words / 150));
+  return Math.max(1, Math.round(words / 100));
 }
 
 function pagesFor(words) {
-  return Math.max(1, Math.round(words / 250));
+  return Math.max(1, Math.round(words / 200));
 }
 
 // ----- h2: split on `## ` headings -----
