@@ -14,7 +14,9 @@ All texts are original, written in graded German for learners at **A1–B2**.
   A2→B1), and the library filter shows only the levels actually in the catalogue.
 - **Tap-to-translate.** Tap any word in the reader to see its part of speech, base form, and an
   English + Russian gloss. German nouns show with their article and capitalised form (e.g.
-  *das Brötchen*, *die Bäckerei*). Every book ships with its own dictionary, so this works offline.
+  *das Brötchen*, *die Bäckerei*). Separable verbs are recognised even when split across the
+  sentence — tap either part of *sieht … aus* and you get *aussehen*. Every book ships with its
+  own dictionary, so this works offline.
 - **Highlight & save.** Mark words in four colours and save them (with your own notes and example
   sentences) as flashcards.
 - **Test yourself.** After each chapter, a short vocabulary quiz built live from that chapter's own

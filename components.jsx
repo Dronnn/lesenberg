@@ -346,6 +346,11 @@ const TappableText = ({ text, onWord, onPhrase, highlights, knownWords, phrases 
       }
       i++;
     }
+    const groups = (typeof detectSeparableGroups === "function") ? detectSeparableGroups(out) : [];
+    for (const g of groups) {
+      if (out[g.stem])   out[g.stem].sv   = { indices: [g.stem, g.prefix], data: g.data };
+      if (out[g.prefix]) out[g.prefix].sv = { indices: [g.stem, g.prefix], data: g.data };
+    }
     return out;
   }, [text, phrases]);
 
@@ -366,14 +371,15 @@ const TappableText = ({ text, onWord, onPhrase, highlights, knownWords, phrases 
           );
         }
         const lookup = lookupWord(p.t);
-        const key = lookup ? lookup.word : p.t;
+        const ownKey = lookup ? lookup.word : p.t;
+        const key = p.sv ? p.sv.data.word : ownKey;
         const color = highlights[key];
         const isKnown = knownWords.has(key);
         let cls = "word";
         if (color) cls += " hl-" + color;
         if (isKnown && !color) cls += " known";
         return (
-          <span key={i} className={cls} onClick={(e) => onWord(e, p.t)}>
+          <span key={i} className={cls} data-ti={i} onClick={(e) => onWord(e, p.t, p.sv)}>
             {p.t}
           </span>
         );

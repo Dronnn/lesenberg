@@ -1262,6 +1262,66 @@ const lookupWord = (raw) => {
   return { word: clean, pos: "—", en: "—", ru: "—", unknown: true };
 };
 
+// ---------- SEPARABLE VERBS (trennbare Verben) ----------
+// Live heuristic: in "... sieht ... aus" the prefix "aus" at the clause end belongs to the
+// finite verb "sieht" (lemma sehen) -> "aussehen". We validate prefix+lemma against the
+// existing dictionary (joined forms appear in the books, so the verb lemma exists) and only
+// treat a trailing prefix as separable when it sits at a clause end, so a plain preposition
+// ("aus dem Haus") is left alone. detectSeparableGroups runs over TappableText's `parts`
+// (tokens { kind: "word"|"ws"|"phrase", t }) and returns the linked stem/prefix pairs.
+const SEPARABLE_PREFIXES = new Set([
+  "ab", "an", "auf", "aus", "bei", "da", "dabei", "ein", "empor", "entgegen", "fest", "fort",
+  "frei", "gegenüber", "gleich", "heim", "her", "heran", "herauf", "heraus", "herbei", "herein",
+  "herum", "herunter", "hervor", "hin", "hinauf", "hinaus", "hinein", "hinunter", "los", "mit",
+  "nach", "nieder", "vor", "voran", "voraus", "vorbei", "weg", "weiter", "wieder", "zu",
+  "zurecht", "zurück", "zusammen",
+]);
+const _SV_COORD = new Set(["und", "oder", "aber", "denn", "sondern"]);
+
+function _svGapHasSentenceEnd(parts, a, b) {
+  for (let k = a + 1; k < b; k++) {
+    if (parts[k].kind === "ws" && /[.!?]/.test(parts[k].t)) return true;
+  }
+  return false;
+}
+// True only when the prefix at index p sits at a clause end: the run after it (before the
+// next word) carries clause punctuation, or the next word is a coordinating conjunction, or
+// the paragraph ends. This is what separates "...aus." (verb) from "aus dem Haus" (prep).
+function _svAtClauseEnd(parts, p) {
+  for (let k = p + 1; k < parts.length; k++) {
+    if (parts[k].kind === "ws") { if (/[.!?,;:]/.test(parts[k].t)) return true; continue; }
+    return _SV_COORD.has(String(parts[k].t || "").toLowerCase());
+  }
+  return true;
+}
+function detectSeparableGroups(parts) {
+  if (typeof lookupWord !== "function" || !Array.isArray(parts)) return [];
+  const wordIdx = [];
+  for (let i = 0; i < parts.length; i++) if (parts[i].kind === "word") wordIdx.push(i);
+  const groups = [];
+  const used = new Set();
+  for (let w = 0; w < wordIdx.length; w++) {
+    const pi = wordIdx[w];
+    if (used.has(pi)) continue;
+    const surf = String(parts[pi].t || "").toLowerCase();
+    if (!SEPARABLE_PREFIXES.has(surf) || !_svAtClauseEnd(parts, pi)) continue;
+    for (let b = w - 1; b >= 0; b--) {
+      const bpi = wordIdx[b];
+      if (_svGapHasSentenceEnd(parts, bpi, pi)) break; // don't cross a sentence boundary
+      if (used.has(bpi)) continue;
+      const lk = lookupWord(parts[bpi].t);
+      if (!lk || lk.pos !== "verb" || !lk.lemma) continue;
+      const cv = lookupWord(surf + String(lk.lemma).toLowerCase());
+      if (cv && !cv.unknown && cv.pos === "verb") {
+        groups.push({ stem: bpi, prefix: pi, lemma: cv.word, data: cv });
+        used.add(bpi); used.add(pi);
+        break;
+      }
+    }
+  }
+  return groups;
+}
+
 // ---------- LEVELS ----------
 const CEFR_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"];
 // "A2→B1" / "A2->B1" / "A2-B1" / "A2/B1" -> ["A2","B1"];  "B1" -> ["B1"]
@@ -1557,6 +1617,7 @@ window.CEFR_ORDER = CEFR_ORDER;
 window.levelRank = levelRank;
 window.sortLevels = sortLevels;
 window.levelBand = levelBand;
+window.detectSeparableGroups = detectSeparableGroups;
 window.BOOKS = BOOKS;
 window.buildVocab = buildVocab;
 window.STOPWORDS = STOPWORDS;

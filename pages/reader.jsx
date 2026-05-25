@@ -52,12 +52,12 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
 
   const bookBookmarks = bookmarks[book.id] || [];
 
-  const onWordClick = (e, raw) => {
+  const onWordClick = (e, raw, sv) => {
     e.stopPropagation();
     // If user is actively dragging a selection, suppress single-word popup
     const sel = window.getSelection();
     if (sel && !sel.isCollapsed && sel.toString().trim().length > 0) return;
-    const lookup = lookupWord(raw);
+    const lookup = sv ? sv.data : lookupWord(raw);
     if (!lookup) return;
     const rect = e.target.getBoundingClientRect();
     const stage = stageRef.current.getBoundingClientRect();
@@ -65,6 +65,14 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
     const y = rect.bottom - stage.top + 8;
     document.querySelectorAll(".word.active").forEach(el => el.classList.remove("active"));
     e.target.classList.add("active");
+    if (sv) {
+      const own = Number(e.target.getAttribute("data-ti"));
+      const partnerIdx = sv.indices[0] === own ? sv.indices[1] : sv.indices[0];
+      // scope the partner lookup to THIS paragraph so data-ti (unique per paragraph) resolves right
+      const scope = e.target.closest("p.para") || e.target.parentElement;
+      const partner = scope && scope.querySelector('[data-ti="' + partnerIdx + '"]');
+      if (partner) partner.classList.add("active");
+    }
     setPop({ data: lookup, x, y, key: lookup.word });
   };
 
