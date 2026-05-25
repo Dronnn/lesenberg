@@ -651,6 +651,9 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
   const exitClass = exit ? `flash-exit-${exit}` : "";
   const enterClass = enter ? `flash-enter-${enter}` : "";
 
+  // For nouns, show the article + capitalised form (e.g. "das Brötchen") as the headword.
+  const cardHead = (!card.isPhrase && card.lemma && /^(der|die|das)\s/i.test(card.lemma)) ? card.lemma : card.word;
+
   return (
     <div className="page-narrow" style={{ paddingTop: 56 }}>
       {book && <a href={"#/book/" + book.id} className="btn btn-ghost btn-sm" style={{ marginBottom: 18 }}>← {book.title}</a>}
@@ -698,7 +701,7 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
               {card.isPhrase && <span className="flash-tag flash-tag-phrase">{t.phraseTag}</span>}
               {source === "learned" && <span className="flash-tag flash-tag-learned">{t.learnedTag}</span>}
               {isHard && source !== "learned" && <span className="flash-tag">{t.hardTag}</span>}
-              <div className={"de" + (card.isPhrase ? " is-phrase" : "")}>{card.word}</div>
+              <div className={"de" + (card.isPhrase ? " is-phrase" : "")}>{cardHead}</div>
               <div className="pos">{card.pos}</div>
               {card.context && card.isPhrase && (
                 <div className="flash-ctx">„{card.context.length > 90 ? card.context.slice(0, 90) + "…" : card.context}"</div>
@@ -709,8 +712,8 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
               {card.isPhrase && <span className="flash-tag flash-tag-phrase">{t.phraseTag}</span>}
               {source === "learned" && <span className="flash-tag flash-tag-learned">{t.learnedTag}</span>}
               {isHard && source !== "learned" && <span className="flash-tag">{t.hardTag}</span>}
-              <div className={"de" + (card.isPhrase ? " is-phrase" : "")} style={card.isPhrase ? null : { fontSize: 26 }}>{card.word}</div>
-              <div className="pos">{card.pos}{card.lemma && card.lemma !== card.word ? " · " + card.lemma : ""}</div>
+              <div className={"de" + (card.isPhrase ? " is-phrase" : "")} style={card.isPhrase ? null : { fontSize: 26 }}>{cardHead}</div>
+              <div className="pos">{card.pos}{card.lemma && card.lemma !== cardHead ? " · " + card.lemma : ""}</div>
               {card.en && card.en !== "—" && (
                 <div className="tr">
                   <span className="mono mute" style={{ fontSize: 10, marginRight: 6 }}>EN</span>
