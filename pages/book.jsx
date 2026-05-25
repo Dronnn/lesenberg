@@ -1,5 +1,5 @@
 // Book detail page
-const BookDetail = ({ lang, book, progress, savedWords, knownWords, onStartChapter }) => {
+const BookDetail = ({ lang, book, progress, onMarkUnread, savedWords, knownWords, onStartChapter }) => {
   const t = UI_STRINGS[lang];
   if (!book) return <div className="page"><p>{t.bookNotFound}</p></div>;
 
@@ -86,7 +86,18 @@ const BookDetail = ({ lang, book, progress, savedWords, knownWords, onStartChapt
                   <div className="chap-meta">{fmtReadingTime(c.minutes, t.minutes)}</div>
                 </div>
                 <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
-                  {done && <span className="mono" style={{ color: "var(--a1)", fontSize: 11, letterSpacing: "0.08em" }}>✓ {t.finished}</span>}
+                  {done && (
+                    <span className="row" style={{ alignItems: "center", gap: 8 }}>
+                      <span className="mono" style={{ color: "var(--a1)", fontSize: 11, letterSpacing: "0.08em" }}>✓ {t.finished}</span>
+                      <button
+                        className="mute"
+                        onClick={(e) => { e.preventDefault(); e.stopPropagation(); onMarkUnread(i); }}
+                        style={{ background: "none", border: "none", cursor: "pointer", fontSize: 11, color: "var(--ink-mute)", padding: 0 }}
+                      >
+                        {t.markUnread}
+                      </button>
+                    </span>
+                  )}
                   {current && <span className="mono" style={{ color: "var(--brown)", fontSize: 11, letterSpacing: "0.08em" }}>● {t.inProgress}</span>}
                   <span className="mute" style={{ fontSize: 18 }}>→</span>
                 </div>

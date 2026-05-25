@@ -227,6 +227,14 @@ const App = () => {
     }
   }, [route, allBooks, setProgressMap]);
 
+  const onMarkChapterUnread = useCallback((i) => {
+    setProgressMap(prev => {
+      const cur = prev[route.id];
+      if (!cur || cur.chapter <= i) return prev;   // only rewind a chapter that is currently read
+      return { ...prev, [route.id]: { chapter: i, finished: false } };
+    });
+  }, [route, setProgressMap]);
+
   const onChapter = useCallback((idx) => {
     const id = route.id;
     window.location.hash = "#/read/" + id + "/" + idx;
@@ -298,6 +306,7 @@ const App = () => {
           lang={lang}
           book={getBook(route.id)}
           progress={progressMap[route.id]}
+          onMarkUnread={onMarkChapterUnread}
           savedWords={savedWords}
           knownWords={knownWords}
           onStartChapter={(i) => {
