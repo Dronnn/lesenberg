@@ -12,3 +12,6 @@ tools/dictionary-cache.json
 
 # Intermediate dictionary-build batches (regenerable from the gap word list)
 tools/rd-batches/
+
+# Book PDF — too large for Cloudflare's per-file asset limit; hosted separately
+books/archive/Das_Schicksal_eines_Russland-Deutschen/*.pdf
