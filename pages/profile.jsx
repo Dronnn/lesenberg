@@ -30,7 +30,8 @@ const Profile = ({ lang, user, isAdmin, onUpdateUser, onSignOut, allBooks, progr
     const minutes = Object.entries(progressMap).reduce((sum, [id, p]) => {
       const book = allBooks.find(b => b.id === id);
       if (!book) return sum;
-      return sum + (p.finished ? book.minutes : Math.round(book.minutes * (p.chapter / book.chapters.length)));
+      const total = book.chapterCount || (book.chapters && book.chapters.length) || 1;
+      return sum + (p.finished ? book.minutes : Math.round(book.minutes * (p.chapter / total)));
     }, 0);
     return { finished, minutes };
   })();

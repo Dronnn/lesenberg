@@ -268,5 +268,26 @@ async function loadBooksFromManifest() {
   return books;
 }
 
-if (typeof window !== 'undefined') { window.parseMarkdownBook = parseMarkdownBook; window.loadBooksFromManifest = loadBooksFromManifest; }
-if (typeof module !== 'undefined' && module.exports) { module.exports = { parseMarkdownBook, loadBooksFromManifest }; }
+// Lightweight catalog: manifest metadata + baked counts. NO md/dict fetch.
+async function loadCatalog() {
+  const res = await fetch(vbust('books/manifest.json'));
+  const manifest = await res.json();
+  return manifest.books.map(e => ({
+    id: e.id, title: e.title, subtitle: e.subtitle, level: e.level,
+    theme: e.theme, author: e.author, year: e.year, blurb: e.blurb,
+    file: e.file, chapterMode: e.chapterMode, targetChapters: e.targetChapters,
+    words: e.words || 0, minutes: e.minutes || 0, pages: e.pages || 0,
+    chapterCount: e.chapterCount || 0,
+    chapters: [],
+  }));
+}
+
+// Fetch + parse ONE book's text. Returns the full parsed book object (with chapters).
+async function loadBookContent(entry) {
+  const mdRes = await fetch(vbust('books/' + encodeURI(entry.file)));
+  const md = await mdRes.text();
+  return parseMarkdownBook(md, entry);
+}
+
+if (typeof window !== 'undefined') { window.parseMarkdownBook = parseMarkdownBook; window.loadBooksFromManifest = loadBooksFromManifest; window.loadCatalog = loadCatalog; window.loadBookContent = loadBookContent; window.loadGlossaryFor = loadGlossaryFor; }
+if (typeof module !== 'undefined' && module.exports) { module.exports = { parseMarkdownBook, loadBooksFromManifest, loadCatalog, loadBookContent, loadGlossaryFor }; }

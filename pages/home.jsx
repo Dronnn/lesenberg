@@ -8,7 +8,8 @@ const Home = ({ lang, allBooks, progressMap, savedWords, setRoute, onUpload }) =
     const minutes = Object.entries(progressMap).reduce((sum, [id, p]) => {
       const book = allBooks.find(b => b.id === id);
       if (!book) return sum;
-      return sum + (p.finished ? book.minutes : Math.round(book.minutes * (p.chapter / book.chapters.length)));
+      const total = book.chapterCount || (book.chapters && book.chapters.length) || 1;
+      return sum + (p.finished ? book.minutes : Math.round(book.minutes * (p.chapter / total)));
     }, 0);
     return { finished, minutes, words: savedWords.length };
   }, [progressMap, savedWords, allBooks]);
@@ -85,7 +86,8 @@ const Home = ({ lang, allBooks, progressMap, savedWords, setRoute, onUpload }) =
           <div className="book-grid" style={{ gap: 28 }}>
             {inProgress.slice(0, 4).map(b => {
               const p = progressMap[b.id];
-              const pct = (p.chapter / b.chapters.length) * 100;
+              const total = b.chapterCount || (b.chapters && b.chapters.length) || 1;
+              const pct = (p.chapter / total) * 100;
               return (
                 <BookCard key={b.id} book={b} lang={lang} status="in" progress={pct} />
               );
@@ -132,7 +134,8 @@ const Home = ({ lang, allBooks, progressMap, savedWords, setRoute, onUpload }) =
             {byLevel(lvl).map(b => {
               const p = progressMap[b.id];
               const status = !p ? "new" : p.finished ? "done" : "in";
-              const pct = p ? (p.chapter / b.chapters.length) * 100 : 0;
+              const total = b.chapterCount || (b.chapters && b.chapters.length) || 1;
+              const pct = p ? (p.chapter / total) * 100 : 0;
               return <BookCard key={b.id} book={b} lang={lang} status={status} progress={pct} />;
             })}
           </div>

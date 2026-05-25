@@ -99,7 +99,8 @@ const Library = ({ lang, allBooks, progressMap, isAdmin, onUpload }) => {
           {filtered.map(b => {
             const p = progressMap[b.id];
             const st = !p ? "new" : p.finished ? "done" : "in";
-            const pct = p ? (p.chapter / b.chapters.length) * 100 : 0;
+            const total = b.chapterCount || (b.chapters && b.chapters.length) || 1;
+            const pct = p ? (p.chapter / total) * 100 : 0;
             return <BookCard key={b.id} book={b} lang={lang} status={st} progress={pct} />;
           })}
         </div>

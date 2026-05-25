@@ -58,16 +58,20 @@ const App = () => {
   const [lastActive, setLastActive] = useStore("lastActive", "");
   const [showAuth, setShowAuth] = useState(false);
   const [authMode, setAuthMode] = useState("in");
-  const [extraBooks, setExtraBooks] = useState([]);
-  const [booksLoading, setBooksLoading] = useState(true);
+  const [catalog, setCatalog] = useState([]);
+  const [catalogLoading, setCatalogLoading] = useState(true);
+  const [content, setContent] = useState({});      // { id: chapters[] }
+  const [glossReady, setGlossReady] = useState({}); // { id: true }
+  const [contentLoading, setContentLoading] = useState(false);
 
-  // Load the catalog from books/manifest.json on mount.
+  // Load the lightweight catalog from books/manifest.json on mount. Book text + dictionaries are
+  // fetched on demand (see the route-driven effect below), not here.
   useEffect(() => {
     let alive = true;
-    window.loadBooksFromManifest()
-      .then(bs => { if (alive) setExtraBooks(bs); })
-      .catch(e => console.error('[app] book load failed', e))
-      .finally(() => { if (alive) setBooksLoading(false); });
+    window.loadCatalog()
+      .then(bs => { if (alive) setCatalog(bs); })
+      .catch(e => console.error('[app] catalog load failed', e))
+      .finally(() => { if (alive) setCatalogLoading(false); });
     return () => { alive = false; };
   }, []);
 
@@ -92,9 +96,55 @@ const App = () => {
     }
   }, [route.name]);
 
-  const allBooks = useMemo(() => [...BOOKS, ...extraBooks, ...userBooks], [extraBooks, userBooks]);
+  const allBooks = useMemo(() => {
+    const merged = catalog.map(b => content[b.id] ? { ...b, chapters: content[b.id] } : b);
+    return [...BOOKS, ...merged, ...userBooks];
+  }, [catalog, content, userBooks]);
   const getBook = (id) => allBooks.find(b => b.id === id);
   const savedWords = useMemo(() => Object.keys(highlights), [highlights]);
+
+  // Route-driven, on-demand loader: pull a book's chapters and/or glossary only when a content
+  // route for it is opened. The book-detail page needs chapters but not the glossary (no word taps);
+  // read/quiz/flashcards need both. Global flashcards (no id) warm every book's glossary.
+  const CONTENT_ROUTES = { book: 1, read: 1, quiz: 1, flashcards: 1 };
+  useEffect(() => {
+    const id = route.id;
+    // Global flashcards (no id): need every book's glossary for translations.
+    if (route.name === "flashcards" && !id) {
+      catalog.forEach(b => {
+        if (!glossReady[b.id]) {
+          window.loadGlossaryFor(b).then(() => setGlossReady(p => ({ ...p, [b.id]: true })));
+        }
+      });
+      return;
+    }
+    if (!CONTENT_ROUTES[route.name] || !id) return;
+    if (userBooks.some(u => u.id === id)) return; // uploaded books already carry chapters
+    const meta = catalog.find(b => b.id === id);
+    if (!meta) return;
+    const needChapters = !content[id];
+    const needGloss = route.name !== "book" && !glossReady[id];
+    if (!needChapters && !needGloss) return;
+    let cancelled = false;
+    setContentLoading(true);
+    (async () => {
+      try {
+        if (needChapters) {
+          const parsed = await window.loadBookContent(meta);
+          if (!cancelled) setContent(prev => ({ ...prev, [id]: parsed.chapters }));
+        }
+        if (needGloss) {
+          await window.loadGlossaryFor(meta);
+          if (!cancelled) setGlossReady(prev => ({ ...prev, [id]: true }));
+        }
+      } catch (e) {
+        console.error('[app] content load failed', id, e);
+      } finally {
+        if (!cancelled) setContentLoading(false);
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [route.name, route.id, catalog, content, glossReady, userBooks]);
 
   const onUpload = useCallback((book) => {
     setUserBooks(prev => [...prev, book]);
@@ -270,6 +320,17 @@ const App = () => {
 
   useEffect(() => { window.scrollTo(0, 0); }, [hash]);
 
+  // Per-route content readiness: a content route can only mount once its book's chapters (and, for
+  // word-tapping routes, its glossary) are in. Uploaded user books are always ready.
+  const cid = route.id;
+  const needsContent = !!CONTENT_ROUTES[route.name] && !!cid;
+  const metaBook = cid ? (catalog.find(b => b.id === cid) || userBooks.find(b => b.id === cid) || BOOKS.find(b => b.id === cid)) : null;
+  const isUserBook = userBooks.some(u => u.id === cid);
+  const chaptersLoaded = !needsContent || !metaBook || isUserBook || !!content[cid];
+  const needGloss = needsContent && route.name !== "book";
+  const glossOk = !needGloss || isUserBook || !!glossReady[cid];
+  const bookContentReady = !needsContent || !metaBook || (chaptersLoaded && glossOk);
+
   return (
     <>
       <Header
@@ -285,7 +346,7 @@ const App = () => {
         onSignOut={onSignOut}
       />
 
-      {booksLoading && (
+      {catalogLoading && (
         <div className="page">
           <div style={{ textAlign: "center", padding: "120px 0", color: "var(--ink-mute)" }}>
             {UI_STRINGS[lang].loadingBooks}
@@ -293,7 +354,15 @@ const App = () => {
         </div>
       )}
 
-      {!booksLoading && route.name === "home" && (
+      {!catalogLoading && needsContent && !bookContentReady && (
+        <div className="page">
+          <div style={{ textAlign: "center", padding: "120px 0", color: "var(--ink-mute)" }}>
+            {UI_STRINGS[lang].loadingBooks}
+          </div>
+        </div>
+      )}
+
+      {!catalogLoading && route.name === "home" && (
         <Home
           lang={lang}
           allBooks={allBooks}
@@ -305,11 +374,11 @@ const App = () => {
         />
       )}
 
-      {!booksLoading && route.name === "library" && (
+      {!catalogLoading && route.name === "library" && (
         <Library lang={lang} allBooks={allBooks} progressMap={progressMap} isAdmin={isAdmin(user)} onUpload={onUpload} />
       )}
 
-      {!booksLoading && route.name === "book" && (
+      {!catalogLoading && route.name === "book" && bookContentReady && (
         <BookDetail
           lang={lang}
           book={getBook(route.id)}
@@ -324,7 +393,7 @@ const App = () => {
         />
       )}
 
-      {!booksLoading && route.name === "read" && (
+      {!catalogLoading && route.name === "read" && bookContentReady && (
         <Reader
           lang={lang}
           book={getBook(route.id)}
@@ -345,11 +414,11 @@ const App = () => {
         />
       )}
 
-      {!booksLoading && route.name === "quiz" && (
+      {!catalogLoading && route.name === "quiz" && bookContentReady && (
         <Quiz lang={lang} book={getBook(route.id)} chapterIndex={route.chapter || 0} onFinish={onFinishQuiz} />
       )}
 
-      {!booksLoading && route.name === "flashcards" && (
+      {!catalogLoading && route.name === "flashcards" && bookContentReady && (
         <Flashcards
           lang={lang}
           book={route.id ? getBook(route.id) : null}
@@ -366,23 +435,23 @@ const App = () => {
         />
       )}
 
-      {!booksLoading && route.name === "progress" && (
+      {!catalogLoading && route.name === "progress" && (
         <ProgressPage lang={lang} allBooks={allBooks} progressMap={progressMap} savedWords={savedWords} knownWords={knownWords} streak={streak} />
       )}
 
-      {!booksLoading && route.name === "about" && (
+      {!catalogLoading && route.name === "about" && (
         <About lang={lang} allBooks={allBooks} />
       )}
 
-      {!booksLoading && route.name === "help" && (
+      {!catalogLoading && route.name === "help" && (
         <Help lang={lang} />
       )}
 
-      {!booksLoading && route.name === "donate" && (
+      {!catalogLoading && route.name === "donate" && (
         <Donate lang={lang} user={user} />
       )}
 
-      {!booksLoading && route.name === "profile" && (
+      {!catalogLoading && route.name === "profile" && (
         <Profile
           lang={lang}
           user={user}
@@ -397,7 +466,7 @@ const App = () => {
         />
       )}
 
-      {!booksLoading && <Footer lang={lang} />}
+      {!catalogLoading && <Footer lang={lang} />}
 
       {AUTH_ENABLED && showAuth && (
         <AuthModal
@@ -420,7 +489,8 @@ const ProgressPage = ({ lang, allBooks, progressMap, savedWords, knownWords, str
     const minutes = Object.entries(progressMap).reduce((sum, [id, p]) => {
       const book = allBooks.find(b => b.id === id);
       if (!book) return sum;
-      return sum + (p.finished ? book.minutes : Math.round(book.minutes * (p.chapter / book.chapters.length)));
+      const total = book.chapterCount || (book.chapters && book.chapters.length) || 1;
+      return sum + (p.finished ? book.minutes : Math.round(book.minutes * (p.chapter / total)));
     }, 0);
     return { finished, inProg, minutes };
   }, [progressMap, allBooks]);
@@ -478,7 +548,8 @@ const ProgressPage = ({ lang, allBooks, progressMap, savedWords, knownWords, str
         <div className="card" style={{ padding: 0 }}>
           {allBooks.map((b, i) => {
             const p = progressMap[b.id];
-            const pct = p ? (p.chapter / b.chapters.length) * 100 : 0;
+            const total = b.chapterCount || (b.chapters && b.chapters.length) || 1;
+            const pct = p ? (p.chapter / total) * 100 : 0;
             return (
               <a key={b.id} href={"#/book/" + b.id} style={{
                 display: "grid",
