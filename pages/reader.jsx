@@ -73,7 +73,28 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
       const partner = scope && scope.querySelector('[data-ti="' + partnerIdx + '"]');
       if (partner) partner.classList.add("active");
     }
-    setPop({ data: lookup, x, y, key: lookup.word });
+    // Capture the sentence the word came from, to prefill the card's context.
+    let context = "";
+    const paraEl = e.target.closest && e.target.closest("p.para");
+    if (paraEl) {
+      const rawText = paraEl.textContent || "";
+      const stripped = rawText.replace(/^[▰▱]\s*/, "");
+      const prefixLen = rawText.length - stripped.length;
+      try {
+        const r = document.createRange();
+        r.setStart(paraEl, 0);
+        r.setEnd(e.target, 0);
+        const start = Math.max(0, r.toString().length - prefixLen);
+        const wlen = (e.target.textContent || raw || "").length;
+        let s = start;
+        while (s > 0 && !/[.!?]/.test(stripped[s - 1])) s--;
+        let en = start + wlen;
+        while (en < stripped.length && !/[.!?]/.test(stripped[en])) en++;
+        if (en < stripped.length) en++;
+        context = stripped.slice(s, en).trim();
+      } catch (_) { context = ""; }
+    }
+    setPop({ data: lookup, x, y, key: lookup.word, context });
   };
 
   const closePop = () => {
@@ -313,7 +334,7 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
             onClose={closePop}
             currentColor={highlights[pop.key]}
             isKnown={knownSet.has(pop.key)}
-            onHighlight={(color) => { onHighlightWord(pop.key, color); }}
+            onHighlight={(color) => { onHighlightWord(pop.key, color, { context: pop.context }); }}
             onKnown={() => { onKnowWord(pop.key); closePop(); }}
             onEdit={() => { closePop(); openEditorForKey(pop.key); }}
             lang={lang}

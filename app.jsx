@@ -112,21 +112,29 @@ const App = () => {
       // keep card record so notes survive unhighlight? Remove for cleanliness.
       setCards(prev => { const n = { ...prev }; delete n[word]; return n; });
     } else {
-      setCards(prev => ({
-        ...prev,
-        [word]: {
-          phrase: word,
-          isPhrase: false,
-          context: "",
-          customEn: "",
-          customRu: "",
-          note: "",
-          examples: [],
-          ...(prev[word] || {}),
-          ...(meta || {}),
-          ts: Date.now(),
-        },
-      }));
+      setCards(prev => {
+        const existing = prev[word] || {};
+        // Keep a context the user already has; otherwise fill it from the tapped sentence.
+        const context = (existing.context && existing.context.trim())
+          ? existing.context
+          : ((meta && meta.context) || "");
+        return {
+          ...prev,
+          [word]: {
+            phrase: word,
+            isPhrase: false,
+            context: "",
+            customEn: "",
+            customRu: "",
+            note: "",
+            examples: [],
+            ...existing,
+            ...(meta || {}),
+            context,
+            ts: Date.now(),
+          },
+        };
+      });
     }
   }, [setHighlights, setCards]);
 
