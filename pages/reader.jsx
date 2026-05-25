@@ -453,7 +453,10 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
   // The complete pool of cards (current book's auto-vocab + every saved/known/hard entry, incl. phrases), deduped.
   const fullDeck = useMemo(() => {
     const base = book ? buildVocab(book) : [];
-    const lookup = (w) => DICT[w] || DICT[w.toLowerCase()] || { pos: "—", en: "—", ru: "—" };
+    const lookup = (w) => {
+      const r = lookupWord(w);
+      return r && !r.unknown ? r : { pos: "—", en: "—", ru: "—" };
+    };
     const allTouched = new Set([
       ...Object.keys(highlights),
       ...Object.keys(cards || {}),
