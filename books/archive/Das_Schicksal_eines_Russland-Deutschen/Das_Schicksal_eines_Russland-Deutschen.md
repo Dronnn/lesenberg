@@ -1,6 +1,6 @@
 ## Teil I. Vorfahren und Kindheit
 
-![](images/page-001-0420.png)
+![](images/page-001-0420.jpeg)
 
 ### Kapitel 1. Umsiedler
 
@@ -34,17 +34,17 @@ Gemäß Beschluss der Regierung mussten die eingetroffenen Kolonisten sich in de
 
 Insgesamt kamen von 1763 bis 1767 per Rekrutierung ungefähr 27000 Menschen (etwa 8000 Familien) nach Russland. Hier gab es Franzosen, Österreicher, Dänen, Schweden, Polen, Holländer, Italiener. Allerdings waren die meisten von ihnen Deutsche. Unter ihnen – Vertreter praktisch aller deutschen Stämme aus allen Fürstentümern, Grafschaften und ritterlichen Ländereien Deutschlands. Mehr als die Hälfte der Ankömmlinge machten die Kinder aus (in vielen Familien belief sich ihre Zahl auf vier bis fünf), und die meisten unter ihnen waren noch minderjährig. Entsprechend den Plänen der Kanzlei wurden die ersten Umsiedler, die in Russland im Herbst 1764 eintrafen, entgegen dem im Manifest proklamierten Recht auf freie Wahl des Wohnortes und der Art der Berufsausübung, aufgefordert, an die Wolga-Niederung oder die ufernahen Schwarzmeer-Steppen zu fahren und dort Landwirtschaft zu betreiben. Vielen von ihnen gefiel das nicht. Besonders empörten sich die Handwerker, Offiziere und Angehörigen der Intelligenz (Ärzte, Lehrer, Studenten). Aber der Weg zurück war ihnen abgeschnitten. Die Zeit der Navigation auf dem Meer war vorbei, und die Mittel für die Rückzahlung der Kredite und die Rückreise besaßen sie nicht. Nach einem kurzen Wortwechsel und einer langen kräftezehrenden Reise durch Zentral-Russland wurden alle am rechten, hochgelegenen Ufer der Wolga angesiedelt: von Saratow bis zur Bezirksstadt Kamyschin, die etwas weiter südlich lag.
 
-![](images/page-008-0421.png)
+![](images/page-008-0421.jpeg)
 
-![](images/page-008-0422.png)
+![](images/page-008-0422.jpeg)
 
-![](images/page-008-0423.png)
+![](images/page-008-0423.jpeg)
 
-![](images/page-008-0424.png)
+![](images/page-008-0424.jpeg)
 
-![](images/page-008-0425.png)
+![](images/page-008-0425.jpeg)
 
-![](images/page-008-0426.png)
+![](images/page-008-0426.jpeg)
 
 Немецкие колонии на Нижней Волге / Deutsche Kolonien an der Unteren Wolga Insgesamt entstanden 43 Kolonien, von denen sich 10 entlang der Wolga erstreckten, 17 – am Fluss Karamysch, 12 – am Fluss Ilowlja und 4 – am Fluss Medweditza. Die Organisierung der meisten Kolonien wurde von der Regierung geleitet.
 
@@ -146,13 +146,13 @@ Außerdem zog es tausende deutscher Familien in den Süden West-Sibiriens, wo es
 
 Mein Großvater, Friedrich Genrichowitsch Maier, wie im Übrigen auch seine Brüder Karl und Franz, unternahm keinen Versuch aus Russland auszuwandern. Alles lief darauf hinaus, dass er 1875, nachdem er seinen Besitz in Marienburg verkauft hatte, zusammen mit der Familie nach Saratow zog, wo er ein kleines zweistöckiges Haus in der Zarizynsker Straße 50 erwarb. Im ersten Stock richtete er eine Buchbinderei ein, mit der er endlich den schon seit ewigen Zeiten von Generation zu Generation weitergegeben Traum seines Urgroßvaters Johann über ein Leben in der
 
-![](images/page-025-0427.png)
+![](images/page-025-0427.jpeg)
 
-![](images/page-025-0428.png)
+![](images/page-025-0428.jpeg)
 
-![](images/page-025-0429.png)
+![](images/page-025-0429.jpeg)
 
-![](images/page-025-0430.png)
+![](images/page-025-0430.jpeg)
 
 Stadt verwirklichte. In der Buchbinderei arbeitete er selbst, wobei er seine herangewachsenen Söhne mit hinzuzog. Hier in Saratow wurden ihm und seiner Frau Dorothea 1876 Jelena, 1878 Friedrich und 1881 Mathilda geboren. Das war die vierte Generation der Maiers auf russischem Boden.
 
@@ -236,13 +236,13 @@ Michalina Franzewana Lintschewskaja stammte aus einer Familie kleiner polnischer
 
 Meine Mana, Sophia Oswaldowna Irgant wurde 1874 in der Stadt Wilna geboren. Als ihr Vater starb, war sie erst acht Jahre alt. Sie lebte die ganze Zeit mit der Mutter in Saratow, in einem eigenen Haus, ebenfalls in der Zarizyner Straße, zwischen der Gymnasitscheskaja- und der Prijutskaja-Straße. Michalina Franzewna war Weißzeug-Näherin und konnte sehr gut kochen. Nach dem Tod ihres Mannes hielt sie Untermieter inklusive Verpflegung. Onkel Robert half ihnen. Michalina Franzewna war eine stolze und kalte Frau. Nach Mamas Erinnerungen schlief sie sogar in Korsett und Handschuhen. Mama hatte ein Schwesterchen, das an Pocken starb.
 
-![](images/page-035-0454.png)
+![](images/page-035-0454.jpeg)
 
-![](images/page-035-0455.png)
+![](images/page-035-0455.jpeg)
 
-![](images/page-035-0456.png)
+![](images/page-035-0456.jpeg)
 
-![](images/page-035-0457.png)
+![](images/page-035-0457.jpeg)
 
 Saratow. Saratow. Oswald Irgang (1845-1882) Michalina Franzewna Vater meiner Mutter Lintschewskaja, Mutter meiner Mutter Saratow.
 
@@ -264,37 +264,37 @@ Den Sommer verbrachten meine Eltern zusammen mit den Großeltern auf Onkel Karlu
 
 Man begrub sie auf dem katholischen Friedhof, der zur linken Seite der Straße nach Moskau und und zwei Kilometer vom Bahnhof am östlichen Berghang gelegen war. Auf ihren Gräbern wurden Gedenksteine aus Marmor aufgestellt, der Friedhof selbst versank im Grün der weitverzweigten Bäume.
 
-![](images/page-038-0458.png)
+![](images/page-038-0458.jpeg)
 
-![](images/page-038-0459.png)
+![](images/page-038-0459.jpeg)
 
-![](images/page-038-0460.png)
+![](images/page-038-0460.jpeg)
 
-![](images/page-038-0461.png)
+![](images/page-038-0461.jpeg)
 
-![](images/page-038-0462.png)
+![](images/page-038-0462.jpeg)
 
 Saratorw, 1907 Saratow, 1902. Letztes Foto von Friedrich Sophia Oswaldowna und Adolf Fjodorowitsch Fjodorowitsch Maier am Tag ihrer Hochzeit und seiner Ehefrau Dorothea Saratow Saratow Adolf Fjodorowitsch Maier am Sophia Oswaldowna Irgang Tag der Eheschließung am Tag der Eheschließung
 
-![](images/page-039-0463.png)
+![](images/page-039-0463.jpeg)
 
-![](images/page-039-0464.png)
+![](images/page-039-0464.jpeg)
 
-![](images/page-039-0465.png)
+![](images/page-039-0465.jpeg)
 
-![](images/page-039-0466.png)
+![](images/page-039-0466.jpeg)
 
-![](images/page-039-0467.png)
+![](images/page-039-0467.jpeg)
 
 Saratow, 1905 Saratow, 1907 Mein älterer Bruder Auf Mamas Armen – Ernotschka Romuald – Romotschka Auf Papas Knien - Romotschka Saratow 1906 Diese Datsche fotografierten meine Eltern am Trofimowsker Bahnabzweiger.
 
 Auf der Terrasse: Großvater, Mama und Romotschka, Großmutter im Schaukelstuhl, Papa.
 
-![](images/page-040-0468.png)
+![](images/page-040-0468.jpeg)
 
-![](images/page-040-0469.png)
+![](images/page-040-0469.jpeg)
 
-![](images/page-040-0470.png)
+![](images/page-040-0470.jpeg)
 
 Saratow, 1908 Romotschka. Er starb im Sommeran einer eitrigen Blinddarmentzündung im Alter von vier Jahren.
 
@@ -312,7 +312,7 @@ Und dennoch war nicht alles so gut, wie es mir vorkam. Wie sich meine ältere Sc
 
 1912 kaufte mein Vater gemeinsam mit Onkel Karluscha, als Angestellte der RUSchD im Bezirk der kleinen Eisenbahnstation «Poliwanowka» zu vergünstigten Bedingungen ein Grundstück mit einer Fläche von 0,8 Desjatinen. Sie bepflanzten das Grundstück mit Bäumen, die ein paar Jahre später einen lebenden Zaun mit einer Breite von ungefähr fünf Metern gebildet hatten. Dort wuchsen Ahorne, Ulmen, Eichen und irgendein Dornenbusch. Das Grundstück befand sich in einem endlosen Meer von Getreidefeldern, und von außen schien es so, als sei dies kein Garten, sondern ein kleines Wäldchen. Von innen war es, wie den Garten besuchende Verwandte und Bekannte sagten, ein «irdisches Paradies». Als Weg in diesem «Paradies» diente
 
-![](images/page-042-0471.png)
+![](images/page-042-0471.jpeg)
 
 eine Allee, die mit unterschiedlichen Fliedersorten bepflanzt war. Im Zentrum des Gartens war eine Datsche mit drei Zimmern und einer sie umgebenden Terrasse angelegt. Separat befanden sich die Küche, das Bad, ein Winterquartier für Bienen, eine Gartenlaube und ein Brunnen. Vor der Datsche war ein Blumengarten angelegt, hier wuchsen Kastanien und zwei Silbertannen. Und drum herum ein Obstgarten. Das Grundstück, das ein leichtes Gefälle aufwies, war unterteilt in horizontal angeordnete Streifen – Terrassen. Der obere Teil war für das Bienenhaus reserviert (etwa 20 Bienenstöcke). Etwas weiter unten wuchsen auf einem Streifen Bäume mit verschiedenen Birnensorten. Noch weiter unten – eine Reihe Apfelbäume: Weißer Klarapfel, Weißer Astrachaner, Gruschowka, Gestreifter Zimtapfel, Pepin, Skrischapel und viele andere, für diese Gegenden üblichen Apfelsorten. Dieses Apfelmassiv wurde von einem Streifen verschiedener Johannisbeer- und Stachelbeersträucher durchkreuzt. Im unteren Teil des Gartens wuchsen Kirsch- und Pflaumenbäume. Vollendet wurde das alles durch Himbeerbüsche. Einer der Seitenteile des Gartens war als Weinberg angelegt. Hier gab es Tafeltrauben und die Sorte „Damenfinger“. Die Reben wurden für den Winter auf den Boden herabgelassen, mit Matten bedeckt und mit Sägemehl bestreut. Den Garten durchkreuzten Wege, die mit gelbem Sand bestreut waren. Sie endeten jeweils mit Bänken, welche mit gelber, roter und blauer Farbe gestrichen waren. Entlang der Wege wuchsen Blumen.
 
@@ -320,11 +320,11 @@ Selbstverständlich entstand das alles nicht mit einem Mal. Für den Bau der Dat
 
 Eine große, aufrichtige und fast einzige Helferin bei der Arbeit im Haus und auf der Datsche war Jelisaweta (Elisabeth) Davidown Rosenberg, Lisa, wie wir sie alle nannten. Geboren wurde sie 1885 in Katharinenstadt. Als sehr junges Mädchen verliebte sie sich in einen jungen Mann aus dem Nachbardorf und wollte mit ihm und seiner Familie in die USA emigrieren. Doch Lisas Eltern gaben ihr Einverständnis zu dieser Ehe und der damit verbundenen Ausreise nach Amerika nicht. Damals lief sie aus dem Dorf fort und kam in die Pokrowsker Siedlung, Saratow und später auf Empfehlung des Paters in Saratow Jelisaweta (Elisabeth) in unsere Familie, wo sie für immer blieb. Sie Davidowna Rosenberg - Lisa
 
-![](images/page-043-0472.png)
+![](images/page-043-0472.jpeg)
 
-![](images/page-043-0473.png)
+![](images/page-043-0473.jpeg)
 
-![](images/page-043-0474.png)
+![](images/page-043-0474.jpeg)
 
 führte bei uns den Haushalt und kümmerte sich um die Kinder. Es fällt schwer, sie als Haushälterin oder Gouvernante zu bezeichnen. In vielen Fällen verhielt sie sich sehr selbständig und unabhängig. Meine Eltern mischten sich nur bisweilen in ihre Angelegenheiten ein. Für uns alle – die Kinder – war sie einer der uns am meisten nahestehenden Menschen. Mit ihr besprachen wir oft viele unserer Probleme. Auf der hier gezeigten Fotografie ist Lisa im Alter von 28 Jahren abgebildet.
 
@@ -344,7 +344,7 @@ Unter diesen schwierigen Bedingungen begann unsere Familie ein noch mehr zurück
 
 1915 wurden meine Eltern Besitzer des Hauses № 173 in ihrer vertrauten Zarizynsker Straße (jetzt Pjerwomaiskaja 151), wo ihre Kindheit und Jugend verlaufen war. Es bestand aus zwei einstöckigen Holzhäusern, von denen eines mit der Fassade zur Straße zeigte (sie vermieteten es), während das andere, aus Ziegelsteinen gemauert, im Hof stand. In diesem Flügel ließ sich auch unsere Familie nieder. Es
 
-![](images/page-046-0475.png)
+![](images/page-046-0475.jpeg)
 
 gab darin vier Zimmer (ein Schlafzimmer für die Eltern, ein Kinderzimmer, Esszimmer und Gästezimmer), außerdem eine Küche, ein Bad und eine Toilette.– брандмауэром. Auf der Rückseite war der Flügel von den Gebäuden, die zur anderen Straße zeigten, durch eine hohe Ziegelmauer eingegrenzt (die Brandmauer).
 
@@ -478,7 +478,7 @@ Ich erinnere mich, wie ich einmal nachts von schrecklichem Donner wach wurde. Bl
 
 In meiner Kindheit spielte ich gern Indianer. Ich besaß einen guten Bogen und einen Köcher mit Pfeilen. An einer verborgenen Stelle im Garten (meistens im Himbeergesträuch) baute ich mir einen Wigwam. Anschließend “begab ich mich auf den Kriegspfad”, zog mich aus (mitunter splitternackt), steckte mir eine Feder ins Haar und stürzte mit einem kichernden Schrei auf meine imaginären Feinde los. Meine
 
-![](images/page-065-0476.png)
+![](images/page-065-0476.jpeg)
 
 Auskleide-Aktionen, die, wie ich mich erinnere, Nachahmungen einer Lithografie aus einem der väterlichen Bücher waren, wurden von den wachsamen Eltern schnell unterbunden. Sie untersagte mir auch das Aufbauen von «Wigwams» im Himbeerdickicht, wo ich angeblich schwer zu finden war. Aber einmal haben sie mich trotzdem verloren. Alle suchten mich – die Hausherren wie die Gäste. Sie suchten sogar im Brunnen, obwohl er mit einer Abdeckung versehen war, die man mit einem Schloss verriegelt hatte. Es herrschte eine schreckliche Panik. Schließlich fand mich mein Vater, als er gegen Abend aus der Stadt zurückkehrte. Er fand mich in süßem Schlaf unter dichtem Weinlaub.
 
@@ -490,7 +490,7 @@ Im Hintergrund – Mama, Papa, Tante Mathilda, Ernotschka, Lisa Auf einer Fotogr
 
 Etwas deutlichere Erinnerungen beginnen etwa mit dem Alter von sechs Jahren. Viele von ihnen stehen mit religiösen Bräuchen im Zusammenhang. Heute bin ich nicht mehr so naiv, um an Gott zu glauben. Aber meine kindlichen Vorstellungen waren nicht dieser Art. Wir wurden im Glauben erzogen und befolgt streng alle katholischen Riten. Verpflichtend waren unbedingt das Morgen- und besonders
 
-![](images/page-066-0477.png)
+![](images/page-066-0477.jpeg)
 
 das Abendgebet, in denen man sich, in Vergegenwärtigung der Geschehnisse des vergangenen Tages, an all seine großen und kleinen Sünden erinnern musste. Die Gewohnheit, aus dem erlebten Tag die Bilanz zu ziehen, ist bis heute erhalten geblieben. Die Kirche besuchten wir normalerweise an den Sonntagen, und zwar mit der ganzen Familie. Den Sinn der Predigt begriff ich nur schlecht, und das interessierte mich auch nicht. Großen Eindruck hinterließen bei mir die allgemeine Atmosphäre, Saratow 1926 Im Vordergrund – ich, Lalinas Freundin und Lalja. Zwischen uns dreht sich Daisy mit erhobenen Pfoten.
 
@@ -636,7 +636,7 @@ Tambow – was wusste sie schon über diese Stadt, außer dass Lebensmittel dort
 
 Hätten wir vielleicht doch bleiben sollen? – dachte sie, als ihr Blick auf die halb verfallenen Hütten eines vorüberziehenden Dorfes fiel. Aber wie sollte man dann leben? Das Letzte, was ihr geblieben war, war das mit Brettern beschlagene Haus gewesen, in dessen kleinem Durchgangszimmer sie die letzte Zeit mit ihren Kindern elendig gehaust hatte. Sie hatten es verkaufen müssen, bevor man es ihnen wegnahm. Verkaufen und davon leben, genauso, wie sie alles andere verkauft und es dann zum Leben verbraucht hatten. Leider wird das Geld, das sie in Saratow bekommen haben, für nicht mehr als ein Jahr, ein halbes, reichen. Und dann wird schnell das Elend über sie hereinbrechen. Mit sechzig Jahren, ohne einen vernünftigen Beruf,
 
-![](images/page-090-0478.png)
+![](images/page-090-0478.jpeg)
 
 wird sie, eine Frau, und dazu noch eine Deutsche, in Saratow, wo es so viele fachmännische und gebildete Menschen gibt, keine Arbeit finden. Die ganze Hoffnung liegt auf Lalja. Sie ist bereits 17 Jahre alt, hat aber noch keinen konkreten Beruf im Auge. Und was soll aus Robotschka werden, der erst 13 ist? Nein, wir müssen fahren und wenigstens noch 8-10 Jahre durchhalten – dachte sie – und ihm zu einer Ausbildung verschaffen. Eine Ausbildung um jeden Preis.
 
@@ -920,15 +920,15 @@ Der Bezug von Zucker, Graupen und Sonnenblumenöl mittels Marken gestaltete sich
 
 Im Winter gab es an der Front endlich einen Wendepunkt. Der General-Offensive der Nazis auf Moskau, die am 16. November begonnen hatte, ging Anfang Dezember, je näher sie der Hauptstadt kam, der Atem aus. Am Morgen des 5.
 
-![](images/page-139-0479.png)
+![](images/page-139-0479.jpeg)
 
-![](images/page-139-0480.png)
+![](images/page-139-0480.jpeg)
 
 Dezember 1941 begann mit einem Schlag des linken Flügels der Kalininsker Front der Gegenangriff der sowjetischen Truppen bei Moskau. Am 6. Dezember gingen die Truppen des West- und des rechten Flügels der Süd-West-Fronten in die Offensive. Diesen Truppen wurden auf den Hauptachsen strategische Reserven hinzugefügt. Ende Februar 1942 wurden die deutsch-faschistischen Truppen unter für sie großen Verlusten auf 350-400 Kilometer gen Westen von Moskau zurückgeworden. Das Volk atmete erleichtert auf. Es wurde klar, dass die Faschisten «großräumig» niedergeschlagen werden konnten, dass ihr Plan eines «Blitzkriegs» gescheitert war. Die Winterprüfung legte ich ohne Dreien ab, sogar in der Geschichte der Allrussischen Kommunistischen Partei (Bolschewiken). Aber besonders stolz war ich auf die Eins, die mir auf Grundlage der Geometrie auf Seiten 15 des Studienbuchs (für das 7. Semester) W.F. Kagan verpasst hatte. Artjemenko nominierte mich als Kandidaten für das Stalin-Stipendium.
 
 Die Winterferien verbrachte ich mit häuslichen Sorgen und Ruhelosigkeiten. Ernotschka drohte die Entlassung. Es wurde häufig gesagt, dass man sie nach Sibirien schicken könnte. Und von dort trafen bereits Briefe von Verwandten mit einer Das einzige erhaltene Foto aus Studentenjahren.Sie mit meinem Rita Konjuchowa Studentenausweis. Beschreibung aller Schrecken, die eine Umsiedlung mit sich brachte, ein. Auch von Petja kam ein Brief. Er riet Ernotschka beharrlich, mit den Kindern zu seinem Vater zu fahren, der nach der Aussiedlung in die Ortschaft Sarbalyk im Gebiet Nowosibirsk geraten war. Man begann die Sachen zusammenzupacken. Auch Lisa beschloss sich Ernotschka anzuschließen. Viele Male wurde über diese Entscheidung diskutiert. Ernotschka sprach plötzlich in Petjas Sprache: «Wir sollten mit unserem leidenden Volk zusammen sein». Mama und ich waren zu einer derartigen «Selbstverbrennung» nicht bereit. Es kam uns so vor, als ob sich mit Ernotschkas und Lisas Abreise der Zerstörungsprozess unserer Familie vollzog. Lalja und Alik, der zu diesem Zeitpunkt gerade ein Jahr alt war, lebten bei der Schwiegermutter in Danilowka, die Dort in den Klassen 5-7 Deutschunterricht erteilte. Und obwohl sie kein leichtes Leben hatte, vor allem, wenn man den unverträglichen Charakter Sophia Wladimirownas berücksichtigte, die unsere Familie und Lalinas intelligenten Angewohnheiten nicht leiden konnte, gab es keinerlei Hoffnung, dass sie nach Tambow umziehen würde. Alles ging so weit, dass Mama und ich allein blieben. Dabei war sie schon 67 Jahre alt. Ich begriff, dass irgendeine Quelle für den Lebensunterhalt notwendig war und wurde als Mathematiklehrer an einer der Vorort-Schulen eingestellt. Doch Mama lehnte diesen Schritt kategorisch ab. Sie war nur von dem einen Wunsch geleitet, dass ich den Abschluss am Institut machen würde. Zu diesen Sorgen kamen noch meine Gedanken an Rita. Sie suchten mich immer häufiger auf. Unsere äußerlichen Beziehungen gingen über eine Kameradschaft nicht hinaus. Doch wir fingen an uns öfter zu treffen, unsere Gespräche wurden offener. Ich versuchte mit aller Kraft mich vor ihr zu öffnen. Ich demonstrierte meine Begeisterung für Poesie, Philosophie und Mathematik. Ich berichtete ihr über den Inhalt der gelesenen Bücher. Einige davon gab ich ihr zum Lesen. Das letzte davon war die Arbeit des deutschen Philosophen und Idealisten G. Fichte mit dem floriden und anspruchsvollen Titel: «Eine Botschaft, klar wie die Sonne, an die breite Öffentlichkeit über das wahre Wesen der modernen Philosophie». Sie versuchte die Bücher zu lesen und führte mit mir sogar Streitgespräche über bestimmte Stellen. Jakowlew verschwand vollkommen unmerklich aus meinem Gesichtsfeld. Unsere Beziehungen hörten auf, für meine Freunde ein Geheimnis zu sein. Zu Hause wussten sie nichts. Und erst irgendwann im Februar 1942, als Mama die Fotografie entdeckte, die Rita mir geschenkt hatte, forderte Mama eine Erklärung. Ob ich Rita liebte? Freilich liebte ich sie, doch mit einer jugendlichen, meinem Alter nicht entsprechenden, Liebe. Das löste beständige Spöttereien seitens meiner Freunde aus. Der 8. März. Tag der Frauen. Der Abend ist dieser Veranstaltung gewidmet. Ein Vortrag, Laienspiel; entsprechend der Kriegslage ein wenig Tanzerei. Zahlreiche eingeladene Soldaten. Ich lege im Radiozentrum die Platten auf. Es geht gegen elf Uhr. Der Abend muss beendet werden, es herrschen Kriegszeiten. Iswjekow mit Inessa und Saschin kommen herein. Sie ziehen sich an und gehen. Zurück bleiben Rita und ich. Ich muss sie begleiten. Ich schalte die Geräte aus und schließe die Tür des Raumes ab. Wir gehen hinunter. Am Wachthäuschen gebe ich den Schlüssel ab. Ich knöpfe den pelzgefütterten Studentenmantel zu. Wir treten auf die Straße hinaus. Es ist unerwartet kalt. Wir gehen nebeneinander, tauschen ab und an unsere Eindrücke über den vergangenen Abend aus. Ich unternehme einen schüchternen Versuch ihre Hand zu nehmen und bekommen selbst Angst. Der Frost sticht in den Ohren, die gestrickte Baskenmütze wärmt nicht. Rita trägt eine breite Pelzboa, für sie ist es nicht so schlimm. Zitternd stelle ich den schmalen Kragen mit dem Samtbesatz auf. Ich halte ihn abwechselnd gegen das eine und gegen das andere Ohr. Wir haben einen weiten Weg, unser Gespräch ergibt keinen Sinn. Das ist keine Liebe, das ist Qual. Und dann die letzte Biegung, die Reihe mit den kleinen Privathäuschen, die Gartenpforte. Ich suche meine Gedanken zusammen, um noch etwas geistvolles zum Abschied zu sagen. Und in dem Augenblick gibt Rita, die die Ecken meines Kragens zusammennimmt und meinen Kopf zu sich heranbeugt, mir einen Kuss auf die Lippen. Sie küsst mich, öffnet das Türchen und rennt, ohne mir Zeit zur Besinnung zu geben, nach Hause. Das war mein erster Kuss. Bis zur Verhaftung blieben weniger als acht Stunden...
 
-![](images/page-142-0901.png)
+![](images/page-142-0901.jpeg)
 
 ## Teil II. Hinter Stacheldraht
 
@@ -1446,15 +1446,15 @@ Georgij Iwanowitschs Jugendjahre vergingen mit Feldzügen und Kämpfen. Zuerst a
 
 Wenn Nina an ihren Vater zurückdachte, hob sie jedes Mal seine Ehrlichkeit hervor. Sie erzählte, dass er einmal, als ein paar Betten in die Dorf-Konsumgenossenschaft gebracht worden waren und der Ladenleiter eines davon,
 
-![](images/page-223-0902.png)
+![](images/page-223-0902.jpeg)
 
-![](images/page-223-0903.png)
+![](images/page-223-0903.jpeg)
 
 ohne Georgij Iwanowitschs Wissen, für seine erwachsen gewordene Tochter mit nach Hause genommen hatte, sehr böse wurde und Olga Fedotowna zwang, es ins Lager zurückzubringen. Laut Ninas Erinnerungen war er ein äußerst akkurater Mann. Soweit sie sich erinnern konnte, trug er immer dieselbe Samtjacke. Im Winter wie im Sommer trug er zur Arbeit stets dieselben Stiefel. Selbst bei schlimmstem Regenwetter brachte er es fertig so zu gehen, dass nur die Sohlen schmutzig wurden.
 
 Jenisseisk, 1956 Otradowka, 1940 Olga Fedotowna Tereschtschenko Georgij Iwanowitsch Tereschtschenko Ninas Vater (Oma Olja), Ninas Mutter Nina besuchte sieben Jahre die Schule. In der Klasse war sie die jüngste und saß in der ersten Bank. In der sechsten Klassesteckte einer ihrer Klassenkameraden ihr einen Zettel mit einer Liebeserklärung in die Jackentasche. Als Olga Fedotowna die Notiz fand, verabreichte sie der Tochter eine kräftige Tracht Prügel und versprach ihr, dass sie sie beim nächsten Mal auf einem Bein stehen lassen und das zweite in zwei Teile zerreißen würde. In der Schule bekam Nina in fast allen Fächern gute Noten, in Geometrie, Geschichte und Deutsch sogar „sehr gut“. Lediglich in Chemie und Zeichnen waren ihre Leistungen nur durchschnittlich. In den Wirren des Lebens bin ich nicht dazu gekommen, sie über die Schuljahre, über das, was sie dachte, über das, wovon sie träumte zu befragen. Ich weiß lediglich, dass sie bis in die Tiefen ihrer Seele Stalin und dem stalinistischen Zentralkomitee erge-
 
-![](images/page-224-0904.png)
+![](images/page-224-0904.jpeg)
 
 ben war und voller Stolz ein Abzeichen mit der Profilansicht W.I. Lenins trug. Hingebungsvoll glaubte sie alles, was in den Zeitungen und Losungen stand, und das rote Tischtuch auf dem Tisch des Präsidiums brachte sie ehrfürchtig zum Erschauern. Und obwohl die Kuryschko-Kolchose bei weitem nicht zu den besten zählte und ihre Mutter für die geleistete Tagesarbeitseinheit viel zu wenig erhielt, war sie von der Überlegenheit des Kolchos-Aufbaus überzeugt, hasste die Großbauern und deren Gehilfen und grundsätzlich alle Gegner des sowjetischen Aufbaus. Selbstverständlich las sie ausschließlich Werke sowjetischer Schriftsteller mit ideologischem Inhalt. Na ja, und auch Werke einiger von der Partei gut geheißener und anerkannter Volksschriftsteller und Dichter. 1937 trat sie in die Komsomolzen-Organisation ein. Nachdem sie in demselben Jahr die Sieben-Klassen-Schule absolviert hatte, wollte sie weiterlernen, doch ihr Vater war dagegen, denn er war der Ansicht, dass sie dafür nicht die finanziellen Mittel, nicht die Möglichkeiten zur Verfügung hatten, Alexandrowka, 1941 Nina beim Militärkommissariat, umgeben von Komsomolzen (10 Tage vor Ausbruch des Krieges)
 
@@ -1462,7 +1462,7 @@ Diese Entscheidung des Vaters nahmen sowohl sie als auch Olga Fedotowna sich seh
 
 Nach der Schule fand Nina zunächst Arbeit als Sachbearbeiterin, später als Maschinenschreiberin im Bezirkskomitee des Komsomol. Sie lebte in der Ortschaft Alexandrowka – dem Bezirksverwaltungszentrum. Und zu der Zeit verschlechterten sich die Beziehungen der Eltern zu Hause in Otradowka immer mehr. Erschöpft von der Arbeit auf den Kolchos-Feldern, dem eigenen Haushalt, der Versorgung der drei
 
-![](images/page-225-0905.png)
+![](images/page-225-0905.jpeg)
 
 Schwestern ihres Ehemannes und ihres Sohnes, war Olga Fedotowna nicht in der Lage, jene Sauberkeit und Gemütlichkeit im Haus herzustellen, von der Georgij Iwanowitsch träumte. Er verlor die Beherrschung, verlangte, dass seine Frau seine heranwachsenden Schwestern zum Arbeiten zwang, aber dazu sah sie sich außerstande. Das ärgerte ihn. Er, der in einer recht wohlhabenden Familie aufgewachsen war, in der die Mutter, die nicht mit schwerer körperlicher Arbeit belastet war, Ordnung und Bequemlichkeit sicherstellte, empörte sich, als er die im Zimmer verstreuten Kleidungsstücke, das nicht abgewaschene Geschirr sah. Oft gab es Konflikte aus religiösem Anlass. Olga Fedotowna war eine gottesfürchtige Frau, während Georgij Iwanowitsch, auch wenn er kein Kommunist war, verlangte, dass in ihrem Haus keine Ikonen aufgestellt wurden. Nach Ninas Erinnerungen riss er einmal eine Ikone von der Wand und warf sie aus dem Fenster auf die Straße. Vorbeigehende Frauen bekreuzigten sich wütend, während Olga Fedotowna leise weinte. Kurz vor Kriegsbeginn ging Georgij Iwanowitsch mit einer Dorfbewohnerin, Krankenschwester, einer alleinstehenden jungen Frau fort. Bei ihr fand er Sauberkeit, schmackhaftes Essen, Ruhe und Zärtlichkeit. Wenngleich Nina ihn niemals verurteilte, litt sie lange an dem Syndrom, dass die Untreue ihres Ehemannes verursacht hatte.
 
@@ -1518,7 +1518,7 @@ Frauen sind wohl besser als wir, die Männer, in der Lage, sich ihr persönliche
 
 Nachdem die Quarantäne beendet war, wurde eine Etappe ins Kuschmangortsker OLP zusammengestellt. Zu ihr gehörten auch Nina und Olja. Sie gingen drei Tage lang. In einer gemeinsamen Kolonne aus Männern und Frauen. Rast, Übernachtung in Zwischenlagern, leichter Frost, die Bäume in Schneewehen. Um die Kolonne herum eine Kette von Begleitsoldaten mit Maschinenpistolen und auf Menschen trainierten, grimmigen Schäferhunden. Nina, wie damals in der Partisanen-Abteilung bei Taganrog, in der vordersten Reihe. Sie trug einen Herbstmantel und neue, noch nicht abgetragene Filzstiefel; Olga Fedotowna hatte sie ihr vor der Verschickung aus Rostow übergeben. Auf dem Kopf trug sie eine schwarze Schute. Die Stiefel scheuerten an den Füßen, jeder Schritt war von Schmerzen begleitet.
 
-![](images/page-234-0906.png)
+![](images/page-234-0906.jpeg)
 
 Einer der Wachleute, er war kein Russe, mit leicht schräg stehenden Augen und dunkler Gesichtsfarbe, gab ihr in schlechtem Russisch den Rat, die Stiefel auszuziehen und stattdessen die Füße mit Fußlappen zu umwickeln. Offenbar sympathisierte er mit ihr und war bemüht, eine Unterhaltung anzufachen, obwohl die Satzung für den Wachdienst dies kategorisch verbot. Neben Nina ein junger, lausiger Odessit, genauso einer, mit denen die alten Kolpowsker Frauen sie und Olja Schrecken eingeflößt hatten. Aber dieser war sympathisch und scharfsinnig. Und seine Ratschläge ähnelten keineswegs denen, welche ihnen die ehemaligen Lagerinsassinnen gegeben hatten. Der Odessit litt, weil er nichts zu rauchen besaß, und Nina bat den netten Begleitsoldaten um eine Papirossa. Der weit vorausschreitende Wachmann legte einen Stein auf den Weg und darauf eine selbstgedrehte Zigarette. Als die Etappe endlich in Stabnaja eintraf, fragte einer der Begrüßenden Nina: «Na, warum bist du den hergekommen?» - worauf Nina lachend zur Antwort gab: «Um als Partisanin tätig zu sein!»
 
@@ -1536,7 +1536,7 @@ Die ersten Tage ihres Aufenthalts im Lagerpunkt Golownaja arbeitete Nina, wohl n
 
 Nach dem Konzert das Abendessen. Sogar ein wenig feierlich, auf dem Niveau einer Prämien-Mahlzeit. Übernachtung in einem Dienstraum, manchmal sogar im Badehaus. Männer und Frauen. Künstler- Alltag. Der Brigadeleiter fing an sich an sie zu heften. Sie wies seine Belästigungen ab und fand sich bald darauf erneut bei allgemeinen Arbeiten wieder. Bagirow war nicht da, er war nach Solikamsk umgezogen.
 
-![](images/page-238-0907.png)
+![](images/page-238-0907.jpeg)
 
 Lagerpunkt Golownaja, 1947 Im Vordergrund von links nach rechts: Arkadij Petrowitsch Kalinowskij und David Andrejewitsch Rudi. In der zweiten Reihe, zweite von links – Olga Butenko. In der dritten Reihe - Nina Zusammen mit einigen anderen Frauen des Lagerpunktes wurde Nina zum Räumen der Flächen für die Holzstapel geschickt. Es war keine sehr schwere Arbeit, aber für Frauen doch recht ermüdend. Sie schleppten Bruchstücke der Baumstämme und Tauwerk fort. Ebneten den Boden. Die Tage, Wochen, Monate gingen dahin. In dieser Zeit wurde Olja Kalinowskijs Freundin, während Nina ein Auge auf David Andrejewitsch geworfen hatte, der sie ins Flößerei-Kontor schickte. Und so befand sie sich wieder an einem warmen Arbeitsplatz bei leichter Tätigkeit. Das gefiel dem damaligen Oberbuchhalter des Flößerei-Kontors Nikolaj Sujew nicht, dessen Beziehungen zu Kalinowskij und Rudi schon lange angespannt waren. Es kam zu Reibungen und Schikanen. Hinzu kamen Probleme mit der Gesundheit. Nina war nervös, weinte häufig, verlor an Gewicht. Und dann auch noch David Andrejewitsch. Abends kam er in die Baracke und saß stundenlang seufzend da. Im November tauchte im Flößerei-Kontor Lonka Swiridow auf. Vom ersten Tag an gefiel ihm das bescheidene und schweigsame Mädchen mit den traurigen Augen, das mitunter vor Fröhlichkeit und frechem Humor förmlich explodierte. Nur mit Mühe gelang es ihm, seine Sympathie gegenüber Nina zu verbergen, die mit der Zeit zu einem ausgeprägten Gefühl entwickelte. Lonjas Werbung erschwerte ihre Situation in der Wohnzone. Und obwohl David Andrejewitsch keinerlei Schritte gegen sie unternahm, stellten sich all ihre Bekannten und Freundinnen, darunter auch Olja, auf seine Seite und versuchten Nina zu überreden, die Verbindung mit ihm nicht abreißen zu lassen. Ihre Situation wurde schnell kompliziert. Sie lachte immer seltener. In dieser für Nina sehr schwierigen Zeit begab ich mich, ohne irgendetwas über sie zu wissen, zum Lagerpunkt Golownaja, um mich mit Lonja zu treffen. Ein paar Schritte hinter mir ging, schwer atmend, ein Wachmann. Es war warm. Die Frühlingssonne schien. Die sandige, durch die Holzlastwagen ausgefahrene Straße war frei von Schnee. Wir gehen auf dem Seitenstreifen. Unter den Füßen, wie angeschwollene Adern, die knorrigen Baumwurzeln. Die Stämme der majestätischen Kiefern schimmern golden im Licht der Morgensonne. Die Laune ist gut. Ich bin angefüllt von der Bedeutung meiner Mission. Ich denke über die Schritte nach, die zu unternehmen sind, um die gestellte Aufgabe zu lösen. Nach und nach schweifen die Gedanken zu Lonjas persönlichen Problemen ab. Ich frage mich, wie seine Nina wohl sein mag. Groß, klein, braunhaarig oder blond? Lonja und ich haben nie über das Thema gesprochen. Fast genauso wie bei Nelja. Während ich nachdenke, beschleunige ich meinen Schritt. Und plötzlich ein jäher Ruf: - Na, geh langsamer! Es ist der Begleitsoldat. Er hat seinen Grund. Sie haben ihn früher aus dem Bett geholt als üblich. Sie haben ihn nach seinem nächtlichen Dienst nicht ausschlafen lassen, sondern ihn losgeschickt, um ein eingebildetes Jungchen zu begleiten. Als ob man den nicht mit der nächsten Etappe hätte schicken können. Und dann mit einem Sonder-Konvoi - was für eine Ehre. Dieser Schrei brachte mich auf die sündige Erde zurück und änderte jäh meinen Gedankengang. – Aber wirklich, was bin ich denn für einer, warum bin ich denn so arrogant? – Hier gehe ich, wohlgenährt und angezogen, angefüllt mit dem Bewusstsein der Wichtigkeit der mir auferlegten Mission. Und dabei befinden sich dort, in Lesnoje oder Sewernoje, und überhaupt auch in den anderen OLPs und Lager-Außenstellen tausende und abertausende erschöpfte und hungrige Gefangene, wie ich einst einer in Kolynwa war, sie fällen Bäume, zersägen sie und, ziehen, sich die Sehnen herausreißend, die schweren harzigen Bäume fort. Sie haben keine Zeit und Kraft für die Schönheit des Kiefernwäldchens, für die Frauen, für die Intrigen der bevorzugten Lagerinsassen. Sie werden vom Hunger und der harten körperlichen Arbeit beherrscht. Die Wandlungen der Nachkriegszeit haben ihr Leben nur wenig verändert. Und wenn sich auch die Todesrate ein wenig verringert hat, aber wie viele sind bereits umgekommen und wie vielen ist es noch beschieden, durch die alle menschlichen Kräfte übersteigende Schwerstarbeit, die Mangelernährung und die Sehnsucht nach Zuhause in die andere Welt hinüberzugehen. Wie konnte ich, der ich nun unter warmen Gewächshaus-Bedingungen lebte, den mich umgebenden Sumpf des Leidens und der Grausamkeit vergessen?
 
@@ -1642,7 +1642,7 @@ Bald darauf wurde mit der nächsten Etappe Olga Butenko von Golownaja nach Stabn
 
 Einen Monat später wurde Nina aus dem Krankenhaus entlassen, unter der Bedingung, sie für leichte Tätigkeiten mit einem verkürzten Arbeitstag einzusetzen. Auf meine Bitte hin trug Jakob Jakowlewitsch sie für Arbeiten in der Buchhaltung, in der Materialgruppe, ein. Später versetzte man sie zu uns zur Kartothek für die Pro-
 
-![](images/page-248-0908.png)
+![](images/page-248-0908.jpeg)
 
 duktionskonten. Ihr Tisch stand Rücken an Rücken zu Iwans und meinem, wenn man von der Eingangstür aus schaute, in der linken Ecke der Buchhaltung.
 
@@ -1768,9 +1768,9 @@ An mir nagten immer wieder Zweifel. Mal die Eifersucht, mal der Verdacht des Sel
 
 Das neue Jahr näherte sich, und David Andrejewitsch tauchte erneut in Stabnoje auf. In diesen Tagen hatten Nina und ich eine Reihe von Streitereien, und sie kam, weil sie sich schlecht fühlte, nicht aus der Baracke. Jakob Jakowlewitsch und einige seiner engsten Freunde, naja, und auch ich natürlich, feierten das neue Jahr in unserer Kabine. Unter den Gästen befand sich auch eine erst unlängst mit einer Etappe eingetroffene junge, äußerst hübsche und hellhäutige
 
-![](images/page-258-0909.png)
+![](images/page-258-0909.jpeg)
 
-![](images/page-258-0910.png)
+![](images/page-258-0910.jpeg)
 
 Kuschmangort 1947 Ich, Nina und Jefimtschik Kuschmangort 1947 Olja, Nina und Nastenka – ihre Freundin aus dem Lager Jüdin, Studenten der philologischen Fakultät der Staatlichen Moskauer Universität. Durch die Einladung erhoffte sich Jakob Jakowlewitsch, der genug von Ninas und meine Zwistigkeiten hatte, dass wir auf Grundlage allgemeiner Interessen zur Literatur zueinander finden würden. Sie war, ebenso wie ich, wegen antisowjetischer Agitation unter den Studenten verhaftet worden, allerdings bereits in den Nachkriegsjahren. Aber sie gefiel mir nicht. Sie war einfach zu schön und hell, viel zu anmaßend. Aber die Hauptsache war, dass ich ja schon Nina liebte und sie für eine Vertraute hielt.
 
@@ -2004,7 +2004,7 @@ Mir Mühe beuge ich meine Beine, stelle mich auf die Füße und bezahle. Und in 
 
 Sie weinte, in meine Schulter vergraben. Der Wachmann, die Begleitsoldaten und die ganze Häftlingskolonne starrten schweigend auf uns. Schließlich kamen wir wieder zu uns. Ich schob ihr verzweifelt das Geld zu, welches die Freunde gesammelt hatten, und den Sack mit Lebensmitteln. Leben kam in den Konvoi, es wurde zur Eile gedrängt. Sie ging in der Kolonne als Letzte, schaute sich um und geriet ins Stolpern. Das war es gewesen! Das schmerzhafte Gefühl eines irreparablen Verlustes drückte mir die Kehle zu. Was würde sie dort erwarten, in den Niederungen des Jenisseis? Was würde aus unserem Kind werden?
 
-![](images/page-283-1331.png)
+![](images/page-283-1331.jpeg)
 
 ## Teil III. Verbannung
 
@@ -2144,15 +2144,15 @@ Je näher die Zeit meiner Freilassung rückte, desto mehr quälte Nina sich mit 
 
 Das neue Jahr 1951 begrüßten Wasja Sereda, Wasja Schindin, Arkadij Fedossejewitsch und ich in einer Baracke des Lagerpunktes Golownaja. In den Bereich außerhalb der Zone ließen sie niemanden. Das Regime war, wie immer in jenen Tagen, verschärft.
 
-![](images/page-298-1332.png)
+![](images/page-298-1332.jpeg)
 
-![](images/page-298-1333.png)
+![](images/page-298-1333.jpeg)
 
 Turuchansk, Winter 1950 Nina und Valerik in der Verbannung Turuchansk, September 1950
 
-![](images/page-299-1334.png)
+![](images/page-299-1334.jpeg)
 
-![](images/page-299-1335.png)
+![](images/page-299-1335.jpeg)
 
 Turuchansk, September 1951 Valeik, 2 Jahre alt Turuchansk, 1952 Bis zum Wiedersehen waren es nur noch zwei Monate Trotzdem hatte Wasja Schidrin es fertiggebracht, eine Flasche Wein zu beschaffen. Wir feierten das neue Jahr dreimal: um 20 Uhr Moskauer Zeit gemeinsam mit den Turuchanskern, um 22 Uhr – mit den Ural-Bewohnern und um 24 Uhr mit den Moskauern.
 
@@ -2198,7 +2198,7 @@ Oh, wie sehr ich mich über meine alten Bekannten freute. Ich blieb stehen, setz
 
 Früher einmal hatte es mir Freude gemacht, aber jetzt! Ich setzte mich aufrecht, in meiner Hand lag die tote, leblose Blume, und alles um mich herum erschien
 
-![](images/page-304-1336.png)
+![](images/page-304-1336.jpeg)
 
 farblos und nutzlos. Denn es gab niemanden, zu dem man hineilen wollte, niemanden, für den man die Blume hätte pflücken wollen, denn du warst nicht bei mir.
 
@@ -2286,7 +2286,7 @@ Am nächsten Tag stand ich um zehn Uhr auf, frühstückte und begab mich erneut 
 
 Nach den traditionsgemäßen Küssen und Umarmungen berichtete Igorek, dass fünf Tage vor meiner Ankunft in der Nacht ihre Wohnung neben der Mühle abgebrannt sei. Und obwohl im Großen und Ganzen für sie alles vergleichsweise gut ausgegangen war, lediglich alle Kartoffeln waren Opfer der Flammen geworden, hatten sie nach Jablonewka umziehen müssen, welches nicht weiter als einen Kilometer von der Mühle entfernt lag. Wir gingen zu Fuß und unterhielten uns. Bald sah ich die Hütten. Ich schaute voraus, versuchte zu erraten, in welcher sie wohl nun wohnten. In Erwartung der Begegnung mit Lalja schlug mein Herz angstvoll. Wir hatten schon fast das ganze Dorf durchquert, als Igorek mich bei der Hand nahm, stehen blieb und leise sagte: “Hier!” Dann näherte er sich vorsichtig, damit man ihn vom Fenster aus nicht sah, der Tür. Er klopfte. Man hörte Schritte und eine schmerzlich vertraute
 
-![](images/page-311-1337.png)
+![](images/page-311-1337.jpeg)
 
 Stimme, die fragte: «Wer ist da?»“ Mach auf, hier sucht dich jemand”, - antwortete Igorek bewusst gleichgültig.
 
@@ -2372,7 +2372,7 @@ All meine Tage hier vergehen in harter Arbeit. Nur selten lege ich mich vor zwei
 
 Das neue Jahr habe ich in Jablonewka begrüßt. An diesem Abend legten sich, wie gewöhnlich, Lalja, Igorek und die Kinder um zehn Uhr schlafen, während ich, bewaffnet mit Feder und Papier, mich hinsetzte, um dir zu schreiben und auf zwölf Uhr zu warten. In der Hütte (so nennt Igorek sein Häuschen) ist es ganz still. Vor mir auf dem Tisch die Kerosinlampe, von der ich ein ganz warmes Gesicht und warme Hände bekomme, aber die Füße frieren. Das Herz ist mir unsäglich schwer. In diesen Minuten kommt alles zusammen: die körperliche und seelische Müdigkeit, die Einsamkeit und die Sorge um euch.
 
-![](images/page-321-1338.png)
+![](images/page-321-1338.jpeg)
 
 Am achtundzwanzigsten habe ich dir ein Telegramm geschickt, in dem ich dich zum neuen Jahr beglückwünschte. Leider war es mir, trotz meines sehnlichsten Wunsches, nicht möglich dir wenigstens einen kleinen Geldbetrag zukommen zu lassen.
 
@@ -3066,7 +3066,7 @@ Viele Probleme gab es auch mit dem Wasser. In Jenisseisk gab es kein fließendes
 
 Die Wäsche war eine elementare Katastrophe für uns. Die Wäsche musste im Jenissej gewaschen werden. Im Sommer von speziellen Brücken aus, im Winter in Eislöchern. Meine Hände erfroren und die nasse Wäsche erstarrte zu einem Stück Blech. Aber alle machten das hier so, und Nina wagte nicht, mit dieser Tradition zu brechen. Ich stand neben ihr und wärmte gelegentlich ihre Hände, aber ich konnte sie
 
-![](images/page-377-1339.png)
+![](images/page-377-1339.jpeg)
 
 nicht ersetzen. Sie war strikt dagegen; sie wollte nicht, dass die ganze Stadt über uns lacht.
 
@@ -3424,7 +3424,7 @@ Es war für mich nur sehr bewegend, als er mir sagte, dass Leitung und Schüler 
 
 Die endgültige Entscheidung, mich an die Schule versetzen zu lassen, wurde durch die Ereignisse im Trust beeinflusst. Von meinen ersten Tagen im Trust an hatte ich versucht, meine Pläne zur Organisation der Selbstversorgung in der Holzindustrie umzusetzen. Dies wurde jedoch durch die bestehende Managementpraxis behindert, bei der die Leiter der Unterabteilungen verpflichtet waren, die Mengen- und Sortimentsziele um jeden Preis zu erfüllen. Niemand interessierte sich für die wirtschaftlichen und finanziellen Probleme, die durch technische oder organisatorische Entscheidungen verursacht wurden. Die Verluste der Forstbetriebe wurden durch den Gewinn der Flößereien gedeckt, der sich aus der Differenz zwischen den Verkaufs- und den geplanten Abrechnungspreisen für das produzierte Holz ergab. Von welcher Art betrieblicher Rechnungsführung konnte denn die Rede sein, wenn überall im Land die wirtschaftlichen Grundsätze mit Füßen getreten wurden? Alle Versuche, diesen Prozessen zumindest teilweise entgegenzuwirken, und insbesondere
 
-![](images/page-402-1340.png)
+![](images/page-402-1340.jpeg)
 
 mein großer Artikel zu diesem Thema, der im "Krasnojarskij Rabotschi" veröffentlicht wurde, zerstörten schließlich meine Beziehung zu Anatoli Rytschkow, dem Chefingenieur des Trusts. Nach einer erneuten Konfrontation stimmte ich trotz Maschukows Abreden zu, an der Schule zu arbeiten.
 
@@ -3460,7 +3460,7 @@ Aber es gab auch eigene, mir selbst innewohnende, ganz persönliche Gründe. Ich
 
 - Du hast keinen schwachen Charakter. Es braucht mehr als einen, zehn Charaktere, um ein Lager zu überleben, nicht unterzugehen, so viele Hindernisse zu überwinden und, allen Widrigkeiten zum Trotz, eine Ausbildung und einen Beruf zu bekommen.
 
-![](images/page-406-1341.png)
+![](images/page-406-1341.jpeg)
 
 Ich hingegen war einer anderen Meinung. Ich glaubte, dass mein Überleben und mein Erfolg im Studium von ganz allein gekommen wären, ohne dass ich mich besonders hatte anstrengen müssen. Ich musste mich selten selbst brechen, um gegen meinen Willen zu handeln. Ich habe nicht so sehr mich selbst überwunden, was ich für ein Zeichen eines starken Charakters hielt, sondern die äußeren Umstände.
 
@@ -3756,7 +3756,7 @@ Im Sommer 1956 planten wir eine Reise nach Sdwinsk, um Ernotschka zu besuchen. E
 
 Doch schon bald traten Ereignisse ein, die unsere Pläne beinahe geändert hätten. Im März wurden Viktoria Fjodorowna Iwanowa und ich auf Empfehlung des Bezirksamtes in die Kommission aufgenommen, die die Arbeit des Pädagogischen Instituts in Jenisseisk überprüfte. Wie immer nahm ich meine Pflichten wohl zu ernst. Auf jeden Fall bot mir der Rektor des Instituts, Iwan Agapejewitsch Kiselew, nach Abschluss des Auftrags eine Stelle als Assistent in der mathematischen Abteilung an. Ich sollte sofort nach dem Ende des Unterrichts anfangen zu arbeiten. Natürlich sagte ich zu, aber unter der Bedingung, dass ich meine Schwester einen Monat lang besuchen und meine geliebte Klasse 9b bis zum Abgang weiterleiten durfte.
 
-![](images/page-426-1342.png)
+![](images/page-426-1342.jpeg)
 
 Im Mai 1956, ganz am Ende des Schuljahres, eine unerwartete Fahrt zur Kolchose, nun bereits nach Jepischino, um Kartoffeln im Kolchos-Gemüselager zu sortieren.
 
@@ -3780,7 +3780,7 @@ Ich stieg von der Schlafkoke herunter und setzte mich neben Nina. Dann holte ich
 
 In Sdwinsk trafen wir wie ein Zigeunerlager ein. Wir mussten elf Personen in einer Hütte mit zwei kleinen Zimmern unterbringen. Ernotschka, Tante Matilda, Lisa und Nina samt Natascha lagen auf den Betten. Alle anderen auf dem Boden: Petja, Holdi, Adja, ich, Valerik und Romotschka. Jeden Morgen melkte Liza die Kuh und gab uns allen dampfende Milch. Der Monat verging, vor allem für mich, wie im Flug, wie ein Märchen. Wir gingen mit Ernotschka, Valerik und Romotschka an den Fluss, in ein kleines Wäldchen und verbrachten Stunden damit, in Erinnerungen an die ferne und nicht so ferne Vergangenheit zu schwelgen, Eindrücke und Sorgen der Gegen-
 
-![](images/page-428-1343.png)
+![](images/page-428-1343.jpeg)
 
 wart auszutauschen. Nina half Lisa bei der Hausarbeit und passte auf Natascha auf. Tante Matilda murrte, meinetwegen eifersüchtig auf Ernotschka. Gegen Ende konnte sie es nicht mehr aushalten und fragte Nina direkt:
 
@@ -3808,7 +3808,7 @@ Der Erlass lautete: "In der Erwägung, dass die bestehenden Einschränkungen der
 
 Dieses Dekret wurde, wie die Dekrete von 1942 und 1948, ohne das Recht auf Veröffentlichung in der Presse erlassen. Offenbar war die Regierung der Ansicht, dass die sowjetischen Bürger nicht wissen sollten, dass viele Völker in der UdSSR aus ethnischen Gründen unterdrückt wurden. Dies widersprach nämlich grundsätzlich der offiziellen Politik des Landes und der von der UN-Generalversammlung verkündeten Allgemeinen Erklärung der Menschenrechte, der die Sowjetunion bereits 1948 beigetreten war.
 
-![](images/page-430-1344.png)
+![](images/page-430-1344.jpeg)
 
 Die Deutschen wurden nacheinander in die Kommandantur bestellt und über den Inhalt des Erlasses informiert. Sie waren nicht besonders glücklich über diese Aktion. Es wurde ihnen kategorisch untersagt, in ihre Häuser, zu den Gräbern ihrer Mütter, Väter und Kinder zurückzukehren. Und wohin sonst könnten die unglücklichen Menschen gehen, die sich nur der unpassenden Nationalität schuldig gemacht haben. Da sie die Geheimhaltung des Dekrets kannten, hatten sie sogar untereinander Angst, darüber zu sprechen.
 
@@ -3824,7 +3824,7 @@ Ende August traf Olga Fedotowna ein. Ich holte sie in Krasnojarsk ab. Ich hatte 
 
 Jetzt ist unsere Familie endlich vollständig. Ein Vertreter der älteren Generation war in unser Haus gekommen, freundlich, sympathisch, fleißig. Großmutter Olja war auch eine sehr taktvolle Person. Sie hat sich nie in unsere Beziehungen zu Nina eingemischt oder versucht, uns etwas vorzuschreiben. Die Kinder liebten sie vom ersten Tag an, und ich auch.
 
-![](images/page-432-1345.png)
+![](images/page-432-1345.jpeg)
 
 ## Teil IV. Widrigkeiten der Freiheit
 
@@ -3836,7 +3836,7 @@ Krasnojarsk, physikalisch-mathematische Fakultät des Staatlichen
 
 Am ersten September 1956 begann meine Arbeit am Pädagogischen Institut Jenisseisk. Ein zweistöckiges, rotes Backsteingebäude. Hohe, geräumige, helle Klassenzimmer und Ofenheizung. Die Eingangstür ist mit Brettern vernagelt, und vom Hof aus gelangt man durch eine kleine Tür, durch die sich die Schüler morgens drängen, um vor den Lehrern in die Klassenräume zu gelangen. Die Anwesenheit scheint streng kontrolliert zu werden. Ein kleiner Hof, ein Sportplatz, an dessen Eingang sich die üblichen zwei Skulpturen befinden: ein Sportler mit einem Paddel und ein Sportler mit einem Schläger. Vor der Revolution beherbergte das Gebäude eine Mädchenturnhalle, die nach Angaben der alten Leute von siebzehn Schülerinnen besucht wurde. Im Jahr 1940 wurde dort ein Lehrerinstitut eröffnet, an dem viele Lehrer aus Jenissejsk und dem Bezirk Jenissejsk ihren Abschluss gemacht haben. Im Jahr 1954 wurde es in eine Lehrerbildungsanstalt umgewandelt.
 
-![](images/page-433-1346.png)
+![](images/page-433-1346.jpeg)
 
 Jenisseisk. Hauptgebäude des Staatlichen Pädagogischen Instituts Es war sehr klein und sehr provinziell. Insgesamt gibt es zwei Fakultäten: Physik und Mathematik sowie Russische Sprache und Literatur; sechs Abteilungen und etwa fünfhundert Studenten. Das Lehrpersonal setzt sich aus Lehrern der drei inzwischen abgeschafften Lehrerbildungsinstitute Jenisseisk, Achinsk und Kolpaschewo zusammen, was in einigen Fällen zu Konflikten innerhalb des Lehrkörpers führte.
 
@@ -3852,7 +3852,7 @@ Die Studentenwohnheime und die Häuser der Lehrkräfte waren nur fünf Gehminute
 
 In meinem zweiten Jahr am Institut erhielt ich eine Zweizimmerwohnung in einem zweistöckigen Backsteinhaus, das aus einem Kaufmannslager umgebaut worden war. In dem Gebäude gab es zehn Wohnungen, die alle von Fakultätsmitgliedern bewohnt wurden. Die mir zugewiesene Wohnung war sehr feucht, und die Kinder, insbesondere Roma und Natascha, waren oft krank. Es wurde gemunkelt,
 
-![](images/page-435-1347.png)
+![](images/page-435-1347.jpeg)
 
 dass dieser Flügel des ehemaligen Lagerhauses für die Lagerung von Salz verwendet wurde. Um die Feuchtigkeit zu beseitigen, grub ich den Boden auf beiden Seiten des Fundaments aus, vertiefte ihn fast anderthalb Meter und bedeckte den entstandenen Graben mit trockenem Sand und Kieselsteinen. Das half jedoch nicht. Es war nicht zu erkennen, wo die Feuchtigkeit auf den Boden gesickert war, und Natascha und Roma husteten nachts verzweifelt. Keine Medikamente halfen. Fluoroskopie und Röntgenaufnahmen ergaben nichts. Auf Wunsch des Arztes nahm ich sogar nachts ihren Husten auf Band auf, denn tagsüber, vor allem in Anwesenheit des Arztes, funktionierte ihr Husten aus irgendeinem Grund nicht".
 
@@ -3918,7 +3918,7 @@ Doch es war tatsächlichDavid. Wir umarmt uns und küssten uns sogar, wie ich mi
 
 Da ich merkte, dass in seiner Seele noch nicht alles erloschen war, und er mir leid tat, erzählte ich ihm, wie die Jahre für uns vergangen waren, nachdem er in ein Sonderlager geschickt worden war. Ich erzählte ihm von unserer Familie, unseren Kindern. Er hörte aufmerksam zu, ohne mich zu unterbrechen und, wie es mir schien,
 
-![](images/page-441-1348.png)
+![](images/page-441-1348.jpeg)
 
 irgendwie gleichgültig. Er wurde hellhörig, als ich von Natascha erzählte. Als ich mich verabschiedete, bat er mich, Nina zu grüßen und dass er gerne Nataschas Patenonkel werden würde. Ich dachte, wenn unser Schicksal anders verlaufen wäre, hätte er ihr Vater sein können.
 
@@ -3928,7 +3928,7 @@ Im Sommer 1958 kamen Witja, Vera und die Kinder Sascha und Schenja nach Jenissei
 
 Jenisseisk, 1958 In der Mitte Oma mit Natascha, links Witja und Vera, Sascha mit seiner Frau, rechts ich mit Nina, Valera und Roma Nach ihrer Abreise Ende Juli nutzten wir das Recht auf kostenlose Beförderung zu und von unserem Urlaubsort, das uns laut Vertrag alle drei Jahre gewährt wurde, und besuchten Lalja in Rostow. Ernotschka wohnte zu dieser Zeit dort, und so konnten wir endlich wieder Zeit miteinander verbringen wie in unserer Jugend: Ernotschka, Lalja und ich. Was für eine tolle Zeit das war. Die Erinnerung daran ist in
 
-![](images/page-442-1349.png)
+![](images/page-442-1349.jpeg)
 
 zahlreichen Fotos festgehalten. Leider war es schnell vorbei, Ernochka fuhr nach Hause nach Sdwinsk.
 
@@ -3986,7 +3986,7 @@ Sinaida Wassiliewna Stefanskaja lebte mit ihrem Mann und ihren beiden Söhnen An
 
 In der zweiten Hälfte des Hauses, direkt neben uns, lebte anfangs Wassilij Jatsejew mit seiner Frau und seiner Tochter Lida und nach ihrem Umzug nach Perm der Dozent der mathematischen Fakultät Oleg Schirokolobow mit seiner Frau und drei Kindern: Boris, der so alt war wie Valera und mit ihm in dieselbe Klasse ging, Schenja, der so alt war wie Roma, und Natascha, die so alt war wie unsere Natascha. Oleg Grigorjewitsch hatte ein außergewöhnliches Gehör für Musik und spielte her-
 
-![](images/page-446-1350.png)
+![](images/page-446-1350.jpeg)
 
 vorragend, ohne Noten, wobei er die Melodie mit Leichtigkeit in sich aufnahm. Er spielte alle ihm zur Verfügung stehenden Musikinstrumente: Klavier, Akkordeon, Ziehharmonika, Gitarre, Balalaika mit gleichem Erfolg. Keine einzige Party konnte ohne ihn stattfinden, zumal er, obwohl er genauso viel trank wie alle anderen, nie betrunken wurde, sondern sein Spiel sich nur noch mehr verbesserte.
 
@@ -4178,7 +4178,7 @@ Doch dann überdeckten alltägliche Dinge, Sorgen und Freuden, wie Treibsand, vo
 
 Wir waren nur fünf Tage in Rostow, und aus dieser Zeit gibt es neben den Gesichtern, die Sie bereits kennen, auch ein Foto meiner Nichte, Liljas Tochter Tanja.
 
-![](images/page-459-1351.png)
+![](images/page-459-1351.jpeg)
 
 Alle Frauen, außer Natasha natürlich, waren beim Friseur gewesen, wo sie vor dem Foto dieses schwer erkennbare Aussehen erhielten.
 
@@ -4188,13 +4188,13 @@ In der zweiten Reihe: Ljalja, Tanja und Nina Nach Rostow fuhren wir mit dem Zug 
 
 Morgens, nach dem Frühstück, gingen wir in Begleitung der Gastgeber und ihrer Kinder zum Psekups, um dort zu baden. Es gab nur zwei Badestellen, an denen das Wasser bis zum Hals reichte: in der Nähe der Hängebrücke und in der Nähe des "Hühnchens", so hieß ein Felsen, der einem Hahnenkopf mit Kamm ähnelte. In den anderen Abschnitten floss er schäumend und gurgelnd über Felsplatten und reichte nicht über die Knöchel hinaus. Die meiste Zeit ließen wir uns an der Hängebrücke im Schatten der alten, wuchernden Ulmen nieder. Wir breiteten eine alte Decke aus und legten etwas Proviant bereit, hauptsächlich Äpfel, Pflaumen und manchmal Trauben. Und dann badeten wir. Für Kinder, die nicht schwimmen konnten, war der Ort nicht der beste. Die Uferlinie verlief zunächst sanft und fiel dann steil ab. Da ich der einzige Schwimmer in unserer Gruppe war, können Sie sich vorstellen, wie erholsam das für mich war. Natascha kletterte kopfüber ins Wasser und ich brachte ihr ziemlich
 
-![](images/page-460-1352.png)
+![](images/page-460-1352.jpeg)
 
 schnell das Schwimmen bei. Bei Romotschka war es schwieriger. Ihm wurde schnell kalt, zumal das Wasser im Psekups nicht sehr warm war, und er begann zu zittern. Nina wickelte ihn in ein Handtuch und setzte ihn in die Sonne. Natascha badete, bis sie blau anlief, ihr Körper war mit Luftblasen bedeckt, ihre Zähne klapperten, aber sie wollte nicht aus dem Wasser steigen, und wir befürchteten, dass sie eine Angina bekommen würde.
 
 Gorjatschij Kljutsch Im Boot Olga und Nina Das "Hühnchen" lag auf der Stadtseite, und die Erholungsuchenden schwammen auf der gegenüberliegenden Uferseite. Unter dem "Hühnchen" war es sehr tief, es hieß, dass sich dort eine Grube von 6-8 Metern Tiefe befände, sowie einige Unterwasserströmungen und Strudel. Das zog junge Leute an, die auf die Felsvorsprünge des "Hühnchens" kletterten und von dort in den Psekups eintauchten. Einige von ihnen tauchten recht professionell, andere strampelten ungeschickt mit den Beinen und fuchtelten mit den Armen. Manchmal endeten solche Sprünge kläglich. Vor unseren Augen sprang ein Mann, der aussah, als hätte er viel getrunken, bei einer Mutprobe vom fünfundzwanzig Meter hohen Gipfel des "Hühnchens". Er sprang völlig unprofessionell und schlug, da er seinen Körper nicht kontrollieren konnte, mit dem Rücken auf dem Wasser auf. Er wurde ins Krankenhaus gebracht, wo er bald darauf starb. Nach dieser Szene gingen die verängstigten Kinder nicht mehr so
 
-![](images/page-461-1353.png)
+![](images/page-461-1353.jpeg)
 
 gerne zum "Hühnchen". Ich wollte dorthin, weil es der einzige Ort war, an dem ich schwimmen gehen konnte.
 
@@ -4206,7 +4206,7 @@ Im Garten der Meitins Über unseren Köpfen hingen Weintrauben. Wolodja holte se
 
 Mit dieser Zeit war ein Abenteuer verbunden, von dem wir unseren Freunden oft erzählten. Eines Nachmittags gingen Nina und ich die zentrale Gasse entlang. Die Kinder waren zu Hause geblieben und halfen Wladimir Jakowlewitsch bei der Apfelernte. Als Nina einen Friseursalon sah, beschloss sie, sich eine Maniküre machen zu lassen. Ich bin draußen geblieben. Nachdem ich eine Weile gewartet hatte, beschloss ich, dass es eine gute Idee wäre, mich rasieren zu lassen. Ich betrat den Fri-
 
-![](images/page-462-1354.png)
+![](images/page-462-1354.jpeg)
 
 seursalon, sah Nina aus dem Augenwinkel an und setzte mich auf den Stuhl. Als ich zu zahlen begann, fragte Nina, ohne deutlich zu machen, dass wir uns kennen:
 
@@ -4254,7 +4254,7 @@ Auch die Außenpolitik des Landes stieß auf große Befürchtungen. Die Ereignis
 
 Die Vereinbarungen zum Moratorium über atmosphärische Atomtests und die Serie massiver Atomexplosionen in der UdSSR Ende 1961 führten zu einer Verschärfung des Kalten Krieges. Die Verschlechterung der Beziehungen zu China, Rumänien und Albanien war ein Hinweis auf die Nachteile in den Beziehungen zwischen den Ländern des sozialistischen Lagers. Unsere Außenpolitik erreichte einen kritischen
 
-![](images/page-466-1355.png)
+![](images/page-466-1355.jpeg)
 
 Punkt während der Kubakrise 1962, als die Regierung versuchte, Mittelstreckenraketen mit Atomsprengköpfen auf Kuba zu installieren. Daraufhin blockierte eine Armada amerikanischer Kriegsschiffe Kuba und behinderte unsere Schiffe, die Raketen nach Kuba brachten. Die Welt stand am Rande eines neuen Weltkriegs mit Atomwaffen.
 
@@ -4424,7 +4424,7 @@ Letzteres machte Juri besonders wütend, da es ihm jede Hoffnung auf eine Rückk
 
 Im Sommer nutzte die ganze Familie ihr Recht auf die nächste freie Fahrt und machte sich auf den Weg nach Süden, nun mit der festen Absicht, ans Meer zu fahren. Die Route lautete: Moskau, Rostow, Krasnodar, Gorjachij Kljutsch, das Meer. Nachdem wir zwei Zelte und aufblasbare Matratzen in der Touristenbasis
 
-![](images/page-482-1356.png)
+![](images/page-482-1356.jpeg)
 
 Gorjachij Kljutsch gemietet hatten, machten wir uns auf den Weg über Chadyschensk und Tuapse zum Dorf Lermontowo, vier Kilometer nördlich von Dschubga. Strahlend blaues Meer, weiter Strand und wenig Menschen. Dort, direkt am Ufer, nicht weit von einem Brombeerstrauch und einem Wasserhahn, schlugen wir unsere Zelte auf. Vor uns lag das Meer, hinter uns die Straße, auf der Tag und Nacht die Autos mit quietschenden Reifen vorbeirauschten. Hinter der Straße befanden sich ein Grenzposten und ein Dorf. Am Straßenrand gab es einen Markt, auf dem wir Grundnahrungsmittel kaufen konnten, und das Lieblingsessen aller, außer mir, Maiskolben. Tomaten, Gurken, Äpfel, Birnen, Pflaumen und Trauben gab es in Hülle und Fülle. Die Trauben wurden oft direkt an den Strand gebracht. Wir nahmen die Trauben in flachen Kisten mit, in denen sie in einer einzigen Schicht lagen. Wir kochten unser Essen auf einem Kerosingaskocher, den wir aus Gorjatschij Kljutsch mitgebracht hatten. Der Wind blies die Flamme aus und wir mussten eine Barriere gegen den Wind um den Kocher herumbauen.
 
@@ -4580,7 +4580,7 @@ Trotz dieser Warnung machten wir uns erneut auf den Weg in den Wald.
 
 Ich erinnere mich, dass eines Nachts ein Sturm aufkam. Das Zelt, das Valera, Sergej und Galka gerade aufbauten, wurde von den ersten Windböen weggeblasen, und die ganze durchnässte Gesellschaft stürzte in unser Zelt. In dem engen Raum drückten sie mit dem Rücken gegen die Plane, und das Zelt begann an diesen Stellen undicht zu werden. Kalte Regentropfen prasselten auf unsere Körper
 
-![](images/page-498-1357.png)
+![](images/page-498-1357.jpeg)
 
 nieder. Zu allem Überfluss verschlammte der vom Meer her wehende Wind die Mündung des Schapsuga-Flusses, und das Flusswasser strömte den Strand hinunter. Rufe, Gebrüll und Kindergeschrei wurden laut. Die Motoren der Autos dröhnten. Von Blitzen erhellt und von Donnergrollen begleitet, machten sich die Urlauber auf den Weg zur Straße. Das Wasser erreichte uns nicht, und nachdem wir uns die ganze Nacht abgewechselt hatten, warteten wir sicher bis zum Morgen. Am Morgen beleuchtete eine graue Morgendämmerung den trostlosen Strand. Zu unserer Rechten gab es kein einziges Zelt. Auf der linken Seite standen drei einsam. Unrat, Baumstümpfe und ganze Stämme liegen am Ufer verstreut. Im Zelt schliefen ein paar junge Leute, die aneinander gekuschelt waren und alles angezogen hatten, was gerade zur Hand gewesen war.
 
@@ -4602,7 +4602,7 @@ Schmutzige Waggons, zerbrochene Fenster, halb betrunkene Schaffner. Nina sagt, e
 
 Zurück in Lermontowo sah ich Olga schon von weitem. Sie stand vor unserem Zelt und sprach mit einem Nachbarn über irgendetwas. Sie hatte eine
 
-![](images/page-500-1358.png)
+![](images/page-500-1358.jpeg)
 
 schlanke Figur, trug ein rot-kariertes Chintz-Kleid und gewellte Haare, die zu einem Knoten aufgesteckt waren.
 
@@ -4798,7 +4798,7 @@ Kurz nachdem sie abgereist waren, wurde Roma in den Süden geschickt. Er wurde z
 
 Im Sommer 1970 fuhren Nina, Valera, Roma und Natascha ans Meer. Zina kam später und nahm eine weitere Prüfung ab. Wir blieben wie üblich in Lermontowo und badeten viel. Abends gingen die Jugendlichen zu Tanzveranstaltungen, die regelmäßig im Sportzentrum des Polytechnischen Instituts Krasnodar stattfanden. Ich kam Anfang August an und musste für Plaksin einspringen, der entweder zur Jagd oder zum Fischen gegangen war. Bald nach meiner Ankunft in Lermontowo fuhren Valera und Sina nach Hause. Sie wollten sich beim Standesamt anmelden. Am Ende der Saison brach im Süden eine Cholera-Epidemie aus. Es entstand eine Panik. Die Menschen stürmten die Waggons und reichten ihr Gepäck
 
-![](images/page-516-1359.png)
+![](images/page-516-1359.jpeg)
 
 und ihre Kinder über die Köpfe weiter. Wir konnten erst Anfang September abreisen.
 
@@ -4806,7 +4806,7 @@ Krasnojarsk. Valerijs und Sinas Eheschließung.
 
 In der Zwischenzeit hatten Valera und Sina ihre Heirat in Krasnojarsk eintragen lassen und begaben sich nach dem Ereignis im Haus von Sinas Freundin mit Durakow und Podufalow zu den Gorsts, um die Feierlichkeiten im kleinen Kreis zu vollenden. Raissa Iwanowna war in Semipalatinsk bei ihrer Schwester, und Jura, der davon ausging, dass eine große Hochzeit geplant war, verließ das Haus, um die jungen Leute nicht zu stören. Er wollte zurückkommen, wenn die Hochzeit in vollem Gange war. Als er jedoch um elf Uhr nach Hause kam, fand er nur Sina und Valera vor, die ihr Zimmer aufräumten. Die «Party» war schon lange vorbei. Es stand keine einzige Flasche auf dem Tisch. Es war leicht, sich Juris Verärgerung vorzustellen. Dann beschwerte er sich bei jeder Gelegenheit bei unseren gemeinsamen Freunden über mich und über unsere ganze «abnorme» Familie, die angeblich sogar für die Hochzeit seines Erstgeborenen Geld sparte. Am Tag nach der Hochzeit fuhren Valera und Sina nach Jenisseisk, um dort ihre Flitterwochen zu verbringen. Nur Olga Fedotowna war zu Hause, und sie hätten sich gut erholt, wenn Valera nicht an Angina erkrankt wäre, mit der er bis zu unserer Rückkehr aus dem Süden im Bett lag.
 
-![](images/page-517-1360.png)
+![](images/page-517-1360.jpeg)
 
 Im Mai 1971 fand an der Fakultät für Physik und Mathematik des Pädagogischen Instituts Krasnojarsk eine zonale wissenschaftlich-methodische Konferenz über Mathematik der Mittelsibirischen Pädagogischen Institute statt. Die Konferenz war mit mehr als hundert Teilnehmern recht repräsentativ. Es gab vier Themenkreise: Algebra, Geometrie, mathematische Analyse und Methoden des Mathematikunterrichts. Das auf der Konferenz behandelte Material wurde veröffentlicht. Nina nahm damals mit mir an der Konferenz teil. Jura, der Leiter des Organisationskomitees, brachte uns im Hotel «Ogni Jenisseja» in einem Doppelzimmer mit allen Annehmlichkeiten unter. Befreit von den alltäglichen Familienproblemen, Roma und Natascha in der Obhut von Olga Fedotowna zurücklassend, begaben wir uns auf eine «freie Reise». Obwohl ich fast fünfzig und Nina achtundvierzig war, benahmen wir uns wie Dreißigjährige. Das Mittag- und Abendessen nahmen wir in einem Restaurant im Erdgeschoss des Hotels ein. Nachmittags, nachdem wir die Arbeit beendet hatten, gingen wir zu den Gorsts und den Jelins. Abends spazierten wir am Kai entlang und bewunderten den Jenissej und die malerische Flussstation, die im Abendlicht erstrahlte. Alle Sorgen, Ängste und Befürchtungen traten in den Hintergrund. Wir versuchten sogar, nicht an die Vergangenheit zu denken.
 
@@ -4822,7 +4822,7 @@ Roma und ich fuhren in den Süden, sobald er seine letzte Prüfung für die Somm
 
 Zwei Tage später reiste die ganze Gesellschaft nach Krasnodar. Wir fuhren über Rostow, wo Nina und Natascha zu uns ins Abteil stiegen, obwohl sie es nicht geschafft hatten, Fahrkarten zu kaufen. Wir bezahlten die Schaffner, und alles klappte, zum Glück war es nicht zu weit weg. Von Krasnodar aus fuhren wir mit dem Bus nach Gorjatschij Kljutsch, wo Olja auf uns wartete. Als wir schließlich Lermontowo erreichten, stellte sich heraus, dass es verboten war, Zelte am Strand
 
-![](images/page-519-1361.png)
+![](images/page-519-1361.jpeg)
 
 aufzustellen. Wir mussten ins Dorf gehen, um eine Unterkunft zu suchen. Aber alle Wohnungen, Zimmer und sogar einzelne Bettstellen im Dorf waren bereits belegt. Nur eine Vermieterin erklärte sich bereit, uns unsere Zelte gegen eine geringe Gebühr im Garten aufstellen zu lassen. Ringsherum gab es Haselnusssträucher, Apfelund Birnbäume. Sie gab uns auch ein kleines Zimmer im Haus, das fast vollständig mit einem Doppelbett vollgestellt war, für den Fall, dass das Wetter schlecht würde. Alle anderen Räume in ihrem Haus, der Schuppen und die Gartenlaube waren bereits von Urlaubern belegt. Keiner wollte in dem uns zugewiesenen Zimmer schlafen. Alle zogen die Zelte vor, zumal es jetzt nicht mehr unsere Planen-Zelte waren, sondern die polnischen, breit und hoch. Nur wenn es regnete, gingen Nina und ich zum Schlafen ins Haus. Tagsüber verbrachten wir alle den Tag am Strand, wo wir neben dem Sonnen und Baden auch Volleyball spielten. Abends gingen wir ins Sommerkino: vier Wände, eine Leinwand und ein schwarzer Sternenhimmel über uns. An den Wänden und in den umliegenden Bäumen hingen «Filmhasen» - meist Kinder. Wir liefen mit Decken herum. Solange es warm war, wurden sie auf harte Bänke gelegt. Wenn es nachts kühl wurde, bedeckten wir uns damit wie mit Plaids.
 
@@ -5008,7 +5008,7 @@ Im Gegensatz zu Lalja spürte Ernotschka sofort die Veränderungen in unserer Fa
 
 Sie drängte mich, mich nicht völlig zu öffnen, meine Individualität zu bewahren, meine eigenen Interessen und Ziele im Leben zu verfolgen. Sie schimpfte mit mir und beschuldigte mich, Ninas Persönlichkeit völlig zu unterdrücken und sie ihrer Identität und der Romantik in unserer Beziehung zu berauben. Sie riet mir,
 
-![](images/page-541-1362.png)
+![](images/page-541-1362.jpeg)
 
 Nina ins Theater und in Konzerte mitzunehmen, um sie von ihrem Gesundheitszustand abzulenken, und natürlich, sie in ein Krankenhaus zu bringen, um sie vollständig untersuchen zu lassen.
 
