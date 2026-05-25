@@ -1,0 +1,3 @@
+# Files Cloudflare should NOT upload as static assets.
+# The book's page-scan images are excluded here while their payload is optimised.
+books/archive/Das_Schicksal_eines_Russland-Deutschen/images/
