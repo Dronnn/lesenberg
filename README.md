@@ -10,15 +10,17 @@ All texts are original, written in graded German for learners at **A1–B2**.
 
 ## What it does
 
-- **Read at your level.** Books are tagged A1, A2, B1 or B2 (CEFR).
+- **Read at your level.** Books are tagged by CEFR level (A1–B2, plus transitional grades like
+  A2→B1), and the library filter shows only the levels actually in the catalogue.
 - **Tap-to-translate.** Tap any word in the reader to see its part of speech, base form, and an
-  English + Russian gloss. Every book ships with its own dictionary, so this works offline.
+  English + Russian gloss. German nouns show with their article and capitalised form (e.g.
+  *das Brötchen*, *die Bäckerei*). Every book ships with its own dictionary, so this works offline.
 - **Highlight & save.** Mark words in four colours and save them (with your own notes and example
   sentences) as flashcards.
 - **Test yourself.** After each chapter, a short vocabulary quiz built live from that chapter's own
   key words — see a German word, pick its meaning.
 - **Track your reading.** Per-chapter progress, words learned, minutes read — all stored in your
-  browser.
+  browser. Mark a chapter back to unread anytime to revisit it.
 - **No account needed.** Everything lives locally in your browser; you can **export** all your data
   to a file and **import** it later or on another device.
 - **Download.** Save any book as a Markdown file.
