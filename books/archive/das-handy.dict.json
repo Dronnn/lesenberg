@@ -7,7 +7,7 @@
   },
   "abend": {
     "pos": "noun",
-    "lemma": "abend",
+    "lemma": "der Abend",
     "en": "evening",
     "ru": "вечер"
   },
@@ -37,7 +37,7 @@
   },
   "abriss": {
     "pos": "noun",
-    "lemma": "abriss",
+    "lemma": "der Abriss",
     "en": "demolition",
     "ru": "сноса"
   },
@@ -49,7 +49,7 @@
   },
   "abstand": {
     "pos": "noun",
-    "lemma": "abstand",
+    "lemma": "der Abstand",
     "en": "distance",
     "ru": "расстояние"
   },
@@ -67,7 +67,7 @@
   },
   "adresse": {
     "pos": "noun",
-    "lemma": "adresse",
+    "lemma": "die Adresse",
     "en": "address",
     "ru": "адрес"
   },
@@ -79,19 +79,19 @@
   },
   "ahnung": {
     "pos": "noun",
-    "lemma": "ahnung",
+    "lemma": "die Ahnung",
     "en": "hunch, idea",
     "ru": "предчувствие"
   },
   "akku": {
     "pos": "noun",
-    "lemma": "akku",
+    "lemma": "der Akku",
     "en": "battery",
     "ru": "аккумулятор"
   },
   "akten": {
     "pos": "noun",
-    "lemma": "akte",
+    "lemma": "die Akte",
     "en": "files",
     "ru": "файлы"
   },
@@ -169,7 +169,7 @@
   },
   "alter": {
     "pos": "noun",
-    "lemma": "alter",
+    "lemma": "das Alter",
     "en": "age",
     "ru": "возраст"
   },
@@ -205,7 +205,7 @@
   },
   "anderem": {
     "pos": "noun",
-    "lemma": "anderem",
+    "lemma": "das Anderem",
     "en": "other",
     "ru": "другое"
   },
@@ -259,19 +259,19 @@
   },
   "angst": {
     "pos": "noun",
-    "lemma": "angst",
+    "lemma": "die Angst",
     "en": "fear",
     "ru": "страх"
   },
   "anja": {
     "pos": "name",
-    "lemma": "anja",
+    "lemma": "Anja",
     "en": "Anja",
     "ru": "Аня"
   },
   "anjas": {
     "pos": "name",
-    "lemma": "anja",
+    "lemma": "Anja",
     "en": "Anja",
     "ru": "Аня"
   },
@@ -295,7 +295,7 @@
   },
   "antwort": {
     "pos": "noun",
-    "lemma": "antwort",
+    "lemma": "die Antwort",
     "en": "answer",
     "ru": "ответ"
   },
@@ -313,25 +313,25 @@
   },
   "apfel": {
     "pos": "noun",
-    "lemma": "apfel",
+    "lemma": "der Apfel",
     "en": "apple",
     "ru": "яблоко"
   },
   "app": {
     "pos": "noun",
-    "lemma": "app",
+    "lemma": "die App",
     "en": "app",
     "ru": "приложение"
   },
   "apps": {
     "pos": "noun",
-    "lemma": "app",
+    "lemma": "die App",
     "en": "apps",
     "ru": "приложения"
   },
   "arbeit": {
     "pos": "noun",
-    "lemma": "arbeit",
+    "lemma": "die Arbeit",
     "en": "work",
     "ru": "работа"
   },
@@ -343,25 +343,25 @@
   },
   "arm": {
     "pos": "noun",
-    "lemma": "arm",
+    "lemma": "der Arm",
     "en": "arm",
     "ru": "рука"
   },
   "art": {
     "pos": "noun",
-    "lemma": "art",
+    "lemma": "die Art",
     "en": "kind",
     "ru": "вид"
   },
   "arten": {
     "pos": "noun",
-    "lemma": "art",
+    "lemma": "die Art",
     "en": "species",
     "ru": "виды"
   },
   "atem": {
     "pos": "noun",
-    "lemma": "atem",
+    "lemma": "der Atem",
     "en": "breath",
     "ru": "дыхание"
   },
@@ -391,7 +391,7 @@
   },
   "aufgabe": {
     "pos": "noun",
-    "lemma": "aufgabe",
+    "lemma": "die Aufgabe",
     "en": "task",
     "ru": "задача"
   },
@@ -445,7 +445,7 @@
   },
   "aufregung": {
     "pos": "noun",
-    "lemma": "aufregung",
+    "lemma": "die Aufregung",
     "en": "excitement",
     "ru": "волнение"
   },
@@ -457,19 +457,19 @@
   },
   "auge": {
     "pos": "noun",
-    "lemma": "auge",
+    "lemma": "das Auge",
     "en": "eye",
     "ru": "глаз"
   },
   "augen": {
     "pos": "noun",
-    "lemma": "auge",
+    "lemma": "das Auge",
     "en": "eyes",
     "ru": "глаза"
   },
   "augenblick": {
     "pos": "noun",
-    "lemma": "augenblick",
+    "lemma": "der Augenblick",
     "en": "moment",
     "ru": "мгновение"
   },
@@ -511,13 +511,13 @@
   },
   "auto": {
     "pos": "noun",
-    "lemma": "auto",
+    "lemma": "das Auto",
     "en": "car",
     "ru": "машина"
   },
   "autos": {
     "pos": "noun",
-    "lemma": "auto",
+    "lemma": "das Auto",
     "en": "cars",
     "ru": "машины"
   },
@@ -559,13 +559,13 @@
   },
   "babys": {
     "pos": "noun",
-    "lemma": "baby",
+    "lemma": "das Baby",
     "en": "babies",
     "ru": "младенцы"
   },
   "backsteinmauern": {
     "pos": "noun",
-    "lemma": "backsteinmauer",
+    "lemma": "die Backsteinmauer",
     "en": "brick walls",
     "ru": "кирпичные стены"
   },
@@ -577,7 +577,7 @@
   },
   "backöfen": {
     "pos": "noun",
-    "lemma": "backofen",
+    "lemma": "der Backofen",
     "en": "oven",
     "ru": "печь"
   },
@@ -589,37 +589,37 @@
   },
   "ball": {
     "pos": "noun",
-    "lemma": "ball",
+    "lemma": "der Ball",
     "en": "ball",
     "ru": "мяч"
   },
   "bank": {
     "pos": "noun",
-    "lemma": "bank",
+    "lemma": "die Bank",
     "en": "bank",
     "ru": "банк"
   },
   "bauch": {
     "pos": "noun",
-    "lemma": "bauch",
+    "lemma": "der Bauch",
     "en": "belly, abdomen",
     "ru": "живот"
   },
   "baufirma": {
     "pos": "noun",
-    "lemma": "baufirma",
+    "lemma": "die Baufirma",
     "en": "construction company",
     "ru": "строительная фирма"
   },
   "baum": {
     "pos": "noun",
-    "lemma": "baum",
+    "lemma": "der Baum",
     "en": "tree",
     "ru": "дерево"
   },
   "becker": {
     "pos": "name",
-    "lemma": "becker",
+    "lemma": "Becker",
     "en": "Becker",
     "ru": "Беккер"
   },
@@ -715,7 +715,7 @@
   },
   "beobachtung": {
     "pos": "noun",
-    "lemma": "beobachtung",
+    "lemma": "die Beobachtung",
     "en": "observation",
     "ru": "наблюдение"
   },
@@ -787,13 +787,13 @@
   },
   "besuch": {
     "pos": "noun",
-    "lemma": "besuch",
+    "lemma": "der Besuch",
     "en": "visit",
     "ru": "визит"
   },
   "bett": {
     "pos": "noun",
-    "lemma": "bett",
+    "lemma": "das Bett",
     "en": "bed",
     "ru": "кровать"
   },
@@ -823,13 +823,13 @@
   },
   "beweis": {
     "pos": "noun",
-    "lemma": "beweis",
+    "lemma": "der Beweis",
     "en": "proof",
     "ru": "доказательство"
   },
   "beweise": {
     "pos": "noun",
-    "lemma": "beweis",
+    "lemma": "der Beweis",
     "en": "proofs",
     "ru": "доказательства"
   },
@@ -853,13 +853,13 @@
   },
   "bild": {
     "pos": "noun",
-    "lemma": "bild",
+    "lemma": "das Bild",
     "en": "picture",
     "ru": "картина"
   },
   "bildschirm": {
     "pos": "noun",
-    "lemma": "bildschirm",
+    "lemma": "der Bildschirm",
     "en": "screen",
     "ru": "экран"
   },
@@ -883,7 +883,7 @@
   },
   "bisschen": {
     "pos": "noun",
-    "lemma": "bisschen",
+    "lemma": "das Bisschen",
     "en": "bit",
     "ru": "кусочек"
   },
@@ -925,7 +925,7 @@
   },
   "blech": {
     "pos": "noun",
-    "lemma": "blech",
+    "lemma": "das Blech",
     "en": "tin",
     "ru": "жесть"
   },
@@ -943,7 +943,7 @@
   },
   "blick": {
     "pos": "noun",
-    "lemma": "blick",
+    "lemma": "der Blick",
     "en": "look",
     "ru": "взгляд"
   },
@@ -973,19 +973,19 @@
   },
   "blumen": {
     "pos": "noun",
-    "lemma": "blume",
+    "lemma": "die Blume",
     "en": "flowers",
     "ru": "цветы"
   },
   "blut": {
     "pos": "noun",
-    "lemma": "blut",
+    "lemma": "das Blut",
     "en": "blood",
     "ru": "кровь"
   },
   "blätter": {
     "pos": "noun",
-    "lemma": "blatt",
+    "lemma": "das Blatt",
     "en": "leaves, sheets",
     "ru": "листья"
   },
@@ -997,19 +997,19 @@
   },
   "blümchen": {
     "pos": "noun",
-    "lemma": "blümchen",
+    "lemma": "das Blümchen",
     "en": "little flower",
     "ru": "цветочек"
   },
   "bockhorster": {
     "pos": "name",
-    "lemma": "bockhorster",
+    "lemma": "Bockhorster",
     "en": "Bockhorster",
     "ru": "Бокхорстер"
   },
   "boden": {
     "pos": "noun",
-    "lemma": "boden",
+    "lemma": "der Boden",
     "en": "ground",
     "ru": "земля"
   },
@@ -1045,31 +1045,31 @@
   },
   "brezeln": {
     "pos": "noun",
-    "lemma": "brezel",
+    "lemma": "die Brezel",
     "en": "pretzels",
     "ru": "крендели"
   },
   "brief": {
     "pos": "noun",
-    "lemma": "brief",
+    "lemma": "der Brief",
     "en": "letter",
     "ru": "письмо"
   },
   "briefes": {
     "pos": "noun",
-    "lemma": "brief",
+    "lemma": "der Brief",
     "en": "letter",
     "ru": "письмо"
   },
   "briefkasten": {
     "pos": "noun",
-    "lemma": "briefkasten",
+    "lemma": "der Briefkasten",
     "en": "mailbox",
     "ru": "почтовый ящик"
   },
   "brille": {
     "pos": "noun",
-    "lemma": "brille",
+    "lemma": "die Brille",
     "en": "glasses",
     "ru": "очки"
   },
@@ -1081,7 +1081,7 @@
   },
   "brot": {
     "pos": "noun",
-    "lemma": "brot",
+    "lemma": "das Brot",
     "en": "bread",
     "ru": "хлеб"
   },
@@ -1093,67 +1093,67 @@
   },
   "brötchen": {
     "pos": "noun",
-    "lemma": "brötchen",
+    "lemma": "das Brötchen",
     "en": "bread roll",
     "ru": "булочка"
   },
   "buch": {
     "pos": "noun",
-    "lemma": "buch",
+    "lemma": "das Buch",
     "en": "book",
     "ru": "книга"
   },
   "buchstaben": {
     "pos": "noun",
-    "lemma": "buchstabe",
+    "lemma": "der Buchstabe",
     "en": "letters",
     "ru": "буквы"
   },
   "bus": {
     "pos": "noun",
-    "lemma": "bus",
+    "lemma": "der Bus",
     "en": "bus",
     "ru": "автобус"
   },
   "bushaltestelle": {
     "pos": "noun",
-    "lemma": "bushaltestelle",
+    "lemma": "die Bushaltestelle",
     "en": "bus stop",
     "ru": "остановка автобуса"
   },
   "bäcker": {
     "pos": "noun",
-    "lemma": "bäcker",
+    "lemma": "der Bäcker",
     "en": "baker",
     "ru": "пекарь"
   },
   "bäckerei": {
     "pos": "noun",
-    "lemma": "bäckerei",
+    "lemma": "die Bäckerei",
     "en": "bakery",
     "ru": "пекарня"
   },
   "bänken": {
     "pos": "noun",
-    "lemma": "bank",
+    "lemma": "die Bank",
     "en": "benches",
     "ru": "скамьи"
   },
   "bösewicht": {
     "pos": "noun",
-    "lemma": "bösewicht",
+    "lemma": "der Bösewicht",
     "en": "villain",
     "ru": "злодей"
   },
   "bücher": {
     "pos": "noun",
-    "lemma": "buch",
+    "lemma": "das Buch",
     "en": "books",
     "ru": "книги"
   },
   "büchern": {
     "pos": "noun",
-    "lemma": "buch",
+    "lemma": "das Buch",
     "en": "books",
     "ru": "книги"
   },
@@ -1165,25 +1165,25 @@
   },
   "bürgermeister-hahn-straße": {
     "pos": "name",
-    "lemma": "bürgermeister-hahn-straße",
+    "lemma": "Bürgermeister-hahn-straße",
     "en": "Bürgermeister-Hahn-Straße",
     "ru": "Штрассе Бургомистра Хана"
   },
   "bützfleth": {
     "pos": "name",
-    "lemma": "bützfleth",
+    "lemma": "Bützfleth",
     "en": "Bützfleth",
     "ru": "Бютцфлет"
   },
   "chat": {
     "pos": "noun",
-    "lemma": "chat",
+    "lemma": "der Chat",
     "en": "chat",
     "ru": "чат"
   },
   "cousin": {
     "pos": "noun",
-    "lemma": "cousin",
+    "lemma": "der Cousin",
     "en": "cousin",
     "ru": "кузен"
   },
@@ -1201,7 +1201,7 @@
   },
   "dach": {
     "pos": "noun",
-    "lemma": "dach",
+    "lemma": "das Dach",
     "en": "roof",
     "ru": "крыша"
   },
@@ -1321,7 +1321,7 @@
   },
   "datum": {
     "pos": "noun",
-    "lemma": "datum",
+    "lemma": "das Datum",
     "en": "date",
     "ru": "дата"
   },
@@ -1333,7 +1333,7 @@
   },
   "daumen": {
     "pos": "noun",
-    "lemma": "daumen",
+    "lemma": "der Daumen",
     "en": "thumbs",
     "ru": "большие пальцы"
   },
@@ -1369,7 +1369,7 @@
   },
   "decke": {
     "pos": "noun",
-    "lemma": "decke",
+    "lemma": "die Decke",
     "en": "ceiling",
     "ru": "потолок"
   },
@@ -1435,7 +1435,7 @@
   },
   "denkmalschutz": {
     "pos": "noun",
-    "lemma": "denkmalschutz",
+    "lemma": "der Denkmalschutz",
     "en": "monument protection",
     "ru": "охрана памятников"
   },
@@ -1513,13 +1513,13 @@
   },
   "dienstag": {
     "pos": "noun",
-    "lemma": "Dienstag",
+    "lemma": "der Dienstag",
     "en": "Tuesday",
     "ru": "вторник"
   },
   "dienstagmorgen": {
     "pos": "noun",
-    "lemma": "dienstagmorgen",
+    "lemma": "der Dienstagmorgen",
     "en": "Tuesday morning",
     "ru": "вторник, утром"
   },
@@ -1561,13 +1561,13 @@
   },
   "ding": {
     "pos": "noun",
-    "lemma": "Ding",
+    "lemma": "das Ding",
     "en": "thing",
     "ru": "вещь"
   },
   "dinge": {
     "pos": "noun",
-    "lemma": "ding",
+    "lemma": "das Ding",
     "en": "things",
     "ru": "вещи"
   },
@@ -1591,19 +1591,19 @@
   },
   "dokumente": {
     "pos": "noun",
-    "lemma": "dokument",
+    "lemma": "das Dokument",
     "en": "documents",
     "ru": "документы"
   },
   "donnerstag": {
     "pos": "noun",
-    "lemma": "donnerstag",
+    "lemma": "der Donnerstag",
     "en": "Thursday",
     "ru": "четверг"
   },
   "donnerstagnachmittag": {
     "pos": "noun",
-    "lemma": "donnerstagnachmittag",
+    "lemma": "der Donnerstagnachmittag",
     "en": "Thursday afternoon",
     "ru": "четверг, днём"
   },
@@ -1621,7 +1621,7 @@
   },
   "dose": {
     "pos": "noun",
-    "lemma": "dose",
+    "lemma": "die Dose",
     "en": "can",
     "ru": "банка"
   },
@@ -1657,7 +1657,7 @@
   },
   "dreien": {
     "pos": "noun",
-    "lemma": "dreien",
+    "lemma": "die Dreien",
     "en": "the three",
     "ru": "трое"
   },
@@ -1699,13 +1699,13 @@
   },
   "drohung": {
     "pos": "noun",
-    "lemma": "drohung",
+    "lemma": "die Drohung",
     "en": "threat",
     "ru": "угроза"
   },
   "drohungen": {
     "pos": "noun",
-    "lemma": "drohung",
+    "lemma": "die Drohung",
     "en": "threats",
     "ru": "угрозы"
   },
@@ -1759,7 +1759,7 @@
   },
   "dunkelheit": {
     "pos": "noun",
-    "lemma": "dunkelheit",
+    "lemma": "die Dunkelheit",
     "en": "darkness",
     "ru": "тьма"
   },
@@ -1813,13 +1813,13 @@
   },
   "dächer": {
     "pos": "noun",
-    "lemma": "dach",
+    "lemma": "das Dach",
     "en": "roofs",
     "ru": "крыши"
   },
   "dächern": {
     "pos": "noun",
-    "lemma": "dach",
+    "lemma": "das Dach",
     "en": "roofs",
     "ru": "крыши"
   },
@@ -1855,7 +1855,7 @@
   },
   "echo": {
     "pos": "noun",
-    "lemma": "echo",
+    "lemma": "das Echo",
     "en": "echo",
     "ru": "эхо"
   },
@@ -1879,13 +1879,13 @@
   },
   "ecke": {
     "pos": "noun",
-    "lemma": "ecke",
+    "lemma": "die Ecke",
     "en": "corner",
     "ru": "угол"
   },
   "edeka": {
     "pos": "name",
-    "lemma": "edeka",
+    "lemma": "Edeka",
     "en": "Edeka",
     "ru": "Эдека"
   },
@@ -1933,7 +1933,7 @@
   },
   "eile": {
     "pos": "noun",
-    "lemma": "eile",
+    "lemma": "die Eile",
     "en": "haste",
     "ru": "спешка"
   },
@@ -1987,7 +1987,7 @@
   },
   "einfahrt": {
     "pos": "noun",
-    "lemma": "Einfahrt",
+    "lemma": "die Einfahrt",
     "en": "driveway",
     "ru": "подъезд"
   },
@@ -2035,7 +2035,7 @@
   },
   "einkaufstüten": {
     "pos": "noun",
-    "lemma": "einkaufstüte",
+    "lemma": "die Einkaufstüte",
     "en": "shopping bags",
     "ru": "сумки для покупок"
   },
@@ -2077,13 +2077,13 @@
   },
   "eisen": {
     "pos": "noun",
-    "lemma": "eisen",
+    "lemma": "das Eisen",
     "en": "iron",
     "ru": "железо"
   },
   "eisentür": {
     "pos": "noun",
-    "lemma": "eisentür",
+    "lemma": "die Eisentür",
     "en": "iron door",
     "ru": "железная дверь"
   },
@@ -2095,19 +2095,19 @@
   },
   "element": {
     "pos": "noun",
-    "lemma": "element",
+    "lemma": "das Element",
     "en": "element",
     "ru": "элемент"
   },
   "eltern": {
     "pos": "noun",
-    "lemma": "eltern",
+    "lemma": "die Eltern",
     "en": "parents",
     "ru": "родители"
   },
   "ende": {
     "pos": "noun",
-    "lemma": "ende",
+    "lemma": "das Ende",
     "en": "end",
     "ru": "конец"
   },
@@ -2137,7 +2137,7 @@
   },
   "entscheidung": {
     "pos": "noun",
-    "lemma": "entscheidung",
+    "lemma": "die Entscheidung",
     "en": "decision",
     "ru": "решение"
   },
@@ -2149,7 +2149,7 @@
   },
   "erde": {
     "pos": "noun",
-    "lemma": "erde",
+    "lemma": "die Erde",
     "en": "earth",
     "ru": "земля"
   },
@@ -2197,7 +2197,7 @@
   },
   "erklärung": {
     "pos": "noun",
-    "lemma": "erklärung",
+    "lemma": "die Erklärung",
     "en": "explanation",
     "ru": "объяснение"
   },
@@ -2263,13 +2263,13 @@
   },
   "erwachsenen": {
     "pos": "noun",
-    "lemma": "erwachsene",
+    "lemma": "die Erwachsene",
     "en": "adults",
     "ru": "взрослые"
   },
   "erwachsener": {
     "pos": "noun",
-    "lemma": "erwachsener",
+    "lemma": "der Erwachsener",
     "en": "adult",
     "ru": "взрослый"
   },
@@ -2311,7 +2311,7 @@
   },
   "essen": {
     "pos": "noun",
-    "lemma": "essen",
+    "lemma": "das Essen",
     "en": "food",
     "ru": "еда"
   },
@@ -2359,19 +2359,19 @@
   },
   "fabrik": {
     "pos": "noun",
-    "lemma": "fabrik",
+    "lemma": "die Fabrik",
     "en": "factory",
     "ru": "завод"
   },
   "fahrer": {
     "pos": "noun",
-    "lemma": "fahrer",
+    "lemma": "der Fahrer",
     "en": "driver",
     "ru": "водитель"
   },
   "falle": {
     "pos": "noun",
-    "lemma": "falle",
+    "lemma": "die Falle",
     "en": "case",
     "ru": "случай"
   },
@@ -2401,7 +2401,7 @@
   },
   "familie": {
     "pos": "noun",
-    "lemma": "familie",
+    "lemma": "die Familie",
     "en": "family",
     "ru": "семья"
   },
@@ -2431,7 +2431,7 @@
   },
   "fehler": {
     "pos": "noun",
-    "lemma": "fehler",
+    "lemma": "der Fehler",
     "en": "error",
     "ru": "ошибка"
   },
@@ -2449,37 +2449,37 @@
   },
   "felder": {
     "pos": "noun",
-    "lemma": "feld",
+    "lemma": "das Feld",
     "en": "fields",
     "ru": "поля"
   },
   "feldern": {
     "pos": "noun",
-    "lemma": "feld",
+    "lemma": "das Feld",
     "en": "fields",
     "ru": "поля"
   },
   "fenster": {
     "pos": "noun",
-    "lemma": "fenster",
+    "lemma": "das Fenster",
     "en": "window",
     "ru": "окно"
   },
   "fenstern": {
     "pos": "noun",
-    "lemma": "fenster",
+    "lemma": "das Fenster",
     "en": "windows",
     "ru": "окна"
   },
   "fensterscheibe": {
     "pos": "noun",
-    "lemma": "fensterscheibe",
+    "lemma": "die Fensterscheibe",
     "en": "window pane",
     "ru": "оконное стекло"
   },
   "fernseher": {
     "pos": "noun",
-    "lemma": "fernseher",
+    "lemma": "der Fernseher",
     "en": "television",
     "ru": "телевизор"
   },
@@ -2503,13 +2503,13 @@
   },
   "fettflecken": {
     "pos": "noun",
-    "lemma": "fettfleck",
+    "lemma": "der Fettfleck",
     "en": "grease stains",
     "ru": "жирные пятна"
   },
   "fetzen": {
     "pos": "noun",
-    "lemma": "fetzen",
+    "lemma": "der Fetzen",
     "en": "scraps",
     "ru": "лоскуты"
   },
@@ -2581,7 +2581,7 @@
   },
   "finger": {
     "pos": "noun",
-    "lemma": "finger",
+    "lemma": "der Finger",
     "en": "finger",
     "ru": "палец"
   },
@@ -2593,13 +2593,13 @@
   },
   "firma": {
     "pos": "noun",
-    "lemma": "firma",
+    "lemma": "die Firma",
     "en": "company",
     "ru": "фирма"
   },
   "fischer": {
     "pos": "name",
-    "lemma": "fischer",
+    "lemma": "Fischer",
     "en": "Fischer (name)",
     "ru": "Фишер"
   },
@@ -2623,7 +2623,7 @@
   },
   "flur": {
     "pos": "noun",
-    "lemma": "flur",
+    "lemma": "der Flur",
     "en": "hallway",
     "ru": "коридор"
   },
@@ -2653,19 +2653,19 @@
   },
   "foto": {
     "pos": "noun",
-    "lemma": "foto",
+    "lemma": "das Foto",
     "en": "photo",
     "ru": "фото"
   },
   "fotos": {
     "pos": "noun",
-    "lemma": "foto",
+    "lemma": "das Foto",
     "en": "photos",
     "ru": "фото"
   },
   "frage": {
     "pos": "noun",
-    "lemma": "frage",
+    "lemma": "die Frage",
     "en": "question",
     "ru": "вопрос"
   },
@@ -2689,19 +2689,19 @@
   },
   "frau": {
     "pos": "noun",
-    "lemma": "frau",
+    "lemma": "die Frau",
     "en": "woman",
     "ru": "женщина"
   },
   "freitag": {
     "pos": "noun",
-    "lemma": "Freitag",
+    "lemma": "der Freitag",
     "en": "Friday",
     "ru": "пятница"
   },
   "freitagabend": {
     "pos": "noun",
-    "lemma": "freitagabend",
+    "lemma": "der Freitagabend",
     "en": "Friday evening",
     "ru": "пятничный вечер"
   },
@@ -2725,13 +2725,13 @@
   },
   "freunde": {
     "pos": "noun",
-    "lemma": "freund",
+    "lemma": "der Freund",
     "en": "friends",
     "ru": "друзья"
   },
   "freunden": {
     "pos": "noun",
-    "lemma": "freund",
+    "lemma": "der Freund",
     "en": "friends",
     "ru": "друзья"
   },
@@ -2755,7 +2755,7 @@
   },
   "freundschaft": {
     "pos": "noun",
-    "lemma": "freundschaft",
+    "lemma": "die Freundschaft",
     "en": "friendship",
     "ru": "дружба"
   },
@@ -2797,13 +2797,13 @@
   },
   "frühstück": {
     "pos": "noun",
-    "lemma": "frühstück",
+    "lemma": "das Frühstück",
     "en": "breakfast",
     "ru": "завтрак"
   },
   "fugen": {
     "pos": "noun",
-    "lemma": "fuge",
+    "lemma": "die Fuge",
     "en": "joints",
     "ru": "щели"
   },
@@ -2827,7 +2827,7 @@
   },
   "fuß": {
     "pos": "noun",
-    "lemma": "fuß",
+    "lemma": "der Fuß",
     "en": "foot",
     "ru": "ступня"
   },
@@ -2881,7 +2881,7 @@
   },
   "füße": {
     "pos": "noun",
-    "lemma": "fuß",
+    "lemma": "der Fuß",
     "en": "feet",
     "ru": "ноги"
   },
@@ -2893,7 +2893,7 @@
   },
   "gang": {
     "pos": "noun",
-    "lemma": "gang",
+    "lemma": "der Gang",
     "en": "corridor, gait",
     "ru": "коридор"
   },
@@ -2929,19 +2929,19 @@
   },
   "garten": {
     "pos": "noun",
-    "lemma": "garten",
+    "lemma": "der Garten",
     "en": "garden",
     "ru": "сад"
   },
   "gartenzwerge": {
     "pos": "noun",
-    "lemma": "gartenzwerg",
+    "lemma": "der Gartenzwerg",
     "en": "garden gnomes",
     "ru": "садовые гномы"
   },
   "gassen": {
     "pos": "noun",
-    "lemma": "gasse",
+    "lemma": "die Gasse",
     "en": "alleys",
     "ru": "улочки"
   },
@@ -3013,7 +3013,7 @@
   },
   "gebäude": {
     "pos": "noun",
-    "lemma": "gebäude",
+    "lemma": "das Gebäude",
     "en": "building",
     "ru": "здание"
   },
@@ -3025,13 +3025,13 @@
   },
   "gedanke": {
     "pos": "noun",
-    "lemma": "gedanke",
+    "lemma": "der Gedanke",
     "en": "thought",
     "ru": "мысль"
   },
   "gedanken": {
     "pos": "noun",
-    "lemma": "gedanke",
+    "lemma": "der Gedanke",
     "en": "thoughts",
     "ru": "мысли"
   },
@@ -3115,7 +3115,7 @@
   },
   "gefühl": {
     "pos": "noun",
-    "lemma": "gefühl",
+    "lemma": "das Gefühl",
     "en": "feeling",
     "ru": "чувство"
   },
@@ -3199,19 +3199,19 @@
   },
   "geheimnis": {
     "pos": "noun",
-    "lemma": "geheimnis",
+    "lemma": "das Geheimnis",
     "en": "secret",
     "ru": "секрет"
   },
   "geheimniskrämerei": {
     "pos": "noun",
-    "lemma": "geheimniskrämerei",
+    "lemma": "die Geheimniskrämerei",
     "en": "secrecy",
     "ru": "секретность"
   },
   "geheimnisse": {
     "pos": "noun",
-    "lemma": "geheimnis",
+    "lemma": "das Geheimnis",
     "en": "secrets",
     "ru": "секреты"
   },
@@ -3259,7 +3259,7 @@
   },
   "gehweg": {
     "pos": "noun",
-    "lemma": "gehweg",
+    "lemma": "der Gehweg",
     "en": "sidewalk",
     "ru": "тротуар"
   },
@@ -3517,19 +3517,19 @@
   },
   "geruch": {
     "pos": "noun",
-    "lemma": "geruch",
+    "lemma": "der Geruch",
     "en": "smell",
     "ru": "запах"
   },
   "gerät": {
     "pos": "noun",
-    "lemma": "Gerät",
+    "lemma": "das Gerät",
     "en": "device",
     "ru": "устройство"
   },
   "geräusch": {
     "pos": "noun",
-    "lemma": "geräusch",
+    "lemma": "das Geräusch",
     "en": "noise",
     "ru": "шум"
   },
@@ -3553,13 +3553,13 @@
   },
   "geschenk": {
     "pos": "noun",
-    "lemma": "geschenk",
+    "lemma": "das Geschenk",
     "en": "gift",
     "ru": "подарок"
   },
   "geschichte": {
     "pos": "noun",
-    "lemma": "geschichte",
+    "lemma": "die Geschichte",
     "en": "story",
     "ru": "история"
   },
@@ -3601,7 +3601,7 @@
   },
   "geschäfte": {
     "pos": "noun",
-    "lemma": "geschäft",
+    "lemma": "das Geschäft",
     "en": "stores, shops",
     "ru": "магазины"
   },
@@ -3637,13 +3637,13 @@
   },
   "gesicht": {
     "pos": "noun",
-    "lemma": "gesicht",
+    "lemma": "das Gesicht",
     "en": "face",
     "ru": "лицо"
   },
   "gesichter": {
     "pos": "noun",
-    "lemma": "gesicht",
+    "lemma": "das Gesicht",
     "en": "faces",
     "ru": "лица"
   },
@@ -3661,7 +3661,7 @@
   },
   "gespräch": {
     "pos": "noun",
-    "lemma": "gespräch",
+    "lemma": "das Gespräch",
     "en": "conversation",
     "ru": "разговор"
   },
@@ -3769,7 +3769,7 @@
   },
   "gewissen": {
     "pos": "noun",
-    "lemma": "gewissen",
+    "lemma": "das Gewissen",
     "en": "conscience",
     "ru": "совесть"
   },
@@ -3835,13 +3835,13 @@
   },
   "glas": {
     "pos": "noun",
-    "lemma": "glas",
+    "lemma": "das Glas",
     "en": "glass",
     "ru": "стекло"
   },
   "glasscherben": {
     "pos": "noun",
-    "lemma": "glassscherbe",
+    "lemma": "die Glasscherbe",
     "en": "glass shards",
     "ru": "осколки стекла"
   },
@@ -3853,7 +3853,7 @@
   },
   "glaube": {
     "pos": "noun",
-    "lemma": "glaube",
+    "lemma": "der Glaube",
     "en": "belief",
     "ru": "вера"
   },
@@ -3895,13 +3895,13 @@
   },
   "glocke": {
     "pos": "noun",
-    "lemma": "glocke",
+    "lemma": "die Glocke",
     "en": "bell",
     "ru": "колокол"
   },
   "glocken": {
     "pos": "noun",
-    "lemma": "glocke",
+    "lemma": "die Glocke",
     "en": "bells",
     "ru": "колокола"
   },
@@ -3913,7 +3913,7 @@
   },
   "glück": {
     "pos": "noun",
-    "lemma": "glück",
+    "lemma": "das Glück",
     "en": "luck, happiness",
     "ru": "удача"
   },
@@ -3925,7 +3925,7 @@
   },
   "gras": {
     "pos": "noun",
-    "lemma": "gras",
+    "lemma": "das Gras",
     "en": "grass",
     "ru": "трава"
   },
@@ -3943,7 +3943,7 @@
   },
   "grauen": {
     "pos": "noun",
-    "lemma": "grauen",
+    "lemma": "das Grauen",
     "en": "dread",
     "ru": "ужас"
   },
@@ -4009,25 +4009,25 @@
   },
   "großmutter": {
     "pos": "noun",
-    "lemma": "großmutter",
+    "lemma": "die Großmutter",
     "en": "grandmother",
     "ru": "бабушка"
   },
   "grund": {
     "pos": "noun",
-    "lemma": "grund",
+    "lemma": "der Grund",
     "en": "reason",
     "ru": "причина"
   },
   "grundschule": {
     "pos": "noun",
-    "lemma": "grundschule",
+    "lemma": "die Grundschule",
     "en": "primary school",
     "ru": "начальная школа"
   },
   "gruppen": {
     "pos": "noun",
-    "lemma": "gruppe",
+    "lemma": "die Gruppe",
     "en": "groups",
     "ru": "группы"
   },
@@ -4081,19 +4081,19 @@
   },
   "gänsehaut": {
     "pos": "noun",
-    "lemma": "gänsehaut",
+    "lemma": "die Gänsehaut",
     "en": "goosebumps",
     "ru": "гусиная кожа"
   },
   "gärten": {
     "pos": "noun",
-    "lemma": "garten",
+    "lemma": "der Garten",
     "en": "gardens",
     "ru": "сады"
   },
   "haare": {
     "pos": "noun",
-    "lemma": "haar",
+    "lemma": "das Haar",
     "en": "hair",
     "ru": "волосы"
   },
@@ -4123,19 +4123,19 @@
   },
   "hafen": {
     "pos": "noun",
-    "lemma": "hafen",
+    "lemma": "der Hafen",
     "en": "port, harbor",
     "ru": "порт"
   },
   "hai": {
     "pos": "noun",
-    "lemma": "hai",
+    "lemma": "der Hai",
     "en": "shark",
     "ru": "акула"
   },
   "haken": {
     "pos": "noun",
-    "lemma": "haken",
+    "lemma": "der Haken",
     "en": "hooks",
     "ru": "крючки"
   },
@@ -4159,7 +4159,7 @@
   },
   "halle": {
     "pos": "noun",
-    "lemma": "halle",
+    "lemma": "die Halle",
     "en": "hall",
     "ru": "зал"
   },
@@ -4177,7 +4177,7 @@
   },
   "hals": {
     "pos": "noun",
-    "lemma": "hals",
+    "lemma": "der Hals",
     "en": "neck",
     "ru": "шея"
   },
@@ -4189,13 +4189,13 @@
   },
   "hamburg": {
     "pos": "name",
-    "lemma": "hamburg",
+    "lemma": "Hamburg",
     "en": "Hamburg",
     "ru": "Гамбург"
   },
   "hand": {
     "pos": "noun",
-    "lemma": "hand",
+    "lemma": "die Hand",
     "en": "hand",
     "ru": "рука"
   },
@@ -4207,13 +4207,13 @@
   },
   "handschrift": {
     "pos": "noun",
-    "lemma": "handschrift",
+    "lemma": "die Handschrift",
     "en": "handwriting",
     "ru": "почерк"
   },
   "handy": {
     "pos": "noun",
-    "lemma": "handy",
+    "lemma": "das Handy",
     "en": "cell phone",
     "ru": "мобильный телефон"
   },
@@ -4261,31 +4261,31 @@
   },
   "hauch": {
     "pos": "noun",
-    "lemma": "hauch",
+    "lemma": "der Hauch",
     "en": "breath",
     "ru": "дыхание"
   },
   "haus": {
     "pos": "noun",
-    "lemma": "haus",
+    "lemma": "das Haus",
     "en": "house",
     "ru": "дом"
   },
   "hause": {
     "pos": "noun",
-    "lemma": "haus",
+    "lemma": "das Haus",
     "en": "house",
     "ru": "дом"
   },
   "hauses": {
     "pos": "noun",
-    "lemma": "haus",
+    "lemma": "das Haus",
     "en": "house's",
     "ru": "дома"
   },
   "haut": {
     "pos": "noun",
-    "lemma": "haut",
+    "lemma": "die Haut",
     "en": "skin",
     "ru": "кожа"
   },
@@ -4297,7 +4297,7 @@
   },
   "hefe": {
     "pos": "noun",
-    "lemma": "hefe",
+    "lemma": "die Hefe",
     "en": "yeast",
     "ru": "дрожжи"
   },
@@ -4357,13 +4357,13 @@
   },
   "helmut": {
     "pos": "name",
-    "lemma": "helmut",
+    "lemma": "Helmut",
     "en": "Helmut",
     "ru": "Хельмут"
   },
   "henkel": {
     "pos": "name",
-    "lemma": "henkel",
+    "lemma": "Henkel",
     "en": "Henkel",
     "ru": "Хенкель"
   },
@@ -4393,7 +4393,7 @@
   },
   "herbst": {
     "pos": "noun",
-    "lemma": "herbst",
+    "lemma": "der Herbst",
     "en": "autumn",
     "ru": "осень"
   },
@@ -4411,7 +4411,7 @@
   },
   "herz": {
     "pos": "noun",
-    "lemma": "herz",
+    "lemma": "das Herz",
     "en": "heart",
     "ru": "сердце"
   },
@@ -4459,7 +4459,7 @@
   },
   "himmel": {
     "pos": "noun",
-    "lemma": "himmel",
+    "lemma": "der Himmel",
     "en": "sky",
     "ru": "небо"
   },
@@ -4543,7 +4543,7 @@
   },
   "hintergrund": {
     "pos": "noun",
-    "lemma": "hintergrund",
+    "lemma": "der Hintergrund",
     "en": "background",
     "ru": "фон"
   },
@@ -4555,13 +4555,13 @@
   },
   "hinterhof": {
     "pos": "noun",
-    "lemma": "hinterhof",
+    "lemma": "der Hinterhof",
     "en": "backyard",
     "ru": "задний двор"
   },
   "hintertür": {
     "pos": "noun",
-    "lemma": "Hintertür",
+    "lemma": "die Hintertür",
     "en": "back door",
     "ru": "задняя дверь"
   },
@@ -4597,7 +4597,7 @@
   },
   "hof": {
     "pos": "noun",
-    "lemma": "hof",
+    "lemma": "der Hof",
     "en": "courtyard",
     "ru": "двор"
   },
@@ -4633,19 +4633,19 @@
   },
   "holz": {
     "pos": "noun",
-    "lemma": "holz",
+    "lemma": "das Holz",
     "en": "wood",
     "ru": "дерево"
   },
   "hoodie": {
     "pos": "noun",
-    "lemma": "hoodie",
+    "lemma": "der Hoodie",
     "en": "hoodie",
     "ru": "толстовка с капюшоном"
   },
   "hund": {
     "pos": "noun",
-    "lemma": "hund",
+    "lemma": "der Hund",
     "en": "dog",
     "ru": "собака"
   },
@@ -4657,7 +4657,7 @@
   },
   "hunger": {
     "pos": "noun",
-    "lemma": "hunger",
+    "lemma": "der Hunger",
     "en": "hunger",
     "ru": "голод"
   },
@@ -4669,13 +4669,13 @@
   },
   "hände": {
     "pos": "noun",
-    "lemma": "hand",
+    "lemma": "die Hand",
     "en": "hands",
     "ru": "руки"
   },
   "händen": {
     "pos": "noun",
-    "lemma": "hand",
+    "lemma": "die Hand",
     "en": "hands",
     "ru": "рука"
   },
@@ -4717,19 +4717,19 @@
   },
   "häuser": {
     "pos": "noun",
-    "lemma": "haus",
+    "lemma": "das Haus",
     "en": "houses",
     "ru": "дома"
   },
   "häusern": {
     "pos": "noun",
-    "lemma": "haus",
+    "lemma": "das Haus",
     "en": "houses",
     "ru": "дома"
   },
   "hökerstraße": {
     "pos": "name",
-    "lemma": "hökerstraße",
+    "lemma": "Hökerstraße",
     "en": "Hökerstraße",
     "ru": "Хёкерштрассе"
   },
@@ -4759,7 +4759,7 @@
   },
   "hüte": {
     "pos": "noun",
-    "lemma": "hut",
+    "lemma": "der Hut",
     "en": "hats",
     "ru": "шляпы"
   },
@@ -4771,7 +4771,7 @@
   },
   "idee": {
     "pos": "noun",
-    "lemma": "idee",
+    "lemma": "die Idee",
     "en": "idea",
     "ru": "идея"
   },
@@ -4843,13 +4843,13 @@
   },
   "information": {
     "pos": "noun",
-    "lemma": "information",
+    "lemma": "die Information",
     "en": "information",
     "ru": "информация"
   },
   "innentasche": {
     "pos": "noun",
-    "lemma": "innentasche",
+    "lemma": "die Innentasche",
     "en": "inside pocket",
     "ru": "внутренний карман"
   },
@@ -4861,7 +4861,7 @@
   },
   "internet": {
     "pos": "noun",
-    "lemma": "internet",
+    "lemma": "das Internet",
     "en": "internet",
     "ru": "интернет"
   },
@@ -4915,43 +4915,43 @@
   },
   "jacke": {
     "pos": "noun",
-    "lemma": "jacke",
+    "lemma": "die Jacke",
     "en": "jacket",
     "ru": "куртка"
   },
   "jacken": {
     "pos": "noun",
-    "lemma": "jacke",
+    "lemma": "die Jacke",
     "en": "jackets",
     "ru": "куртки"
   },
   "jackentasche": {
     "pos": "noun",
-    "lemma": "jackentasche",
+    "lemma": "die Jackentasche",
     "en": "jacket pocket",
     "ru": "карман куртки"
   },
   "jahr": {
     "pos": "noun",
-    "lemma": "jahr",
+    "lemma": "das Jahr",
     "en": "year",
     "ru": "год"
   },
   "jahre": {
     "pos": "noun",
-    "lemma": "jahr",
+    "lemma": "das Jahr",
     "en": "years",
     "ru": "годы"
   },
   "jahren": {
     "pos": "noun",
-    "lemma": "jahr",
+    "lemma": "das Jahr",
     "en": "years",
     "ru": "годы"
   },
   "jahreszahlen": {
     "pos": "noun",
-    "lemma": "jahreszahl",
+    "lemma": "die Jahreszahl",
     "en": "years/dates",
     "ru": "года"
   },
@@ -5011,31 +5011,31 @@
   },
   "jonas": {
     "pos": "name",
-    "lemma": "jonas",
+    "lemma": "Jonas",
     "en": "Jonas",
     "ru": "Йонас"
   },
   "junge": {
     "pos": "noun",
-    "lemma": "junge",
+    "lemma": "der Junge",
     "en": "boy",
     "ru": "мальчик"
   },
   "jungen": {
     "pos": "noun",
-    "lemma": "junge",
+    "lemma": "der Junge",
     "en": "boys",
     "ru": "мальчики"
   },
   "kabel": {
     "pos": "noun",
-    "lemma": "kabel",
+    "lemma": "das Kabel",
     "en": "cables",
     "ru": "кабели"
   },
   "kaffee": {
     "pos": "noun",
-    "lemma": "kaffee",
+    "lemma": "der Kaffee",
     "en": "coffee",
     "ru": "кофе"
   },
@@ -5077,7 +5077,7 @@
   },
   "kamera": {
     "pos": "noun",
-    "lemma": "kamera",
+    "lemma": "die Kamera",
     "en": "camera",
     "ru": "камера"
   },
@@ -5131,37 +5131,37 @@
   },
   "kapuze": {
     "pos": "noun",
-    "lemma": "kapuze",
+    "lemma": "die Kapuze",
     "en": "hood",
     "ru": "капюшон"
   },
   "kapuzen": {
     "pos": "noun",
-    "lemma": "kapuze",
+    "lemma": "die Kapuze",
     "en": "hoods",
     "ru": "капюшоны"
   },
   "kasse": {
     "pos": "noun",
-    "lemma": "kasse",
+    "lemma": "die Kasse",
     "en": "cash register",
     "ru": "касса"
   },
   "katze": {
     "pos": "noun",
-    "lemma": "katze",
+    "lemma": "die Katze",
     "en": "cat",
     "ru": "кошка"
   },
   "katzen": {
     "pos": "noun",
-    "lemma": "katze",
+    "lemma": "die Katze",
     "en": "cats",
     "ru": "кошки"
   },
   "kaugummi": {
     "pos": "noun",
-    "lemma": "kaugummi",
+    "lemma": "das Kaugummi",
     "en": "chewing gum",
     "ru": "жевательная резинка"
   },
@@ -5221,7 +5221,7 @@
   },
   "keller": {
     "pos": "noun",
-    "lemma": "keller",
+    "lemma": "der Keller",
     "en": "cellar, basement",
     "ru": "подвал"
   },
@@ -5257,49 +5257,49 @@
   },
   "ketten": {
     "pos": "noun",
-    "lemma": "kette",
+    "lemma": "die Kette",
     "en": "chains",
     "ru": "цепи"
   },
   "kind": {
     "pos": "noun",
-    "lemma": "kind",
+    "lemma": "das Kind",
     "en": "child",
     "ru": "ребёнок"
   },
   "kinder": {
     "pos": "noun",
-    "lemma": "kind",
+    "lemma": "das Kind",
     "en": "children",
     "ru": "дети"
   },
   "kindergarten": {
     "pos": "noun",
-    "lemma": "kindergarten",
+    "lemma": "der Kindergarten",
     "en": "kindergarten",
     "ru": "детский сад"
   },
   "kirchenglocke": {
     "pos": "noun",
-    "lemma": "kirchenglocke",
+    "lemma": "die Kirchenglocke",
     "en": "church bell",
     "ru": "церковный колокол"
   },
   "kirchturm": {
     "pos": "noun",
-    "lemma": "kirchturm",
+    "lemma": "der Kirchturm",
     "en": "church tower",
     "ru": "церковная башня"
   },
   "kissen": {
     "pos": "noun",
-    "lemma": "kissen",
+    "lemma": "das Kissen",
     "en": "pillow",
     "ru": "подушка"
   },
   "klang": {
     "pos": "noun",
-    "lemma": "klang",
+    "lemma": "der Klang",
     "en": "sound",
     "ru": "звук"
   },
@@ -5317,7 +5317,7 @@
   },
   "klasse": {
     "pos": "noun",
-    "lemma": "Klasse",
+    "lemma": "die Klasse",
     "en": "class",
     "ru": "класс"
   },
@@ -5329,25 +5329,25 @@
   },
   "klavier": {
     "pos": "noun",
-    "lemma": "klavier",
+    "lemma": "das Klavier",
     "en": "piano",
     "ru": "пианино"
   },
   "klaviers": {
     "pos": "noun",
-    "lemma": "klavier",
+    "lemma": "das Klavier",
     "en": "piano",
     "ru": "фортепиано"
   },
   "klebstoff": {
     "pos": "noun",
-    "lemma": "klebstoff",
+    "lemma": "der Klebstoff",
     "en": "adhesive, glue",
     "ru": "клей"
   },
   "kleidung": {
     "pos": "noun",
-    "lemma": "kleidung",
+    "lemma": "die Kleidung",
     "en": "clothing",
     "ru": "одежда"
   },
@@ -5449,7 +5449,7 @@
   },
   "knie": {
     "pos": "noun",
-    "lemma": "knie",
+    "lemma": "das Knie",
     "en": "knee",
     "ru": "колено"
   },
@@ -5461,19 +5461,19 @@
   },
   "knochen": {
     "pos": "noun",
-    "lemma": "knochen",
+    "lemma": "der Knochen",
     "en": "bones",
     "ru": "кости"
   },
   "knopf": {
     "pos": "noun",
-    "lemma": "knopf",
+    "lemma": "der Knopf",
     "en": "button",
     "ru": "пуговица"
   },
   "knöpfe": {
     "pos": "noun",
-    "lemma": "knopf",
+    "lemma": "der Knopf",
     "en": "buttons",
     "ru": "кнопки"
   },
@@ -5527,7 +5527,7 @@
   },
   "kontakt": {
     "pos": "noun",
-    "lemma": "kontakt",
+    "lemma": "der Kontakt",
     "en": "contact",
     "ru": "контакт"
   },
@@ -5539,13 +5539,13 @@
   },
   "kopf": {
     "pos": "noun",
-    "lemma": "kopf",
+    "lemma": "der Kopf",
     "en": "head",
     "ru": "голова"
   },
   "kopfsteinpflaster": {
     "pos": "noun",
-    "lemma": "kopfsteinpflaster",
+    "lemma": "das Kopfsteinpflaster",
     "en": "cobblestone pavement",
     "ru": "булыжник"
   },
@@ -5557,7 +5557,7 @@
   },
   "kragen": {
     "pos": "noun",
-    "lemma": "kragen",
+    "lemma": "der Kragen",
     "en": "collar",
     "ru": "воротник"
   },
@@ -5569,13 +5569,13 @@
   },
   "kratzer": {
     "pos": "noun",
-    "lemma": "kratzer",
+    "lemma": "der Kratzer",
     "en": "scratch",
     "ru": "царапина"
   },
   "kreis": {
     "pos": "noun",
-    "lemma": "kreis",
+    "lemma": "der Kreis",
     "en": "circle",
     "ru": "круг"
   },
@@ -5587,7 +5587,7 @@
   },
   "kriege": {
     "pos": "noun",
-    "lemma": "krieg",
+    "lemma": "der Krieg",
     "en": "wars",
     "ru": "войны"
   },
@@ -5599,25 +5599,25 @@
   },
   "krüger": {
     "pos": "name",
-    "lemma": "krüger",
+    "lemma": "Krüger",
     "en": "Krüger",
     "ru": "Крюгер"
   },
   "kuchen": {
     "pos": "noun",
-    "lemma": "kuchen",
+    "lemma": "der Kuchen",
     "en": "cake",
     "ru": "торт"
   },
   "kunde": {
     "pos": "noun",
-    "lemma": "kunde",
+    "lemma": "der Kunde",
     "en": "customer",
     "ru": "покупатель"
   },
   "kunden": {
     "pos": "noun",
-    "lemma": "kunde",
+    "lemma": "der Kunde",
     "en": "customers",
     "ru": "клиенты"
   },
@@ -5671,13 +5671,13 @@
   },
   "köpfe": {
     "pos": "noun",
-    "lemma": "kopf",
+    "lemma": "der Kopf",
     "en": "heads",
     "ru": "головы"
   },
   "küche": {
     "pos": "noun",
-    "lemma": "küche",
+    "lemma": "die Küche",
     "en": "kitchen",
     "ru": "кухня"
   },
@@ -5695,7 +5695,7 @@
   },
   "kühlschrank": {
     "pos": "noun",
-    "lemma": "kühlschrank",
+    "lemma": "der Kühlschrank",
     "en": "refrigerator",
     "ru": "холодильник"
   },
@@ -5725,7 +5725,7 @@
   },
   "lampe": {
     "pos": "noun",
-    "lemma": "lampe",
+    "lemma": "die Lampe",
     "en": "lamp",
     "ru": "лампа"
   },
@@ -5791,13 +5791,13 @@
   },
   "laternen": {
     "pos": "noun",
-    "lemma": "laterne",
+    "lemma": "die Laterne",
     "en": "lanterns",
     "ru": "фонари"
   },
   "laub": {
     "pos": "noun",
-    "lemma": "Laub",
+    "lemma": "das Laub",
     "en": "foliage",
     "ru": "листва"
   },
@@ -5809,7 +5809,7 @@
   },
   "laune": {
     "pos": "noun",
-    "lemma": "laune",
+    "lemma": "die Laune",
     "en": "mood",
     "ru": "настроение"
   },
@@ -5851,19 +5851,19 @@
   },
   "lebens": {
     "pos": "noun",
-    "lemma": "leben",
+    "lemma": "das Leben",
     "en": "life",
     "ru": "жизни"
   },
   "leder": {
     "pos": "noun",
-    "lemma": "leder",
+    "lemma": "das Leder",
     "en": "leather",
     "ru": "кожа"
   },
   "lederfabrik": {
     "pos": "noun",
-    "lemma": "lederfabrik",
+    "lemma": "die Lederfabrik",
     "en": "leather factory",
     "ru": "кожаная фабрика"
   },
@@ -5875,7 +5875,7 @@
   },
   "leere": {
     "pos": "noun",
-    "lemma": "leere",
+    "lemma": "die Leere",
     "en": "emptiness",
     "ru": "пустота"
   },
@@ -5917,7 +5917,7 @@
   },
   "lehrer": {
     "pos": "noun",
-    "lemma": "lehrer",
+    "lemma": "der Lehrer",
     "en": "teacher",
     "ru": "учитель"
   },
@@ -5941,7 +5941,7 @@
   },
   "leid": {
     "pos": "noun",
-    "lemma": "Leid",
+    "lemma": "das Leid",
     "en": "sorrow",
     "ru": "горе"
   },
@@ -5965,7 +5965,7 @@
   },
   "leon": {
     "pos": "name",
-    "lemma": "leon",
+    "lemma": "Leon",
     "en": "Leon",
     "ru": "Леон"
   },
@@ -6013,31 +6013,31 @@
   },
   "leute": {
     "pos": "noun",
-    "lemma": "leute",
+    "lemma": "die Leute",
     "en": "people",
     "ru": "люди"
   },
   "leuten": {
     "pos": "noun",
-    "lemma": "leute",
+    "lemma": "die Leute",
     "en": "people",
     "ru": "люди"
   },
   "licht": {
     "pos": "noun",
-    "lemma": "licht",
+    "lemma": "das Licht",
     "en": "light",
     "ru": "свет"
   },
   "lichter": {
     "pos": "noun",
-    "lemma": "licht",
+    "lemma": "das Licht",
     "en": "lights",
     "ru": "огни"
   },
   "liebe": {
     "pos": "noun",
-    "lemma": "liebe",
+    "lemma": "die Liebe",
     "en": "love",
     "ru": "любовь"
   },
@@ -6055,7 +6055,7 @@
   },
   "lieblingsvase": {
     "pos": "noun",
-    "lemma": "lieblingsvase",
+    "lemma": "die Lieblingsvase",
     "en": "favorite vase",
     "ru": "любимая ваза"
   },
@@ -6067,7 +6067,7 @@
   },
   "lied": {
     "pos": "noun",
-    "lemma": "lied",
+    "lemma": "das Lied",
     "en": "song",
     "ru": "песня"
   },
@@ -6079,7 +6079,7 @@
   },
   "lieferanten": {
     "pos": "noun",
-    "lemma": "lieferant",
+    "lemma": "der Lieferant",
     "en": "suppliers",
     "ru": "поставщики"
   },
@@ -6103,37 +6103,37 @@
   },
   "lina": {
     "pos": "name",
-    "lemma": "lina",
+    "lemma": "Lina",
     "en": "Lina",
     "ru": "Лина"
   },
   "linden": {
     "pos": "noun",
-    "lemma": "linde",
+    "lemma": "die Linde",
     "en": "linden trees",
     "ru": "липы"
   },
   "lindenstraße": {
     "pos": "name",
-    "lemma": "lindenstraße",
+    "lemma": "Lindenstraße",
     "en": "Lindenstraße",
     "ru": "Линденштрассе"
   },
   "lippe": {
     "pos": "noun",
-    "lemma": "lippe",
+    "lemma": "die Lippe",
     "en": "lip",
     "ru": "губа"
   },
   "lippen": {
     "pos": "noun",
-    "lemma": "lippe",
+    "lemma": "die Lippe",
     "en": "lips",
     "ru": "губы"
   },
   "loch": {
     "pos": "noun",
-    "lemma": "loch",
+    "lemma": "das Loch",
     "en": "hole",
     "ru": "отверстие"
   },
@@ -6151,13 +6151,13 @@
   },
   "luft": {
     "pos": "noun",
-    "lemma": "luft",
+    "lemma": "die Luft",
     "en": "air",
     "ru": "воздух"
   },
   "lust": {
     "pos": "noun",
-    "lemma": "lust",
+    "lemma": "die Lust",
     "en": "desire, lust",
     "ru": "желание"
   },
@@ -6223,13 +6223,13 @@
   },
   "lücke": {
     "pos": "noun",
-    "lemma": "lücke",
+    "lemma": "die Lücke",
     "en": "gap",
     "ru": "промежуток"
   },
   "lüge": {
     "pos": "noun",
-    "lemma": "lüge",
+    "lemma": "die Lüge",
     "en": "lie",
     "ru": "ложь"
   },
@@ -6259,7 +6259,7 @@
   },
   "macht": {
     "pos": "noun",
-    "lemma": "macht",
+    "lemma": "die Macht",
     "en": "power",
     "ru": "власть"
   },
@@ -6283,7 +6283,7 @@
   },
   "magen": {
     "pos": "noun",
-    "lemma": "magen",
+    "lemma": "der Magen",
     "en": "stomach",
     "ru": "желудок"
   },
@@ -6295,7 +6295,7 @@
   },
   "mama": {
     "pos": "noun",
-    "lemma": "mama",
+    "lemma": "die Mama",
     "en": "mom",
     "ru": "мама"
   },
@@ -6319,67 +6319,67 @@
   },
   "mann": {
     "pos": "noun",
-    "lemma": "mann",
+    "lemma": "der Mann",
     "en": "man",
     "ru": "мужчина"
   },
   "mantel": {
     "pos": "noun",
-    "lemma": "mantel",
+    "lemma": "der Mantel",
     "en": "coat",
     "ru": "пальто"
   },
   "manteltasche": {
     "pos": "noun",
-    "lemma": "manteltasche",
+    "lemma": "die Manteltasche",
     "en": "coat pocket",
     "ru": "карман пальто"
   },
   "marke": {
     "pos": "noun",
-    "lemma": "marke",
+    "lemma": "die Marke",
     "en": "brand, mark",
     "ru": "марка"
   },
   "marktplatz": {
     "pos": "noun",
-    "lemma": "marktplatz",
+    "lemma": "der Marktplatz",
     "en": "marketplace",
     "ru": "рыночная площадь"
   },
   "marktplatzes": {
     "pos": "noun",
-    "lemma": "marktplatz",
+    "lemma": "der Marktplatz",
     "en": "market square",
     "ru": "рыночной площади"
   },
   "mathe": {
     "pos": "noun",
-    "lemma": "mathe",
+    "lemma": "die Mathe",
     "en": "math",
     "ru": "математика"
   },
   "max": {
     "pos": "name",
-    "lemma": "max",
+    "lemma": "Max",
     "en": "Max",
     "ru": "Макс"
   },
   "max'": {
     "pos": "name",
-    "lemma": "max",
+    "lemma": "Max",
     "en": "Max",
     "ru": "Макс"
   },
   "mehl": {
     "pos": "noun",
-    "lemma": "mehl",
+    "lemma": "das Mehl",
     "en": "flour",
     "ru": "мука"
   },
   "mehlsäcken": {
     "pos": "noun",
-    "lemma": "mehlsack",
+    "lemma": "der Mehlsack",
     "en": "flour sacks",
     "ru": "мешки с мукой"
   },
@@ -6403,7 +6403,7 @@
   },
   "meier": {
     "pos": "name",
-    "lemma": "meier",
+    "lemma": "Meier",
     "en": "Meier",
     "ru": "Майер"
   },
@@ -6451,25 +6451,25 @@
   },
   "melodie": {
     "pos": "noun",
-    "lemma": "melodie",
+    "lemma": "die Melodie",
     "en": "melody",
     "ru": "мелодия"
   },
   "menge": {
     "pos": "noun",
-    "lemma": "menge",
+    "lemma": "die Menge",
     "en": "quantity",
     "ru": "количество"
   },
   "mensch": {
     "pos": "noun",
-    "lemma": "mensch",
+    "lemma": "der Mensch",
     "en": "person",
     "ru": "человек"
   },
   "menschen": {
     "pos": "noun",
-    "lemma": "mensch",
+    "lemma": "der Mensch",
     "en": "people",
     "ru": "люди"
   },
@@ -6493,19 +6493,19 @@
   },
   "militär": {
     "pos": "noun",
-    "lemma": "militär",
+    "lemma": "das Militär",
     "en": "military",
     "ru": "военный"
   },
   "minute": {
     "pos": "noun",
-    "lemma": "minute",
+    "lemma": "die Minute",
     "en": "minute",
     "ru": "минута"
   },
   "minuten": {
     "pos": "noun",
-    "lemma": "minute",
+    "lemma": "die Minute",
     "en": "minutes",
     "ru": "минуты"
   },
@@ -6535,13 +6535,13 @@
   },
   "mitleid": {
     "pos": "noun",
-    "lemma": "mitleid",
+    "lemma": "das Mitleid",
     "en": "pity",
     "ru": "жалость"
   },
   "mitte": {
     "pos": "noun",
-    "lemma": "mitte",
+    "lemma": "die Mitte",
     "en": "middle",
     "ru": "середина"
   },
@@ -6553,13 +6553,13 @@
   },
   "mittwoch": {
     "pos": "noun",
-    "lemma": "mittwoch",
+    "lemma": "der Mittwoch",
     "en": "Wednesday",
     "ru": "среда"
   },
   "mittwochnachmittag": {
     "pos": "noun",
-    "lemma": "mittwochnachmittag",
+    "lemma": "der Mittwochnachmittag",
     "en": "Wednesday afternoon",
     "ru": "среда после полудня"
   },
@@ -6571,31 +6571,31 @@
   },
   "moment": {
     "pos": "noun",
-    "lemma": "moment",
+    "lemma": "der Moment",
     "en": "moment",
     "ru": "момент"
   },
   "monster": {
     "pos": "noun",
-    "lemma": "monster",
+    "lemma": "das Monster",
     "en": "monster",
     "ru": "монстр"
   },
   "montag": {
     "pos": "name",
-    "lemma": "montag",
+    "lemma": "Montag",
     "en": "Monday",
     "ru": "Понедельник"
   },
   "montagmorgen": {
     "pos": "noun",
-    "lemma": "montagmorgen",
+    "lemma": "der Montagmorgen",
     "en": "Monday morning",
     "ru": "понедельник утром"
   },
   "morgen": {
     "pos": "noun",
-    "lemma": "morgen",
+    "lemma": "der Morgen",
     "en": "morning",
     "ru": "утро"
   },
@@ -6607,13 +6607,13 @@
   },
   "mund": {
     "pos": "noun",
-    "lemma": "mund",
+    "lemma": "der Mund",
     "en": "mouth",
     "ru": "рот"
   },
   "musik": {
     "pos": "noun",
-    "lemma": "musik",
+    "lemma": "die Musik",
     "en": "music",
     "ru": "музыка"
   },
@@ -6643,7 +6643,7 @@
   },
   "mut": {
     "pos": "noun",
-    "lemma": "mut",
+    "lemma": "der Mut",
     "en": "courage",
     "ru": "смелость"
   },
@@ -6661,13 +6661,13 @@
   },
   "mutter": {
     "pos": "noun",
-    "lemma": "mutter",
+    "lemma": "die Mutter",
     "en": "mother",
     "ru": "мать"
   },
   "männer": {
     "pos": "noun",
-    "lemma": "mann",
+    "lemma": "der Mann",
     "en": "men",
     "ru": "мужчины"
   },
@@ -6679,7 +6679,7 @@
   },
   "möwe": {
     "pos": "noun",
-    "lemma": "möwe",
+    "lemma": "die Möwe",
     "en": "seagull",
     "ru": "чайка"
   },
@@ -6703,19 +6703,19 @@
   },
   "mülltonne": {
     "pos": "noun",
-    "lemma": "mülltonne",
+    "lemma": "die Mülltonne",
     "en": "trash bin",
     "ru": "мусорный бак"
   },
   "mülltonnen": {
     "pos": "noun",
-    "lemma": "mülltonne",
+    "lemma": "die Mülltonne",
     "en": "garbage cans",
     "ru": "мусорные баки"
   },
   "münchen": {
     "pos": "name",
-    "lemma": "münchen",
+    "lemma": "München",
     "en": "Munich",
     "ru": "Мюнхен"
   },
@@ -6745,7 +6745,7 @@
   },
   "mütze": {
     "pos": "noun",
-    "lemma": "mütze",
+    "lemma": "die Mütze",
     "en": "cap, hat",
     "ru": "шапка"
   },
@@ -6763,7 +6763,7 @@
   },
   "nachbarin": {
     "pos": "noun",
-    "lemma": "nachbarin",
+    "lemma": "die Nachbarin",
     "en": "neighbor (f)",
     "ru": "соседка"
   },
@@ -6799,19 +6799,19 @@
   },
   "nachmittag": {
     "pos": "noun",
-    "lemma": "nachmittag",
+    "lemma": "der Nachmittag",
     "en": "afternoon",
     "ru": "после полудня"
   },
   "nachricht": {
     "pos": "noun",
-    "lemma": "nachricht",
+    "lemma": "die Nachricht",
     "en": "message",
     "ru": "сообщение"
   },
   "nachrichten": {
     "pos": "noun",
-    "lemma": "nachricht",
+    "lemma": "die Nachricht",
     "en": "messages",
     "ru": "сообщения"
   },
@@ -6823,7 +6823,7 @@
   },
   "nacht": {
     "pos": "noun",
-    "lemma": "nacht",
+    "lemma": "die Nacht",
     "en": "night",
     "ru": "ночь"
   },
@@ -6841,19 +6841,19 @@
   },
   "name": {
     "pos": "noun",
-    "lemma": "name",
+    "lemma": "der Name",
     "en": "name",
     "ru": "имя"
   },
   "namen": {
     "pos": "noun",
-    "lemma": "name",
+    "lemma": "der Name",
     "en": "names",
     "ru": "имена"
   },
   "nase": {
     "pos": "noun",
-    "lemma": "nase",
+    "lemma": "die Nase",
     "en": "nose",
     "ru": "нос"
   },
@@ -6895,7 +6895,7 @@
   },
   "nebel": {
     "pos": "noun",
-    "lemma": "nebel",
+    "lemma": "der Nebel",
     "en": "fog",
     "ru": "туман"
   },
@@ -7081,31 +7081,31 @@
   },
   "noten": {
     "pos": "noun",
-    "lemma": "note",
+    "lemma": "die Note",
     "en": "notes",
     "ru": "ноты"
   },
   "notizbuch": {
     "pos": "noun",
-    "lemma": "notizbuch",
+    "lemma": "das Notizbuch",
     "en": "notebook",
     "ru": "записная книжка"
   },
   "notvorrat": {
     "pos": "noun",
-    "lemma": "notvorrat",
+    "lemma": "der Notvorrat",
     "en": "emergency supplies",
     "ru": "запасы на случай беды"
   },
   "nudeln": {
     "pos": "noun",
-    "lemma": "nudel",
+    "lemma": "die Nudel",
     "en": "pasta",
     "ru": "макаронные изделия"
   },
   "nummer": {
     "pos": "noun",
-    "lemma": "nummer",
+    "lemma": "die Nummer",
     "en": "number",
     "ru": "номер"
   },
@@ -7201,19 +7201,19 @@
   },
   "oma": {
     "pos": "noun",
-    "lemma": "oma",
+    "lemma": "die Oma",
     "en": "grandma",
     "ru": "бабушка"
   },
   "onkel": {
     "pos": "noun",
-    "lemma": "onkel",
+    "lemma": "der Onkel",
     "en": "uncle",
     "ru": "дядя"
   },
   "opa": {
     "pos": "noun",
-    "lemma": "opa",
+    "lemma": "der Opa",
     "en": "grandpa",
     "ru": "дедушка"
   },
@@ -7225,13 +7225,13 @@
   },
   "ordnung": {
     "pos": "noun",
-    "lemma": "ordnung",
+    "lemma": "die Ordnung",
     "en": "order",
     "ru": "порядок"
   },
   "ort": {
     "pos": "noun",
-    "lemma": "ort",
+    "lemma": "der Ort",
     "en": "place",
     "ru": "место"
   },
@@ -7243,7 +7243,7 @@
   },
   "paar": {
     "pos": "noun",
-    "lemma": "paar",
+    "lemma": "das Paar",
     "en": "couple",
     "ru": "пара"
   },
@@ -7255,19 +7255,19 @@
   },
   "papier": {
     "pos": "noun",
-    "lemma": "papier",
+    "lemma": "das Papier",
     "en": "paper",
     "ru": "бумага"
   },
   "papiere": {
     "pos": "noun",
-    "lemma": "papier",
+    "lemma": "das Papier",
     "en": "papers",
     "ru": "бумаги"
   },
   "papiertüte": {
     "pos": "noun",
-    "lemma": "papiertüte",
+    "lemma": "die Papiertüte",
     "en": "paper bag",
     "ru": "бумажный пакет"
   },
@@ -7303,19 +7303,19 @@
   },
   "passwort": {
     "pos": "noun",
-    "lemma": "passwort",
+    "lemma": "das Passwort",
     "en": "password",
     "ru": "пароль"
   },
   "pause": {
     "pos": "noun",
-    "lemma": "pause",
+    "lemma": "die Pause",
     "en": "break, pause",
     "ru": "пауза"
   },
   "pech": {
     "pos": "noun",
-    "lemma": "Pech",
+    "lemma": "das Pech",
     "en": "bad luck",
     "ru": "невезение"
   },
@@ -7345,7 +7345,7 @@
   },
   "person": {
     "pos": "noun",
-    "lemma": "person",
+    "lemma": "die Person",
     "en": "person",
     "ru": "человек"
   },
@@ -7357,19 +7357,19 @@
   },
   "pfütze": {
     "pos": "noun",
-    "lemma": "pfütze",
+    "lemma": "die Pfütze",
     "en": "puddle",
     "ru": "лужа"
   },
   "pfützen": {
     "pos": "noun",
-    "lemma": "pfütze",
+    "lemma": "die Pfütze",
     "en": "puddles",
     "ru": "лужи"
   },
   "plan": {
     "pos": "noun",
-    "lemma": "plan",
+    "lemma": "der Plan",
     "en": "plan",
     "ru": "план"
   },
@@ -7381,7 +7381,7 @@
   },
   "platz": {
     "pos": "noun",
-    "lemma": "platz",
+    "lemma": "der Platz",
     "en": "place",
     "ru": "место"
   },
@@ -7399,13 +7399,13 @@
   },
   "polizei": {
     "pos": "noun",
-    "lemma": "polizei",
+    "lemma": "die Polizei",
     "en": "police",
     "ru": "полиция"
   },
   "porzellan": {
     "pos": "noun",
-    "lemma": "porzellan",
+    "lemma": "das Porzellan",
     "en": "porcelain",
     "ru": "фарфор"
   },
@@ -7423,7 +7423,7 @@
   },
   "punkte": {
     "pos": "noun",
-    "lemma": "punkt",
+    "lemma": "der Punkt",
     "en": "points",
     "ru": "пункты"
   },
@@ -7435,19 +7435,19 @@
   },
   "qualität": {
     "pos": "noun",
-    "lemma": "qualität",
+    "lemma": "die Qualität",
     "en": "quality",
     "ru": "качество"
   },
   "qualitätsflecken": {
     "pos": "noun",
-    "lemma": "qualitätsfleck",
+    "lemma": "der Qualitätsfleck",
     "en": "quality marks",
     "ru": "пятна качества"
   },
   "quatsch": {
     "pos": "noun",
-    "lemma": "quatsch",
+    "lemma": "der Quatsch",
     "en": "nonsense",
     "ru": "чушь"
   },
@@ -7459,19 +7459,19 @@
   },
   "radio": {
     "pos": "noun",
-    "lemma": "radio",
+    "lemma": "das Radio",
     "en": "radio",
     "ru": "радио"
   },
   "rahmen": {
     "pos": "noun",
-    "lemma": "rahmen",
+    "lemma": "der Rahmen",
     "en": "frame",
     "ru": "рамка"
   },
   "rand": {
     "pos": "noun",
-    "lemma": "rand",
+    "lemma": "der Rand",
     "en": "edge",
     "ru": "край"
   },
@@ -7483,25 +7483,25 @@
   },
   "rathaus": {
     "pos": "noun",
-    "lemma": "rathaus",
+    "lemma": "das Rathaus",
     "en": "town hall",
     "ru": "ратуша"
   },
   "rauch": {
     "pos": "noun",
-    "lemma": "rauch",
+    "lemma": "der Rauch",
     "en": "smoke",
     "ru": "дым"
   },
   "raum": {
     "pos": "noun",
-    "lemma": "raum",
+    "lemma": "der Raum",
     "en": "room",
     "ru": "комната"
   },
   "raumes": {
     "pos": "noun",
-    "lemma": "raum",
+    "lemma": "der Raum",
     "en": "room",
     "ru": "комнаты"
   },
@@ -7513,7 +7513,7 @@
   },
   "recht": {
     "pos": "noun",
-    "lemma": "recht",
+    "lemma": "das Recht",
     "en": "right",
     "ru": "право"
   },
@@ -7531,31 +7531,31 @@
   },
   "regal": {
     "pos": "noun",
-    "lemma": "regal",
+    "lemma": "das Regal",
     "en": "shelf",
     "ru": "полка"
   },
   "regale": {
     "pos": "noun",
-    "lemma": "regal",
+    "lemma": "das Regal",
     "en": "shelves",
     "ru": "полки"
   },
   "regen": {
     "pos": "noun",
-    "lemma": "regen",
+    "lemma": "der Regen",
     "en": "rain",
     "ru": "дождь"
   },
   "regens": {
     "pos": "noun",
-    "lemma": "regen",
+    "lemma": "der Regen",
     "en": "rain",
     "ru": "дождя"
   },
   "regenschirmen": {
     "pos": "noun",
-    "lemma": "regenschirm",
+    "lemma": "der Regenschirm",
     "en": "umbrellas",
     "ru": "зонтики"
   },
@@ -7585,13 +7585,13 @@
   },
   "reihe": {
     "pos": "noun",
-    "lemma": "reihe",
+    "lemma": "die Reihe",
     "en": "row",
     "ru": "ряд"
   },
   "reihen": {
     "pos": "noun",
-    "lemma": "reihe",
+    "lemma": "die Reihe",
     "en": "rows",
     "ru": "ряды"
   },
@@ -7621,13 +7621,13 @@
   },
   "reißverschluss": {
     "pos": "noun",
-    "lemma": "reißverschluss",
+    "lemma": "der Reißverschluss",
     "en": "zipper",
     "ru": "молния"
   },
   "rest": {
     "pos": "noun",
-    "lemma": "rest",
+    "lemma": "der Rest",
     "en": "rest",
     "ru": "отдых"
   },
@@ -7651,13 +7651,13 @@
   },
   "richtung": {
     "pos": "noun",
-    "lemma": "richtung",
+    "lemma": "die Richtung",
     "en": "direction",
     "ru": "направление"
   },
   "richtungen": {
     "pos": "noun",
-    "lemma": "richtung",
+    "lemma": "die Richtung",
     "en": "directions",
     "ru": "направления"
   },
@@ -7675,7 +7675,7 @@
   },
   "risiko": {
     "pos": "noun",
-    "lemma": "risiko",
+    "lemma": "das Risiko",
     "en": "risk",
     "ru": "риск"
   },
@@ -7687,19 +7687,19 @@
   },
   "robert": {
     "pos": "name",
-    "lemma": "robert",
+    "lemma": "Robert",
     "en": "Robert",
     "ru": "Роберт"
   },
   "robert-spruch": {
     "pos": "noun",
-    "lemma": "robert-spruch",
+    "lemma": "der Robert-Spruch",
     "en": "Robert's saying",
     "ru": "поговорка Роберта"
   },
   "roberts": {
     "pos": "name",
-    "lemma": "robert",
+    "lemma": "Robert",
     "en": "Robert",
     "ru": "Роберт"
   },
@@ -7711,13 +7711,13 @@
   },
   "rohr": {
     "pos": "noun",
-    "lemma": "rohr",
+    "lemma": "das Rohr",
     "en": "pipe",
     "ru": "труба"
   },
   "rohre": {
     "pos": "noun",
-    "lemma": "rohr",
+    "lemma": "das Rohr",
     "en": "pipes",
     "ru": "трубы"
   },
@@ -7759,7 +7759,7 @@
   },
   "ruhe": {
     "pos": "noun",
-    "lemma": "ruhe",
+    "lemma": "die Ruhe",
     "en": "rest",
     "ru": "покой"
   },
@@ -7813,13 +7813,13 @@
   },
   "rücken": {
     "pos": "noun",
-    "lemma": "rücken",
+    "lemma": "der Rücken",
     "en": "back",
     "ru": "спина"
   },
   "rückweg": {
     "pos": "noun",
-    "lemma": "rückweg",
+    "lemma": "der Rückweg",
     "en": "way back",
     "ru": "обратный путь"
   },
@@ -7831,13 +7831,13 @@
   },
   "sache": {
     "pos": "noun",
-    "lemma": "sache",
+    "lemma": "die Sache",
     "en": "matter, thing",
     "ru": "вещь"
   },
   "sachen": {
     "pos": "noun",
-    "lemma": "sache",
+    "lemma": "die Sache",
     "en": "things",
     "ru": "вещи"
   },
@@ -7849,7 +7849,7 @@
   },
   "sage": {
     "pos": "noun",
-    "lemma": "sage",
+    "lemma": "die Sage",
     "en": "legend",
     "ru": "легенда"
   },
@@ -7891,13 +7891,13 @@
   },
   "salz": {
     "pos": "noun",
-    "lemma": "salz",
+    "lemma": "das Salz",
     "en": "salt",
     "ru": "соль"
   },
   "salztorswall": {
     "pos": "name",
-    "lemma": "salztorswall",
+    "lemma": "Salztorswall",
     "en": "Salztorswall",
     "ru": "Залцторсвалл"
   },
@@ -7909,25 +7909,25 @@
   },
   "samstagmorgen": {
     "pos": "noun",
-    "lemma": "samstagmorgen",
+    "lemma": "der Samstagmorgen",
     "en": "Saturday morning",
     "ru": "суббота утром"
   },
   "samstagnachmittag": {
     "pos": "noun",
-    "lemma": "samstagnachmittag",
+    "lemma": "der Samstagnachmittag",
     "en": "Saturday afternoon",
     "ru": "суббота, днём"
   },
   "samsung": {
     "pos": "name",
-    "lemma": "samsung",
+    "lemma": "Samsung",
     "en": "Samsung",
     "ru": "Самсунг"
   },
   "satz": {
     "pos": "noun",
-    "lemma": "satz",
+    "lemma": "der Satz",
     "en": "sentence",
     "ru": "предложение"
   },
@@ -7963,13 +7963,13 @@
   },
   "schatten": {
     "pos": "noun",
-    "lemma": "schatten",
+    "lemma": "der Schatten",
     "en": "shadow",
     "ru": "тень"
   },
   "schau": {
     "pos": "noun",
-    "lemma": "schau",
+    "lemma": "die Schau",
     "en": "show",
     "ru": "шоу"
   },
@@ -7999,25 +7999,25 @@
   },
   "scheibe": {
     "pos": "noun",
-    "lemma": "scheibe",
+    "lemma": "die Scheibe",
     "en": "windowpane, disc",
     "ru": "стекло"
   },
   "scherbe": {
     "pos": "noun",
-    "lemma": "scherbe",
+    "lemma": "die Scherbe",
     "en": "shard",
     "ru": "черепок"
   },
   "scherben": {
     "pos": "noun",
-    "lemma": "scherbe",
+    "lemma": "die Scherbe",
     "en": "shards",
     "ru": "черепки"
   },
   "schicht": {
     "pos": "noun",
-    "lemma": "schicht",
+    "lemma": "die Schicht",
     "en": "shift",
     "ru": "смена"
   },
@@ -8047,7 +8047,7 @@
   },
   "schild": {
     "pos": "noun",
-    "lemma": "schild",
+    "lemma": "das Schild",
     "en": "sign",
     "ru": "знак"
   },
@@ -8113,13 +8113,13 @@
   },
   "schlitz": {
     "pos": "noun",
-    "lemma": "schlitz",
+    "lemma": "der Schlitz",
     "en": "slot",
     "ru": "щель"
   },
   "schluck": {
     "pos": "noun",
-    "lemma": "schluck",
+    "lemma": "der Schluck",
     "en": "gulp, drink",
     "ru": "глоток"
   },
@@ -8185,7 +8185,7 @@
   },
   "schornstein": {
     "pos": "noun",
-    "lemma": "schornstein",
+    "lemma": "der Schornstein",
     "en": "chimney",
     "ru": "дымоход"
   },
@@ -8233,13 +8233,13 @@
   },
   "schreibtisch": {
     "pos": "noun",
-    "lemma": "schreibtisch",
+    "lemma": "der Schreibtisch",
     "en": "desk",
     "ru": "стол"
   },
   "schreibtische": {
     "pos": "noun",
-    "lemma": "schreibtisch",
+    "lemma": "der Schreibtisch",
     "en": "desks",
     "ru": "письменные столы"
   },
@@ -8251,97 +8251,97 @@
   },
   "schrift": {
     "pos": "noun",
-    "lemma": "schrift",
+    "lemma": "die Schrift",
     "en": "writing",
     "ru": "письмо"
   },
   "schritte": {
     "pos": "noun",
-    "lemma": "schritt",
+    "lemma": "der Schritt",
     "en": "steps",
     "ru": "шаги"
   },
   "schrott": {
     "pos": "noun",
-    "lemma": "schrott",
+    "lemma": "der Schrott",
     "en": "scrap",
     "ru": "хлам"
   },
   "schubert": {
     "pos": "name",
-    "lemma": "schubert",
+    "lemma": "Schubert",
     "en": "Schubert",
     "ru": "Шуберт"
   },
   "schuberts": {
     "pos": "name",
-    "lemma": "schubert",
+    "lemma": "Schubert",
     "en": "Schubert",
     "ru": "Шуберт"
   },
   "schublade": {
     "pos": "noun",
-    "lemma": "schublade",
+    "lemma": "die Schublade",
     "en": "drawer",
     "ru": "ящик"
   },
   "schubladen": {
     "pos": "noun",
-    "lemma": "schublade",
+    "lemma": "die Schublade",
     "en": "drawers",
     "ru": "ящики"
   },
   "schuh": {
     "pos": "noun",
-    "lemma": "schuh",
+    "lemma": "der Schuh",
     "en": "shoe",
     "ru": "туфля"
   },
   "schuhe": {
     "pos": "noun",
-    "lemma": "schuh",
+    "lemma": "der Schuh",
     "en": "shoes",
     "ru": "туфли"
   },
   "schuhen": {
     "pos": "noun",
-    "lemma": "schuh",
+    "lemma": "der Schuh",
     "en": "shoes",
     "ru": "туфли"
   },
   "schule": {
     "pos": "noun",
-    "lemma": "schule",
+    "lemma": "die Schule",
     "en": "school",
     "ru": "школа"
   },
   "schulhof": {
     "pos": "noun",
-    "lemma": "schulhof",
+    "lemma": "der Schulhof",
     "en": "schoolyard",
     "ru": "школьный двор"
   },
   "schulhofs": {
     "pos": "noun",
-    "lemma": "schulhof",
+    "lemma": "der Schulhof",
     "en": "schoolyard",
     "ru": "школьный двор"
   },
   "schulter": {
     "pos": "noun",
-    "lemma": "schulter",
+    "lemma": "die Schulter",
     "en": "shoulder",
     "ru": "плечо"
   },
   "schultern": {
     "pos": "noun",
-    "lemma": "schulter",
+    "lemma": "die Schulter",
     "en": "shoulders",
     "ru": "плечи"
   },
   "schulweg": {
     "pos": "noun",
-    "lemma": "schulweg",
+    "lemma": "der Schulweg",
     "en": "school route",
     "ru": "дорога в школу"
   },
@@ -8413,7 +8413,7 @@
   },
   "schwester": {
     "pos": "noun",
-    "lemma": "schwester",
+    "lemma": "die Schwester",
     "en": "sister",
     "ru": "сестра"
   },
@@ -8539,19 +8539,19 @@
   },
   "seite": {
     "pos": "noun",
-    "lemma": "seite",
+    "lemma": "die Seite",
     "en": "page",
     "ru": "страница"
   },
   "sekunde": {
     "pos": "noun",
-    "lemma": "sekunde",
+    "lemma": "die Sekunde",
     "en": "second",
     "ru": "секунда"
   },
   "sekunden": {
     "pos": "noun",
-    "lemma": "sekunde",
+    "lemma": "die Sekunde",
     "en": "seconds",
     "ru": "секунды"
   },
@@ -8683,7 +8683,7 @@
   },
   "sim-karte": {
     "pos": "noun",
-    "lemma": "sim-karte",
+    "lemma": "die Sim-Karte",
     "en": "SIM card",
     "ru": "SIM-карта"
   },
@@ -8719,13 +8719,13 @@
   },
   "socken": {
     "pos": "noun",
-    "lemma": "socke",
+    "lemma": "die Socke",
     "en": "socks",
     "ru": "носки"
   },
   "sofa": {
     "pos": "noun",
-    "lemma": "sofa",
+    "lemma": "das Sofa",
     "en": "sofa",
     "ru": "диван"
   },
@@ -8743,7 +8743,7 @@
   },
   "sohn": {
     "pos": "noun",
-    "lemma": "sohn",
+    "lemma": "der Sohn",
     "en": "son",
     "ru": "сын"
   },
@@ -8797,7 +8797,7 @@
   },
   "sommersprossen": {
     "pos": "noun",
-    "lemma": "sommerspross",
+    "lemma": "die Sommerspross",
     "en": "freckles",
     "ru": "веснушки"
   },
@@ -8809,7 +8809,7 @@
   },
   "sonne": {
     "pos": "noun",
-    "lemma": "sonne",
+    "lemma": "die Sonne",
     "en": "sun",
     "ru": "солнце"
   },
@@ -8821,7 +8821,7 @@
   },
   "sorge": {
     "pos": "noun",
-    "lemma": "sorge",
+    "lemma": "die Sorge",
     "en": "worry",
     "ru": "забота"
   },
@@ -8833,7 +8833,7 @@
   },
   "spalt": {
     "pos": "noun",
-    "lemma": "spalt",
+    "lemma": "der Spalt",
     "en": "crack, gap",
     "ru": "щель"
   },
@@ -8851,13 +8851,13 @@
   },
   "spaß": {
     "pos": "noun",
-    "lemma": "spaß",
+    "lemma": "der Spaß",
     "en": "fun",
     "ru": "веселье"
   },
   "spaßmacher": {
     "pos": "noun",
-    "lemma": "spaßmacher",
+    "lemma": "der Spaßmacher",
     "en": "joker",
     "ru": "шутник"
   },
@@ -8869,13 +8869,13 @@
   },
   "spiel": {
     "pos": "noun",
-    "lemma": "spiel",
+    "lemma": "das Spiel",
     "en": "game",
     "ru": "игра"
   },
   "spiele": {
     "pos": "noun",
-    "lemma": "spiel",
+    "lemma": "das Spiel",
     "en": "games",
     "ru": "игры"
   },
@@ -8893,13 +8893,13 @@
   },
   "spinne": {
     "pos": "noun",
-    "lemma": "spinne",
+    "lemma": "die Spinne",
     "en": "spider",
     "ru": "паук"
   },
   "sport": {
     "pos": "noun",
-    "lemma": "sport",
+    "lemma": "der Sport",
     "en": "sports",
     "ru": "спорт"
   },
@@ -8917,7 +8917,7 @@
   },
   "sprechblase": {
     "pos": "noun",
-    "lemma": "sprechblase",
+    "lemma": "die Sprechblase",
     "en": "speech bubble",
     "ru": "речевой пузырь"
   },
@@ -8959,13 +8959,13 @@
   },
   "spätnachmittag": {
     "pos": "noun",
-    "lemma": "spätnachmittag",
+    "lemma": "der Spätnachmittag",
     "en": "late afternoon",
     "ru": "поздний полдень"
   },
   "spätschicht": {
     "pos": "noun",
-    "lemma": "spätschicht",
+    "lemma": "die Spätschicht",
     "en": "late shift",
     "ru": "поздняя смена"
   },
@@ -8989,37 +8989,37 @@
   },
   "staat": {
     "pos": "noun",
-    "lemma": "staat",
+    "lemma": "der Staat",
     "en": "state",
     "ru": "государство"
   },
   "stade": {
     "pos": "name",
-    "lemma": "stade",
+    "lemma": "Stade",
     "en": "Stade",
     "ru": "Штаде"
   },
   "stadt": {
     "pos": "noun",
-    "lemma": "stadt",
+    "lemma": "die Stadt",
     "en": "city",
     "ru": "город"
   },
   "stadtarchiv": {
     "pos": "noun",
-    "lemma": "stadtarchiv",
+    "lemma": "das Stadtarchiv",
     "en": "city archive",
     "ru": "городской архив"
   },
   "stadtrat": {
     "pos": "noun",
-    "lemma": "stadtrat",
+    "lemma": "der Stadtrat",
     "en": "city council",
     "ru": "городской совет"
   },
   "stadtzentrum": {
     "pos": "noun",
-    "lemma": "stadtzentrum",
+    "lemma": "das Stadtzentrum",
     "en": "town center",
     "ru": "центр города"
   },
@@ -9037,7 +9037,7 @@
   },
   "standuhr": {
     "pos": "noun",
-    "lemma": "standuhr",
+    "lemma": "die Standuhr",
     "en": "grandfather clock",
     "ru": "напольные часы"
   },
@@ -9067,7 +9067,7 @@
   },
   "staub": {
     "pos": "noun",
-    "lemma": "staub",
+    "lemma": "der Staub",
     "en": "dust",
     "ru": "пыль"
   },
@@ -9133,13 +9133,13 @@
   },
   "stein": {
     "pos": "noun",
-    "lemma": "stein",
+    "lemma": "der Stein",
     "en": "stone",
     "ru": "камень"
   },
   "steine": {
     "pos": "noun",
-    "lemma": "stein",
+    "lemma": "der Stein",
     "en": "stones",
     "ru": "камни"
   },
@@ -9175,7 +9175,7 @@
   },
   "stift": {
     "pos": "noun",
-    "lemma": "stift",
+    "lemma": "der Stift",
     "en": "pencil, pen",
     "ru": "карандаш"
   },
@@ -9187,19 +9187,19 @@
   },
   "stille": {
     "pos": "noun",
-    "lemma": "stille",
+    "lemma": "die Stille",
     "en": "silence",
     "ru": "тишина"
   },
   "stimme": {
     "pos": "noun",
-    "lemma": "stimme",
+    "lemma": "die Stimme",
     "en": "voice",
     "ru": "голос"
   },
   "stimmen": {
     "pos": "noun",
-    "lemma": "stimme",
+    "lemma": "die Stimme",
     "en": "voices",
     "ru": "голоса"
   },
@@ -9217,25 +9217,25 @@
   },
   "stirn": {
     "pos": "noun",
-    "lemma": "stirn",
+    "lemma": "die Stirn",
     "en": "forehead",
     "ru": "лоб"
   },
   "stock": {
     "pos": "noun",
-    "lemma": "stock",
+    "lemma": "der Stock",
     "en": "stick, staff",
     "ru": "палка"
   },
   "stoff": {
     "pos": "noun",
-    "lemma": "stoff",
+    "lemma": "der Stoff",
     "en": "material",
     "ru": "материал"
   },
   "stolz": {
     "pos": "noun",
-    "lemma": "stolz",
+    "lemma": "der Stolz",
     "en": "pride",
     "ru": "гордость"
   },
@@ -9247,19 +9247,19 @@
   },
   "straße": {
     "pos": "noun",
-    "lemma": "straße",
+    "lemma": "die Straße",
     "en": "street",
     "ru": "улица"
   },
   "straßen": {
     "pos": "noun",
-    "lemma": "straße",
+    "lemma": "die Straße",
     "en": "streets",
     "ru": "улицы"
   },
   "straßenlaternen": {
     "pos": "noun",
-    "lemma": "straßenlaterne",
+    "lemma": "die Straßenlaterne",
     "en": "street lamps",
     "ru": "уличные фонари"
   },
@@ -9271,43 +9271,43 @@
   },
   "streit": {
     "pos": "noun",
-    "lemma": "streit",
+    "lemma": "der Streit",
     "en": "quarrel",
     "ru": "ссора"
   },
   "strich": {
     "pos": "noun",
-    "lemma": "strich",
+    "lemma": "der Strich",
     "en": "line",
     "ru": "линия"
   },
   "stufe": {
     "pos": "noun",
-    "lemma": "stufe",
+    "lemma": "die Stufe",
     "en": "step, level",
     "ru": "ступень"
   },
   "stufen": {
     "pos": "noun",
-    "lemma": "stufe",
+    "lemma": "die Stufe",
     "en": "steps",
     "ru": "ступени"
   },
   "stuhl": {
     "pos": "noun",
-    "lemma": "stuhl",
+    "lemma": "der Stuhl",
     "en": "chair",
     "ru": "стул"
   },
   "stunde": {
     "pos": "noun",
-    "lemma": "stunde",
+    "lemma": "die Stunde",
     "en": "hour",
     "ru": "час"
   },
   "stunden": {
     "pos": "noun",
-    "lemma": "stunde",
+    "lemma": "die Stunde",
     "en": "hours",
     "ru": "часы"
   },
@@ -9325,19 +9325,19 @@
   },
   "stück": {
     "pos": "noun",
-    "lemma": "stück",
+    "lemma": "das Stück",
     "en": "piece",
     "ru": "кусок"
   },
   "stücke": {
     "pos": "noun",
-    "lemma": "stück",
+    "lemma": "das Stück",
     "en": "pieces",
     "ru": "куски"
   },
   "stühle": {
     "pos": "noun",
-    "lemma": "stuhl",
+    "lemma": "der Stuhl",
     "en": "chairs",
     "ru": "стулья"
   },
@@ -9367,7 +9367,7 @@
   },
   "sucht": {
     "pos": "noun",
-    "lemma": "sucht",
+    "lemma": "die Sucht",
     "en": "seeks, addiction",
     "ru": "зависимость"
   },
@@ -9391,31 +9391,31 @@
   },
   "symbol": {
     "pos": "noun",
-    "lemma": "symbol",
+    "lemma": "das Symbol",
     "en": "symbol",
     "ru": "символ"
   },
   "sätze": {
     "pos": "noun",
-    "lemma": "satz",
+    "lemma": "der Satz",
     "en": "sentences",
     "ru": "предложения"
   },
   "säule": {
     "pos": "noun",
-    "lemma": "säule",
+    "lemma": "die Säule",
     "en": "column",
     "ru": "колонна"
   },
   "söhne": {
     "pos": "noun",
-    "lemma": "sohn",
+    "lemma": "der Sohn",
     "en": "sons",
     "ru": "сыновья"
   },
   "söhne'": {
     "pos": "noun",
-    "lemma": "sohn",
+    "lemma": "der Sohn",
     "en": "sons",
     "ru": "сыновья"
   },
@@ -9427,13 +9427,13 @@
   },
   "tag": {
     "pos": "noun",
-    "lemma": "tag",
+    "lemma": "der Tag",
     "en": "day",
     "ru": "день"
   },
   "tage": {
     "pos": "noun",
-    "lemma": "tag",
+    "lemma": "der Tag",
     "en": "days",
     "ru": "дни"
   },
@@ -9445,49 +9445,49 @@
   },
   "tages": {
     "pos": "noun",
-    "lemma": "tag",
+    "lemma": "der Tag",
     "en": "days",
     "ru": "дня"
   },
   "takt": {
     "pos": "noun",
-    "lemma": "takt",
+    "lemma": "der Takt",
     "en": "tact",
     "ru": "такт"
   },
   "tasche": {
     "pos": "noun",
-    "lemma": "tasche",
+    "lemma": "die Tasche",
     "en": "bag",
     "ru": "сумка"
   },
   "taschen": {
     "pos": "noun",
-    "lemma": "tasche",
+    "lemma": "die Tasche",
     "en": "pockets, bags",
     "ru": "карманы"
   },
   "taschenlampe": {
     "pos": "noun",
-    "lemma": "taschenlampe",
+    "lemma": "die Taschenlampe",
     "en": "flashlight",
     "ru": "фонарик"
   },
   "tasse": {
     "pos": "noun",
-    "lemma": "tasse",
+    "lemma": "die Tasse",
     "en": "cup",
     "ru": "чашка"
   },
   "tassen": {
     "pos": "noun",
-    "lemma": "tasse",
+    "lemma": "die Tasse",
     "en": "cups",
     "ru": "чашки"
   },
   "tastatur": {
     "pos": "noun",
-    "lemma": "tastatur",
+    "lemma": "die Tastatur",
     "en": "keyboard",
     "ru": "клавиатура"
   },
@@ -9517,13 +9517,13 @@
   },
   "tee": {
     "pos": "noun",
-    "lemma": "tee",
+    "lemma": "der Tee",
     "en": "tea",
     "ru": "чай"
   },
   "teedose": {
     "pos": "noun",
-    "lemma": "teedose",
+    "lemma": "die Teedose",
     "en": "tea tin",
     "ru": "коробка для чая"
   },
@@ -9535,25 +9535,25 @@
   },
   "teller": {
     "pos": "noun",
-    "lemma": "teller",
+    "lemma": "der Teller",
     "en": "plate",
     "ru": "тарелка"
   },
   "tellern": {
     "pos": "noun",
-    "lemma": "teller",
+    "lemma": "der Teller",
     "en": "plates",
     "ru": "тарелки"
   },
   "teppich": {
     "pos": "noun",
-    "lemma": "teppich",
+    "lemma": "der Teppich",
     "en": "carpet",
     "ru": "ковёр"
   },
   "test": {
     "pos": "noun",
-    "lemma": "test",
+    "lemma": "der Test",
     "en": "test",
     "ru": "тест"
   },
@@ -9577,19 +9577,19 @@
   },
   "text": {
     "pos": "noun",
-    "lemma": "text",
+    "lemma": "der Text",
     "en": "text",
     "ru": "текст"
   },
   "theke": {
     "pos": "noun",
-    "lemma": "theke",
+    "lemma": "die Theke",
     "en": "bar, counter",
     "ru": "стойка"
   },
   "theorien": {
     "pos": "noun",
-    "lemma": "theorie",
+    "lemma": "die Theorie",
     "en": "theories",
     "ru": "теории"
   },
@@ -9619,31 +9619,31 @@
   },
   "tiere": {
     "pos": "noun",
-    "lemma": "tier",
+    "lemma": "das Tier",
     "en": "animals",
     "ru": "животные"
   },
   "tim": {
     "pos": "name",
-    "lemma": "tim",
+    "lemma": "Tim",
     "en": "Tim",
     "ru": "Тим"
   },
   "timm": {
     "pos": "name",
-    "lemma": "timm",
+    "lemma": "Timm",
     "en": "Timm",
     "ru": "Тимм"
   },
   "tims": {
     "pos": "name",
-    "lemma": "tim",
+    "lemma": "Tim",
     "en": "Tim",
     "ru": "Тим"
   },
   "tinte": {
     "pos": "noun",
-    "lemma": "tinte",
+    "lemma": "die Tinte",
     "en": "ink",
     "ru": "чернила"
   },
@@ -9661,7 +9661,7 @@
   },
   "tisch": {
     "pos": "noun",
-    "lemma": "tisch",
+    "lemma": "der Tisch",
     "en": "table",
     "ru": "стол"
   },
@@ -9673,7 +9673,7 @@
   },
   "tor": {
     "pos": "noun",
-    "lemma": "tor",
+    "lemma": "das Tor",
     "en": "gate",
     "ru": "ворота"
   },
@@ -9721,7 +9721,7 @@
   },
   "traum": {
     "pos": "noun",
-    "lemma": "traum",
+    "lemma": "der Traum",
     "en": "dream",
     "ru": "мечта"
   },
@@ -9763,13 +9763,13 @@
   },
   "treppe": {
     "pos": "noun",
-    "lemma": "treppe",
+    "lemma": "die Treppe",
     "en": "stairs",
     "ru": "лестница"
   },
   "treppenhaus": {
     "pos": "noun",
-    "lemma": "treppenhaus",
+    "lemma": "das Treppenhaus",
     "en": "stairwell",
     "ru": "лестничная клетка"
   },
@@ -9823,7 +9823,7 @@
   },
   "träume": {
     "pos": "noun",
-    "lemma": "traum",
+    "lemma": "der Traum",
     "en": "dreams",
     "ru": "мечты"
   },
@@ -9841,7 +9841,7 @@
   },
   "turm": {
     "pos": "noun",
-    "lemma": "turm",
+    "lemma": "der Turm",
     "en": "tower",
     "ru": "башня"
   },
@@ -9853,31 +9853,31 @@
   },
   "tür": {
     "pos": "noun",
-    "lemma": "tür",
+    "lemma": "die Tür",
     "en": "door",
     "ru": "дверь"
   },
   "türen": {
     "pos": "noun",
-    "lemma": "tür",
+    "lemma": "die Tür",
     "en": "doors",
     "ru": "двери"
   },
   "tüte": {
     "pos": "noun",
-    "lemma": "tüte",
+    "lemma": "die Tüte",
     "en": "bag",
     "ru": "сумка"
   },
   "tüten": {
     "pos": "noun",
-    "lemma": "tüte",
+    "lemma": "die Tüte",
     "en": "bags",
     "ru": "пакеты"
   },
   "uhr": {
     "pos": "noun",
-    "lemma": "uhr",
+    "lemma": "die Uhr",
     "en": "clock",
     "ru": "часы"
   },
@@ -9913,13 +9913,13 @@
   },
   "umkleide": {
     "pos": "noun",
-    "lemma": "umkleide",
+    "lemma": "die Umkleide",
     "en": "changing room",
     "ru": "раздевалка"
   },
   "umschlag": {
     "pos": "noun",
-    "lemma": "umschlag",
+    "lemma": "der Umschlag",
     "en": "envelope",
     "ru": "конверт"
   },
@@ -9967,7 +9967,7 @@
   },
   "unruhe": {
     "pos": "noun",
-    "lemma": "unruhe",
+    "lemma": "die Unruhe",
     "en": "unrest",
     "ru": "беспокойство"
   },
@@ -10027,7 +10027,7 @@
   },
   "unterschied": {
     "pos": "noun",
-    "lemma": "unterschied",
+    "lemma": "der Unterschied",
     "en": "difference",
     "ru": "разница"
   },
@@ -10039,19 +10039,19 @@
   },
   "vase": {
     "pos": "noun",
-    "lemma": "vase",
+    "lemma": "die Vase",
     "en": "vase",
     "ru": "ваза"
   },
   "vater": {
     "pos": "noun",
-    "lemma": "vater",
+    "lemma": "der Vater",
     "en": "father",
     "ru": "отец"
   },
   "vaters": {
     "pos": "noun",
-    "lemma": "vater",
+    "lemma": "der Vater",
     "en": "father's",
     "ru": "отца"
   },
@@ -10069,7 +10069,7 @@
   },
   "verbindung": {
     "pos": "noun",
-    "lemma": "verbindung",
+    "lemma": "die Verbindung",
     "en": "connection",
     "ru": "связь"
   },
@@ -10141,7 +10141,7 @@
   },
   "verlierer": {
     "pos": "noun",
-    "lemma": "verlierer",
+    "lemma": "der Verlierer",
     "en": "loser",
     "ru": "проигравший"
   },
@@ -10153,7 +10153,7 @@
   },
   "verrat": {
     "pos": "noun",
-    "lemma": "verrat",
+    "lemma": "der Verrat",
     "en": "betrayal",
     "ru": "предательство"
   },
@@ -10267,7 +10267,7 @@
   },
   "vertrauen": {
     "pos": "noun",
-    "lemma": "vertrauen",
+    "lemma": "das Vertrauen",
     "en": "trust",
     "ru": "доверие"
   },
@@ -10297,7 +10297,7 @@
   },
   "video": {
     "pos": "noun",
-    "lemma": "video",
+    "lemma": "das Video",
     "en": "video",
     "ru": "видео"
   },
@@ -10411,7 +10411,7 @@
   },
   "vorgarten": {
     "pos": "noun",
-    "lemma": "vorgarten",
+    "lemma": "der Vorgarten",
     "en": "front yard",
     "ru": "палисадник"
   },
@@ -10435,7 +10435,7 @@
   },
   "vormittag": {
     "pos": "noun",
-    "lemma": "vormittag",
+    "lemma": "der Vormittag",
     "en": "morning",
     "ru": "утро"
   },
@@ -10447,7 +10447,7 @@
   },
   "vorsicht": {
     "pos": "noun",
-    "lemma": "vorsicht",
+    "lemma": "die Vorsicht",
     "en": "caution",
     "ru": "осторожность"
   },
@@ -10489,7 +10489,7 @@
   },
   "wagner": {
     "pos": "name",
-    "lemma": "wagner",
+    "lemma": "Wagner",
     "en": "Wagner",
     "ru": "Вагнер"
   },
@@ -10501,7 +10501,7 @@
   },
   "wahrheit": {
     "pos": "noun",
-    "lemma": "wahrheit",
+    "lemma": "die Wahrheit",
     "en": "truth",
     "ru": "правда"
   },
@@ -10513,13 +10513,13 @@
   },
   "wand": {
     "pos": "noun",
-    "lemma": "wand",
+    "lemma": "die Wand",
     "en": "wall",
     "ru": "стена"
   },
   "wange": {
     "pos": "noun",
-    "lemma": "wange",
+    "lemma": "die Wange",
     "en": "cheek",
     "ru": "щека"
   },
@@ -10621,19 +10621,19 @@
   },
   "wasser": {
     "pos": "noun",
-    "lemma": "wasser",
+    "lemma": "das Wasser",
     "en": "water",
     "ru": "вода"
   },
   "wasserturm": {
     "pos": "noun",
-    "lemma": "wasserturm",
+    "lemma": "der Wasserturm",
     "en": "water tower",
     "ru": "водонапорная башня"
   },
   "weg": {
     "pos": "noun",
-    "lemma": "weg",
+    "lemma": "der Weg",
     "en": "way",
     "ru": "путь"
   },
@@ -10687,13 +10687,13 @@
   },
   "weile": {
     "pos": "noun",
-    "lemma": "weile",
+    "lemma": "die Weile",
     "en": "while",
     "ru": "время"
   },
   "weise": {
     "pos": "noun",
-    "lemma": "weise",
+    "lemma": "die Weise",
     "en": "manner, way",
     "ru": "способ"
   },
@@ -10777,7 +10777,7 @@
   },
   "welt": {
     "pos": "noun",
-    "lemma": "welt",
+    "lemma": "die Welt",
     "en": "world",
     "ru": "мир"
   },
@@ -10855,19 +10855,19 @@
   },
   "werft": {
     "pos": "noun",
-    "lemma": "werft",
+    "lemma": "die Werft",
     "en": "shipyard",
     "ru": "верфь"
   },
   "wert": {
     "pos": "noun",
-    "lemma": "wert",
+    "lemma": "der Wert",
     "en": "value",
     "ru": "стоимость"
   },
   "wetter": {
     "pos": "noun",
-    "lemma": "wetter",
+    "lemma": "das Wetter",
     "en": "weather",
     "ru": "погода"
   },
@@ -10915,7 +10915,7 @@
   },
   "wilhadistraße": {
     "pos": "name",
-    "lemma": "wilhadistraße",
+    "lemma": "Wilhadistraße",
     "en": "Wilhadistraße",
     "ru": "Вильхадиштрассе"
   },
@@ -10933,13 +10933,13 @@
   },
   "wind": {
     "pos": "noun",
-    "lemma": "wind",
+    "lemma": "der Wind",
     "en": "wind",
     "ru": "ветер"
   },
   "windrad": {
     "pos": "noun",
-    "lemma": "windrad",
+    "lemma": "das Windrad",
     "en": "windmill",
     "ru": "ветряная мельница"
   },
@@ -10993,13 +10993,13 @@
   },
   "witz": {
     "pos": "noun",
-    "lemma": "witz",
+    "lemma": "der Witz",
     "en": "joke",
     "ru": "шутка"
   },
   "witze": {
     "pos": "noun",
-    "lemma": "witz",
+    "lemma": "der Witz",
     "en": "jokes",
     "ru": "шутки"
   },
@@ -11017,19 +11017,19 @@
   },
   "woche": {
     "pos": "noun",
-    "lemma": "woche",
+    "lemma": "die Woche",
     "en": "week",
     "ru": "неделя"
   },
   "wochen": {
     "pos": "noun",
-    "lemma": "woche",
+    "lemma": "die Woche",
     "en": "weeks",
     "ru": "недели"
   },
   "wochenende": {
     "pos": "noun",
-    "lemma": "wochenende",
+    "lemma": "das Wochenende",
     "en": "weekend",
     "ru": "выходные"
   },
@@ -11065,7 +11065,7 @@
   },
   "wohnhäuser": {
     "pos": "noun",
-    "lemma": "wohnhaus",
+    "lemma": "das Wohnhaus",
     "en": "houses",
     "ru": "дома"
   },
@@ -11095,19 +11095,19 @@
   },
   "wohnung": {
     "pos": "noun",
-    "lemma": "wohnung",
+    "lemma": "die Wohnung",
     "en": "apartment",
     "ru": "квартира"
   },
   "wohnzimmer": {
     "pos": "noun",
-    "lemma": "wohnzimmer",
+    "lemma": "das Wohnzimmer",
     "en": "living room",
     "ru": "гостиная"
   },
   "wolken": {
     "pos": "noun",
-    "lemma": "wolke",
+    "lemma": "die Wolke",
     "en": "clouds",
     "ru": "облака"
   },
@@ -11131,13 +11131,13 @@
   },
   "wort": {
     "pos": "noun",
-    "lemma": "wort",
+    "lemma": "das Wort",
     "en": "word",
     "ru": "слово"
   },
   "worte": {
     "pos": "noun",
-    "lemma": "wort",
+    "lemma": "das Wort",
     "en": "words",
     "ru": "слова"
   },
@@ -11179,7 +11179,7 @@
   },
   "wut": {
     "pos": "noun",
-    "lemma": "wut",
+    "lemma": "die Wut",
     "en": "anger",
     "ru": "гнев"
   },
@@ -11197,7 +11197,7 @@
   },
   "wärme": {
     "pos": "noun",
-    "lemma": "wärme",
+    "lemma": "die Wärme",
     "en": "warmth",
     "ru": "тепло"
   },
@@ -11209,7 +11209,7 @@
   },
   "wörter": {
     "pos": "noun",
-    "lemma": "wort",
+    "lemma": "das Wort",
     "en": "words",
     "ru": "слова"
   },
@@ -11245,7 +11245,7 @@
   },
   "zahl": {
     "pos": "noun",
-    "lemma": "zahl",
+    "lemma": "die Zahl",
     "en": "number",
     "ru": "число"
   },
@@ -11257,7 +11257,7 @@
   },
   "zaun": {
     "pos": "noun",
-    "lemma": "zaun",
+    "lemma": "der Zaun",
     "en": "fence",
     "ru": "забор"
   },
@@ -11269,7 +11269,7 @@
   },
   "zeichen": {
     "pos": "noun",
-    "lemma": "zeichen",
+    "lemma": "das Zeichen",
     "en": "sign",
     "ru": "знак"
   },
@@ -11287,31 +11287,31 @@
   },
   "zeile": {
     "pos": "noun",
-    "lemma": "zeile",
+    "lemma": "die Zeile",
     "en": "line",
     "ru": "строка"
   },
   "zeit": {
     "pos": "noun",
-    "lemma": "zeit",
+    "lemma": "die Zeit",
     "en": "time",
     "ru": "время"
   },
   "zeitung": {
     "pos": "noun",
-    "lemma": "zeitung",
+    "lemma": "die Zeitung",
     "en": "newspaper",
     "ru": "газета"
   },
   "zimmer": {
     "pos": "noun",
-    "lemma": "zimmer",
+    "lemma": "das Zimmer",
     "en": "room",
     "ru": "комната"
   },
   "zimt": {
     "pos": "noun",
-    "lemma": "zimt",
+    "lemma": "der Zimt",
     "en": "cinnamon",
     "ru": "корица"
   },
@@ -11377,7 +11377,7 @@
   },
   "zukunft": {
     "pos": "noun",
-    "lemma": "zukunft",
+    "lemma": "die Zukunft",
     "en": "future",
     "ru": "будущее"
   },
@@ -11569,19 +11569,19 @@
   },
   "äpfel": {
     "pos": "noun",
-    "lemma": "apfel",
+    "lemma": "der Apfel",
     "en": "apples",
     "ru": "яблоки"
   },
   "äpfeln": {
     "pos": "noun",
-    "lemma": "apfel",
+    "lemma": "der Apfel",
     "en": "apples",
     "ru": "яблоки"
   },
   "ärger": {
     "pos": "noun",
-    "lemma": "ärger",
+    "lemma": "der Ärger",
     "en": "annoyance",
     "ru": "раздражение"
   },
@@ -11653,7 +11653,7 @@
   },
   "überschrift": {
     "pos": "noun",
-    "lemma": "überschrift",
+    "lemma": "die Überschrift",
     "en": "headline",
     "ru": "заголовок"
   },

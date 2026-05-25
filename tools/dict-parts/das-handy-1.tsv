@@ -1,86 +1,86 @@
-max	name	max	Max	Макс
-jonas	name	jonas	Jonas	Йонас
-tim	name	tim	Tim	Тим
-schubert	name	schubert	Schubert	Шуберт
-helmut	name	helmut	Helmut	Хельмут
-max'	name	max	Max	Макс
-brötchen	noun	brötchen	bread roll	булочка
-bäckerei	noun	bäckerei	bakery	пекарня
+max	name	Max	Max	Макс
+jonas	name	Jonas	Jonas	Йонас
+tim	name	Tim	Tim	Тим
+schubert	name	Schubert	Schubert	Шуберт
+helmut	name	Helmut	Helmut	Хельмут
+max'	name	Max	Max	Макс
+brötchen	noun	das Brötchen	bread roll	булочка
+bäckerei	noun	die Bäckerei	bakery	пекарня
 hallo	intj	hallo	hello	привет
-stade	name	stade	Stade	Штаде
-lindenstraße	name	lindenstraße	Lindenstraße	Линденштрассе
-umkleide	noun	umkleide	changing room	раздевалка
-lina	name	lina	Lina	Лина
-roberts	name	robert	Robert	Роберт
+stade	name	Stade	Stade	Штаде
+lindenstraße	name	Lindenstraße	Lindenstraße	Линденштрассе
+umkleide	noun	die Umkleide	changing room	раздевалка
+lina	name	Lina	Lina	Лина
+roberts	name	Robert	Robert	Роберт
 komisch	adj	komisch	strange	странный
-treppenhaus	noun	treppenhaus	stairwell	лестничная клетка
-meier	name	meier	Meier	Майер
-halle	noun	halle	hall	зал
-edeka	name	edeka	Edeka	Эдека
+treppenhaus	noun	das Treppenhaus	stairwell	лестничная клетка
+meier	name	Meier	Meier	Майер
+halle	noun	die Halle	hall	зал
+edeka	name	Edeka	Edeka	Эдека
 nickt	verb	nicken	nods	кивает
 flüstert	verb	flüstern	whispers	шепчет
-tüte	noun	tüte	bag	сумка
-lederfabrik	noun	lederfabrik	leather factory	кожаная фабрика
+tüte	noun	die Tüte	bag	сумка
+lederfabrik	noun	die Lederfabrik	leather factory	кожаная фабрика
 angeschaut	verb	anschauen	looked at	посмотрел на
-becker	name	becker	Becker	Беккер
-tims	name	tim	Tim	Тим
+becker	name	Becker	Becker	Беккер
+tims	name	Tim	Tim	Тим
 seid	verb	sein	are	вы есть
-denkmalschutz	noun	denkmalschutz	monument protection	охрана памятников
-salztorswall	name	salztorswall	Salztorswall	Залцторсвалл
-klavier	noun	klavier	piano	пианино
-marktplatz	noun	marktplatz	marketplace	рыночная площадь
-anja	name	anja	Anja	Аня
-hamburg	name	hamburg	Hamburg	Гамбург
+denkmalschutz	noun	der Denkmalschutz	monument protection	охрана памятников
+salztorswall	name	Salztorswall	Salztorswall	Залцторсвалл
+klavier	noun	das Klavier	piano	пианино
+marktplatz	noun	der Marktplatz	marketplace	рыночная площадь
+anja	name	Anja	Anja	Аня
+hamburg	name	Hamburg	Hamburg	Гамбург
 sag	verb	sagen	say	скажи
 gern	adv	gern	gladly	охотно
-henkel	name	henkel	Henkel	Хенкель
+henkel	name	Henkel	Henkel	Хенкель
 kaputten	adj	kaputt	broken	сломанный
 rein	adv	rein	just	только
 mussten	verb	müssen	had to	должны были
 nachgedacht	verb	nachdenken	thought about	подумал
 wollt	verb	wollen	wanted	хотели
-chat	noun	chat	chat	чат
+chat	noun	der Chat	chat	чат
 herausfinden	verb	herausfinden	find out	узнать
 grinsen	verb	grinsen	grin	улыбаться
 weggegangen	verb	weggehen	went away	ушли
 gemerkt	verb	merken	noticed	заметил
-vase	noun	vase	vase	ваза
-falle	noun	falle	case	случай
-oma	noun	oma	grandma	бабушка
-gartenzwerge	noun	gartenzwerg	garden gnomes	садовые гномы
+vase	noun	die Vase	vase	ваза
+falle	noun	die Falle	case	случай
+oma	noun	die Oma	grandma	бабушка
+gartenzwerge	noun	der Gartenzwerg	garden gnomes	садовые гномы
 weißt	verb	wissen	know	знаешь
 spiegelten	verb	spiegeln	reflected	отражались
 perfekten	adj	perfekt	perfect	идеальный
 geschafft	verb	schaffen	managed	справились
-schuberts	name	schubert	Schubert	Шуберт
+schuberts	name	Schubert	Schubert	Шуберт
 klopft	verb	klopfen	knocks	стучит
 kommst	verb	kommen	come	приходишь
-hoodie	noun	hoodie	hoodie	толстовка с капюшоном
+hoodie	noun	der Hoodie	hoodie	толстовка с капюшоном
 kannst	verb	können	can	можешь
 neugierig	adj	neugierig	curious	любопытный
-kindergarten	noun	kindergarten	kindergarten	детский сад
+kindergarten	noun	der Kindergarten	kindergarten	детский сад
 grinst	verb	grinsen	grins	улыбается
 hey	intj	hey	hey	эй
 komisches	adj	komisch	strange	странный
-papiertüte	noun	papiertüte	paper bag	бумажный пакет
+papiertüte	noun	die Papiertüte	paper bag	бумажный пакет
 mutig	adj	mutig	brave	храбрый
-quatsch	noun	quatsch	nonsense	чушь
+quatsch	noun	der Quatsch	nonsense	чушь
 lacht	verb	lachen	laughs	смеется
 klingelt	verb	klingeln	rings	звонит
-mathe	noun	mathe	math	математика
+mathe	noun	die Mathe	math	математика
 frischem	adj	frisch	fresh	свежий
 süß	adj	süß	sweet	сладкий
-mehl	noun	mehl	flour	мука
+mehl	noun	das Mehl	flour	мука
 ruft	verb	rufen	calls	кричит
 gehst	verb	gehen	go	идешь
-bützfleth	name	bützfleth	Bützfleth	Бютцфлет
+bützfleth	name	Bützfleth	Bützfleth	Бютцфлет
 hierher	adv	hierher	here	сюда
 woanders	adv	woanders	elsewhere	в другом месте
 warst	verb	sein	were	был
 kälter	adj	kalt	colder	холоднее
 tropft	verb	tropfen	drips	капает
 zugemacht	verb	zumachen	closed	закрыл
-schreibtische	noun	schreibtisch	desks	письменные столы
+schreibtische	noun	der Schreibtisch	desks	письменные столы
 kaputte	adj	kaputt	broken	сломанный
 unterste	adj	unterst	lowest	нижний
 wärmer	adj	warm	warmer	теплее
@@ -89,18 +89,18 @@ geleuchtet	verb	leuchten	shone	светил
 geklopft	verb	klopfen	knocked	постучал
 zusammengezuckt	verb	zusammenzucken	flinched	вздрогнул
 aufgemacht	verb	aufmachen	opened	открыл
-sprechblase	noun	sprechblase	speech bubble	речевой пузырь
-app	noun	app	app	приложение
+sprechblase	noun	die Sprechblase	speech bubble	речевой пузырь
+app	noun	die App	app	приложение
 ewig	adv	ewig	forever	вечно
 gezittert	verb	zittern	trembled	дрожал
 geantwortet	verb	antworten	answered	ответил
-dächer	noun	dach	roofs	крыши
+dächer	noun	das Dach	roofs	крыши
 ausgesehen	verb	aussehen	looked	выглядел
 fremder	adj	fremd	strange	чужой
 geregnet	verb	regnen	rained	шел дождь
 gestritten	verb	streiten	argued	спорили
 sehe	verb	sehen	see	вижу
-spätschicht	noun	spätschicht	late shift	поздняя смена
+spätschicht	noun	die Spätschicht	late shift	поздняя смена
 anfassen	verb	anfassen	touch	трогать
 schwarzes	adj	schwarz	black	черный
 deiner	pron	dein	your	твой
@@ -110,13 +110,13 @@ müsst	verb	müssen	must	должны
 lauf	verb	laufen	run	беги
 überblicken	verb	überblicken	survey	охватить взглядом
 könnt	verb	können	can	можете
-laune	noun	laune	mood	настроение
-häusern	noun	haus	houses	дома
-einkaufstüten	noun	einkaufstüte	shopping bags	сумки для покупок
-gehweg	noun	gehweg	sidewalk	тротуар
+laune	noun	die Laune	mood	настроение
+häusern	noun	das Haus	houses	дома
+einkaufstüten	noun	die Einkaufstüte	shopping bags	сумки для покупок
+gehweg	noun	der Gehweg	sidewalk	тротуар
 lieben	verb	lieben	love	любить
-schrott	noun	schrott	scrap	хлам
-straßenlaternen	noun	straßenlaterne	street lamps	уличные фонари
+schrott	noun	der Schrott	scrap	хлам
+straßenlaternen	noun	die Straßenlaterne	street lamps	уличные фонари
 vorsichtigen	adj	vorsichtig	careful	осторожный
 überlegen	verb	überlegen	think over	подумать
 lest	verb	lesen	read	читаешь
