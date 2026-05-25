@@ -5,10 +5,10 @@ const About = ({ lang, allBooks }) => {
   const t = UI_STRINGS[lang];
 
   const facts = [
-    { label: t.aboutFactLives, value: "Hamburg" },
-    { label: t.aboutFactWriting, value: "2019" },
-    { label: t.aboutFactFont, value: "Source Serif" },
-    { label: t.aboutFactBook, value: "Stoner" },
+    { label: t.aboutFactLives, value: "Yerevan, Armenia" },
+    { label: t.aboutFactWriting, value: "2026" },
+    { label: t.aboutFactFont, value: "Source Serif 4" },
+    { label: t.aboutFactBook, value: t.aboutFactBookValue },
   ];
 
   const beliefs = [
@@ -27,23 +27,19 @@ const About = ({ lang, allBooks }) => {
 
       <div style={{ display: "grid", gridTemplateColumns: "260px 1fr", gap: 56, marginBottom: 64, alignItems: "start" }}>
         <div>
-          <div style={{
-            aspectRatio: "3/4",
-            background: "linear-gradient(180deg, #d4a574 0%, #7a3a2a 100%)",
-            borderRadius: 4,
-            display: "grid",
-            placeItems: "center",
-            fontFamily: "var(--font-serif)",
-            color: "var(--paper)",
-            fontSize: 110,
-            fontStyle: "italic",
-            fontWeight: 500,
-            boxShadow: "var(--shadow)",
-            marginBottom: 18,
-          }}>AM</div>
-          <div style={{ fontFamily: "var(--font-serif)", fontStyle: "italic", fontSize: 12, color: "var(--ink-mute)", textAlign: "center" }}>
-            {t.aboutPhotoFollows}
-          </div>
+          <img
+            src="assets/author.jpg"
+            alt="Andrew Maier"
+            style={{
+              width: "100%",
+              aspectRatio: "3/4",
+              objectFit: "cover",
+              objectPosition: "center top",
+              borderRadius: 4,
+              boxShadow: "var(--shadow)",
+              display: "block",
+            }}
+          />
         </div>
         <div style={{ fontSize: 18, lineHeight: 1.65, color: "var(--ink)" }}>
           <p style={{ marginTop: 0 }}>

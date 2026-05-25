@@ -2,6 +2,21 @@
 // Reads books/manifest.json, fetches each markdown file, and turns it into the
 // book object shape the app expects. Pure-JS so it can also run under node for tests.
 
+// Cache-busting suffix for the runtime fetches (manifest, book texts, dictionaries).
+// Taken from this script's own ?v= so it stays in sync with the version in index.html
+// and a single bump refreshes book content too. No-op under node (no document).
+var ASSET_V = "";
+try {
+  if (typeof document !== "undefined" && document.currentScript && document.currentScript.src) {
+    var _vm = document.currentScript.src.match(/[?&]v=([^&]+)/);
+    if (_vm) ASSET_V = _vm[1];
+  }
+} catch (e) {}
+function vbust(path) {
+  if (!ASSET_V) return path;
+  return path + (path.indexOf("?") === -1 ? "?" : "&") + "v=" + ASSET_V;
+}
+
 // Strip inline markdown markers, keep inner text, collapse whitespace, trim.
 function stripInline(s) {
   let out = s;
@@ -222,7 +237,7 @@ async function loadGlossaryFor(entry) {
   if (typeof window === 'undefined') return;
   window.GLOSSARY = window.GLOSSARY || {};
   try {
-    const res = await fetch('books/' + encodeURI(dictPathFor(entry)));
+    const res = await fetch(vbust('books/' + encodeURI(dictPathFor(entry))));
     if (!res.ok) {
       console.debug('[loader] no dictionary for', entry.id, res.status);
       return;
@@ -237,12 +252,12 @@ async function loadGlossaryFor(entry) {
 }
 
 async function loadBooksFromManifest() {
-  const res = await fetch('books/manifest.json');
+  const res = await fetch(vbust('books/manifest.json'));
   const manifest = await res.json();
   const books = [];
   for (const entry of manifest.books) {
     try {
-      const mdRes = await fetch('books/' + encodeURI(entry.file));
+      const mdRes = await fetch(vbust('books/' + encodeURI(entry.file)));
       const md = await mdRes.text();
       books.push(parseMarkdownBook(md, entry));
       await loadGlossaryFor(entry);

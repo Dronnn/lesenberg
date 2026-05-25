@@ -69,7 +69,7 @@ Any static file server works (`npx serve`, nginx, GitHub Pages, etc.).
      "level": "B1",
      "theme": "ink",
      "author": "Andreas Maier",
-     "year": 2024,
+     "year": 2026,
      "file": "archive/my-book.md",
      "chapterMode": "h2",
      "blurb": { "de": "...", "en": "...", "ru": "..." }
