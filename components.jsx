@@ -38,13 +38,15 @@ const Level = ({ value }) => {
 // ---------- COVER ----------
 const BookCover = ({ book, size = "md" }) => {
   const theme = book.theme || "ink";
+  const an = (book.author || "").trim().split(/\s+/);
+  const authorShort = an.length > 1 ? an[0][0] + ". " + an[an.length - 1] : (an[0] || "A. Maier");
   return (
     <div className={"cover theme-" + theme} style={size === "lg" ? { fontSize: 22 } : null}>
       <span className="cover-lvl">{book.level}</span>
       <h3 className="cover-title" style={size === "lg" ? { fontSize: 26 } : null}>{book.title}</h3>
       <div className="cover-rule"></div>
       {book.subtitle && <div className="cover-sub">{book.subtitle}</div>}
-      <span className="cover-author">A. Maier</span>
+      <span className="cover-author">{authorShort}</span>
     </div>
   );
 };

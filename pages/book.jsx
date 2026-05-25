@@ -31,7 +31,7 @@ const BookDetail = ({ lang, book, progress, onMarkUnread, savedWords, knownWords
             {book.subtitle}
           </div>
           <div className="mono mute" style={{ fontSize: 11, letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 18 }}>
-            {t.by} Andrew Maier · {book.year}
+            {t.by} {book.author} · {book.year}
           </div>
           <p style={{ fontSize: 17, lineHeight: 1.6, color: "var(--ink)", maxWidth: 520, marginBottom: 24 }}>
             {blurb}
