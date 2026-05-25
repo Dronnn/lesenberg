@@ -25,6 +25,13 @@ const Help = ({ lang }) => {
       features: [t.helpB1F1, t.helpB1F2, t.helpB1F3, t.helpB1F4],
       example: "Manche Türen, sagte sie endlich, soll man nicht öffnen.",
     },
+    {
+      lvl: "B2",
+      label: t.levelUpperIntermediate,
+      desc: t.helpB2Desc,
+      features: [t.helpB2F1, t.helpB2F2, t.helpB2F3, t.helpB2F4],
+      example: "Obwohl die Akten längst freigegeben waren, blieb die eigentliche Wahrheit zwischen den Zeilen verborgen.",
+    },
   ];
 
   const steps = [
@@ -77,8 +84,8 @@ const Help = ({ lang }) => {
                 <Level value={l.lvl} />
                 <div className="serif" style={{ fontSize: 18, fontWeight: 500, marginTop: 8 }}>{l.label}</div>
               </div>
-              <div>
-                <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6 }}>{l.desc}</p>
+              <div style={{ minWidth: 0 }}>
+                <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6, overflowWrap: "anywhere" }}>{l.desc}</p>
                 <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: 12 }}>
                   {l.features.map(f => (
                     <span key={f} className="mono" style={{
@@ -90,10 +97,12 @@ const Help = ({ lang }) => {
                 </div>
               </div>
               <div style={{
+                minWidth: 0,
                 background: "var(--bg-soft)", padding: 16, borderRadius: 4,
                 borderLeft: "2px solid var(--brown)",
                 fontFamily: "var(--font-serif)", fontStyle: "italic",
                 fontSize: 14, color: "var(--ink-soft)", lineHeight: 1.5,
+                overflowWrap: "anywhere",
               }}>
                 {l.example}
               </div>

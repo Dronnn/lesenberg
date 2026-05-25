@@ -15,8 +15,7 @@ const Home = ({ lang, allBooks, progressMap, savedWords, setRoute, onUpload }) =
 
   const byLevel = (lvl) => allBooks.filter(b => b.level === lvl);
 
-  const CEFR = ["A1", "A2", "B1", "B2", "C1", "C2"];
-  const levels = [...new Set(allBooks.map(b => b.level))].sort((a, b) => CEFR.indexOf(a) - CEFR.indexOf(b));
+  const levels = sortLevels(allBooks.map(b => b.level));
   const totalWords = allBooks.reduce((s, b) => s + (b.words || 0), 0);
   const wordsLabel = totalWords >= 1000 ? Math.round(totalWords / 1000) + "K" : String(totalWords);
 

@@ -29,6 +29,7 @@ All texts are original, written in graded German for learners at **A1–B2**.
 
 | Book | Level | Words | Pages | Reading time | About |
 |------|-------|-------|-------|--------------|-------|
+| **Das Handy** | A2→B1 | ~13,100 | 66 | 2 h 11 | In the small north-German town of Stade, three friends find a strange phone with a single contact — someone writing to them from the future. A warm, gentle story about friendship and courage. |
 | **Djatlow-Pass** | B1 | ~7,800 | 39 | 1 h 18 | January 1959: ten young hikers set out into the northern Urals; nine never return. The true story of the Dyatlov Pass incident. |
 | **Der Zodiac-Killer** | B1 | ~11,200 | 56 | 1 h 52 | California in the late 1960s: an unknown killer murders young couples and mails ciphered letters to the press. He was never caught. |
 | **Im Schatten der Akten** | B1 | ~15,900 | 79 | 2 h 39 | A novel based on true events — after the war, the chemist Henry Reed is drawn into the CIA's secret MKUltra programme. |

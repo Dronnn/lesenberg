@@ -54,7 +54,8 @@ const App = () => {
   const [hardWords, setHardWords] = useStore("hardWords", []);
   const [bookmarks, setBookmarks] = useStore("bookmarks", {}); // { bookId: [{chapter, paragraph, snippet, ts}] }
   const [quizzes, setQuizzes] = useStore("quizzes", {}); // { bookId: { chapterIndex: { score, total, date } } }
-  const [streak, setStreak] = useStore("streak", 7);
+  const [streak, setStreak] = useStore("streak", 0);
+  const [lastActive, setLastActive] = useStore("lastActive", "");
   const [showAuth, setShowAuth] = useState(false);
   const [authMode, setAuthMode] = useState("in");
   const [extraBooks, setExtraBooks] = useState([]);
@@ -68,6 +69,17 @@ const App = () => {
       .catch(e => console.error('[app] book load failed', e))
       .finally(() => { if (alive) setBooksLoading(false); });
     return () => { alive = false; };
+  }, []);
+
+  // Consecutive-day streak: count days the app is opened. Runs once per load.
+  useEffect(() => {
+    const ymd = d => new Date(d.getTime() - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10);
+    const now = new Date();
+    const today = ymd(now);
+    if (lastActive === today) return;
+    const yesterday = ymd(new Date(now.getTime() - 24 * 60 * 60 * 1000));
+    setStreak(lastActive === yesterday ? streak + 1 : 1);
+    setLastActive(today);
   }, []);
 
   // Auto-open auth if route asks for it

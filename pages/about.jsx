@@ -105,6 +105,7 @@ const About = ({ lang, allBooks }) => {
             </a>
           ))}
         </div>
+        <p className="mute" style={{ fontSize: 13, lineHeight: 1.6, marginTop: 16, maxWidth: 560 }}>{t.booksDisclaimer}</p>
       </section>
 
       {/* CONTACT */}

@@ -7,11 +7,14 @@ const Library = ({ lang, allBooks, progressMap, isAdmin, onUpload }) => {
   const [status, setStatus] = useState("all");
   const [showUpload, setShowUpload] = useState(false);
 
-  // Read level from hash query
+  // Read level from hash query (accepts combined / encoded levels too)
   useEffect(() => {
-    const m = window.location.hash.match(/lvl=([A-B]\d)/);
-    if (m) setLevel(m[1]);
+    const m = window.location.hash.match(/lvl=([^&]+)/);
+    if (!m) return;
+    setLevel(decodeURIComponent(m[1]));
   }, []);
+
+  const levelOptions = [["all", t.allLevels], ...sortLevels(allBooks.map(b => b.level)).map(l => [l, l])];
 
   const filtered = useMemo(() => {
     return allBooks.filter(b => {
@@ -53,7 +56,7 @@ const Library = ({ lang, allBooks, progressMap, isAdmin, onUpload }) => {
           <input value={query} onChange={(e) => setQuery(e.target.value)} placeholder={t.search} />
         </div>
         <div style={{ display: "flex", gap: 6, background: "var(--bg-soft)", border: "1px solid var(--line)", borderRadius: 4, padding: 3 }}>
-          {[["all", t.allLevels], ["A1", "A1"], ["A2", "A2"], ["B1", "B1"]].map(([k, label]) => (
+          {levelOptions.map(([k, label]) => (
             <button key={k} onClick={() => setLevel(k)}
               style={{
                 padding: "6px 12px",

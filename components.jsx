@@ -30,9 +30,10 @@ const useStore = (key, initial) => {
 };
 
 // ---------- LEVEL BADGE ----------
-const Level = ({ value }) => (
-  <span className={"lvl lvl-" + value}>{value}</span>
-);
+const Level = ({ value }) => {
+  const band = levelBand(value);
+  return <span className={"lvl" + (band ? " lvl-" + band : "")} title={value}>{value}</span>;
+};
 
 // ---------- COVER ----------
 const BookCover = ({ book, size = "md" }) => {
@@ -450,7 +451,7 @@ const UploadModal = ({ onClose, onAdd, lang }) => {
           <div className="field">
             <label>{t.level}</label>
             <select value={level} onChange={(e) => setLevel(e.target.value)}>
-              <option>A1</option><option>A2</option><option>B1</option>
+              <option>A1</option><option>A2</option><option>A2→B1</option><option>B1</option><option>B2</option>
             </select>
           </div>
           <div className="field">

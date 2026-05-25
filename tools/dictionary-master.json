@@ -359,11 +359,35 @@
     "en": "departure",
     "ru": "отправление"
   },
+  "abreißen": {
+    "pos": "verb",
+    "lemma": "abreißen",
+    "en": "tear off",
+    "ru": "оторвать"
+  },
+  "abreißt": {
+    "pos": "verb",
+    "lemma": "abreißen",
+    "en": "tears down",
+    "ru": "разрушает"
+  },
+  "abriss": {
+    "pos": "noun",
+    "lemma": "abriss",
+    "en": "demolition",
+    "ru": "сноса"
+  },
   "absage": {
     "pos": "noun",
     "lemma": "absage",
     "en": "rejection",
     "ru": "отказ"
+  },
+  "abschicken": {
+    "pos": "verb",
+    "lemma": "abschicken",
+    "en": "send off",
+    "ru": "отправить"
   },
   "abschied": {
     "pos": "noun",
@@ -875,6 +899,12 @@
     "en": "chords",
     "ru": "аккорды"
   },
+  "akku": {
+    "pos": "noun",
+    "lemma": "akku",
+    "en": "battery",
+    "ru": "аккумулятор"
+  },
   "akribisch": {
     "pos": "adj",
     "lemma": "akribisch",
@@ -1175,6 +1205,12 @@
     "en": "all",
     "ru": "все"
   },
+  "alledem": {
+    "pos": "pron",
+    "lemma": "alledem",
+    "en": "all of that",
+    "ru": "всё это"
+  },
   "allein": {
     "pos": "adv",
     "lemma": "allein",
@@ -1296,6 +1332,12 @@
     "ru": "Альтамонт"
   },
   "alte": {
+    "pos": "adj",
+    "lemma": "alt",
+    "en": "old",
+    "ru": "старый"
+  },
+  "altem": {
     "pos": "adj",
     "lemma": "alt",
     "en": "old",
@@ -1595,6 +1637,12 @@
     "en": "early years",
     "ru": "первые годы"
   },
+  "anfassen": {
+    "pos": "verb",
+    "lemma": "anfassen",
+    "en": "touch",
+    "ru": "трогать"
+  },
   "anfertigen": {
     "pos": "verb",
     "lemma": "anfertigen",
@@ -1775,11 +1823,23 @@
     "en": "called",
     "ru": "позвонил"
   },
+  "angerührt": {
+    "pos": "verb",
+    "lemma": "anrühren",
+    "en": "touched",
+    "ru": "коснулся"
+  },
   "angeschaltet": {
     "pos": "verb",
     "lemma": "anschalten",
     "en": "switched on",
     "ru": "включил"
+  },
+  "angeschaut": {
+    "pos": "verb",
+    "lemma": "anschauen",
+    "en": "looked at",
+    "ru": "посмотрел на"
   },
   "angesehen": {
     "pos": "verb",
@@ -1907,6 +1967,18 @@
     "en": "animators",
     "ru": "аниматоры"
   },
+  "anja": {
+    "pos": "name",
+    "lemma": "anja",
+    "en": "Anja",
+    "ru": "Аня"
+  },
+  "anjas": {
+    "pos": "name",
+    "lemma": "anja",
+    "en": "Anja",
+    "ru": "Аня"
+  },
   "ankamen": {
     "pos": "verb",
     "lemma": "ankommen",
@@ -1954,6 +2026,12 @@
     "lemma": "anlocken",
     "en": "lured",
     "ru": "манили"
+  },
+  "anmachte": {
+    "pos": "verb",
+    "lemma": "anmachen",
+    "en": "turned on",
+    "ru": "включил"
   },
   "ann": {
     "pos": "name",
@@ -2050,6 +2128,18 @@
     "lemma": "ansehen",
     "en": "looked at",
     "ru": "посмотрел"
+  },
+  "anschauen": {
+    "pos": "verb",
+    "lemma": "anschauen",
+    "en": "to look at",
+    "ru": "смотреть на"
+  },
+  "anschaut": {
+    "pos": "verb",
+    "lemma": "anschauen",
+    "en": "looks at",
+    "ru": "смотрит на"
   },
   "anschaute": {
     "pos": "verb",
@@ -2297,6 +2387,12 @@
     "en": "hear",
     "ru": "слушать"
   },
+  "anzumachen": {
+    "pos": "verb",
+    "lemma": "anmachen",
+    "en": "to turn on",
+    "ru": "включить"
+  },
   "anzusehen": {
     "pos": "verb",
     "lemma": "ansehen",
@@ -2326,6 +2422,12 @@
     "lemma": "apathisch",
     "en": "apathetic",
     "ru": "апатичный"
+  },
+  "apfel": {
+    "pos": "noun",
+    "lemma": "apfel",
+    "en": "apple",
+    "ru": "яблоко"
   },
   "apfelbaum": {
     "pos": "noun",
@@ -2357,6 +2459,12 @@
     "en": "Apollo",
     "ru": "Аполлон"
   },
+  "app": {
+    "pos": "noun",
+    "lemma": "app",
+    "en": "app",
+    "ru": "приложение"
+  },
   "appetit": {
     "pos": "noun",
     "lemma": "Appetit",
@@ -2368,6 +2476,12 @@
     "lemma": "apprehension",
     "en": "apprehension",
     "ru": "задержание"
+  },
+  "apps": {
+    "pos": "noun",
+    "lemma": "app",
+    "en": "apps",
+    "ru": "приложения"
   },
   "april": {
     "pos": "noun",
@@ -2981,6 +3095,12 @@
     "en": "stay, sojourn",
     "ru": "пребывание"
   },
+  "aufessen": {
+    "pos": "verb",
+    "lemma": "aufessen",
+    "en": "to eat up",
+    "ru": "съесть"
+  },
   "auffiel": {
     "pos": "verb",
     "lemma": "auffallen",
@@ -3101,11 +3221,23 @@
     "en": "solved, dissolved",
     "ru": "разрешил"
   },
+  "aufgemacht": {
+    "pos": "verb",
+    "lemma": "aufmachen",
+    "en": "opened",
+    "ru": "открыл"
+  },
   "aufgenommen": {
     "pos": "verb",
     "lemma": "aufnehmen",
     "en": "taken, received",
     "ru": "принят"
+  },
+  "aufgesammelt": {
+    "pos": "verb",
+    "lemma": "aufsammeln",
+    "en": "picked up",
+    "ru": "подобрал"
   },
   "aufgeschlagen": {
     "pos": "verb",
@@ -3310,6 +3442,12 @@
     "lemma": "aufrecht",
     "en": "upright",
     "ru": "вертикальный"
+  },
+  "aufregend": {
+    "pos": "adj",
+    "lemma": "aufregend",
+    "en": "exciting",
+    "ru": "захватывающий"
   },
   "aufregung": {
     "pos": "noun",
@@ -3647,6 +3785,12 @@
     "en": "apart",
     "ru": "отдельно"
   },
+  "auseinandergegangen": {
+    "pos": "verb",
+    "lemma": "auseinandergehen",
+    "en": "went separate ways",
+    "ru": "разошлись"
+  },
   "auseinanderhalten": {
     "pos": "verb",
     "lemma": "auseinanderhalten",
@@ -3670,6 +3814,12 @@
     "lemma": "ausführlich",
     "en": "in detail",
     "ru": "подробно"
+  },
+  "ausgeatmet": {
+    "pos": "verb",
+    "lemma": "ausatmen",
+    "en": "exhaled",
+    "ru": "выдохнул"
   },
   "ausgebaut": {
     "pos": "verb",
@@ -3772,6 +3922,12 @@
     "lemma": "ausschließen",
     "en": "excluded",
     "ru": "исключены"
+  },
+  "ausgesehen": {
+    "pos": "verb",
+    "lemma": "aussehen",
+    "en": "looked",
+    "ru": "выглядел"
   },
   "ausgesetzt": {
     "pos": "verb",
@@ -4313,6 +4469,12 @@
     "en": "outside",
     "ru": "вне"
   },
+  "außerirdischen": {
+    "pos": "adj",
+    "lemma": "außerirdisch",
+    "en": "alien",
+    "ru": "инопланетный"
+  },
   "avalanche": {
     "pos": "noun",
     "lemma": "avalanche",
@@ -4450,6 +4612,24 @@
     "lemma": "backstein",
     "en": "bricks",
     "ru": "кирпичи"
+  },
+  "backsteinmauern": {
+    "pos": "noun",
+    "lemma": "backsteinmauer",
+    "en": "brick walls",
+    "ru": "кирпичные стены"
+  },
+  "backte": {
+    "pos": "verb",
+    "lemma": "backen",
+    "en": "baked",
+    "ru": "пекла"
+  },
+  "backöfen": {
+    "pos": "noun",
+    "lemma": "backofen",
+    "en": "oven",
+    "ru": "печь"
   },
   "bademantel": {
     "pos": "noun",
@@ -4721,6 +4901,12 @@
     "en": "construction factory",
     "ru": "строительный завод"
   },
+  "baufirma": {
+    "pos": "noun",
+    "lemma": "baufirma",
+    "en": "construction company",
+    "ru": "строительная фирма"
+  },
   "bauingenieur": {
     "pos": "noun",
     "lemma": "bauingenieur",
@@ -4937,6 +5123,12 @@
     "en": "cup, mug",
     "ru": "кружка"
   },
+  "becker": {
+    "pos": "name",
+    "lemma": "becker",
+    "en": "Becker",
+    "ru": "Беккер"
+  },
   "bedachten": {
     "pos": "verb",
     "lemma": "bedacht",
@@ -4960,6 +5152,12 @@
     "lemma": "bedeuten",
     "en": "means",
     "ru": "означает"
+  },
+  "bedeuten": {
+    "pos": "verb",
+    "lemma": "bedeuten",
+    "en": "mean",
+    "ru": "означать"
   },
   "bedeutet": {
     "pos": "verb",
@@ -5272,6 +5470,12 @@
     "lemma": "begutachtung",
     "en": "assessment",
     "ru": "оценка"
+  },
+  "behalt": {
+    "pos": "verb",
+    "lemma": "behalten",
+    "en": "keep",
+    "ru": "храни"
   },
   "behalten": {
     "pos": "verb",
@@ -5921,6 +6125,12 @@
     "en": "regret",
     "ru": "сожалею"
   },
+  "bereut": {
+    "pos": "verb",
+    "lemma": "bereuen",
+    "en": "regrets",
+    "ru": "жалеет"
+  },
   "berg": {
     "pos": "noun",
     "lemma": "berg",
@@ -6520,6 +6730,12 @@
     "lemma": "bestimmen",
     "en": "to determine",
     "ru": "определить"
+  },
+  "bestimmt": {
+    "pos": "adv",
+    "lemma": "bestimmt",
+    "en": "definitely",
+    "ru": "определённо"
   },
   "bestimmte": {
     "pos": "adj",
@@ -7193,6 +7409,12 @@
     "en": "relationships",
     "ru": "отношения"
   },
+  "beziehungsweise": {
+    "pos": "conj",
+    "lemma": "beziehungsweise",
+    "en": "or rather",
+    "ru": "соответственно"
+  },
   "bezirk": {
     "pos": "noun",
     "lemma": "bezirk",
@@ -7529,6 +7751,12 @@
     "en": "blue",
     "ru": "синий"
   },
+  "blaue": {
+    "pos": "adj",
+    "lemma": "blau",
+    "en": "blue",
+    "ru": "синий"
+  },
   "blauen": {
     "pos": "adj",
     "lemma": "blau",
@@ -7552,6 +7780,12 @@
     "lemma": "blaulicht",
     "en": "blue light",
     "ru": "синий свет"
+  },
+  "blech": {
+    "pos": "noun",
+    "lemma": "blech",
+    "en": "tin",
+    "ru": "жесть"
   },
   "bleche": {
     "pos": "noun",
@@ -7853,6 +8087,12 @@
     "en": "lightning",
     "ru": "молния"
   },
+  "blitzte": {
+    "pos": "verb",
+    "lemma": "blitzen",
+    "en": "flashed",
+    "ru": "сверкнула"
+  },
   "block": {
     "pos": "noun",
     "lemma": "block",
@@ -7876,6 +8116,12 @@
     "lemma": "blog",
     "en": "blog",
     "ru": "блог"
+  },
+  "blond": {
+    "pos": "adj",
+    "lemma": "blond",
+    "en": "blond",
+    "ru": "светлый"
   },
   "blondes": {
     "pos": "adj",
@@ -8099,6 +8345,12 @@
     "en": "flipped through",
     "ru": "листал"
   },
+  "blöde": {
+    "pos": "adj",
+    "lemma": "blöde",
+    "en": "stupid",
+    "ru": "глупо"
+  },
   "blühen": {
     "pos": "verb",
     "lemma": "blühen",
@@ -8117,11 +8369,23 @@
     "en": "bloomed",
     "ru": "цвели"
   },
+  "blümchen": {
+    "pos": "noun",
+    "lemma": "blümchen",
+    "en": "little flower",
+    "ru": "цветочек"
+  },
   "bob": {
     "pos": "name",
     "lemma": "bob",
     "en": "Bob",
     "ru": "Боб"
+  },
+  "bockhorster": {
+    "pos": "name",
+    "lemma": "bockhorster",
+    "en": "Bockhorster",
+    "ru": "Бокхорстер"
   },
   "boden": {
     "pos": "noun",
@@ -8543,6 +8807,12 @@
     "en": "board's",
     "ru": "доска"
   },
+  "brezeln": {
+    "pos": "noun",
+    "lemma": "brezel",
+    "en": "pretzels",
+    "ru": "крендели"
+  },
   "bridge": {
     "pos": "noun",
     "lemma": "bridge",
@@ -8735,6 +9005,12 @@
     "en": "Brudos",
     "ru": "Брудос"
   },
+  "brummen": {
+    "pos": "verb",
+    "lemma": "brummen",
+    "en": "to rumble",
+    "ru": "гудеть"
+  },
   "brunnen": {
     "pos": "noun",
     "lemma": "brunnen",
@@ -8830,6 +9106,12 @@
     "lemma": "bryant",
     "en": "Bryant",
     "ru": "Брайант"
+  },
+  "brötchen": {
+    "pos": "noun",
+    "lemma": "brötchen",
+    "en": "bread roll",
+    "ru": "булочка"
   },
   "brüche": {
     "pos": "noun",
@@ -9155,6 +9437,12 @@
     "en": "baker",
     "ru": "пекарь"
   },
+  "bäckerei": {
+    "pos": "noun",
+    "lemma": "bäckerei",
+    "en": "bakery",
+    "ru": "пекарня"
+  },
   "bäckereien": {
     "pos": "noun",
     "lemma": "Bäckerei",
@@ -9221,6 +9509,12 @@
     "en": "evil",
     "ru": "зло"
   },
+  "bösewicht": {
+    "pos": "noun",
+    "lemma": "bösewicht",
+    "en": "villain",
+    "ru": "злодей"
+  },
   "bücher": {
     "pos": "noun",
     "lemma": "buch",
@@ -9232,6 +9526,12 @@
     "lemma": "buch",
     "en": "books",
     "ru": "книги"
+  },
+  "bückte": {
+    "pos": "verb",
+    "lemma": "bücken",
+    "en": "bent down",
+    "ru": "нагнулся"
   },
   "bühne": {
     "pos": "noun",
@@ -9262,6 +9562,12 @@
     "lemma": "bürgermeister",
     "en": "mayor",
     "ru": "мэр"
+  },
+  "bürgermeister-hahn-straße": {
+    "pos": "name",
+    "lemma": "bürgermeister-hahn-straße",
+    "en": "Bürgermeister-Hahn-Straße",
+    "ru": "Штрассе Бургомистра Хана"
   },
   "bürgermeisterin": {
     "pos": "noun",
@@ -9316,6 +9622,12 @@
     "lemma": "bürostuhl",
     "en": "office chair",
     "ru": "офисный стул"
+  },
+  "bützfleth": {
+    "pos": "name",
+    "lemma": "bützfleth",
+    "en": "Bützfleth",
+    "ru": "Бютцфлет"
   },
   "c": {
     "pos": "abbr",
@@ -9664,6 +9976,12 @@
     "lemma": "charmant",
     "en": "charming",
     "ru": "очаровательный"
+  },
+  "chat": {
+    "pos": "noun",
+    "lemma": "chat",
+    "en": "chat",
+    "ru": "чат"
   },
   "chef": {
     "pos": "noun",
@@ -10505,6 +10823,24 @@
     "en": "against, on the other hand",
     "ru": "против"
   },
+  "dagelegen": {
+    "pos": "verb",
+    "lemma": "daliegen",
+    "en": "lay there",
+    "ru": "лежал там"
+  },
+  "dagesessen": {
+    "pos": "verb",
+    "lemma": "dasitzen",
+    "en": "sat there",
+    "ru": "сидел там"
+  },
+  "dagestanden": {
+    "pos": "verb",
+    "lemma": "dastehen",
+    "en": "stood there",
+    "ru": "стоял там"
+  },
   "dahin": {
     "pos": "adv",
     "lemma": "dahin",
@@ -10895,6 +11231,18 @@
     "en": "belong",
     "ru": "принадлежать"
   },
+  "dazugekommen": {
+    "pos": "verb",
+    "lemma": "dazukommen",
+    "en": "showed up",
+    "ru": "появился"
+  },
+  "dazugesetzt": {
+    "pos": "verb",
+    "lemma": "dazusetzen",
+    "en": "joined in",
+    "ru": "присоединился"
+  },
   "de": {
     "pos": "abbr",
     "lemma": "de",
@@ -11009,6 +11357,18 @@
     "en": "your",
     "ru": "твой"
   },
+  "deinen": {
+    "pos": "pron",
+    "lemma": "dein",
+    "en": "your",
+    "ru": "твой"
+  },
+  "deiner": {
+    "pos": "pron",
+    "lemma": "dein",
+    "en": "your",
+    "ru": "твой"
+  },
   "delegierter": {
     "pos": "noun",
     "lemma": "delegierter",
@@ -11104,6 +11464,12 @@
     "lemma": "denken",
     "en": "think",
     "ru": "думать"
+  },
+  "denkmalschutz": {
+    "pos": "noun",
+    "lemma": "denkmalschutz",
+    "en": "monument protection",
+    "ru": "охрана памятников"
   },
   "denkt": {
     "pos": "verb",
@@ -11494,6 +11860,12 @@
     "lemma": "Dienstag",
     "en": "Tuesday",
     "ru": "вторник"
+  },
+  "dienstagmorgen": {
+    "pos": "noun",
+    "lemma": "dienstagmorgen",
+    "en": "Tuesday morning",
+    "ru": "вторник, утром"
   },
   "dienstreisekostenpapiere": {
     "pos": "noun",
@@ -11987,6 +12359,12 @@
     "en": "Thursday evening",
     "ru": "четверг вечер"
   },
+  "donnerstagnachmittag": {
+    "pos": "noun",
+    "lemma": "donnerstagnachmittag",
+    "en": "Thursday afternoon",
+    "ru": "четверг, днём"
+  },
   "donnerte": {
     "pos": "verb",
     "lemma": "donnern",
@@ -12227,6 +12605,12 @@
     "en": "screenwriters",
     "ru": "авторы сценариев"
   },
+  "dreht": {
+    "pos": "verb",
+    "lemma": "drehen",
+    "en": "turns",
+    "ru": "крутит"
+  },
   "drehte": {
     "pos": "verb",
     "lemma": "drehen",
@@ -12256,6 +12640,12 @@
     "lemma": "dreieinhalb",
     "en": "three and a half",
     "ru": "три с половиной"
+  },
+  "dreien": {
+    "pos": "noun",
+    "lemma": "dreien",
+    "en": "the three",
+    "ru": "трое"
   },
   "dreifaltigkeit": {
     "pos": "noun",
@@ -12479,6 +12869,12 @@
     "en": "threat",
     "ru": "угроза"
   },
+  "drohungen": {
+    "pos": "noun",
+    "lemma": "drohung",
+    "en": "threats",
+    "ru": "угрозы"
+  },
   "druck": {
     "pos": "noun",
     "lemma": "druck",
@@ -12593,6 +12989,12 @@
     "en": "ducked",
     "ru": "пригнулась"
   },
+  "duckten": {
+    "pos": "verb",
+    "lemma": "ducken",
+    "en": "crouched",
+    "ru": "присели"
+  },
   "duisburg": {
     "pos": "name",
     "lemma": "duisburg",
@@ -12612,6 +13014,18 @@
     "ru": "Даллес"
   },
   "dumm": {
+    "pos": "adj",
+    "lemma": "dumm",
+    "en": "stupid",
+    "ru": "глупый"
+  },
+  "dumme": {
+    "pos": "adj",
+    "lemma": "dumm",
+    "en": "stupid",
+    "ru": "глупый"
+  },
+  "dummes": {
     "pos": "adj",
     "lemma": "dumm",
     "en": "stupid",
@@ -12737,6 +13151,12 @@
     "en": "bit through",
     "ru": "прокусил"
   },
+  "durcheinander": {
+    "pos": "adv",
+    "lemma": "durcheinander",
+    "en": "in disorder",
+    "ru": "вразброд"
+  },
   "durchführen": {
     "pos": "verb",
     "lemma": "durchführen",
@@ -12814,6 +13234,12 @@
     "lemma": "Durchschnittswert",
     "en": "average value",
     "ru": "средний показатель"
+  },
+  "durchsuchen": {
+    "pos": "verb",
+    "lemma": "durchsuchen",
+    "en": "search",
+    "ru": "обыскала"
   },
   "durchsuchte": {
     "pos": "verb",
@@ -12935,6 +13361,12 @@
     "en": "dynamite",
     "ru": "динамит"
   },
+  "dächer": {
+    "pos": "noun",
+    "lemma": "dach",
+    "en": "roofs",
+    "ru": "крыши"
+  },
   "dächern": {
     "pos": "noun",
     "lemma": "dach",
@@ -13036,6 +13468,12 @@
     "lemma": "düsseldorf",
     "en": "Düsseldorf",
     "ru": "Дюссельдорф"
+  },
+  "düster": {
+    "pos": "adj",
+    "lemma": "düster",
+    "en": "gloomy",
+    "ru": "мрачный"
   },
   "düsterer": {
     "pos": "adj",
@@ -13180,6 +13618,12 @@
     "lemma": "ed",
     "en": "Ed",
     "ru": "Эд"
+  },
+  "edeka": {
+    "pos": "name",
+    "lemma": "edeka",
+    "en": "Edeka",
+    "ru": "Эдека"
   },
   "edmund": {
     "pos": "name",
@@ -13571,6 +14015,12 @@
     "en": "simple",
     "ru": "простой"
   },
+  "einfachste": {
+    "pos": "adj",
+    "lemma": "einfach",
+    "en": "simplest",
+    "ru": "самый простой"
+  },
   "einfachsten": {
     "pos": "adj",
     "lemma": "einfach",
@@ -13673,6 +14123,12 @@
     "en": "taken, assumed",
     "ru": "занято"
   },
+  "eingesammelt": {
+    "pos": "verb",
+    "lemma": "einsammeln",
+    "en": "collected",
+    "ru": "собрал"
+  },
   "eingeschlafen": {
     "pos": "verb",
     "lemma": "einschlafen",
@@ -13715,6 +14171,12 @@
     "en": "dropped",
     "ru": "прекратили"
   },
+  "eingestiegen": {
+    "pos": "verb",
+    "lemma": "einsteigen",
+    "en": "got in",
+    "ru": "сел в"
+  },
   "eingeständnis": {
     "pos": "noun",
     "lemma": "eingeständnis",
@@ -13750,6 +14212,12 @@
     "lemma": "einäschern",
     "en": "incinerate",
     "ru": "кремировать"
+  },
+  "eingreift": {
+    "pos": "verb",
+    "lemma": "eingreifen",
+    "en": "intervenes",
+    "ru": "вмешивается"
   },
   "eingriff": {
     "pos": "noun",
@@ -13793,11 +14261,23 @@
     "en": "174",
     "ru": "сто семьдесят четыре"
   },
+  "einig": {
+    "pos": "adj",
+    "lemma": "einig",
+    "en": "in agreement",
+    "ru": "согласны"
+  },
   "einige": {
     "pos": "pron",
     "lemma": "einige",
     "en": "some",
     "ru": "некоторые"
+  },
+  "einigem": {
+    "pos": "pron",
+    "lemma": "einig",
+    "en": "some of it",
+    "ru": "кое-что"
   },
   "einigermaßen": {
     "pos": "adv",
@@ -13816,6 +14296,12 @@
     "lemma": "einkaufen",
     "en": "buy, shop",
     "ru": "покупать"
+  },
+  "einkaufstüten": {
+    "pos": "noun",
+    "lemma": "einkaufstüte",
+    "en": "shopping bags",
+    "ru": "сумки для покупок"
   },
   "einkaufszentren": {
     "pos": "noun",
@@ -14279,6 +14765,12 @@
     "en": "frost flowers",
     "ru": "ледяные цветы"
   },
+  "eisen": {
+    "pos": "noun",
+    "lemma": "eisen",
+    "en": "iron",
+    "ru": "железо"
+  },
   "eisenbahn": {
     "pos": "noun",
     "lemma": "Eisenbahn",
@@ -14327,6 +14819,12 @@
     "en": "iron bars",
     "ru": "железные прутья"
   },
+  "eisentür": {
+    "pos": "noun",
+    "lemma": "eisentür",
+    "en": "iron door",
+    "ru": "железная дверь"
+  },
   "eiserne": {
     "pos": "adj",
     "lemma": "eisern",
@@ -14344,6 +14842,12 @@
     "lemma": "eisig",
     "en": "icy",
     "ru": "ледяной"
+  },
+  "eiskalt": {
+    "pos": "adj",
+    "lemma": "eiskalt",
+    "en": "ice cold",
+    "ru": "ледяной холодный"
   },
   "eiskalten": {
     "pos": "adj",
@@ -14434,6 +14938,12 @@
     "lemma": "Elektrode",
     "en": "electrodes",
     "ru": "электроды"
+  },
+  "element": {
+    "pos": "noun",
+    "lemma": "element",
+    "en": "element",
+    "ru": "элемент"
   },
   "elemente": {
     "pos": "noun",
@@ -15983,6 +16493,18 @@
     "en": "frightened",
     "ru": "испугал"
   },
+  "erschrickt": {
+    "pos": "verb",
+    "lemma": "erschrecken",
+    "en": "gets frightened",
+    "ru": "испугался"
+  },
+  "erschrocken": {
+    "pos": "adj",
+    "lemma": "erschrocken",
+    "en": "frightened",
+    "ru": "испуганные"
+  },
   "erschöpft": {
     "pos": "adj",
     "lemma": "erschöpft",
@@ -16325,6 +16847,12 @@
     "en": "meal",
     "ru": "еды"
   },
+  "esst": {
+    "pos": "verb",
+    "lemma": "essen",
+    "en": "eat",
+    "ru": "ешьте"
+  },
   "etagen": {
     "pos": "noun",
     "lemma": "etage",
@@ -16427,11 +16955,23 @@
     "en": "Eugene",
     "ru": "Юджин"
   },
+  "eure": {
+    "pos": "pron",
+    "lemma": "euer",
+    "en": "your",
+    "ru": "ваш"
+  },
   "eureka-moment": {
     "pos": "noun",
     "lemma": "eureka-moment",
     "en": "eureka moment",
     "ru": "момент озарения"
+  },
+  "euren": {
+    "pos": "pron",
+    "lemma": "euer",
+    "en": "your",
+    "ru": "вашу"
   },
   "europa": {
     "pos": "name",
@@ -16480,6 +17020,12 @@
     "lemma": "evolution",
     "en": "evolution",
     "ru": "эволюция"
+  },
+  "ewig": {
+    "pos": "adv",
+    "lemma": "ewig",
+    "en": "forever",
+    "ru": "вечно"
   },
   "examiner": {
     "pos": "name",
@@ -16780,6 +17326,12 @@
     "lemma": "fallakte",
     "en": "case file",
     "ru": "дело"
+  },
+  "falle": {
+    "pos": "noun",
+    "lemma": "falle",
+    "en": "case",
+    "ru": "случай"
   },
   "fallen": {
     "pos": "verb",
@@ -17303,6 +17855,12 @@
     "en": "window frame",
     "ru": "оконная рама"
   },
+  "fensterscheibe": {
+    "pos": "noun",
+    "lemma": "fensterscheibe",
+    "en": "window pane",
+    "ru": "оконное стекло"
+  },
   "feodosia": {
     "pos": "name",
     "lemma": "feodosia",
@@ -17507,6 +18065,18 @@
     "en": "fat",
     "ru": "жирный"
   },
+  "fettflecken": {
+    "pos": "noun",
+    "lemma": "fettfleck",
+    "en": "grease stains",
+    "ru": "жирные пятна"
+  },
+  "fetzen": {
+    "pos": "noun",
+    "lemma": "fetzen",
+    "en": "scraps",
+    "ru": "лоскуты"
+  },
   "feucht": {
     "pos": "adj",
     "lemma": "feucht",
@@ -17609,6 +18179,12 @@
     "en": "field",
     "ru": "поле"
   },
+  "fiele": {
+    "pos": "verb",
+    "lemma": "fallen",
+    "en": "would fall",
+    "ru": "упала бы"
+  },
   "fielen": {
     "pos": "verb",
     "lemma": "fallen",
@@ -17686,6 +18262,12 @@
     "lemma": "Filmranch",
     "en": "film ranch",
     "ru": "киноферма"
+  },
+  "filmt": {
+    "pos": "verb",
+    "lemma": "filmen",
+    "en": "films",
+    "ru": "снимает"
   },
   "filmte": {
     "pos": "verb",
@@ -17909,6 +18491,18 @@
     "en": "flat",
     "ru": "плоский"
   },
+  "flackernden": {
+    "pos": "adj",
+    "lemma": "flackernd",
+    "en": "flickering",
+    "ru": "мерцающий"
+  },
+  "flackert": {
+    "pos": "verb",
+    "lemma": "flackern",
+    "en": "flickers",
+    "ru": "мерцает"
+  },
   "flackerte": {
     "pos": "verb",
     "lemma": "flackern",
@@ -18016,6 +18610,12 @@
     "lemma": "fließen",
     "en": "flow",
     "ru": "течь"
+  },
+  "flink": {
+    "pos": "adj",
+    "lemma": "flink",
+    "en": "quick",
+    "ru": "быстрый"
   },
   "flog": {
     "pos": "verb",
@@ -18184,6 +18784,12 @@
     "lemma": "flüssigkeit",
     "en": "liquid",
     "ru": "жидкость"
+  },
+  "flüstert": {
+    "pos": "verb",
+    "lemma": "flüstern",
+    "en": "whispers",
+    "ru": "шепчет"
   },
   "flüsterte": {
     "pos": "verb",
@@ -18785,6 +19391,12 @@
     "en": "release",
     "ru": "освободить"
   },
+  "fremd": {
+    "pos": "adj",
+    "lemma": "fremd",
+    "en": "strange",
+    "ru": "странный"
+  },
   "fremde": {
     "pos": "adj",
     "lemma": "fremd",
@@ -18802,6 +19414,12 @@
     "lemma": "fremden-mord",
     "en": "stranger murders",
     "ru": "убийства незнакомцев"
+  },
+  "fremder": {
+    "pos": "adj",
+    "lemma": "fremd",
+    "en": "strange",
+    "ru": "чужой"
   },
   "fremdgehen": {
     "pos": "verb",
@@ -18899,6 +19517,12 @@
     "en": "friendly",
     "ru": "дружеский"
   },
+  "freundschaft": {
+    "pos": "noun",
+    "lemma": "freundschaft",
+    "en": "friendship",
+    "ru": "дружба"
+  },
   "freut": {
     "pos": "verb",
     "lemma": "freuen",
@@ -18923,6 +19547,18 @@
     "en": "cemetery",
     "ru": "кладбище"
   },
+  "friere": {
+    "pos": "verb",
+    "lemma": "frieren",
+    "en": "freeze",
+    "ru": "мёрзну"
+  },
+  "frieren": {
+    "pos": "verb",
+    "lemma": "frieren",
+    "en": "to freeze",
+    "ru": "мёрзнуть"
+  },
   "frisch": {
     "pos": "adj",
     "lemma": "frisch",
@@ -18930,6 +19566,12 @@
     "ru": "свежий"
   },
   "frische": {
+    "pos": "adj",
+    "lemma": "frisch",
+    "en": "fresh",
+    "ru": "свежий"
+  },
+  "frischem": {
     "pos": "adj",
     "lemma": "frisch",
     "en": "fresh",
@@ -18958,6 +19600,12 @@
     "lemma": "fritz",
     "en": "Fritz",
     "ru": "Фриц"
+  },
+  "froh": {
+    "pos": "adj",
+    "lemma": "froh",
+    "en": "glad",
+    "ru": "радостный"
   },
   "frommen": {
     "pos": "adj",
@@ -19103,6 +19751,12 @@
     "en": "[unclear]",
     "ru": "[неясно]"
   },
+  "fugen": {
+    "pos": "noun",
+    "lemma": "fuge",
+    "en": "joints",
+    "ru": "щели"
+  },
   "fuhr": {
     "pos": "verb",
     "lemma": "fahren",
@@ -19156,6 +19810,12 @@
     "lemma": "funkamateur",
     "en": "radio amateur",
     "ru": "радиолюбитель"
+  },
+  "funkeln": {
+    "pos": "verb",
+    "lemma": "funkeln",
+    "en": "sparkle",
+    "ru": "сверкать"
   },
   "funker": {
     "pos": "noun",
@@ -19745,6 +20405,12 @@
     "en": "garden shears",
     "ru": "садовые ножницы"
   },
+  "gartenzwerge": {
+    "pos": "noun",
+    "lemma": "gartenzwerg",
+    "en": "garden gnomes",
+    "ru": "садовые гномы"
+  },
   "gary": {
     "pos": "name",
     "lemma": "gary",
@@ -19829,6 +20495,12 @@
     "en": "aged",
     "ru": "состарился"
   },
+  "geantwortet": {
+    "pos": "verb",
+    "lemma": "antworten",
+    "en": "answered",
+    "ru": "ответил"
+  },
   "gearbeitet": {
     "pos": "verb",
     "lemma": "arbeiten",
@@ -19846,6 +20518,12 @@
     "lemma": "geatmet",
     "en": "breathed",
     "ru": "дышал"
+  },
+  "gebacken": {
+    "pos": "verb",
+    "lemma": "backen",
+    "en": "baked",
+    "ru": "пекла"
   },
   "gebadet": {
     "pos": "verb",
@@ -19876,6 +20554,12 @@
     "lemma": "geben",
     "en": "give",
     "ru": "давать"
+  },
+  "gebellt": {
+    "pos": "verb",
+    "lemma": "bellen",
+    "en": "barked",
+    "ru": "лаял"
   },
   "geben": {
     "pos": "verb",
@@ -20032,6 +20716,12 @@
     "lemma": "gedanke",
     "en": "thoughts",
     "ru": "мысли"
+  },
+  "gedauert": {
+    "pos": "verb",
+    "lemma": "dauern",
+    "en": "lasted",
+    "ru": "длилось"
   },
   "gedenkmarsch": {
     "pos": "noun",
@@ -20213,6 +20903,12 @@
     "en": "made",
     "ru": "сделана"
   },
+  "geflackert": {
+    "pos": "verb",
+    "lemma": "flackern",
+    "en": "flickered",
+    "ru": "мерцал"
+  },
   "geflüstert": {
     "pos": "verb",
     "lemma": "flüstern",
@@ -20314,6 +21010,12 @@
     "lemma": "gefährlich",
     "en": "more dangerous",
     "ru": "более опасный"
+  },
+  "gefällt": {
+    "pos": "verb",
+    "lemma": "gefallen",
+    "en": "pleases",
+    "ru": "нравится"
   },
   "gefälscht": {
     "pos": "verb",
@@ -20579,6 +21281,12 @@
     "en": "dug",
     "ru": "копал"
   },
+  "gegriffen": {
+    "pos": "verb",
+    "lemma": "greifen",
+    "en": "grabbed",
+    "ru": "схватил"
+  },
   "gegrillt": {
     "pos": "adj",
     "lemma": "gegrillt",
@@ -20590,6 +21298,12 @@
     "lemma": "gegrillt",
     "en": "grilled",
     "ru": "жареный"
+  },
+  "gegrinst": {
+    "pos": "verb",
+    "lemma": "grinsen",
+    "en": "grinned",
+    "ru": "улыбнулся"
   },
   "gegründet": {
     "pos": "verb",
@@ -20699,11 +21413,23 @@
     "en": "secret",
     "ru": "секрет"
   },
+  "geheimniskrämerei": {
+    "pos": "noun",
+    "lemma": "geheimniskrämerei",
+    "en": "secrecy",
+    "ru": "секретность"
+  },
   "geheimnisse": {
     "pos": "noun",
     "lemma": "geheimnis",
     "en": "secrets",
     "ru": "секреты"
+  },
+  "geheimnisvoll": {
+    "pos": "adj",
+    "lemma": "geheimnisvoll",
+    "en": "mysterious",
+    "ru": "таинственный"
   },
   "geheimsache": {
     "pos": "noun",
@@ -20783,11 +21509,23 @@
     "en": "obeys",
     "ru": "подчиняется"
   },
+  "gehst": {
+    "pos": "verb",
+    "lemma": "gehen",
+    "en": "go",
+    "ru": "идешь"
+  },
   "geht": {
     "pos": "verb",
     "lemma": "gehen",
     "en": "goes",
     "ru": "идёт"
+  },
+  "gehweg": {
+    "pos": "noun",
+    "lemma": "gehweg",
+    "en": "sidewalk",
+    "ru": "тротуар"
   },
   "gehänselt": {
     "pos": "verb",
@@ -20909,11 +21647,23 @@
     "en": "bought",
     "ru": "купленный"
   },
+  "geklappt": {
+    "pos": "verb",
+    "lemma": "klappen",
+    "en": "worked",
+    "ru": "сработало"
+  },
   "gekleidet": {
     "pos": "verb",
     "lemma": "kleiden",
     "en": "clothed",
     "ru": "одет"
+  },
+  "geklopft": {
+    "pos": "verb",
+    "lemma": "klopfen",
+    "en": "knocked",
+    "ru": "постучал"
   },
   "geklärt": {
     "pos": "verb",
@@ -21011,6 +21761,12 @@
     "en": "ran/walked",
     "ru": "бежал"
   },
+  "gelaunt": {
+    "pos": "adj",
+    "lemma": "gelaunt",
+    "en": "mood",
+    "ru": "настроение"
+  },
   "gelautet": {
     "pos": "verb",
     "lemma": "läuten",
@@ -21071,6 +21827,12 @@
     "en": "lived",
     "ru": "жил"
   },
+  "geleert": {
+    "pos": "verb",
+    "lemma": "leeren",
+    "en": "emptied",
+    "ru": "опустошила"
+  },
   "gelegen": {
     "pos": "verb",
     "lemma": "liegen",
@@ -21106,6 +21868,12 @@
     "lemma": "lesen",
     "en": "read",
     "ru": "читал"
+  },
+  "geleuchtet": {
+    "pos": "verb",
+    "lemma": "leuchten",
+    "en": "shone",
+    "ru": "светил"
   },
   "geliebt": {
     "pos": "verb",
@@ -21154,6 +21922,12 @@
     "lemma": "lynchen",
     "en": "lynched",
     "ru": "линчевать"
+  },
+  "gelächelt": {
+    "pos": "verb",
+    "lemma": "lächeln",
+    "en": "smiled",
+    "ru": "улыбнулся"
   },
   "gelähmt": {
     "pos": "verb",
@@ -21227,6 +22001,12 @@
     "en": "municipal police",
     "ru": "муниципальная полиция"
   },
+  "gemeines": {
+    "pos": "adj",
+    "lemma": "gemein",
+    "en": "mean",
+    "ru": "подлое"
+  },
   "gemeinsam": {
     "pos": "adv",
     "lemma": "gemeinsam",
@@ -21268,6 +22048,12 @@
     "lemma": "meinen",
     "en": "meant",
     "ru": "имел в виду"
+  },
+  "gemerkt": {
+    "pos": "verb",
+    "lemma": "merken",
+    "en": "noticed",
+    "ru": "заметил"
   },
   "gemessen": {
     "pos": "verb",
@@ -21466,6 +22252,12 @@
     "lemma": "genial",
     "en": "brilliant",
     "ru": "гениальный"
+  },
+  "genickt": {
+    "pos": "verb",
+    "lemma": "nicken",
+    "en": "nodded",
+    "ru": "кивнул"
   },
   "genie": {
     "pos": "noun",
@@ -21731,6 +22523,12 @@
     "en": "talked",
     "ru": "говорили"
   },
+  "geregnet": {
+    "pos": "verb",
+    "lemma": "regnen",
+    "en": "rained",
+    "ru": "шел дождь"
+  },
   "gereizter": {
     "pos": "adj",
     "lemma": "gereizt",
@@ -21839,11 +22637,23 @@
     "en": "torn",
     "ru": "разорвал"
   },
+  "gerissene": {
+    "pos": "adj",
+    "lemma": "gerissen",
+    "en": "torn",
+    "ru": "рваный"
+  },
   "geritzt": {
     "pos": "verb",
     "lemma": "ritzen",
     "en": "scratched",
     "ru": "процарапал"
+  },
+  "gern": {
+    "pos": "adv",
+    "lemma": "gern",
+    "en": "gladly",
+    "ru": "охотно"
   },
   "gerne": {
     "pos": "adv",
@@ -21856,6 +22666,12 @@
     "lemma": "riechen",
     "en": "smelled",
     "ru": "пахло"
+  },
+  "gerollt": {
+    "pos": "verb",
+    "lemma": "rollen",
+    "en": "rolled",
+    "ru": "катился"
   },
   "geruch": {
     "pos": "noun",
@@ -21935,6 +22751,12 @@
     "en": "total",
     "ru": "общее число"
   },
+  "geschafft": {
+    "pos": "verb",
+    "lemma": "schaffen",
+    "en": "managed",
+    "ru": "справились"
+  },
   "geschah": {
     "pos": "verb",
     "lemma": "geschehen",
@@ -21983,6 +22805,12 @@
     "en": "parted",
     "ru": "разделил"
   },
+  "geschenk": {
+    "pos": "noun",
+    "lemma": "geschenk",
+    "en": "gift",
+    "ru": "подарок"
+  },
   "geschenkt": {
     "pos": "verb",
     "lemma": "schenken",
@@ -22012,6 +22840,12 @@
     "lemma": "geschehen",
     "en": "happens",
     "ru": "происходит"
+  },
+  "geschimpft": {
+    "pos": "verb",
+    "lemma": "schimpfen",
+    "en": "cursed",
+    "ru": "ругалась"
   },
   "geschirrspülen": {
     "pos": "verb",
@@ -22054,6 +22888,12 @@
     "lemma": "geschlossen",
     "en": "closed",
     "ru": "закрытый"
+  },
+  "geschluckt": {
+    "pos": "verb",
+    "lemma": "schlucken",
+    "en": "swallowed",
+    "ru": "глотнул"
   },
   "geschmack": {
     "pos": "noun",
@@ -22199,6 +23039,12 @@
     "en": "set",
     "ru": "установлен"
   },
+  "geseufzt": {
+    "pos": "verb",
+    "lemma": "seufzen",
+    "en": "sighed",
+    "ru": "вздохнул"
+  },
   "gesichert": {
     "pos": "verb",
     "lemma": "sichern",
@@ -22294,6 +23140,12 @@
     "lemma": "spucken",
     "en": "spat",
     "ru": "плевала"
+  },
+  "gespürt": {
+    "pos": "verb",
+    "lemma": "spüren",
+    "en": "felt",
+    "ru": "почувствовал"
   },
   "gestand": {
     "pos": "verb",
@@ -22427,6 +23279,12 @@
     "en": "painted, struck",
     "ru": "вычеркнул"
   },
+  "gestritten": {
+    "pos": "verb",
+    "lemma": "streiten",
+    "en": "argued",
+    "ru": "спорили"
+  },
   "geständnis": {
     "pos": "noun",
     "lemma": "geständnis",
@@ -22456,6 +23314,12 @@
     "lemma": "suchen",
     "en": "sought",
     "ru": "искал"
+  },
+  "gesummt": {
+    "pos": "verb",
+    "lemma": "summen",
+    "en": "hummed",
+    "ru": "гудела"
   },
   "gesund": {
     "pos": "adj",
@@ -22522,6 +23386,12 @@
     "lemma": "tragen",
     "en": "carried, wore",
     "ru": "носил"
+  },
+  "getraut": {
+    "pos": "verb",
+    "lemma": "trauen",
+    "en": "dared",
+    "ru": "осмелился"
   },
   "getreidefeldern": {
     "pos": "noun",
@@ -22937,6 +23807,12 @@
     "en": "fathered",
     "ru": "зачал"
   },
+  "gezittert": {
+    "pos": "verb",
+    "lemma": "zittern",
+    "en": "trembled",
+    "ru": "дрожал"
+  },
   "gezogen": {
     "pos": "verb",
     "lemma": "ziehen",
@@ -22984,6 +23860,12 @@
     "lemma": "gi",
     "en": "GI",
     "ru": "боец"
+  },
+  "gib": {
+    "pos": "verb",
+    "lemma": "geben",
+    "en": "give",
+    "ru": "дай"
   },
   "gibt": {
     "pos": "verb",
@@ -23189,6 +24071,12 @@
     "en": "glass pipettes",
     "ru": "стеклянные пипетки"
   },
+  "glasscherben": {
+    "pos": "noun",
+    "lemma": "glassscherbe",
+    "en": "glass shards",
+    "ru": "осколки стекла"
+  },
   "glatt": {
     "pos": "adj",
     "lemma": "glatt",
@@ -23200,6 +24088,12 @@
     "lemma": "glatt",
     "en": "smooth",
     "ru": "гладкий"
+  },
+  "glaub": {
+    "pos": "verb",
+    "lemma": "glauben",
+    "en": "believe",
+    "ru": "верю"
   },
   "glaube": {
     "pos": "noun",
@@ -23344,6 +24238,18 @@
     "lemma": "global",
     "en": "global",
     "ru": "глобальный"
+  },
+  "glocke": {
+    "pos": "noun",
+    "lemma": "glocke",
+    "en": "bell",
+    "ru": "колокол"
+  },
+  "glocken": {
+    "pos": "noun",
+    "lemma": "glocke",
+    "en": "bells",
+    "ru": "колокола"
   },
   "gluckste": {
     "pos": "verb",
@@ -23759,11 +24665,29 @@
     "en": "grin",
     "ru": "оскаливаться"
   },
+  "grinsen": {
+    "pos": "verb",
+    "lemma": "grinsen",
+    "en": "grin",
+    "ru": "улыбаться"
+  },
+  "grinst": {
+    "pos": "verb",
+    "lemma": "grinsen",
+    "en": "grins",
+    "ru": "улыбается"
+  },
   "grinste": {
     "pos": "verb",
     "lemma": "grinsen",
     "en": "grinned",
     "ru": "оскалился"
+  },
+  "grinsten": {
+    "pos": "verb",
+    "lemma": "grinsen",
+    "en": "grinned",
+    "ru": "улыбались"
   },
   "grob": {
     "pos": "adj",
@@ -23933,6 +24857,12 @@
     "en": "background noise",
     "ru": "фоновый шум"
   },
+  "grundschule": {
+    "pos": "noun",
+    "lemma": "grundschule",
+    "en": "primary school",
+    "ru": "начальная школа"
+  },
   "grundschullehrer": {
     "pos": "noun",
     "lemma": "grundschullehrer",
@@ -24010,6 +24940,12 @@
     "lemma": "groß",
     "en": "greater, larger",
     "ru": "больший"
+  },
+  "größeren": {
+    "pos": "adj",
+    "lemma": "groß",
+    "en": "larger",
+    "ru": "больших"
   },
   "größeres": {
     "pos": "adj",
@@ -24161,6 +25097,12 @@
     "en": "good",
     "ru": "хороший"
   },
+  "gutgetan": {
+    "pos": "verb",
+    "lemma": "guttun",
+    "en": "did good",
+    "ru": "помогло"
+  },
   "guyana": {
     "pos": "name",
     "lemma": "guyana",
@@ -24190,6 +25132,12 @@
     "lemma": "gängig",
     "en": "common",
     "ru": "обычный"
+  },
+  "gänsehaut": {
+    "pos": "noun",
+    "lemma": "gänsehaut",
+    "en": "goosebumps",
+    "ru": "гусиная кожа"
   },
   "gärten": {
     "pos": "noun",
@@ -24256,6 +25204,12 @@
     "lemma": "haben",
     "en": "have",
     "ru": "имею"
+  },
+  "hab's": {
+    "pos": "verb",
+    "lemma": "haben",
+    "en": "have it",
+    "ru": "имею это"
   },
   "habe": {
     "pos": "verb",
@@ -24334,6 +25288,12 @@
     "lemma": "hager",
     "en": "gaunt",
     "ru": "худой"
+  },
+  "hai": {
+    "pos": "noun",
+    "lemma": "hai",
+    "en": "shark",
+    "ru": "акула"
   },
   "haight-ashbury": {
     "pos": "name",
@@ -24437,11 +25397,29 @@
     "en": "hall",
     "ru": "холл"
   },
+  "halle": {
+    "pos": "noun",
+    "lemma": "halle",
+    "en": "hall",
+    "ru": "зал"
+  },
   "hallenbuch": {
     "pos": "noun",
     "lemma": "hallenbuch",
     "en": "hall book",
     "ru": "книга залов"
+  },
+  "hallo": {
+    "pos": "intj",
+    "lemma": "hallo",
+    "en": "hello",
+    "ru": "привет"
+  },
+  "hallo'": {
+    "pos": "intj",
+    "lemma": "hallo",
+    "en": "hi",
+    "ru": "привет"
   },
   "halloween-karte": {
     "pos": "noun",
@@ -24485,6 +25463,12 @@
     "en": "hold",
     "ru": "держать"
   },
+  "hamburg": {
+    "pos": "name",
+    "lemma": "hamburg",
+    "en": "Hamburg",
+    "ru": "Гамбург"
+  },
   "hammer": {
     "pos": "noun",
     "lemma": "hammer",
@@ -24496,6 +25480,12 @@
     "lemma": "hand",
     "en": "hand",
     "ru": "рука"
+  },
+  "handeln": {
+    "pos": "verb",
+    "lemma": "handeln",
+    "en": "to act",
+    "ru": "действовать"
   },
   "handelte": {
     "pos": "verb",
@@ -24821,11 +25811,23 @@
     "en": "had",
     "ru": "имели"
   },
+  "hattest": {
+    "pos": "verb",
+    "lemma": "haben",
+    "en": "had",
+    "ru": "имел"
+  },
   "haube": {
     "pos": "noun",
     "lemma": "haube",
     "en": "bonnet, cap",
     "ru": "колпак"
+  },
+  "hauch": {
+    "pos": "noun",
+    "lemma": "hauch",
+    "en": "breath",
+    "ru": "дыхание"
   },
   "haufen": {
     "pos": "noun",
@@ -25012,6 +26014,12 @@
     "lemma": "heben",
     "en": "lifts",
     "ru": "поднимает"
+  },
+  "hefe": {
+    "pos": "noun",
+    "lemma": "hefe",
+    "en": "yeast",
+    "ru": "дрожжи"
   },
   "heft": {
     "pos": "noun",
@@ -25289,11 +26297,23 @@
     "en": "Hell's Angel",
     "ru": "Ангел Ада"
   },
+  "hellte": {
+    "pos": "verb",
+    "lemma": "hellen",
+    "en": "brightened",
+    "ru": "посветлело"
+  },
   "helms": {
     "pos": "name",
     "lemma": "helms",
     "en": "Helms",
     "ru": "Хелмс"
+  },
+  "helmut": {
+    "pos": "name",
+    "lemma": "helmut",
+    "en": "Helmut",
+    "ru": "Хельмут"
   },
   "helter": {
     "pos": "name",
@@ -25312,6 +26332,12 @@
     "lemma": "hemd",
     "en": "shirt's",
     "ru": "рубашка"
+  },
+  "henkel": {
+    "pos": "name",
+    "lemma": "henkel",
+    "en": "Henkel",
+    "ru": "Хенкель"
   },
   "henker": {
     "pos": "noun",
@@ -25396,6 +26422,18 @@
     "lemma": "heraus",
     "en": "out",
     "ru": "наружу"
+  },
+  "herausfinden": {
+    "pos": "verb",
+    "lemma": "herausfinden",
+    "en": "find out",
+    "ru": "узнать"
+  },
+  "herausfindet": {
+    "pos": "verb",
+    "lemma": "herausfinden",
+    "en": "finds out",
+    "ru": "узнаёт"
   },
   "herausgefunden": {
     "pos": "verb",
@@ -25703,6 +26741,12 @@
     "en": "today's",
     "ru": "сегодняшний"
   },
+  "hey": {
+    "pos": "intj",
+    "lemma": "hey",
+    "en": "hey",
+    "ru": "эй"
+  },
   "hielt": {
     "pos": "verb",
     "lemma": "halten",
@@ -25732,6 +26776,18 @@
     "lemma": "hierarchie",
     "en": "hierarchies",
     "ru": "иерархии"
+  },
+  "hierher": {
+    "pos": "adv",
+    "lemma": "hierher",
+    "en": "here",
+    "ru": "сюда"
+  },
+  "hierlassen": {
+    "pos": "verb",
+    "lemma": "hierlassen",
+    "en": "to leave here",
+    "ru": "оставить здесь"
   },
   "hiermit": {
     "pos": "adv",
@@ -25937,11 +26993,23 @@
     "en": "went",
     "ru": "пошёл"
   },
+  "hingehen": {
+    "pos": "verb",
+    "lemma": "hingehen",
+    "en": "to go (there)",
+    "ru": "пойти"
+  },
   "hingehören": {
     "pos": "verb",
     "lemma": "hingehören",
     "en": "belong",
     "ru": "принадлежит"
+  },
+  "hingehört": {
+    "pos": "verb",
+    "lemma": "hingehören",
+    "en": "belong",
+    "ru": "относиться"
   },
   "hingelegt": {
     "pos": "verb",
@@ -25960,6 +27028,18 @@
     "lemma": "hinrichten",
     "en": "executed",
     "ru": "казнён"
+  },
+  "hingeschaut": {
+    "pos": "verb",
+    "lemma": "hinschauen",
+    "en": "looked (away)",
+    "ru": "посмотрел"
+  },
+  "hingeschoben": {
+    "pos": "verb",
+    "lemma": "hinschieben",
+    "en": "pushed",
+    "ru": "толкнул"
   },
   "hingesetzt": {
     "pos": "verb",
@@ -26128,6 +27208,12 @@
     "lemma": "hinuntergehen",
     "en": "go down",
     "ru": "идти вниз"
+  },
+  "hinunterschaut": {
+    "pos": "verb",
+    "lemma": "hinunterschauen",
+    "en": "looked down",
+    "ru": "посмотрел вниз"
   },
   "hinweg": {
     "pos": "adv",
@@ -26435,6 +27521,12 @@
     "en": "fetch,get",
     "ru": "добыть"
   },
+  "holen": {
+    "pos": "verb",
+    "lemma": "holen",
+    "en": "fetch",
+    "ru": "доставай"
+  },
   "holes": {
     "pos": "name",
     "lemma": "holes",
@@ -26452,6 +27544,12 @@
     "lemma": "holen",
     "en": "fetched",
     "ru": "принёс"
+  },
+  "holten": {
+    "pos": "verb",
+    "lemma": "holen",
+    "en": "fetched",
+    "ru": "доставали"
   },
   "holz": {
     "pos": "noun",
@@ -26554,6 +27652,12 @@
     "lemma": "honolulu",
     "en": "Honolulu",
     "ru": "Гонолулу"
+  },
+  "hoodie": {
+    "pos": "noun",
+    "lemma": "hoodie",
+    "en": "hoodie",
+    "ru": "толстовка с капюшоном"
   },
   "hope": {
     "pos": "noun",
@@ -27047,6 +28151,12 @@
     "en": "houses",
     "ru": "дома"
   },
+  "häusern": {
+    "pos": "noun",
+    "lemma": "haus",
+    "en": "houses",
+    "ru": "дома"
+  },
   "häuslichen": {
     "pos": "adj",
     "lemma": "häuslich",
@@ -27149,6 +28259,12 @@
     "en": "cave",
     "ru": "пещера"
   },
+  "hökerstraße": {
+    "pos": "name",
+    "lemma": "hökerstraße",
+    "en": "Hökerstraße",
+    "ru": "Хёкерштрассе"
+  },
   "hölle": {
     "pos": "noun",
     "lemma": "Hölle",
@@ -27244,6 +28360,12 @@
     "lemma": "hündin",
     "en": "bitch (female dog)",
     "ru": "сука"
+  },
+  "hüte": {
+    "pos": "noun",
+    "lemma": "hut",
+    "en": "hats",
+    "ru": "шляпы"
   },
   "hüter": {
     "pos": "noun",
@@ -28217,6 +29339,12 @@
     "en": "sometime",
     "ru": "когда-то"
   },
+  "irgendwas": {
+    "pos": "pron",
+    "lemma": "irgendwas",
+    "en": "something",
+    "ru": "что-то"
+  },
   "irgendwelche": {
     "pos": "adj",
     "lemma": "irgendwelche",
@@ -28324,6 +29452,12 @@
     "lemma": "issaquah",
     "en": "Issaquah (place)",
     "ru": "Иссакуа"
+  },
+  "isst": {
+    "pos": "verb",
+    "lemma": "essen",
+    "en": "eats",
+    "ru": "ест"
   },
   "ist": {
     "pos": "verb",
@@ -28485,6 +29619,12 @@
     "pos": "noun",
     "lemma": "jahr",
     "en": "year",
+    "ru": "года"
+  },
+  "jahreszahlen": {
+    "pos": "noun",
+    "lemma": "jahreszahl",
+    "en": "years/dates",
     "ru": "года"
   },
   "jahrhundert": {
@@ -28870,6 +30010,12 @@
     "lemma": "johns'",
     "en": "Johns'",
     "ru": "Джонс"
+  },
+  "jonas": {
+    "pos": "name",
+    "lemma": "jonas",
+    "en": "Jonas",
+    "ru": "Йонас"
   },
   "jones": {
     "pos": "name",
@@ -29303,6 +30449,12 @@
     "en": "cold",
     "ru": "холодный"
   },
+  "kaltem": {
+    "pos": "adj",
+    "lemma": "kalt",
+    "en": "cold",
+    "ru": "холодным"
+  },
   "kalten": {
     "pos": "adj",
     "lemma": "kalt",
@@ -29429,6 +30581,12 @@
     "en": "acts of cannibalism",
     "ru": "акты каннибализма"
   },
+  "kannst": {
+    "pos": "verb",
+    "lemma": "können",
+    "en": "can",
+    "ru": "можешь"
+  },
   "kannte": {
     "pos": "verb",
     "lemma": "kennen",
@@ -29488,6 +30646,18 @@
     "lemma": "kaputt",
     "en": "broken",
     "ru": "сломан"
+  },
+  "kaputte": {
+    "pos": "adj",
+    "lemma": "kaputt",
+    "en": "broken",
+    "ru": "сломанный"
+  },
+  "kaputten": {
+    "pos": "adj",
+    "lemma": "kaputt",
+    "en": "broken",
+    "ru": "сломанный"
   },
   "kaputtes": {
     "pos": "adj",
@@ -29608,6 +30778,12 @@
     "lemma": "kaserne",
     "en": "barracks",
     "ru": "казарма"
+  },
+  "kasse": {
+    "pos": "noun",
+    "lemma": "kasse",
+    "en": "cash register",
+    "ru": "касса"
   },
   "kassetten": {
     "pos": "noun",
@@ -29813,6 +30989,18 @@
     "en": "none",
     "ru": "ни один"
   },
+  "keins": {
+    "pos": "pron",
+    "lemma": "keins",
+    "en": "none",
+    "ru": "ничего"
+  },
+  "keksen": {
+    "pos": "verb",
+    "lemma": "keksen",
+    "en": "to browse/peek",
+    "ru": "подглядывать"
+  },
   "keller": {
     "pos": "noun",
     "lemma": "keller",
@@ -29885,6 +31073,12 @@
     "en": "met",
     "ru": "познакомился"
   },
+  "kennst": {
+    "pos": "verb",
+    "lemma": "kennen",
+    "en": "know",
+    "ru": "знаешь"
+  },
   "kennt": {
     "pos": "verb",
     "lemma": "kennen",
@@ -29950,6 +31144,12 @@
     "lemma": "kette",
     "en": "chain",
     "ru": "цепь"
+  },
+  "ketten": {
+    "pos": "noun",
+    "lemma": "kette",
+    "en": "chains",
+    "ru": "цепи"
   },
   "ketter": {
     "pos": "abbr",
@@ -30077,6 +31277,12 @@
     "en": "child's blood",
     "ru": "кровь ребёнка"
   },
+  "kindergarten": {
+    "pos": "noun",
+    "lemma": "kindergarten",
+    "en": "kindergarten",
+    "ru": "детский сад"
+  },
   "kindergehirn": {
     "pos": "noun",
     "lemma": "kindergehirn",
@@ -30185,6 +31391,12 @@
     "en": "church",
     "ru": "церковь"
   },
+  "kirchenglocke": {
+    "pos": "noun",
+    "lemma": "kirchenglocke",
+    "en": "church bell",
+    "ru": "церковный колокол"
+  },
   "kirchenliedern": {
     "pos": "noun",
     "lemma": "kirchenlied",
@@ -30196,6 +31408,12 @@
     "lemma": "kirchenältester",
     "en": "church elder",
     "ru": "старший дьякон"
+  },
+  "kirchturm": {
+    "pos": "noun",
+    "lemma": "kirchturm",
+    "en": "church tower",
+    "ru": "церковная башня"
   },
   "kirchtürmen": {
     "pos": "noun",
@@ -30274,6 +31492,12 @@
     "lemma": "klingen",
     "en": "sounded",
     "ru": "звучали"
+  },
+  "klappert": {
+    "pos": "verb",
+    "lemma": "klappern",
+    "en": "clatters",
+    "ru": "гремит"
   },
   "klappte": {
     "pos": "verb",
@@ -30371,6 +31595,24 @@
     "en": "classical",
     "ru": "классический"
   },
+  "klauen": {
+    "pos": "verb",
+    "lemma": "klauen",
+    "en": "steal",
+    "ru": "украсть"
+  },
+  "klavier": {
+    "pos": "noun",
+    "lemma": "klavier",
+    "en": "piano",
+    "ru": "пианино"
+  },
+  "klaviers": {
+    "pos": "noun",
+    "lemma": "klavier",
+    "en": "piano",
+    "ru": "фортепиано"
+  },
   "klebstoff": {
     "pos": "noun",
     "lemma": "klebstoff",
@@ -30432,6 +31674,12 @@
     "ru": "маленький"
   },
   "kleine": {
+    "pos": "adj",
+    "lemma": "klein",
+    "en": "small",
+    "ru": "маленький"
+  },
+  "kleinem": {
     "pos": "adj",
     "lemma": "klein",
     "en": "small",
@@ -30503,6 +31751,12 @@
     "en": "smallest",
     "ru": "самый маленький"
   },
+  "klemmen": {
+    "pos": "verb",
+    "lemma": "klemmen",
+    "en": "stuck",
+    "ru": "застрял"
+  },
   "kleopatra": {
     "pos": "name",
     "lemma": "kleopatra",
@@ -30557,11 +31811,23 @@
     "en": "ring",
     "ru": "звенеть"
   },
+  "klingelt": {
+    "pos": "verb",
+    "lemma": "klingeln",
+    "en": "rings",
+    "ru": "звонит"
+  },
   "klingelte": {
     "pos": "verb",
     "lemma": "klingeln",
     "en": "rang",
     "ru": "звонил"
+  },
+  "klingelten": {
+    "pos": "verb",
+    "lemma": "klingeln",
+    "en": "rang",
+    "ru": "звенели"
   },
   "klingen": {
     "pos": "verb",
@@ -30610,6 +31876,12 @@
     "lemma": "klopfen",
     "en": "knock",
     "ru": "стучать"
+  },
+  "klopft": {
+    "pos": "verb",
+    "lemma": "klopfen",
+    "en": "knocks",
+    "ru": "стучит"
   },
   "klopfte": {
     "pos": "verb",
@@ -30689,6 +31961,12 @@
     "en": "scarce",
     "ru": "скудный"
   },
+  "knarrt": {
+    "pos": "verb",
+    "lemma": "knarren",
+    "en": "creaks",
+    "ru": "скрипит"
+  },
   "knarrten": {
     "pos": "verb",
     "lemma": "knarren",
@@ -30766,6 +32044,12 @@
     "lemma": "knöchel",
     "en": "ankle",
     "ru": "лодыжка"
+  },
+  "knöpfe": {
+    "pos": "noun",
+    "lemma": "knopf",
+    "en": "buttons",
+    "ru": "кнопки"
   },
   "knüppel": {
     "pos": "noun",
@@ -30977,6 +32261,24 @@
     "en": "combined",
     "ru": "скомбинированы"
   },
+  "komisch": {
+    "pos": "adj",
+    "lemma": "komisch",
+    "en": "strange",
+    "ru": "странный"
+  },
+  "komisches": {
+    "pos": "adj",
+    "lemma": "komisch",
+    "en": "strange",
+    "ru": "странный"
+  },
+  "komm": {
+    "pos": "verb",
+    "lemma": "kommen",
+    "en": "come",
+    "ru": "приходи"
+  },
   "komma": {
     "pos": "noun",
     "lemma": "komma",
@@ -31024,6 +32326,12 @@
     "lemma": "kommission",
     "en": "commissions",
     "ru": "комиссии"
+  },
+  "kommst": {
+    "pos": "verb",
+    "lemma": "kommen",
+    "en": "come",
+    "ru": "приходишь"
   },
   "kommt": {
     "pos": "verb",
@@ -31186,6 +32494,12 @@
     "lemma": "konstruieren",
     "en": "designed",
     "ru": "спроектировал"
+  },
+  "kontakt": {
+    "pos": "noun",
+    "lemma": "kontakt",
+    "en": "contact",
+    "ru": "контакт"
   },
   "kontakt-anzeigen": {
     "pos": "noun",
@@ -31366,6 +32680,12 @@
     "lemma": "kopfschuss",
     "en": "head shot",
     "ru": "выстрел в голову"
+  },
+  "kopfsteinpflaster": {
+    "pos": "noun",
+    "lemma": "kopfsteinpflaster",
+    "en": "cobblestone pavement",
+    "ru": "булыжник"
   },
   "kopfverletzungen": {
     "pos": "noun",
@@ -31684,6 +33004,12 @@
     "lemma": "krater",
     "en": "crater",
     "ru": "кратер"
+  },
+  "kratzer": {
+    "pos": "noun",
+    "lemma": "kratzer",
+    "en": "scratch",
+    "ru": "царапина"
   },
   "kratzte": {
     "pos": "verb",
@@ -32033,6 +33359,12 @@
     "en": "crow",
     "ru": "ворона"
   },
+  "krähen": {
+    "pos": "verb",
+    "lemma": "krähen",
+    "en": "crows",
+    "ru": "каркают"
+  },
   "kränkungen": {
     "pos": "noun",
     "lemma": "kränkung",
@@ -32050,6 +33382,12 @@
     "lemma": "krücke",
     "en": "crutches",
     "ru": "костыли"
+  },
+  "krüger": {
+    "pos": "name",
+    "lemma": "krüger",
+    "en": "Krüger",
+    "ru": "Крюгер"
   },
   "krümel": {
     "pos": "noun",
@@ -32116,6 +33454,18 @@
     "lemma": "kultur",
     "en": "culture",
     "ru": "культура"
+  },
+  "kunde": {
+    "pos": "noun",
+    "lemma": "kunde",
+    "en": "customer",
+    "ru": "покупатель"
+  },
+  "kunden": {
+    "pos": "noun",
+    "lemma": "kunde",
+    "en": "customers",
+    "ru": "клиенты"
   },
   "kunstleder": {
     "pos": "noun",
@@ -32315,6 +33665,12 @@
     "en": "cold",
     "ru": "холод"
   },
+  "kälter": {
+    "pos": "adj",
+    "lemma": "kalt",
+    "en": "colder",
+    "ru": "холоднее"
+  },
   "kämen": {
     "pos": "verb",
     "lemma": "kommen",
@@ -32374,6 +33730,12 @@
     "lemma": "können",
     "en": "can",
     "ru": "могут"
+  },
+  "könnt": {
+    "pos": "verb",
+    "lemma": "können",
+    "en": "can",
+    "ru": "можете"
   },
   "könnte": {
     "pos": "verb",
@@ -32500,6 +33862,12 @@
     "lemma": "Kuh",
     "en": "cows",
     "ru": "коровы"
+  },
+  "kühl": {
+    "pos": "adj",
+    "lemma": "kühl",
+    "en": "cool",
+    "ru": "прохладный"
   },
   "kühle": {
     "pos": "adj",
@@ -32680,6 +34048,12 @@
     "lemma": "lachend",
     "en": "laughing",
     "ru": "смеющийся"
+  },
+  "lacht": {
+    "pos": "verb",
+    "lemma": "lachen",
+    "en": "laughs",
+    "ru": "смеется"
   },
   "lachte": {
     "pos": "verb",
@@ -32987,6 +34361,12 @@
     "en": "boring",
     "ru": "скучный"
   },
+  "langweiligste": {
+    "pos": "adj",
+    "lemma": "langweilig",
+    "en": "most boring",
+    "ru": "скучнейший"
+  },
   "laos": {
     "pos": "name",
     "lemma": "laos",
@@ -33083,6 +34463,12 @@
     "en": "lurked",
     "ru": "подстерегала"
   },
+  "lauf": {
+    "pos": "verb",
+    "lemma": "laufen",
+    "en": "run",
+    "ru": "беги"
+  },
   "laufen": {
     "pos": "verb",
     "lemma": "laufen",
@@ -33094,6 +34480,12 @@
     "lemma": "laufzettel",
     "en": "route sheet",
     "ru": "маршрутный лист"
+  },
+  "laune": {
+    "pos": "noun",
+    "lemma": "laune",
+    "en": "mood",
+    "ru": "настроение"
   },
   "lausanne": {
     "pos": "name",
@@ -33311,6 +34703,12 @@
     "en": "leather",
     "ru": "кожа"
   },
+  "lederfabrik": {
+    "pos": "noun",
+    "lemma": "lederfabrik",
+    "en": "leather factory",
+    "ru": "кожаная фабрика"
+  },
   "lederjacke": {
     "pos": "noun",
     "lemma": "lederjacke",
@@ -33424,6 +34822,12 @@
     "lemma": "lehne",
     "en": "backrest",
     "ru": "спинка"
+  },
+  "lehnt": {
+    "pos": "verb",
+    "lemma": "lehnen",
+    "en": "leans",
+    "ru": "облокачивается"
   },
   "lehnte": {
     "pos": "verb",
@@ -33551,7 +34955,19 @@
     "en": "light",
     "ru": "лёгкий"
   },
+  "leichte": {
+    "pos": "adj",
+    "lemma": "leicht",
+    "en": "light",
+    "ru": "лёгкий"
+  },
   "leichten": {
+    "pos": "adj",
+    "lemma": "leicht",
+    "en": "light",
+    "ru": "лёгкий"
+  },
+  "leichtes": {
     "pos": "adj",
     "lemma": "leicht",
     "en": "light",
@@ -33809,6 +35225,12 @@
     "en": "less-dead",
     "ru": "менее значимые"
   },
+  "lest": {
+    "pos": "verb",
+    "lemma": "lesen",
+    "en": "read",
+    "ru": "читаешь"
+  },
   "letzte": {
     "pos": "adj",
     "lemma": "letzte",
@@ -33959,6 +35381,12 @@
     "en": "love room",
     "ru": "комната любви"
   },
+  "lieben": {
+    "pos": "verb",
+    "lemma": "lieben",
+    "en": "love",
+    "ru": "любить"
+  },
   "liebenden": {
     "pos": "noun",
     "lemma": "liebend",
@@ -34012,6 +35440,18 @@
     "lemma": "liebling",
     "en": "darling, favorite",
     "ru": "любимец"
+  },
+  "lieblingsvase": {
+    "pos": "noun",
+    "lemma": "lieblingsvase",
+    "en": "favorite vase",
+    "ru": "любимая ваза"
+  },
+  "liebt": {
+    "pos": "verb",
+    "lemma": "lieben",
+    "en": "loves",
+    "ru": "любит"
   },
   "liebte": {
     "pos": "verb",
@@ -34145,11 +35585,29 @@
     "en": "lemonade",
     "ru": "лимонад"
   },
+  "lina": {
+    "pos": "name",
+    "lemma": "lina",
+    "en": "Lina",
+    "ru": "Лина"
+  },
   "linda": {
     "pos": "name",
     "lemma": "linda",
     "en": "Linda",
     "ru": "Линда"
+  },
+  "linden": {
+    "pos": "noun",
+    "lemma": "linde",
+    "en": "linden trees",
+    "ru": "липы"
+  },
+  "lindenstraße": {
+    "pos": "name",
+    "lemma": "lindenstraße",
+    "en": "Lindenstraße",
+    "ru": "Линденштрассе"
   },
   "linie": {
     "pos": "noun",
@@ -34416,6 +35874,12 @@
     "ru": "местный"
   },
   "lokalen": {
+    "pos": "adj",
+    "lemma": "lokal",
+    "en": "local",
+    "ru": "местный"
+  },
+  "lokales": {
     "pos": "adj",
     "lemma": "lokal",
     "en": "local",
@@ -34835,6 +36299,24 @@
     "en": "lets",
     "ru": "позволяет"
   },
+  "läufst": {
+    "pos": "verb",
+    "lemma": "laufen",
+    "en": "run",
+    "ru": "бежишь"
+  },
+  "läutet": {
+    "pos": "verb",
+    "lemma": "läuten",
+    "en": "rings",
+    "ru": "звонит"
+  },
+  "läuteten": {
+    "pos": "verb",
+    "lemma": "läuten",
+    "en": "rang",
+    "ru": "звонили"
+  },
   "löffel": {
     "pos": "noun",
     "lemma": "löffel",
@@ -34924,6 +36406,12 @@
     "lemma": "Lügenfrage",
     "en": "lie question",
     "ru": "вопрос о лжи"
+  },
+  "lügt": {
+    "pos": "verb",
+    "lemma": "lügen",
+    "en": "lies",
+    "ru": "лжёт"
   },
   "m": {
     "pos": "abbr",
@@ -35026,6 +36514,12 @@
     "lemma": "mageau",
     "en": "Mageau (name)",
     "ru": "Мажо"
+  },
+  "magen": {
+    "pos": "noun",
+    "lemma": "magen",
+    "en": "stomach",
+    "ru": "желудок"
   },
   "mager": {
     "pos": "adj",
@@ -35417,6 +36911,18 @@
     "en": "market",
     "ru": "рынок"
   },
+  "marktplatz": {
+    "pos": "noun",
+    "lemma": "marktplatz",
+    "en": "marketplace",
+    "ru": "рыночная площадь"
+  },
+  "marktplatzes": {
+    "pos": "noun",
+    "lemma": "marktplatz",
+    "en": "market square",
+    "ru": "рыночной площади"
+  },
   "marmelade": {
     "pos": "noun",
     "lemma": "marmelade",
@@ -35561,6 +37067,12 @@
     "en": "materials",
     "ru": "материалы"
   },
+  "mathe": {
+    "pos": "noun",
+    "lemma": "mathe",
+    "en": "math",
+    "ru": "математика"
+  },
   "mathematiker": {
     "pos": "noun",
     "lemma": "mathematiker",
@@ -35620,6 +37132,18 @@
     "lemma": "mawson",
     "en": "Mawson",
     "ru": "Мосон"
+  },
+  "max": {
+    "pos": "name",
+    "lemma": "max",
+    "en": "Max",
+    "ru": "Макс"
+  },
+  "max'": {
+    "pos": "name",
+    "lemma": "max",
+    "en": "Max",
+    "ru": "Макс"
   },
   "maximal": {
     "pos": "adv",
@@ -35771,6 +37295,18 @@
     "en": "megaphones",
     "ru": "громкоговорители"
   },
+  "mehl": {
+    "pos": "noun",
+    "lemma": "mehl",
+    "en": "flour",
+    "ru": "мука"
+  },
+  "mehlsäcken": {
+    "pos": "noun",
+    "lemma": "mehlsack",
+    "en": "flour sacks",
+    "ru": "мешки с мукой"
+  },
   "mehr": {
     "pos": "adv",
     "lemma": "mehr",
@@ -35813,6 +37349,12 @@
     "en": "several times",
     "ru": "несколько раз"
   },
+  "meier": {
+    "pos": "name",
+    "lemma": "meier",
+    "en": "Meier",
+    "ru": "Майер"
+  },
   "meilen": {
     "pos": "noun",
     "lemma": "meile",
@@ -35848,6 +37390,12 @@
     "lemma": "mein",
     "en": "my",
     "ru": "мой"
+  },
+  "meint": {
+    "pos": "verb",
+    "lemma": "meinen",
+    "en": "means",
+    "ru": "имеет в виду"
   },
   "meinte": {
     "pos": "verb",
@@ -36809,6 +38357,12 @@
     "en": "to come along",
     "ru": "идти с собой"
   },
+  "mitleid": {
+    "pos": "noun",
+    "lemma": "mitleid",
+    "en": "pity",
+    "ru": "жалость"
+  },
   "mitlesen": {
     "pos": "verb",
     "lemma": "mitlesen",
@@ -37150,6 +38704,12 @@
     "lemma": "montag",
     "en": "Monday",
     "ru": "Понедельник"
+  },
+  "montagmorgen": {
+    "pos": "noun",
+    "lemma": "montagmorgen",
+    "en": "Monday morning",
+    "ru": "понедельник утром"
   },
   "monterey": {
     "pos": "name",
@@ -37595,6 +39155,12 @@
     "en": "had to",
     "ru": "должен был"
   },
+  "mussten": {
+    "pos": "verb",
+    "lemma": "müssen",
+    "en": "had to",
+    "ru": "должны были"
+  },
   "muster": {
     "pos": "noun",
     "lemma": "muster",
@@ -37618,6 +39184,18 @@
     "lemma": "mut",
     "en": "courage",
     "ru": "смелость"
+  },
+  "mutig": {
+    "pos": "adj",
+    "lemma": "mutig",
+    "en": "brave",
+    "ru": "храбрый"
+  },
+  "mutige": {
+    "pos": "adj",
+    "lemma": "mutig",
+    "en": "brave",
+    "ru": "смелые"
   },
   "mutmaßlichen": {
     "pos": "adj",
@@ -37805,6 +39383,12 @@
     "en": "mortar",
     "ru": "раствор"
   },
+  "möwe": {
+    "pos": "noun",
+    "lemma": "möwe",
+    "en": "seagull",
+    "ru": "чайка"
+  },
   "möwen": {
     "pos": "noun",
     "lemma": "möwe",
@@ -37828,6 +39412,12 @@
     "lemma": "müde",
     "en": "tired",
     "ru": "усталый"
+  },
+  "müder": {
+    "pos": "adj",
+    "lemma": "müde",
+    "en": "more tired",
+    "ru": "более усталые"
   },
   "mühe": {
     "pos": "noun",
@@ -37859,11 +39449,23 @@
     "en": "garbage bags",
     "ru": "мусорные мешки"
   },
+  "mülltonne": {
+    "pos": "noun",
+    "lemma": "mülltonne",
+    "en": "trash bin",
+    "ru": "мусорный бак"
+  },
   "mülltonnen": {
     "pos": "noun",
     "lemma": "mülltonne",
     "en": "garbage cans",
     "ru": "мусорные баки"
+  },
+  "münchen": {
+    "pos": "name",
+    "lemma": "münchen",
+    "en": "Munich",
+    "ru": "Мюнхен"
   },
   "mündung": {
     "pos": "noun",
@@ -37890,6 +39492,12 @@
     "ru": "должен"
   },
   "müssen": {
+    "pos": "verb",
+    "lemma": "müssen",
+    "en": "must",
+    "ru": "должны"
+  },
+  "müsst": {
     "pos": "verb",
     "lemma": "müssen",
     "en": "must",
@@ -37924,6 +39532,12 @@
     "lemma": "n",
     "en": "N",
     "ru": "N"
+  },
+  "na": {
+    "pos": "intj",
+    "lemma": "na",
+    "en": "well",
+    "ru": "ну"
   },
   "nach": {
     "pos": "prep",
@@ -37973,6 +39587,12 @@
     "en": "after",
     "ru": "после"
   },
+  "nachdenke": {
+    "pos": "verb",
+    "lemma": "nachdenken",
+    "en": "think (about)",
+    "ru": "подумаю"
+  },
   "nachdenken": {
     "pos": "verb",
     "lemma": "nachdenken",
@@ -38002,6 +39622,24 @@
     "lemma": "nachfolger",
     "en": "successor",
     "ru": "преемник"
+  },
+  "nachgedacht": {
+    "pos": "verb",
+    "lemma": "nachdenken",
+    "en": "thought about",
+    "ru": "подумал"
+  },
+  "nachgeschaut": {
+    "pos": "verb",
+    "lemma": "nachschauen",
+    "en": "looked after",
+    "ru": "посмотрел вслед"
+  },
+  "nachgeschlagen": {
+    "pos": "verb",
+    "lemma": "nachschlagen",
+    "en": "looked up",
+    "ru": "смотрела"
   },
   "nachgestellt": {
     "pos": "verb",
@@ -38098,6 +39736,12 @@
     "lemma": "nachschlagen",
     "en": "to look up",
     "ru": "справляться"
+  },
+  "nachsehen": {
+    "pos": "verb",
+    "lemma": "nachsehen",
+    "en": "check",
+    "ru": "проверить"
   },
   "nacht": {
     "pos": "noun",
@@ -38801,6 +40445,12 @@
     "en": "curiosity",
     "ru": "любопытство"
   },
+  "neugierig": {
+    "pos": "adj",
+    "lemma": "neugierig",
+    "en": "curious",
+    "ru": "любопытный"
+  },
   "neujahr": {
     "pos": "noun",
     "lemma": "neujahr",
@@ -38981,6 +40631,12 @@
     "en": "nothing",
     "ru": "ничего"
   },
+  "nickt": {
+    "pos": "verb",
+    "lemma": "nicken",
+    "en": "nods",
+    "ru": "кивает"
+  },
   "nickte": {
     "pos": "verb",
     "lemma": "nicken",
@@ -39077,6 +40733,12 @@
     "en": "kidney cancer",
     "ru": "рак почки"
   },
+  "nieselte": {
+    "pos": "verb",
+    "lemma": "nieseln",
+    "en": "drizzled",
+    "ru": "моросило"
+  },
   "night": {
     "pos": "noun",
     "lemma": "night",
@@ -39112,6 +40774,12 @@
     "lemma": "Nil",
     "en": "Nile",
     "ru": "Нил"
+  },
+  "nimm": {
+    "pos": "verb",
+    "lemma": "nehmen",
+    "en": "take",
+    "ru": "возьми"
   },
   "nimmt": {
     "pos": "verb",
@@ -39245,6 +40913,12 @@
     "en": "normal",
     "ru": "нормальный"
   },
+  "normalem": {
+    "pos": "adj",
+    "lemma": "normal",
+    "en": "normal",
+    "ru": "нормальный"
+  },
   "normalen": {
     "pos": "adj",
     "lemma": "normal",
@@ -39371,6 +41045,12 @@
     "en": "emergency call",
     "ru": "экстренный вызов"
   },
+  "notvorrat": {
+    "pos": "noun",
+    "lemma": "notvorrat",
+    "en": "emergency supplies",
+    "ru": "запасы на случай беды"
+  },
   "notwehr": {
     "pos": "noun",
     "lemma": "notwehr",
@@ -39424,6 +41104,12 @@
     "lemma": "nuckel",
     "en": "pacifier",
     "ru": "соска"
+  },
+  "nudeln": {
+    "pos": "noun",
+    "lemma": "nudel",
+    "en": "pasta",
+    "ru": "макаронные изделия"
   },
   "nuklearkomplex": {
     "pos": "noun",
@@ -39977,6 +41663,12 @@
     "en": "Olympia",
     "ru": "Олимпия"
   },
+  "oma": {
+    "pos": "noun",
+    "lemma": "oma",
+    "en": "grandma",
+    "ru": "бабушка"
+  },
   "omega": {
     "pos": "name",
     "lemma": "omega",
@@ -40018,6 +41710,12 @@
     "lemma": "online-forum",
     "en": "online forums",
     "ru": "интернет-форумы"
+  },
+  "opa": {
+    "pos": "noun",
+    "lemma": "opa",
+    "en": "grandpa",
+    "ru": "дедушка"
   },
   "oper": {
     "pos": "noun",
@@ -40343,6 +42041,12 @@
     "en": "mated",
     "ru": "спариться"
   },
+  "paarmal": {
+    "pos": "adv",
+    "lemma": "paarmal",
+    "en": "a couple of times",
+    "ru": "несколько раз"
+  },
   "paarweise": {
     "pos": "adv",
     "lemma": "paarweise",
@@ -40426,6 +42130,12 @@
     "lemma": "papierhalm",
     "en": "paper tube",
     "ru": "бумажная трубочка"
+  },
+  "papiertüte": {
+    "pos": "noun",
+    "lemma": "papiertüte",
+    "en": "paper bag",
+    "ru": "бумажный пакет"
   },
   "papirossy": {
     "pos": "noun",
@@ -40601,6 +42311,12 @@
     "en": "passes",
     "ru": "проходит"
   },
+  "passieren": {
+    "pos": "verb",
+    "lemma": "passieren",
+    "en": "happen",
+    "ru": "случаться"
+  },
   "passiert": {
     "pos": "verb",
     "lemma": "passieren",
@@ -40636,6 +42352,12 @@
     "lemma": "passen",
     "en": "fit",
     "ru": "подходили"
+  },
+  "passwort": {
+    "pos": "noun",
+    "lemma": "passwort",
+    "en": "password",
+    "ru": "пароль"
   },
   "pathologe": {
     "pos": "noun",
@@ -40805,6 +42527,12 @@
     "en": "peek-a-boo",
     "ru": "ку-ку"
   },
+  "peinlich": {
+    "pos": "adj",
+    "lemma": "peinlich",
+    "en": "embarrassing",
+    "ru": "неловкий"
+  },
   "pelz": {
     "pos": "noun",
     "lemma": "pelz",
@@ -40888,6 +42616,12 @@
     "lemma": "perfekt",
     "en": "perfect",
     "ru": "совершенный"
+  },
+  "perfekten": {
+    "pos": "adj",
+    "lemma": "perfekt",
+    "en": "perfect",
+    "ru": "идеальный"
   },
   "perfekter": {
     "pos": "adj",
@@ -41033,6 +42767,12 @@
     "en": "whistle, pipe",
     "ru": "свисток"
   },
+  "pfeift": {
+    "pos": "verb",
+    "lemma": "pfeifen",
+    "en": "whistles",
+    "ru": "свистит"
+  },
   "pferd": {
     "pos": "noun",
     "lemma": "pferd",
@@ -41074,6 +42814,18 @@
     "lemma": "pfund",
     "en": "pound",
     "ru": "фунт"
+  },
+  "pfütze": {
+    "pos": "noun",
+    "lemma": "pfütze",
+    "en": "puddle",
+    "ru": "лужа"
+  },
+  "pfützen": {
+    "pos": "noun",
+    "lemma": "pfütze",
+    "en": "puddles",
+    "ru": "лужи"
   },
   "phantasie": {
     "pos": "noun",
@@ -41381,6 +43133,12 @@
     "en": "plastic bag",
     "ru": "полиэтиленовый пакет"
   },
+  "platt": {
+    "pos": "adj",
+    "lemma": "platt",
+    "en": "flat",
+    "ru": "плоский"
+  },
   "platte": {
     "pos": "noun",
     "lemma": "platte",
@@ -41458,6 +43216,12 @@
     "lemma": "Plexiglas-Fenster",
     "en": "plexiglass window",
     "ru": "окно из плексигласа"
+  },
+  "pling": {
+    "pos": "intj",
+    "lemma": "pling",
+    "en": "pling",
+    "ru": "пинг"
   },
   "plombe": {
     "pos": "noun",
@@ -41801,6 +43565,12 @@
     "en": "Portland",
     "ru": "Портленд"
   },
+  "porzellan": {
+    "pos": "noun",
+    "lemma": "porzellan",
+    "en": "porcelain",
+    "ru": "фарфор"
+  },
   "position": {
     "pos": "noun",
     "lemma": "position",
@@ -42076,6 +43846,12 @@
     "lemma": "probe",
     "en": "samples",
     "ru": "образцы"
+  },
+  "probiert": {
+    "pos": "verb",
+    "lemma": "probieren",
+    "en": "tried",
+    "ru": "попробовала"
   },
   "probierte": {
     "pos": "verb",
@@ -42671,6 +44447,12 @@
     "en": "pedagogical",
     "ru": "педагогический"
   },
+  "pünktlich": {
+    "pos": "adj",
+    "lemma": "pünktlich",
+    "en": "punctual",
+    "ru": "пунктуальный"
+  },
   "quadratkilometern": {
     "pos": "noun",
     "lemma": "Quadratkilometer",
@@ -42689,6 +44471,12 @@
     "en": "quality",
     "ru": "качество"
   },
+  "qualitätsflecken": {
+    "pos": "noun",
+    "lemma": "qualitätsfleck",
+    "en": "quality marks",
+    "ru": "пятна качества"
+  },
   "quantico": {
     "pos": "name",
     "lemma": "quantico",
@@ -42700,6 +44488,12 @@
     "lemma": "quartal",
     "en": "quarter",
     "ru": "квартал"
+  },
+  "quatsch": {
+    "pos": "noun",
+    "lemma": "quatsch",
+    "en": "nonsense",
+    "ru": "чушь"
   },
   "queen": {
     "pos": "name",
@@ -42730,6 +44524,12 @@
     "lemma": "quer",
     "en": "across",
     "ru": "поперёк"
+  },
+  "quietschen": {
+    "pos": "verb",
+    "lemma": "quietschen",
+    "en": "squeaks",
+    "ru": "пищит"
   },
   "quietschend": {
     "pos": "verb",
@@ -43151,6 +44951,18 @@
     "en": "room",
     "ru": "комната"
   },
+  "raumes": {
+    "pos": "noun",
+    "lemma": "raum",
+    "en": "room",
+    "ru": "комнаты"
+  },
+  "raus": {
+    "pos": "adv",
+    "lemma": "raus",
+    "en": "out",
+    "ru": "наружу"
+  },
   "rauschen": {
     "pos": "noun",
     "lemma": "rauschen",
@@ -43463,6 +45275,12 @@
     "en": "shelf",
     "ru": "полка"
   },
+  "regale": {
+    "pos": "noun",
+    "lemma": "regal",
+    "en": "shelves",
+    "ru": "полки"
+  },
   "regalen": {
     "pos": "noun",
     "lemma": "regal",
@@ -43499,11 +45317,23 @@
     "en": "raincoat",
     "ru": "плащ"
   },
+  "regens": {
+    "pos": "noun",
+    "lemma": "regen",
+    "en": "rain",
+    "ru": "дождя"
+  },
   "regenschirm": {
     "pos": "noun",
     "lemma": "regenschirm",
     "en": "umbrella",
     "ru": "зонт"
+  },
+  "regenschirmen": {
+    "pos": "noun",
+    "lemma": "regenschirm",
+    "en": "umbrellas",
+    "ru": "зонтики"
   },
   "regieren": {
     "pos": "verb",
@@ -43553,6 +45383,18 @@
     "en": "motionless",
     "ru": "неподвижный"
   },
+  "regnen": {
+    "pos": "verb",
+    "lemma": "regnen",
+    "en": "rain",
+    "ru": "идёт дождь"
+  },
+  "regnet": {
+    "pos": "verb",
+    "lemma": "regnen",
+    "en": "rains",
+    "ru": "идёт дождь"
+  },
   "regnete": {
     "pos": "verb",
     "lemma": "regnen",
@@ -43564,6 +45406,12 @@
     "lemma": "regret",
     "en": "regret",
     "ru": "сожалеть"
+  },
+  "regt": {
+    "pos": "verb",
+    "lemma": "regen",
+    "en": "upsets",
+    "ru": "раздражает"
   },
   "reiche": {
     "pos": "adj",
@@ -43661,6 +45509,18 @@
     "en": "rhyme",
     "ru": "рифма"
   },
+  "rein": {
+    "pos": "adv",
+    "lemma": "rein",
+    "en": "just",
+    "ru": "только"
+  },
+  "reiner": {
+    "pos": "adj",
+    "lemma": "rein",
+    "en": "pure",
+    "ru": "чистый"
+  },
   "reines": {
     "pos": "adj",
     "lemma": "rein",
@@ -43678,6 +45538,12 @@
     "lemma": "reinigung",
     "en": "cleaning",
     "ru": "очистка"
+  },
+  "reinsteckt": {
+    "pos": "verb",
+    "lemma": "reinstecken",
+    "en": "put in",
+    "ru": "положить в"
   },
   "reis": {
     "pos": "noun",
@@ -43750,6 +45616,12 @@
     "lemma": "reißen",
     "en": "tears",
     "ru": "рвет"
+  },
+  "reißverschluss": {
+    "pos": "noun",
+    "lemma": "reißverschluss",
+    "en": "zipper",
+    "ru": "молния"
   },
   "rekonstruieren": {
     "pos": "verb",
@@ -44087,6 +45959,12 @@
     "en": "direction",
     "ru": "направление"
   },
+  "richtungen": {
+    "pos": "noun",
+    "lemma": "richtung",
+    "en": "directions",
+    "ru": "направления"
+  },
   "rick": {
     "pos": "name",
     "lemma": "rick",
@@ -44285,11 +46163,23 @@
     "en": "Robert",
     "ru": "Роберт"
   },
+  "robert-spruch": {
+    "pos": "noun",
+    "lemma": "robert-spruch",
+    "en": "Robert's saying",
+    "ru": "поговорка Роберта"
+  },
   "roberta": {
     "pos": "name",
     "lemma": "roberta",
     "en": "Roberta",
     "ru": "Робертта"
+  },
+  "roberts": {
+    "pos": "name",
+    "lemma": "robert",
+    "en": "Robert",
+    "ru": "Роберт"
   },
   "roch": {
     "pos": "verb",
@@ -44333,6 +46223,12 @@
     "en": "raw",
     "ru": "сырой"
   },
+  "rohr": {
+    "pos": "noun",
+    "lemma": "rohr",
+    "en": "pipe",
+    "ru": "труба"
+  },
   "rohrbomben": {
     "pos": "noun",
     "lemma": "rohrbombe",
@@ -44368,6 +46264,12 @@
     "lemma": "rolling",
     "en": "Rolling",
     "ru": "Катящийся"
+  },
+  "rollt": {
+    "pos": "verb",
+    "lemma": "rollen",
+    "en": "rolls",
+    "ru": "катится"
   },
   "rollte": {
     "pos": "verb",
@@ -44567,6 +46469,12 @@
     "en": "call",
     "ru": "зовут"
   },
+  "ruft": {
+    "pos": "verb",
+    "lemma": "rufen",
+    "en": "calls",
+    "ru": "кричит"
+  },
   "ruhe": {
     "pos": "noun",
     "lemma": "ruhe",
@@ -44650,6 +46558,18 @@
     "lemma": "rund",
     "en": "round",
     "ru": "круглый"
+  },
+  "runter": {
+    "pos": "adv",
+    "lemma": "runter",
+    "en": "down",
+    "ru": "вниз"
+  },
+  "runzelte": {
+    "pos": "verb",
+    "lemma": "runzeln",
+    "en": "furrowed",
+    "ru": "нахмурила"
   },
   "russe": {
     "pos": "noun",
@@ -45023,6 +46943,12 @@
     "en": "juice",
     "ru": "сок"
   },
+  "sag": {
+    "pos": "verb",
+    "lemma": "sagen",
+    "en": "say",
+    "ru": "скажи"
+  },
   "sage": {
     "pos": "noun",
     "lemma": "sage",
@@ -45095,6 +47021,18 @@
     "en": "Salt (place)",
     "ru": "Солт"
   },
+  "salz": {
+    "pos": "noun",
+    "lemma": "salz",
+    "en": "salt",
+    "ru": "соль"
+  },
+  "salztorswall": {
+    "pos": "name",
+    "lemma": "salztorswall",
+    "en": "Salztorswall",
+    "ru": "Залцторсвалл"
+  },
   "sam": {
     "pos": "name",
     "lemma": "sam",
@@ -45166,6 +47104,24 @@
     "lemma": "samstagabend",
     "en": "Saturday evening",
     "ru": "субботний вечер"
+  },
+  "samstagmorgen": {
+    "pos": "noun",
+    "lemma": "samstagmorgen",
+    "en": "Saturday morning",
+    "ru": "суббота утром"
+  },
+  "samstagnachmittag": {
+    "pos": "noun",
+    "lemma": "samstagnachmittag",
+    "en": "Saturday afternoon",
+    "ru": "суббота, днём"
+  },
+  "samsung": {
+    "pos": "name",
+    "lemma": "samsung",
+    "en": "Samsung",
+    "ru": "Самсунг"
   },
   "samuel": {
     "pos": "name",
@@ -45376,6 +47332,12 @@
     "lemma": "schachty",
     "en": "Shachterskiy (place)",
     "ru": "Шахтёрский"
+  },
+  "schade": {
+    "pos": "intj",
+    "lemma": "schade",
+    "en": "a pity",
+    "ru": "жаль"
   },
   "schaden": {
     "pos": "noun",
@@ -45755,6 +47717,12 @@
     "en": "push",
     "ru": "толкать"
   },
+  "schiebt": {
+    "pos": "verb",
+    "lemma": "schieben",
+    "en": "pushes",
+    "ru": "толкает"
+  },
   "schief": {
     "pos": "adj",
     "lemma": "schief",
@@ -45779,6 +47747,12 @@
     "en": "ships",
     "ru": "корабли"
   },
+  "schiffen": {
+    "pos": "verb",
+    "lemma": "schiffen",
+    "en": "used improperly",
+    "ru": "ругалась"
+  },
   "schild": {
     "pos": "noun",
     "lemma": "schild",
@@ -45796,6 +47770,12 @@
     "lemma": "Schilf",
     "en": "reed",
     "ru": "камыш"
+  },
+  "schimpfen": {
+    "pos": "verb",
+    "lemma": "schimpfen",
+    "en": "to scold",
+    "ru": "ругать"
   },
   "schirm": {
     "pos": "noun",
@@ -46103,6 +48083,12 @@
     "en": "sled",
     "ru": "сани"
   },
+  "schlitz": {
+    "pos": "noun",
+    "lemma": "schlitz",
+    "en": "slot",
+    "ru": "щель"
+  },
   "schlitze": {
     "pos": "noun",
     "lemma": "schlitz",
@@ -46204,6 +48190,12 @@
     "lemma": "schlüssel",
     "en": "key",
     "ru": "ключ"
+  },
+  "schmal": {
+    "pos": "adj",
+    "lemma": "schmal",
+    "en": "narrow",
+    "ru": "узкий"
   },
   "schmale": {
     "pos": "adj",
@@ -46439,6 +48431,12 @@
     "en": "quick",
     "ru": "быстрый"
   },
+  "schnellsten": {
+    "pos": "adj",
+    "lemma": "schnell",
+    "en": "fastest",
+    "ru": "самый быстрый"
+  },
   "schnellziehholster": {
     "pos": "noun",
     "lemma": "schnellziehholster",
@@ -46595,6 +48593,12 @@
     "en": "terrible",
     "ru": "ужасный"
   },
+  "schreckliche": {
+    "pos": "adj",
+    "lemma": "schrecklich",
+    "en": "terrible",
+    "ru": "ужасный"
+  },
   "schrecklicher": {
     "pos": "adj",
     "lemma": "schrecklich",
@@ -46654,6 +48658,12 @@
     "lemma": "schreibtisch",
     "en": "desk",
     "ru": "стол"
+  },
+  "schreibtische": {
+    "pos": "noun",
+    "lemma": "schreibtisch",
+    "en": "desks",
+    "ru": "письменные столы"
   },
   "schreibtischen": {
     "pos": "noun",
@@ -46757,6 +48767,12 @@
     "en": "step by step",
     "ru": "пошагово"
   },
+  "schrott": {
+    "pos": "noun",
+    "lemma": "schrott",
+    "en": "scrap",
+    "ru": "хлам"
+  },
   "schräg": {
     "pos": "adj",
     "lemma": "schräg",
@@ -46774,6 +48790,18 @@
     "lemma": "schränken",
     "en": "to limit",
     "ru": "ограничить"
+  },
+  "schubert": {
+    "pos": "name",
+    "lemma": "schubert",
+    "en": "Schubert",
+    "ru": "Шуберт"
+  },
+  "schuberts": {
+    "pos": "name",
+    "lemma": "schubert",
+    "en": "Schubert",
+    "ru": "Шуберт"
   },
   "schublade": {
     "pos": "noun",
@@ -46889,6 +48917,18 @@
     "en": "school caretaker",
     "ru": "школьный вахтер"
   },
+  "schulhof": {
+    "pos": "noun",
+    "lemma": "schulhof",
+    "en": "schoolyard",
+    "ru": "школьный двор"
+  },
+  "schulhofs": {
+    "pos": "noun",
+    "lemma": "schulhof",
+    "en": "schoolyard",
+    "ru": "школьный двор"
+  },
   "schulhöfen": {
     "pos": "noun",
     "lemma": "schulhof",
@@ -46936,6 +48976,12 @@
     "lemma": "schulterzucken",
     "en": "shrugged",
     "ru": "пожал плечами"
+  },
+  "schulweg": {
+    "pos": "noun",
+    "lemma": "schulweg",
+    "en": "school route",
+    "ru": "дорога в школу"
   },
   "schulzeit": {
     "pos": "noun",
@@ -46996,6 +49042,12 @@
     "lemma": "schwamm",
     "en": "sponge",
     "ru": "губка"
+  },
+  "schwammen": {
+    "pos": "verb",
+    "lemma": "schwimmen",
+    "en": "swam",
+    "ru": "плыли"
   },
   "schwang": {
     "pos": "verb",
@@ -47062,6 +49114,12 @@
     "lemma": "schwarz",
     "en": "black",
     "ru": "чёрный"
+  },
+  "schwarzes": {
+    "pos": "adj",
+    "lemma": "schwarz",
+    "en": "black",
+    "ru": "черный"
   },
   "schwebte": {
     "pos": "verb",
@@ -47447,6 +49505,18 @@
     "en": "beautiful, lovely",
     "ru": "красивый"
   },
+  "schönes": {
+    "pos": "adj",
+    "lemma": "schön",
+    "en": "beautiful",
+    "ru": "прекрасный"
+  },
+  "schönste": {
+    "pos": "adj",
+    "lemma": "schön",
+    "en": "most beautiful",
+    "ru": "самый красивый"
+  },
   "schönsten": {
     "pos": "adj",
     "lemma": "schön",
@@ -47699,6 +49769,12 @@
     "en": "blessing",
     "ru": "благословение"
   },
+  "sehe": {
+    "pos": "verb",
+    "lemma": "sehen",
+    "en": "see",
+    "ru": "вижу"
+  },
   "sehen": {
     "pos": "verb",
     "lemma": "sehen",
@@ -47722,6 +49798,12 @@
     "lemma": "sein",
     "en": "be",
     "ru": "будь"
+  },
+  "seid": {
+    "pos": "verb",
+    "lemma": "sein",
+    "en": "are",
+    "ru": "вы есть"
   },
   "seien": {
     "pos": "verb",
@@ -48617,6 +50699,12 @@
     "en": "New Year's Eve",
     "ru": "канун Нового года"
   },
+  "sim-karte": {
+    "pos": "noun",
+    "lemma": "sim-karte",
+    "en": "SIM card",
+    "ru": "SIM-карта"
+  },
   "simpel": {
     "pos": "adj",
     "lemma": "simpel",
@@ -49175,6 +51263,18 @@
     "en": "should",
     "ru": "следует"
   },
+  "sollst": {
+    "pos": "verb",
+    "lemma": "sollen",
+    "en": "should",
+    "ru": "должен"
+  },
+  "sollt": {
+    "pos": "verb",
+    "lemma": "sollen",
+    "en": "should",
+    "ru": "должна"
+  },
   "sollte": {
     "pos": "verb",
     "lemma": "sollen",
@@ -49361,6 +51461,12 @@
     "en": "otherwise",
     "ru": "иначе"
   },
+  "sorge": {
+    "pos": "noun",
+    "lemma": "sorge",
+    "en": "worry",
+    "ru": "забота"
+  },
   "sorgen": {
     "pos": "verb",
     "lemma": "sorgen",
@@ -49432,6 +51538,12 @@
     "lemma": "sowie",
     "en": "as well as",
     "ru": "а также"
+  },
+  "sowieso": {
+    "pos": "adv",
+    "lemma": "sowieso",
+    "en": "anyway",
+    "ru": "так или иначе"
   },
   "sowjetbürger": {
     "pos": "noun",
@@ -49625,6 +51737,12 @@
     "en": "fun",
     "ru": "веселье"
   },
+  "spaßmacher": {
+    "pos": "noun",
+    "lemma": "spaßmacher",
+    "en": "joker",
+    "ru": "шутник"
+  },
   "speck": {
     "pos": "noun",
     "lemma": "speck",
@@ -49775,6 +51893,12 @@
     "en": "reflect",
     "ru": "отражают"
   },
+  "spiegelten": {
+    "pos": "verb",
+    "lemma": "spiegeln",
+    "en": "reflected",
+    "ru": "отражались"
+  },
   "spiel": {
     "pos": "noun",
     "lemma": "spiel",
@@ -49841,6 +51965,12 @@
     "en": "Spike",
     "ru": "Спайк"
   },
+  "spinne": {
+    "pos": "noun",
+    "lemma": "spinne",
+    "en": "spider",
+    "ru": "паук"
+  },
   "spionage": {
     "pos": "noun",
     "lemma": "spionage",
@@ -49876,6 +52006,12 @@
     "lemma": "spokane",
     "en": "Spokane",
     "ru": "Спокан"
+  },
+  "sport": {
+    "pos": "noun",
+    "lemma": "sport",
+    "en": "sports",
+    "ru": "спорт"
   },
   "sportberichten": {
     "pos": "noun",
@@ -49943,6 +52079,12 @@
     "en": "jumped",
     "ru": "прыгали"
   },
+  "sprechblase": {
+    "pos": "noun",
+    "lemma": "sprechblase",
+    "en": "speech bubble",
+    "ru": "речевой пузырь"
+  },
   "spreche": {
     "pos": "verb",
     "lemma": "sprechen",
@@ -49997,6 +52139,12 @@
     "en": "syringe",
     "ru": "шприц"
   },
+  "spritzte": {
+    "pos": "verb",
+    "lemma": "spritzen",
+    "en": "splashed",
+    "ru": "брызнул"
+  },
   "sprächen": {
     "pos": "verb",
     "lemma": "sprechen",
@@ -50014,6 +52162,12 @@
     "lemma": "spucken",
     "en": "spat",
     "ru": "плюнул"
+  },
+  "spukt": {
+    "pos": "verb",
+    "lemma": "spuken",
+    "en": "haunts",
+    "ru": "привидится"
   },
   "spur": {
     "pos": "noun",
@@ -50087,6 +52241,18 @@
     "en": "at the latest",
     "ru": "в лучшем случае"
   },
+  "spätnachmittag": {
+    "pos": "noun",
+    "lemma": "spätnachmittag",
+    "en": "late afternoon",
+    "ru": "поздний полдень"
+  },
+  "spätschicht": {
+    "pos": "noun",
+    "lemma": "spätschicht",
+    "en": "late shift",
+    "ru": "поздняя смена"
+  },
   "spöttisch": {
     "pos": "adj",
     "lemma": "spöttisch",
@@ -50110,6 +52276,12 @@
     "lemma": "spüren",
     "en": "felt",
     "ru": "чувствовал"
+  },
+  "spürten": {
+    "pos": "verb",
+    "lemma": "spüren",
+    "en": "felt",
+    "ru": "почувствовали"
   },
   "staat": {
     "pos": "noun",
@@ -50195,11 +52367,23 @@
     "en": "stabbed",
     "ru": "колол"
   },
+  "stade": {
+    "pos": "name",
+    "lemma": "stade",
+    "en": "Stade",
+    "ru": "Штаде"
+  },
   "stadt": {
     "pos": "noun",
     "lemma": "stadt",
     "en": "city",
     "ru": "город"
+  },
+  "stadtarchiv": {
+    "pos": "noun",
+    "lemma": "stadtarchiv",
+    "en": "city archive",
+    "ru": "городской архив"
   },
   "stadtchef": {
     "pos": "noun",
@@ -50230,6 +52414,12 @@
     "lemma": "stadtteil",
     "en": "city districts",
     "ru": "городские районы"
+  },
+  "stadtzentrum": {
+    "pos": "noun",
+    "lemma": "stadtzentrum",
+    "en": "town center",
+    "ru": "центр города"
   },
   "staff": {
     "pos": "name",
@@ -50356,6 +52546,12 @@
     "lemma": "standort",
     "en": "sites",
     "ru": "площадки"
+  },
+  "standuhr": {
+    "pos": "noun",
+    "lemma": "standuhr",
+    "en": "grandfather clock",
+    "ru": "напольные часы"
   },
   "stange": {
     "pos": "noun",
@@ -50513,6 +52709,12 @@
     "en": "dusty",
     "ru": "запыленный"
   },
+  "staubiges": {
+    "pos": "adj",
+    "lemma": "staubig",
+    "en": "dusty",
+    "ru": "пыльный"
+  },
   "staubsaugte": {
     "pos": "verb",
     "lemma": "staubsaugen",
@@ -50537,6 +52739,12 @@
     "en": "sting",
     "ru": "колоть"
   },
+  "steck": {
+    "pos": "verb",
+    "lemma": "stecken",
+    "en": "put",
+    "ru": "положи"
+  },
   "steckt": {
     "pos": "verb",
     "lemma": "stecken",
@@ -50548,6 +52756,18 @@
     "lemma": "stecken",
     "en": "stuck",
     "ru": "застрял"
+  },
+  "steckten": {
+    "pos": "verb",
+    "lemma": "stecken",
+    "en": "stuck",
+    "ru": "были засунуты"
+  },
+  "steh": {
+    "pos": "verb",
+    "lemma": "stehen",
+    "en": "stand",
+    "ru": "стой"
   },
   "stehen": {
     "pos": "verb",
@@ -50650,6 +52870,12 @@
     "lemma": "stellenweise",
     "en": "in places",
     "ru": "местами"
+  },
+  "stellt": {
+    "pos": "verb",
+    "lemma": "stellen",
+    "en": "puts",
+    "ru": "ставит"
   },
   "stellte": {
     "pos": "verb",
@@ -50969,6 +53195,12 @@
     "en": "Stine's",
     "ru": "Стайна"
   },
+  "stinksauer": {
+    "pos": "adj",
+    "lemma": "stinksauer",
+    "en": "furious",
+    "ru": "очень рассержена"
+  },
   "stinkt": {
     "pos": "verb",
     "lemma": "stinken",
@@ -51155,6 +53387,12 @@
     "en": "beaming",
     "ru": "сияющий"
   },
+  "strahlte": {
+    "pos": "verb",
+    "lemma": "strahlen",
+    "en": "shone",
+    "ru": "сияла"
+  },
   "strahlung": {
     "pos": "noun",
     "lemma": "strahlung",
@@ -51214,6 +53452,12 @@
     "lemma": "straßenlampe",
     "en": "street lamp",
     "ru": "уличный фонарь"
+  },
+  "straßenlaternen": {
+    "pos": "noun",
+    "lemma": "straßenlaterne",
+    "en": "street lamps",
+    "ru": "уличные фонари"
   },
   "straßenlicht": {
     "pos": "noun",
@@ -51521,6 +53765,12 @@
     "en": "step, level",
     "ru": "ступень"
   },
+  "stufen": {
+    "pos": "noun",
+    "lemma": "stufe",
+    "en": "steps",
+    "ru": "ступени"
+  },
   "stuhl": {
     "pos": "noun",
     "lemma": "stuhl",
@@ -51683,6 +53933,12 @@
     "en": "chairs",
     "ru": "стулья"
   },
+  "stünde": {
+    "pos": "verb",
+    "lemma": "stehen",
+    "en": "would stand",
+    "ru": "стояла бы"
+  },
   "stürmten": {
     "pos": "verb",
     "lemma": "stürmen",
@@ -51694,6 +53950,12 @@
     "lemma": "stürzen",
     "en": "fall",
     "ru": "падает"
+  },
+  "stürzen": {
+    "pos": "verb",
+    "lemma": "stürzen",
+    "en": "plunge",
+    "ru": "бросаться"
   },
   "stürzte": {
     "pos": "verb",
@@ -51754,6 +54016,12 @@
     "lemma": "substitutionschiffre",
     "en": "substitution cipher",
     "ru": "шифр подстановки"
+  },
+  "such": {
+    "pos": "verb",
+    "lemma": "suchen",
+    "en": "search",
+    "ru": "ищи"
   },
   "suche": {
     "pos": "noun",
@@ -51838,6 +54106,12 @@
     "lemma": "sund",
     "en": "strait",
     "ru": "пролив"
+  },
+  "super": {
+    "pos": "intj",
+    "lemma": "super",
+    "en": "great",
+    "ru": "супер"
   },
   "super-x": {
     "pos": "abbr",
@@ -52037,6 +54311,12 @@
     "en": "sons",
     "ru": "сыновья"
   },
+  "söhne'": {
+    "pos": "noun",
+    "lemma": "sohn",
+    "en": "sons",
+    "ru": "сыновья"
+  },
   "söhnen": {
     "pos": "noun",
     "lemma": "söhn",
@@ -52066,6 +54346,12 @@
     "lemma": "Sünde",
     "en": "sin",
     "ru": "грех"
+  },
+  "süß": {
+    "pos": "adj",
+    "lemma": "süß",
+    "en": "sweet",
+    "ru": "сладкий"
   },
   "süße": {
     "pos": "noun",
@@ -52403,11 +54689,29 @@
     "en": "cups",
     "ru": "чашки"
   },
+  "tastatur": {
+    "pos": "noun",
+    "lemma": "tastatur",
+    "en": "keyboard",
+    "ru": "клавиатура"
+  },
   "tastaturen": {
     "pos": "noun",
     "lemma": "tastatur",
     "en": "keyboards",
     "ru": "клавиатуры"
+  },
+  "tasten": {
+    "pos": "verb",
+    "lemma": "tasten",
+    "en": "feel",
+    "ru": "нащупали"
+  },
+  "tastete": {
+    "pos": "verb",
+    "lemma": "tasten",
+    "en": "felt around",
+    "ru": "нащупывал"
   },
   "tat": {
     "pos": "verb",
@@ -52679,6 +54983,12 @@
     "en": "tea",
     "ru": "чай"
   },
+  "teedose": {
+    "pos": "noun",
+    "lemma": "teedose",
+    "en": "tea tin",
+    "ru": "коробка для чая"
+  },
   "teekessel": {
     "pos": "noun",
     "lemma": "teekessel",
@@ -52877,6 +55187,12 @@
     "en": "plate",
     "ru": "тарелка"
   },
+  "tellern": {
+    "pos": "noun",
+    "lemma": "teller",
+    "en": "plates",
+    "ru": "тарелки"
+  },
   "temperament": {
     "pos": "noun",
     "lemma": "temperament",
@@ -52967,6 +55283,12 @@
     "en": "testamentary",
     "ru": "завещательный"
   },
+  "teste": {
+    "pos": "verb",
+    "lemma": "testen",
+    "en": "test",
+    "ru": "тестирую"
+  },
   "testete": {
     "pos": "verb",
     "lemma": "testen",
@@ -53014,6 +55336,12 @@
     "lemma": "teufel",
     "en": "devil's",
     "ru": "дьявол"
+  },
+  "teuren": {
+    "pos": "adj",
+    "lemma": "teuer",
+    "en": "expensive",
+    "ru": "дорогих"
   },
   "teurer": {
     "pos": "adj",
@@ -53207,6 +55535,12 @@
     "en": "Tibo-Brinjol",
     "ru": "Тибо-Бринжоль"
   },
+  "ticken": {
+    "pos": "verb",
+    "lemma": "ticken",
+    "en": "ticks",
+    "ru": "тикает"
+  },
   "ticker": {
     "pos": "noun",
     "lemma": "ticker",
@@ -53309,6 +55643,12 @@
     "en": "animal cruelty",
     "ru": "жестокое обращение с животными"
   },
+  "tim": {
+    "pos": "name",
+    "lemma": "tim",
+    "en": "Tim",
+    "ru": "Тим"
+  },
   "time": {
     "pos": "name",
     "lemma": "time",
@@ -53339,6 +55679,18 @@
     "en": "timing",
     "ru": "сроки"
   },
+  "timm": {
+    "pos": "name",
+    "lemma": "timm",
+    "en": "Timm",
+    "ru": "Тимм"
+  },
+  "tims": {
+    "pos": "name",
+    "lemma": "tim",
+    "en": "Tim",
+    "ru": "Тим"
+  },
   "tinte": {
     "pos": "noun",
     "lemma": "tinte",
@@ -53356,6 +55708,12 @@
     "lemma": "tipp",
     "en": "tips",
     "ru": "советы"
+  },
+  "tippt": {
+    "pos": "verb",
+    "lemma": "tippen",
+    "en": "types",
+    "ru": "печатает"
   },
   "tippte": {
     "pos": "verb",
@@ -53531,6 +55889,12 @@
     "en": "death row",
     "ru": "камера смертника"
   },
+  "todmüde": {
+    "pos": "adj",
+    "lemma": "todmüde",
+    "en": "dead tired",
+    "ru": "смертельно усталые"
+  },
   "toilette": {
     "pos": "noun",
     "lemma": "toilette",
@@ -53663,6 +56027,12 @@
     "en": "dead",
     "ru": "мёртвый"
   },
+  "total": {
+    "pos": "adv",
+    "lemma": "total",
+    "en": "totally",
+    "ru": "совсем"
+  },
   "totale": {
     "pos": "adj",
     "lemma": "total",
@@ -53687,11 +56057,23 @@
     "en": "death certificates",
     "ru": "свидетельства о смерти"
   },
+  "totenstill": {
+    "pos": "adj",
+    "lemma": "totenstill",
+    "en": "deathly silent",
+    "ru": "мёртвая тишина"
+  },
   "toter": {
     "pos": "noun",
     "lemma": "toter",
     "en": "dead person",
     "ru": "мёртвый"
+  },
+  "totes": {
+    "pos": "adj",
+    "lemma": "tot",
+    "en": "dead",
+    "ru": "мёртвое"
   },
   "tour": {
     "pos": "noun",
@@ -53885,17 +56267,41 @@
     "en": "traumatized",
     "ru": "травмирован"
   },
+  "traurig": {
+    "pos": "adj",
+    "lemma": "traurig",
+    "en": "sad",
+    "ru": "грустный"
+  },
   "traurige": {
     "pos": "adj",
     "lemma": "traurig",
     "en": "sad",
     "ru": "грустный"
   },
+  "trauriges": {
+    "pos": "adj",
+    "lemma": "traurig",
+    "en": "sad",
+    "ru": "грустный"
+  },
+  "traurigste": {
+    "pos": "adj",
+    "lemma": "traurig",
+    "en": "saddest",
+    "ru": "самый грустный"
+  },
   "traurigsten": {
     "pos": "adj",
     "lemma": "traurig",
     "en": "saddest",
     "ru": "самый грустный"
+  },
+  "traut": {
+    "pos": "verb",
+    "lemma": "trauen",
+    "en": "dares",
+    "ru": "смеет"
   },
   "treffen": {
     "pos": "verb",
@@ -53950,6 +56356,12 @@
     "lemma": "treppe",
     "en": "stairs",
     "ru": "лестница"
+  },
+  "treppenhaus": {
+    "pos": "noun",
+    "lemma": "treppenhaus",
+    "en": "stairwell",
+    "ru": "лестничная клетка"
   },
   "tresen": {
     "pos": "noun",
@@ -54077,6 +56489,18 @@
     "en": "drop",
     "ru": "капля"
   },
+  "tropft": {
+    "pos": "verb",
+    "lemma": "tropfen",
+    "en": "drips",
+    "ru": "капает"
+  },
+  "tropfte": {
+    "pos": "verb",
+    "lemma": "tropfen",
+    "en": "dripped",
+    "ru": "капал"
+  },
   "trost": {
     "pos": "noun",
     "lemma": "trost",
@@ -54137,6 +56561,12 @@
     "en": "tears",
     "ru": "слёзы"
   },
+  "träume": {
+    "pos": "noun",
+    "lemma": "traum",
+    "en": "dreams",
+    "ru": "мечты"
+  },
   "träumen": {
     "pos": "verb",
     "lemma": "träumen",
@@ -54191,6 +56621,12 @@
     "en": "Chikatilo (name)",
     "ru": "Чикатило"
   },
+  "tschüss": {
+    "pos": "intj",
+    "lemma": "tschüss",
+    "en": "goodbye",
+    "ru": "пока"
+  },
   "tuch": {
     "pos": "noun",
     "lemma": "tuch",
@@ -54232,6 +56668,12 @@
     "lemma": "turgenjew",
     "en": "Turgenev",
     "ru": "Тургенев"
+  },
+  "turm": {
+    "pos": "noun",
+    "lemma": "turm",
+    "en": "tower",
+    "ru": "башня"
   },
   "turnschuhen": {
     "pos": "noun",
@@ -54431,6 +56873,18 @@
     "en": "door handle",
     "ru": "ручка двери"
   },
+  "tüte": {
+    "pos": "noun",
+    "lemma": "tüte",
+    "en": "bag",
+    "ru": "сумка"
+  },
+  "tüten": {
+    "pos": "noun",
+    "lemma": "tüte",
+    "en": "bags",
+    "ru": "пакеты"
+  },
   "u-bahn": {
     "pos": "noun",
     "lemma": "u-bahn",
@@ -54527,6 +56981,12 @@
     "en": "upheaval",
     "ru": "переворот"
   },
+  "umdrehte": {
+    "pos": "verb",
+    "lemma": "umdrehen",
+    "en": "turned",
+    "ru": "повернула"
+  },
   "umdrehten": {
     "pos": "verb",
     "lemma": "umdrehen",
@@ -54569,6 +57029,12 @@
     "en": "surroundings",
     "ru": "окрестности"
   },
+  "umgedreht": {
+    "pos": "verb",
+    "lemma": "umdrehen",
+    "en": "turned around",
+    "ru": "перевернула"
+  },
   "umgelegt": {
     "pos": "verb",
     "lemma": "umlegen",
@@ -54581,11 +57047,23 @@
     "en": "redirect",
     "ru": "переправил"
   },
+  "umgeschaut": {
+    "pos": "verb",
+    "lemma": "umschauen",
+    "en": "looked around",
+    "ru": "посмотрел вокруг"
+  },
   "umgestoßen": {
     "pos": "verb",
     "lemma": "umstoßen",
     "en": "knocked over",
     "ru": "опрокинул"
+  },
+  "umgeworfen": {
+    "pos": "verb",
+    "lemma": "umwerfen",
+    "en": "knocked over",
+    "ru": "свалил"
   },
   "umging": {
     "pos": "verb",
@@ -54598,6 +57076,12 @@
     "lemma": "umkommen",
     "en": "perished",
     "ru": "погибли"
+  },
+  "umkleide": {
+    "pos": "noun",
+    "lemma": "umkleide",
+    "en": "changing room",
+    "ru": "раздевалка"
   },
   "umkreiste": {
     "pos": "verb",
@@ -54634,6 +57118,12 @@
     "lemma": "umschlag",
     "en": "envelopes",
     "ru": "конверты"
+  },
+  "umsonst": {
+    "pos": "adv",
+    "lemma": "umsonst",
+    "en": "in vain",
+    "ru": "напрасно"
   },
   "umstritten": {
     "pos": "adj",
@@ -54676,6 +57166,12 @@
     "lemma": "umweltverschmutzung",
     "en": "environmental pollution",
     "ru": "загрязнение окружающей среды"
+  },
+  "umzudrehen": {
+    "pos": "verb",
+    "lemma": "umdrehen",
+    "en": "to turn around",
+    "ru": "повернуться"
   },
   "unabhängigkeitstag": {
     "pos": "noun",
@@ -54736,6 +57232,12 @@
     "lemma": "Unbedenklichkeit",
     "en": "harmlessness",
     "ru": "безвредность"
+  },
+  "unbedingt": {
+    "pos": "adv",
+    "lemma": "unbedingt",
+    "en": "definitely",
+    "ru": "определённо"
   },
   "unbeeindruckt": {
     "pos": "adj",
@@ -54958,6 +57460,12 @@
     "lemma": "ungiftig",
     "en": "non-toxic",
     "ru": "нетоксичный"
+  },
+  "ungläubig": {
+    "pos": "adj",
+    "lemma": "ungläubig",
+    "en": "incredulous",
+    "ru": "недоверчиво"
   },
   "unglücklicheren": {
     "pos": "adj",
@@ -55265,6 +57773,12 @@
     "en": "interrupted",
     "ru": "прервал"
   },
+  "unterbrechen": {
+    "pos": "verb",
+    "lemma": "unterbrechen",
+    "en": "interrupt",
+    "ru": "прерывать"
+  },
   "unterbrechungen": {
     "pos": "noun",
     "lemma": "unterbrechung",
@@ -55420,6 +57934,12 @@
     "lemma": "unterschrift",
     "en": "signatures",
     "ru": "подписи"
+  },
+  "unterste": {
+    "pos": "adj",
+    "lemma": "unterst",
+    "en": "lowest",
+    "ru": "нижний"
   },
   "unterstrichen": {
     "pos": "verb",
@@ -55829,6 +58349,12 @@
     "en": "van",
     "ru": "фургон"
   },
+  "vase": {
+    "pos": "noun",
+    "lemma": "vase",
+    "en": "vase",
+    "ru": "ваза"
+  },
   "vaseline": {
     "pos": "noun",
     "lemma": "vaseline",
@@ -55894,6 +58420,12 @@
     "lemma": "verabreden",
     "en": "arranged",
     "ru": "договорился"
+  },
+  "verabredeten": {
+    "pos": "verb",
+    "lemma": "verabreden",
+    "en": "arranged",
+    "ru": "договорились"
   },
   "verabredung": {
     "pos": "noun",
@@ -55961,6 +58493,12 @@
     "en": "blocked",
     "ru": "перекрывать"
   },
+  "verbeißen": {
+    "pos": "verb",
+    "lemma": "verbeißen",
+    "en": "restrain",
+    "ru": "сдержаться"
+  },
   "verbergen": {
     "pos": "verb",
     "lemma": "verbergen",
@@ -56021,6 +58559,12 @@
     "en": "forbidden",
     "ru": "запрещён"
   },
+  "verbotenes": {
+    "pos": "adj",
+    "lemma": "verboten",
+    "en": "forbidden",
+    "ru": "запрещённое"
+  },
   "verbracht": {
     "pos": "verb",
     "lemma": "verbringen",
@@ -56038,6 +58582,12 @@
     "lemma": "verbringen",
     "en": "spent",
     "ru": "проводили"
+  },
+  "verbrannte": {
+    "pos": "verb",
+    "lemma": "verbrennen",
+    "en": "burned",
+    "ru": "сгорел"
   },
   "verbranntem": {
     "pos": "adj",
@@ -56182,6 +58732,12 @@
     "lemma": "verdoppeln",
     "en": "doubled",
     "ru": "удвоилась"
+  },
+  "verdrehte": {
+    "pos": "verb",
+    "lemma": "verdrehen",
+    "en": "twisted",
+    "ru": "перекрутил"
   },
   "verdrehten": {
     "pos": "verb",
@@ -56561,11 +59117,23 @@
     "en": "yellowed",
     "ru": "пожелтевший"
   },
+  "verging": {
+    "pos": "verb",
+    "lemma": "vergehen",
+    "en": "passed",
+    "ru": "прошло"
+  },
   "vergingen": {
     "pos": "verb",
     "lemma": "vergehen",
     "en": "passed",
     "ru": "прошли"
+  },
+  "vergiss": {
+    "pos": "verb",
+    "lemma": "vergessen",
+    "en": "forget",
+    "ru": "забывай"
   },
   "vergisst": {
     "pos": "verb",
@@ -56662,6 +59230,12 @@
     "lemma": "verhaftung",
     "en": "arrest",
     "ru": "арест"
+  },
+  "verhallten": {
+    "pos": "verb",
+    "lemma": "verhallen",
+    "en": "faded",
+    "ru": "затихли"
   },
   "verhalten": {
     "pos": "noun",
@@ -56969,6 +59543,12 @@
     "en": "went, proceeded",
     "ru": "проходил"
   },
+  "verlierer": {
+    "pos": "noun",
+    "lemma": "verlierer",
+    "en": "loser",
+    "ru": "проигравший"
+  },
   "verliert": {
     "pos": "verb",
     "lemma": "verlieren",
@@ -57245,6 +59825,12 @@
     "en": "fail",
     "ru": "давать сбой"
   },
+  "versagt": {
+    "pos": "verb",
+    "lemma": "versagen",
+    "en": "failed",
+    "ru": "отказала"
+  },
   "versagten": {
     "pos": "verb",
     "lemma": "versagen",
@@ -57322,6 +59908,12 @@
     "lemma": "verschlucken",
     "en": "swallowed",
     "ru": "проглотил"
+  },
+  "verschluckten": {
+    "pos": "verb",
+    "lemma": "verschlucken",
+    "en": "swallowed",
+    "ru": "проглотили"
   },
   "verschlüsselte": {
     "pos": "verb",
@@ -57496,6 +60088,12 @@
     "lemma": "versprechen",
     "en": "promise",
     "ru": "обещаю"
+  },
+  "versprichst": {
+    "pos": "verb",
+    "lemma": "versprechen",
+    "en": "promise",
+    "ru": "обещаешь"
   },
   "versprochen": {
     "pos": "verb",
@@ -57760,6 +60358,12 @@
     "lemma": "vertrauen",
     "en": "trusted",
     "ru": "доверял"
+  },
+  "vertrauten": {
+    "pos": "verb",
+    "lemma": "vertrauen",
+    "en": "trusted",
+    "ru": "доверили"
   },
   "vertrautes": {
     "pos": "adj",
@@ -58090,6 +60694,12 @@
     "lemma": "vicap",
     "en": "VICAP",
     "ru": "VICAP"
+  },
+  "video": {
+    "pos": "noun",
+    "lemma": "video",
+    "en": "video",
+    "ru": "видео"
   },
   "videos": {
     "pos": "noun",
@@ -58511,6 +61121,12 @@
     "en": "past",
     "ru": "мимо"
   },
+  "vorbeigefahren": {
+    "pos": "verb",
+    "lemma": "vorbeifahren",
+    "en": "drove past",
+    "ru": "проехал мимо"
+  },
   "vorbeigegangen": {
     "pos": "verb",
     "lemma": "vorbeigehen",
@@ -58528,6 +61144,24 @@
     "lemma": "vorbeigehn",
     "en": "pass by",
     "ru": "проходит"
+  },
+  "vorbeigekommen": {
+    "pos": "verb",
+    "lemma": "vorbeikommen",
+    "en": "came by",
+    "ru": "прошёл мимо"
+  },
+  "vorbeikommen": {
+    "pos": "verb",
+    "lemma": "vorbeikommen",
+    "en": "come by",
+    "ru": "прибежать"
+  },
+  "vorbereitet": {
+    "pos": "verb",
+    "lemma": "vorbereiten",
+    "en": "prepared",
+    "ru": "подготовил"
   },
   "vorbereiteten": {
     "pos": "verb",
@@ -58588,6 +61222,12 @@
     "lemma": "vorfinden",
     "en": "found",
     "ru": "обнаружил"
+  },
+  "vorgarten": {
+    "pos": "noun",
+    "lemma": "vorgarten",
+    "en": "front yard",
+    "ru": "палисадник"
   },
   "vorgehalten": {
     "pos": "verb",
@@ -58696,6 +61336,12 @@
     "lemma": "vorhang",
     "en": "curtain",
     "ru": "занавес"
+  },
+  "vorhatte": {
+    "pos": "verb",
+    "lemma": "vorhaben",
+    "en": "intended",
+    "ru": "намеревалась"
   },
   "vorher": {
     "pos": "adv",
@@ -58878,6 +61524,12 @@
     "ru": "осторожный"
   },
   "vorsichtige": {
+    "pos": "adj",
+    "lemma": "vorsichtig",
+    "en": "careful",
+    "ru": "осторожный"
+  },
+  "vorsichtigen": {
     "pos": "adj",
     "lemma": "vorsichtig",
     "en": "careful",
@@ -59195,6 +61847,12 @@
     "en": "car's",
     "ru": "автомобиля"
   },
+  "wagner": {
+    "pos": "name",
+    "lemma": "wagner",
+    "en": "Wagner",
+    "ru": "Вагнер"
+  },
   "wagonbau": {
     "pos": "noun",
     "lemma": "wagonbau",
@@ -59435,6 +62093,12 @@
     "en": "wall newspaper",
     "ru": "стенная газета"
   },
+  "wange": {
+    "pos": "noun",
+    "lemma": "wange",
+    "en": "cheek",
+    "ru": "щека"
+  },
   "wangen": {
     "pos": "noun",
     "lemma": "wange",
@@ -59507,11 +62171,29 @@
     "en": "warmer",
     "ru": "теплый"
   },
+  "warmes": {
+    "pos": "adj",
+    "lemma": "warm",
+    "en": "warm",
+    "ru": "тёплый"
+  },
   "warnung": {
     "pos": "noun",
     "lemma": "warnung",
     "en": "warning",
     "ru": "предупреждение"
+  },
+  "warst": {
+    "pos": "verb",
+    "lemma": "sein",
+    "en": "were",
+    "ru": "был"
+  },
+  "wart": {
+    "pos": "verb",
+    "lemma": "warten",
+    "en": "wait",
+    "ru": "жди"
   },
   "warte": {
     "pos": "intj",
@@ -59639,6 +62321,12 @@
     "en": "water dispenser",
     "ru": "водораздатчик"
   },
+  "wasserturm": {
+    "pos": "noun",
+    "lemma": "wasserturm",
+    "en": "water tower",
+    "ru": "водонапорная башня"
+  },
   "watergate": {
     "pos": "name",
     "lemma": "watergate",
@@ -59753,6 +62441,18 @@
     "en": "because of",
     "ru": "из-за"
   },
+  "weggefahren": {
+    "pos": "verb",
+    "lemma": "wegfahren",
+    "en": "drove away",
+    "ru": "уехал"
+  },
+  "weggegangen": {
+    "pos": "verb",
+    "lemma": "weggehen",
+    "en": "went away",
+    "ru": "ушли"
+  },
   "weggelaufen": {
     "pos": "verb",
     "lemma": "weglaufen",
@@ -59770,6 +62470,18 @@
     "lemma": "wegwerfen",
     "en": "thrown away",
     "ru": "выбросил"
+  },
+  "weggezogen": {
+    "pos": "verb",
+    "lemma": "wegziehen",
+    "en": "moved away",
+    "ru": "переехал"
+  },
+  "weglaufen": {
+    "pos": "verb",
+    "lemma": "weglaufen",
+    "en": "run away",
+    "ru": "убежать"
   },
   "wegrändern": {
     "pos": "noun",
@@ -60035,6 +62747,12 @@
     "en": "to continue",
     "ru": "продолжать"
   },
+  "weitersagen": {
+    "pos": "verb",
+    "lemma": "weitersagen",
+    "en": "to tell",
+    "ru": "рассказать дальше"
+  },
   "weiterwirken": {
     "pos": "verb",
     "lemma": "weiterwirken",
@@ -60094,6 +62812,12 @@
     "lemma": "weiß",
     "en": "white",
     "ru": "белый"
+  },
+  "weißt": {
+    "pos": "verb",
+    "lemma": "wissen",
+    "en": "know",
+    "ru": "знаешь"
   },
   "welche": {
     "pos": "pron",
@@ -60239,6 +62963,12 @@
     "en": "least",
     "ru": "наименьший"
   },
+  "wenigstens": {
+    "pos": "adv",
+    "lemma": "wenigstens",
+    "en": "at least",
+    "ru": "по крайней мере"
+  },
   "wenn": {
     "pos": "conj",
     "lemma": "wenn",
@@ -60286,6 +63016,12 @@
     "lemma": "werfen",
     "en": "throw",
     "ru": "бросать"
+  },
+  "werft": {
+    "pos": "noun",
+    "lemma": "werft",
+    "en": "shipyard",
+    "ru": "верфь"
   },
   "werften": {
     "pos": "noun",
@@ -60611,6 +63347,12 @@
     "en": "regained",
     "ru": "возвращен"
   },
+  "wiedergekommen": {
+    "pos": "verb",
+    "lemma": "wiederkommen",
+    "en": "came back",
+    "ru": "вернулся"
+  },
   "wiederholen": {
     "pos": "verb",
     "lemma": "wiederholen",
@@ -60689,6 +63431,12 @@
     "en": "wilderness",
     "ru": "дикая природа"
   },
+  "wilhadistraße": {
+    "pos": "name",
+    "lemma": "wilhadistraße",
+    "en": "Wilhadistraße",
+    "ru": "Вильхадиштрассе"
+  },
   "will": {
     "pos": "verb",
     "lemma": "wollen",
@@ -60748,6 +63496,12 @@
     "lemma": "windig",
     "en": "windy",
     "ru": "ветреный"
+  },
+  "windrad": {
+    "pos": "noun",
+    "lemma": "windrad",
+    "en": "windmill",
+    "ru": "ветряная мельница"
   },
   "windschutzscheibe": {
     "pos": "noun",
@@ -61043,6 +63797,12 @@
     "en": "scientific",
     "ru": "научный"
   },
+  "wisst": {
+    "pos": "verb",
+    "lemma": "wissen",
+    "en": "know",
+    "ru": "знаете"
+  },
   "with": {
     "pos": "prep",
     "lemma": "with",
@@ -61084,6 +63844,12 @@
     "lemma": "wo",
     "en": "where",
     "ru": "где"
+  },
+  "woanders": {
+    "pos": "adv",
+    "lemma": "woanders",
+    "en": "elsewhere",
+    "ru": "в другом месте"
   },
   "woche": {
     "pos": "noun",
@@ -61163,6 +63929,12 @@
     "en": "residential blocks",
     "ru": "жилые дома"
   },
+  "wohne": {
+    "pos": "verb",
+    "lemma": "wohnen",
+    "en": "live",
+    "ru": "живу"
+  },
   "wohnen": {
     "pos": "verb",
     "lemma": "wohnen",
@@ -61175,6 +63947,12 @@
     "en": "dormitory",
     "ru": "общежитие"
   },
+  "wohnhäuser": {
+    "pos": "noun",
+    "lemma": "wohnhaus",
+    "en": "houses",
+    "ru": "дома"
+  },
   "wohnlich": {
     "pos": "adj",
     "lemma": "wohnlich",
@@ -61186,6 +63964,12 @@
     "lemma": "wohnort",
     "en": "residence",
     "ru": "место жительства"
+  },
+  "wohnst": {
+    "pos": "verb",
+    "lemma": "wohnen",
+    "en": "live",
+    "ru": "живёшь"
   },
   "wohnstraße": {
     "pos": "noun",
@@ -61265,6 +64049,12 @@
     "en": "cloud",
     "ru": "облако"
   },
+  "wolken": {
+    "pos": "noun",
+    "lemma": "wolke",
+    "en": "clouds",
+    "ru": "облака"
+  },
   "wolldecke": {
     "pos": "noun",
     "lemma": "wolldecke",
@@ -61300,6 +64090,12 @@
     "lemma": "wollstoff",
     "en": "wool fabric",
     "ru": "шерстяная ткань"
+  },
+  "wollt": {
+    "pos": "verb",
+    "lemma": "wollen",
+    "en": "wanted",
+    "ru": "хотели"
   },
   "wollte": {
     "pos": "verb",
@@ -61372,6 +64168,24 @@
     "lemma": "wortgleich",
     "en": "verbatim",
     "ru": "дословный"
+  },
+  "worum": {
+    "pos": "pron",
+    "lemma": "worum",
+    "en": "what about",
+    "ru": "о чём"
+  },
+  "worüber": {
+    "pos": "pron",
+    "lemma": "worüber",
+    "en": "about what",
+    "ru": "о чём"
+  },
+  "wow": {
+    "pos": "intj",
+    "lemma": "wow",
+    "en": "wow",
+    "ru": "вау"
   },
   "wozrozhdjonny": {
     "pos": "name",
@@ -61553,6 +64367,18 @@
     "en": "would be",
     "ru": "были бы"
   },
+  "wärme": {
+    "pos": "noun",
+    "lemma": "wärme",
+    "en": "warmth",
+    "ru": "тепло"
+  },
+  "wärmer": {
+    "pos": "adj",
+    "lemma": "warm",
+    "en": "warmer",
+    "ru": "теплее"
+  },
   "wärmte": {
     "pos": "verb",
     "lemma": "wärmen",
@@ -61649,6 +64475,12 @@
     "en": "would",
     "ru": "бы"
   },
+  "würdevoll": {
+    "pos": "adj",
+    "lemma": "würdevoll",
+    "en": "dignified",
+    "ru": "достойно"
+  },
   "würgegriff": {
     "pos": "noun",
     "lemma": "Würgegriff",
@@ -61660,6 +64492,12 @@
     "lemma": "Würger",
     "en": "strangler",
     "ru": "задушитель"
+  },
+  "wüsste": {
+    "pos": "verb",
+    "lemma": "wissen",
+    "en": "would know",
+    "ru": "знала бы"
   },
   "wütend": {
     "pos": "adj",
@@ -62519,6 +65357,12 @@
     "en": "room's",
     "ru": "комнаты"
   },
+  "zimt": {
+    "pos": "noun",
+    "lemma": "zimt",
+    "en": "cinnamon",
+    "ru": "корица"
+  },
   "zink": {
     "pos": "noun",
     "lemma": "Zink",
@@ -62957,6 +65801,12 @@
     "en": "admitted",
     "ru": "допущено"
   },
+  "zugemacht": {
+    "pos": "verb",
+    "lemma": "zumachen",
+    "en": "closed",
+    "ru": "закрыл"
+  },
   "zugeordnet": {
     "pos": "verb",
     "lemma": "zuordnen",
@@ -63131,6 +65981,18 @@
     "en": "got back",
     "ru": "получили обратно"
   },
+  "zurückbekommen": {
+    "pos": "verb",
+    "lemma": "zurückbekommen",
+    "en": "get back",
+    "ru": "вернуть"
+  },
+  "zurückgeben": {
+    "pos": "verb",
+    "lemma": "zurückgeben",
+    "en": "to give back",
+    "ru": "отдать назад"
+  },
   "zurückgebracht": {
     "pos": "verb",
     "lemma": "zurückbringen",
@@ -63160,6 +66022,12 @@
     "lemma": "zurücklassen",
     "en": "left",
     "ru": "оставил"
+  },
+  "zurückgelegt": {
+    "pos": "verb",
+    "lemma": "zurücklegen",
+    "en": "covered",
+    "ru": "прошли"
   },
   "zurückgelehnt": {
     "pos": "verb",
@@ -63227,6 +66095,12 @@
     "en": "leave behind",
     "ru": "оставить"
   },
+  "zurücklegen": {
+    "pos": "verb",
+    "lemma": "zurücklegen",
+    "en": "to go back",
+    "ru": "проходить назад"
+  },
   "zurücknehmen": {
     "pos": "verb",
     "lemma": "zurücknehmen",
@@ -63244,6 +66118,12 @@
     "lemma": "zurückschauen",
     "en": "looked back",
     "ru": "посмотрел назад"
+  },
+  "zurückschreiben": {
+    "pos": "verb",
+    "lemma": "zurückschreiben",
+    "en": "write back",
+    "ru": "ответить"
   },
   "zurückspringen": {
     "pos": "verb",
@@ -63329,17 +66209,35 @@
     "en": "sewn together",
     "ru": "сшита вместе"
   },
+  "zusammengepasst": {
+    "pos": "verb",
+    "lemma": "zusammenpassen",
+    "en": "matched",
+    "ru": "подходили друг другу"
+  },
   "zusammengerollt": {
     "pos": "verb",
     "lemma": "zusammenrollen",
     "en": "curled up",
     "ru": "свернулся"
   },
+  "zusammengesessen": {
+    "pos": "verb",
+    "lemma": "zusammensitzen",
+    "en": "sat together",
+    "ru": "сидели вместе"
+  },
   "zusammengesetzt": {
     "pos": "verb",
     "lemma": "zusammensetzen",
     "en": "composed",
     "ru": "составлен"
+  },
+  "zusammengezuckt": {
+    "pos": "verb",
+    "lemma": "zusammenzucken",
+    "en": "flinched",
+    "ru": "вздрогнул"
   },
   "zusammenhang": {
     "pos": "noun",
@@ -63448,6 +66346,12 @@
     "lemma": "zuschlagen",
     "en": "slam shut",
     "ru": "захлопнуть"
+  },
+  "zuschob": {
+    "pos": "verb",
+    "lemma": "zuschieben",
+    "en": "pushed toward",
+    "ru": "подвинула"
   },
   "zustand": {
     "pos": "noun",
@@ -63689,6 +66593,12 @@
     "en": "two thousand",
     "ru": "две тысячи"
   },
+  "zweitausendachtundvierzig": {
+    "pos": "num",
+    "lemma": "zweitausendachtundvierzig",
+    "en": "two thousand forty-eight",
+    "ru": "две тысячи сорок восемь"
+  },
   "zweitausender": {
     "pos": "noun",
     "lemma": "zweitausender",
@@ -63778,6 +66688,12 @@
     "lemma": "zwilling",
     "en": "twins",
     "ru": "близнецы"
+  },
+  "zwinkert": {
+    "pos": "verb",
+    "lemma": "zwinkern",
+    "en": "winks",
+    "ru": "подмигивает"
   },
   "zwischen": {
     "pos": "prep",
@@ -63869,6 +66785,12 @@
     "en": "cynical",
     "ru": "циничный"
   },
+  "zählen": {
+    "pos": "verb",
+    "lemma": "zählen",
+    "en": "to count",
+    "ru": "считать"
+  },
   "zählt": {
     "pos": "verb",
     "lemma": "zählen",
@@ -63916,6 +66838,12 @@
     "lemma": "zaun",
     "en": "fences",
     "ru": "забор"
+  },
+  "zögert": {
+    "pos": "verb",
+    "lemma": "zögern",
+    "en": "hesitates",
+    "ru": "колеблется"
   },
   "zögerte": {
     "pos": "verb",
@@ -63970,6 +66898,12 @@
     "lemma": "Ägypter",
     "en": "Egyptians",
     "ru": "египтяне"
+  },
+  "äh": {
+    "pos": "intj",
+    "lemma": "äh",
+    "en": "um",
+    "ru": "uh"
   },
   "ähnlich": {
     "pos": "adj",
@@ -64061,6 +66995,12 @@
     "en": "changed",
     "ru": "изменили"
   },
+  "ängstlich": {
+    "pos": "adj",
+    "lemma": "ängstlich",
+    "en": "anxious",
+    "ru": "робко"
+  },
   "äpfel": {
     "pos": "noun",
     "lemma": "apfel",
@@ -64078,6 +67018,12 @@
     "lemma": "ära",
     "en": "era",
     "ru": "эпоха"
+  },
+  "ärger": {
+    "pos": "noun",
+    "lemma": "ärger",
+    "en": "annoyance",
+    "ru": "раздражение"
   },
   "ärmel": {
     "pos": "noun",
@@ -64247,6 +67193,12 @@
     "en": "everywhere",
     "ru": "везде"
   },
+  "überblicken": {
+    "pos": "verb",
+    "lemma": "überblicken",
+    "en": "survey",
+    "ru": "охватить взглядом"
+  },
   "überdurchschnittlich": {
     "pos": "adj",
     "lemma": "überdurchschnittlich",
@@ -64397,6 +67349,12 @@
     "en": "think",
     "ru": "подумай"
   },
+  "überlegen": {
+    "pos": "verb",
+    "lemma": "überlegen",
+    "en": "think over",
+    "ru": "подумать"
+  },
   "überlegt": {
     "pos": "verb",
     "lemma": "überlegen",
@@ -64408,6 +67366,12 @@
     "lemma": "überlegen",
     "en": "considered",
     "ru": "обдумал"
+  },
+  "überlegten": {
+    "pos": "verb",
+    "lemma": "überlegen",
+    "en": "considered",
+    "ru": "подумали"
   },
   "überlisten": {
     "pos": "verb",
@@ -64469,6 +67433,12 @@
     "en": "surprised",
     "ru": "удивил"
   },
+  "überraschte": {
+    "pos": "verb",
+    "lemma": "überraschen",
+    "en": "surprised",
+    "ru": "удивила"
+  },
   "überreste": {
     "pos": "noun",
     "lemma": "überrest",
@@ -64492,6 +67462,12 @@
     "lemma": "überschreiben",
     "en": "overwrote",
     "ru": "переписал"
+  },
+  "überschrift": {
+    "pos": "noun",
+    "lemma": "überschrift",
+    "en": "headline",
+    "ru": "заголовок"
   },
   "überschritt": {
     "pos": "verb",

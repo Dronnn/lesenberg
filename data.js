@@ -253,9 +253,11 @@ const UI_STRINGS = {
     levelBeginner: "Anfänger",
     levelBasic: "Grundstufe",
     levelIntermediate: "Mittelstufe",
+    levelUpperIntermediate: "Obere Mittelstufe",
     helpA1Desc: "Du beginnst gerade. Du kennst einfache Wörter: Hallo, Tag, Buch.",
     helpA2Desc: "Du verstehst Alltagsthemen. Du kannst über die Vergangenheit sprechen.",
     helpB1Desc: "Du liest fließend. Du verstehst auch, was zwischen den Zeilen steht.",
+    helpB2Desc: "Anspruchsvolle Texte mit komplexer Grammatik, abstrakten Themen und literarischem Stil. Längere Erzählungen verstehst du fast mühelos.",
     helpA1F1: "Kurze Sätze",
     helpA1F2: "Viel Wiederholung",
     helpA1F3: "Präsens",
@@ -268,6 +270,10 @@ const UI_STRINGS = {
     helpB1F2: "Nebensätze",
     helpB1F3: "Idiome",
     helpB1F4: "6.000–8.000 Wörter pro Buch",
+    helpB2F1: "Komplexe Satzgefüge und Nebensätze",
+    helpB2F2: "Abstrakte und literarische Themen",
+    helpB2F3: "Idiomatische Wendungen",
+    helpB2F4: "10.000+ Wörter pro Buch",
     helpStep1Title: "Wähle ein Buch",
     helpStep1Desc: "Filtere in der Bibliothek nach deinem Niveau. Beginne mit A1, wenn du unsicher bist — du kannst jederzeit wechseln.",
     helpStep2Title: "Tippe auf jedes Wort",
@@ -295,7 +301,7 @@ const UI_STRINGS = {
     helpLead: "Diese Bibliothek funktioniert anders als die meisten Sprachlern-Apps. Du liest echte Geschichten — nicht isolierte Wörter. Hier ist, wie das geht.",
     helpTryIt: "Probier es selbst",
     helpTapHint: "↑ Tippe ein unterstrichenes Wort an",
-    helpThreeLevels: "Drei Niveaus",
+    helpThreeLevels: "Die Niveaus",
     helpFiveSteps: "In fünf Schritten",
     helpWordStatesTitle: "Was die Wörter dir sagen",
     helpWordNeutral: "Neutral — du hast es noch nicht angesehen",
@@ -327,6 +333,7 @@ const UI_STRINGS = {
     aboutBeliefsTitle: "Vier Überzeugungen",
     aboutBibliographyEyebrow: "Bibliografie",
     aboutBooksTitle: "Bücher in dieser Bibliothek",
+    booksDisclaimer: "Die Bücher dieser Bibliothek wurden zu einem einzigen Zweck geschrieben: zum Lesen und zum Deutschlernen. Sie sind keine Nachschlagewerke, verfolgen keine andere Absicht und können Fehler enthalten.",
     aboutContactTitle: "Schreib mir",
     aboutContactBody: "Hast du eine Frage, einen Vorschlag, oder einen Fehler gefunden? Ich antworte normalerweise innerhalb einer Woche.",
     // — progress —
@@ -584,9 +591,11 @@ const UI_STRINGS = {
     levelBeginner: "Beginner",
     levelBasic: "Elementary",
     levelIntermediate: "Intermediate",
+    levelUpperIntermediate: "Upper intermediate",
     helpA1Desc: "You're just starting out. You know simple words: hello, day, book.",
     helpA2Desc: "You understand everyday topics. You can talk about the past.",
     helpB1Desc: "You read fluently. You also understand what's between the lines.",
+    helpB2Desc: "Demanding texts with complex grammar, abstract topics and a literary style. You follow longer narratives almost effortlessly.",
     helpA1F1: "Short sentences",
     helpA1F2: "Lots of repetition",
     helpA1F3: "Present tense",
@@ -599,6 +608,10 @@ const UI_STRINGS = {
     helpB1F2: "Subordinate clauses",
     helpB1F3: "Idioms",
     helpB1F4: "6,000–8,000 words per book",
+    helpB2F1: "Complex clauses and subordination",
+    helpB2F2: "Abstract and literary themes",
+    helpB2F3: "Idiomatic expressions",
+    helpB2F4: "10,000+ words per book",
     helpStep1Title: "Choose a book",
     helpStep1Desc: "Filter the library by your level. Start with A1 if you're unsure — you can switch any time.",
     helpStep2Title: "Tap every word",
@@ -626,7 +639,7 @@ const UI_STRINGS = {
     helpLead: "This library works differently from most language-learning apps. You read real stories — not isolated words. Here's how it works.",
     helpTryIt: "Try it yourself",
     helpTapHint: "↑ Tap an underlined word",
-    helpThreeLevels: "Three levels",
+    helpThreeLevels: "The levels",
     helpFiveSteps: "In five steps",
     helpWordStatesTitle: "What the words tell you",
     helpWordNeutral: "Neutral — you haven't looked at it yet",
@@ -658,6 +671,7 @@ const UI_STRINGS = {
     aboutBeliefsTitle: "Four convictions",
     aboutBibliographyEyebrow: "Bibliography",
     aboutBooksTitle: "Books in this library",
+    booksDisclaimer: "The books in this library were written for a single purpose — reading practice and learning German. They are not reference works, pursue no other intent, and may contain mistakes.",
     aboutContactTitle: "Write to me",
     aboutContactBody: "Have a question, a suggestion, or found a mistake? I usually reply within a week.",
     // — progress —
@@ -915,9 +929,11 @@ const UI_STRINGS = {
     levelBeginner: "Начинающий",
     levelBasic: "Базовый",
     levelIntermediate: "Средний",
+    levelUpperIntermediate: "Выше среднего",
     helpA1Desc: "Ты только начинаешь. Ты знаешь простые слова: привет, день, книга.",
     helpA2Desc: "Ты понимаешь повседневные темы. Можешь говорить о прошлом.",
     helpB1Desc: "Ты читаешь бегло. Понимаешь и то, что между строк.",
+    helpB2Desc: "Сложные тексты с непростой грамматикой, абстрактными темами и литературным стилем. За длинными повествованиями следишь почти без усилий.",
     helpA1F1: "Короткие фразы",
     helpA1F2: "Много повторений",
     helpA1F3: "Настоящее время",
@@ -930,6 +946,10 @@ const UI_STRINGS = {
     helpB1F2: "Придаточные",
     helpB1F3: "Идиомы",
     helpB1F4: "6 000–8 000 слов на книгу",
+    helpB2F1: "Сложные предложения с придаточными",
+    helpB2F2: "Абстрактные и литературные темы",
+    helpB2F3: "Идиоматические обороты",
+    helpB2F4: "10 000+ слов на книгу",
     helpStep1Title: "Выбери книгу",
     helpStep1Desc: "Отфильтруй библиотеку по своему уровню. Начни с A1, если сомневаешься — поменять можно в любой момент.",
     helpStep2Title: "Нажимай на каждое слово",
@@ -957,7 +977,7 @@ const UI_STRINGS = {
     helpLead: "Эта библиотека работает не так, как большинство приложений для изучения языков. Ты читаешь настоящие истории — а не отдельные слова. Вот как это устроено.",
     helpTryIt: "Попробуй сам",
     helpTapHint: "↑ Нажми на подчёркнутое слово",
-    helpThreeLevels: "Три уровня",
+    helpThreeLevels: "Уровни",
     helpFiveSteps: "За пять шагов",
     helpWordStatesTitle: "Что говорят тебе слова",
     helpWordNeutral: "Нейтральное — ты его ещё не смотрел",
@@ -989,6 +1009,7 @@ const UI_STRINGS = {
     aboutBeliefsTitle: "Четыре убеждения",
     aboutBibliographyEyebrow: "Библиография",
     aboutBooksTitle: "Книги в этой библиотеке",
+    booksDisclaimer: "Книги этой библиотеки написаны с одной-единственной целью — для чтения и изучения немецкого. Это не справочники, они не преследуют иных целей и могут содержать ошибки.",
     aboutContactTitle: "Напиши мне",
     aboutContactBody: "Есть вопрос, предложение или нашёл ошибку? Обычно отвечаю в течение недели.",
     // — progress —
@@ -1237,6 +1258,31 @@ const lookupWord = (raw) => {
   if (G[cap]) return { word: cap, ...G[cap] };
   return { word: clean, pos: "—", en: "—", ru: "—", unknown: true };
 };
+
+// ---------- LEVELS ----------
+const CEFR_ORDER = ["A1", "A2", "B1", "B2", "C1", "C2"];
+// "A2→B1" / "A2->B1" / "A2-B1" / "A2/B1" -> ["A2","B1"];  "B1" -> ["B1"]
+function levelTokens(level) {
+  return String(level || "").toUpperCase().split(/\s*(?:→|->|\/|–|—|-)\s*/).filter(Boolean);
+}
+// Numeric sort key; combined levels sort between their endpoints (avg of indices).
+function levelRank(level) {
+  const idxs = levelTokens(level).map(tk => { const i = CEFR_ORDER.indexOf(tk); return i === -1 ? 99 : i; });
+  if (!idxs.length) return 999;
+  return idxs.reduce((a, b) => a + b, 0) / idxs.length;
+}
+// Distinct, in CEFR order; combined levels slot between their endpoints.
+function sortLevels(levels) {
+  return [...new Set((levels || []).filter(Boolean))]
+    .sort((a, b) => levelRank(a) - levelRank(b) || String(a).localeCompare(String(b)));
+}
+// CEFR band used to pick a badge color for any level label (its target/last token).
+function levelBand(level) {
+  const toks = levelTokens(level);
+  if (!toks.length) return "";
+  const target = toks[toks.length - 1];
+  return CEFR_ORDER.includes(target) ? target : "";
+}
 
 // ---------- BOOKS ----------
 // Catalog is loaded at runtime from books/manifest.json (see loader.js).
@@ -1504,6 +1550,10 @@ function fmtReadingTime(m, minUnit) {
 }
 window.fmtReadingTime = fmtReadingTime;
 window.lookupWord = lookupWord;
+window.CEFR_ORDER = CEFR_ORDER;
+window.levelRank = levelRank;
+window.sortLevels = sortLevels;
+window.levelBand = levelBand;
 window.BOOKS = BOOKS;
 window.buildVocab = buildVocab;
 window.STOPWORDS = STOPWORDS;

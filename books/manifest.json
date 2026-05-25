@@ -65,6 +65,22 @@
         "en": "Why did so many serial killers come from the American Northwest? A search for clues among Ted Bundy, the Zodiac killer, and an invisible cause: poison in the air, soil, and water.",
         "ru": "Почему так много серийных убийц вышло из северо-запада США? Расследование на стыке Теда Банди, Зодиака и невидимой причины — яда в воздухе, почве и воде."
       }
+    },
+    {
+      "id": "das-handy",
+      "title": "Das Handy",
+      "subtitle": "Drei Freunde und eine Nachricht aus der Zukunft",
+      "level": "A2→B1",
+      "theme": "forest",
+      "author": "Andreas Maier",
+      "year": 2026,
+      "file": "archive/das_handy.md",
+      "chapterMode": "h2",
+      "blurb": {
+        "de": "In einer alten Fabrik in Stade finden Max und seine zwei Freunde ein seltsames Handy. Es ist warm, hat keine Marke und nur einen einzigen Kontakt: Helmut B. (2048). Jemand schreibt ihnen aus der Zukunft. Eine warme Geschichte über Mut, Freundschaft und ein Geheimnis, das größer ist als die drei Jungen.",
+        "en": "In an old factory in Stade, Max and his two friends find a strange phone. It is warm, has no brand, and only a single contact: Helmut B. (2048). Someone is writing to them from the future. A warm story about courage, friendship, and a secret bigger than three boys.",
+        "ru": "В старой фабрике в Штаде Макс и двое его друзей находят странный телефон. Он тёплый, без марки и с единственным контактом: Helmut B. (2048). Кто-то пишет им из будущего. Тёплая история о смелости, дружбе и тайне, которая больше, чем три мальчика."
+      }
     }
   ]
 }
