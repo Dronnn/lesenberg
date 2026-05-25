@@ -36,17 +36,17 @@ const AuthModal = ({ onClose, onSignIn, lang, initialMode }) => {
           }}>{t.signUp}</button>
         </div>
         <h2>{mode === "in" ? t.welcomeBack : t.createAccount}</h2>
-        <p>{mode === "in" ? "Setze dein Lesen fort." : "Speichere Fortschritt, Wörter und Notizen."}</p>
+        <p>{mode === "in" ? t.signInSub : t.signUpSub}</p>
 
         {mode === "up" && (
           <div className="field">
             <label>{t.name}</label>
-            <input value={name} onChange={(e) => setName(e.target.value)} placeholder="Anna Schmidt" />
+            <input value={name} onChange={(e) => setName(e.target.value)} placeholder={t.namePlaceholder} />
           </div>
         )}
         <div className="field">
           <label>{t.email}</label>
-          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="anna@beispiel.de" />
+          <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder={t.emailPlaceholder} />
         </div>
         <div className="field">
           <label>{t.password}</label>
@@ -59,7 +59,7 @@ const AuthModal = ({ onClose, onSignIn, lang, initialMode }) => {
 
         <div style={{ display: "flex", alignItems: "center", gap: 12, margin: "18px 0" }}>
           <div style={{ flex: 1, height: 1, background: "var(--line)" }}></div>
-          <span className="mute mono" style={{ fontSize: 10, letterSpacing: "0.1em", textTransform: "uppercase" }}>oder</span>
+          <span className="mute mono" style={{ fontSize: 10, letterSpacing: "0.1em", textTransform: "uppercase" }}>{t.or}</span>
           <div style={{ flex: 1, height: 1, background: "var(--line)" }}></div>
         </div>
 
@@ -77,18 +77,18 @@ const AuthModal = ({ onClose, onSignIn, lang, initialMode }) => {
         </div>
 
         <div style={{ marginTop: 14, paddingTop: 12, borderTop: "1px dashed var(--line)", textAlign: "center" }}>
-          <div className="mono mute" style={{ fontSize: 9, letterSpacing: "0.1em", marginBottom: 6 }}>DEMO</div>
+          <div className="mono mute" style={{ fontSize: 9, letterSpacing: "0.1em", marginBottom: 6 }}>{t.demo}</div>
           <div style={{ display: "flex", gap: 6, justifyContent: "center" }}>
             <button
               className="btn btn-ghost btn-sm"
               onClick={() => { onSignIn({ name: "Anna Schmidt", email: "anna@beispiel.de", joined: new Date().toISOString() }); }}
               style={{ fontSize: 11 }}
-            >Als Leser</button>
+            >{t.asReader}</button>
             <button
               className="btn btn-ghost btn-sm"
               onClick={() => { onSignIn({ name: "Andrew Maier", email: "andrew@deutsche-bibliothek.de", joined: new Date(2024, 0, 1).toISOString() }); }}
               style={{ fontSize: 11, color: "var(--brown)" }}
-            >Als Bibliothekar</button>
+            >{t.asLibrarian}</button>
           </div>
         </div>
       </div>

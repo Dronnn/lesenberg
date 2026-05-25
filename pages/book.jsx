@@ -1,7 +1,7 @@
 // Book detail page
 const BookDetail = ({ lang, book, progress, savedWords, knownWords, onStartChapter }) => {
   const t = UI_STRINGS[lang];
-  if (!book) return <div className="page"><p>Buch nicht gefunden.</p></div>;
+  if (!book) return <div className="page"><p>{t.bookNotFound}</p></div>;
 
   const totalMins = book.minutes;
   const completedChapters = progress ? progress.chapter : 0;
@@ -134,11 +134,11 @@ const BookDetail = ({ lang, book, progress, savedWords, knownWords, onStartChapt
       {/* QUIZ TEASER */}
       <section className="card quiz-teaser" style={{ padding: 28, marginBottom: 56, display: "grid", gridTemplateColumns: "1fr auto", gap: 20, alignItems: "center" }}>
         <div>
-          <div className="eyebrow" style={{ marginBottom: 6 }}>Nach dem Lesen</div>
-          <h3 className="h-section" style={{ fontSize: 22 }}>{t.quiz}</h3>
-          <p className="soft" style={{ margin: "4px 0 0", fontSize: 14 }}>Drei kurze Fragen zum Verständnis und zum Wortschatz.</p>
+          <div className="eyebrow" style={{ marginBottom: 6 }}>{t.afterReading}</div>
+          <h3 className="h-section" style={{ fontSize: 22 }}>{t.vocabQuizTitle}</h3>
+          <p className="soft" style={{ margin: "4px 0 0", fontSize: 14 }}>{t.quizTeaser}</p>
         </div>
-        <a href={"#/quiz/" + book.id} className="btn btn-outline">{t.quiz} →</a>
+        <a href={"#/quiz/" + book.id + "/0"} className="btn btn-outline">{t.quiz} →</a>
       </section>
     </div>
   );

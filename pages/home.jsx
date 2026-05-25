@@ -27,10 +27,10 @@ const Home = ({ lang, allBooks, progressMap, savedWords, setRoute, onUpload }) =
         <div>
           <div className="eyebrow" style={{ marginBottom: 14 }}>Andrew Maier · Bibliothek · {levels.join(" · ")}</div>
           <h1 className="h-display">
-            Deutsch lernen, <em>indem</em> du<br />Bücher liest.
+            {t.heroTitleA}<em>{t.heroTitleEm}</em>{t.heroTitleB}
           </h1>
           <p style={{ fontSize: 18, color: "var(--ink-soft)", maxWidth: 460, marginTop: 18, lineHeight: 1.55 }}>
-            Originale Geschichten in einfachem Deutsch — geschrieben für Anfänger und Fortgeschrittene. Jedes Wort lässt sich antippen. Übersetzung auf Englisch und Russisch.
+            {t.heroLead}
           </p>
           <div className="row" style={{ marginTop: 28, gap: 10 }}>
             <a href="#/library" className="btn btn-primary btn-lg">{t.library} →</a>
@@ -39,24 +39,24 @@ const Home = ({ lang, allBooks, progressMap, savedWords, setRoute, onUpload }) =
             )}
             {savedWords.length > 0 && (
               <a href="#/flashcards" className="btn btn-ghost btn-lg">
-                Karteikarten <span className="mono mute" style={{ fontSize: 11, marginLeft: 6 }}>{savedWords.length}</span>
+                {t.flashcards} <span className="mono mute" style={{ fontSize: 11, marginLeft: 6 }}>{savedWords.length}</span>
               </a>
             )}
           </div>
           <div className="hero-stats" style={{ display: "flex", gap: 28, marginTop: 40, alignItems: "center" }}>
             <div>
               <div className="serif" style={{ fontSize: 32, fontWeight: 500, lineHeight: 1 }}>{allBooks.length}</div>
-              <div className="mono" style={{ fontSize: 10, color: "var(--ink-mute)", letterSpacing: "0.1em", textTransform: "uppercase", marginTop: 4 }}>Bücher</div>
+              <div className="mono" style={{ fontSize: 10, color: "var(--ink-mute)", letterSpacing: "0.1em", textTransform: "uppercase", marginTop: 4 }}>{t.statBooks}</div>
             </div>
             <div style={{ width: 1, height: 36, background: "var(--line)" }}></div>
             <div>
               <div className="serif" style={{ fontSize: 32, fontWeight: 500, lineHeight: 1 }}>{levels.length}</div>
-              <div className="mono" style={{ fontSize: 10, color: "var(--ink-mute)", letterSpacing: "0.1em", textTransform: "uppercase", marginTop: 4 }}>Niveaus</div>
+              <div className="mono" style={{ fontSize: 10, color: "var(--ink-mute)", letterSpacing: "0.1em", textTransform: "uppercase", marginTop: 4 }}>{t.statLevels}</div>
             </div>
             <div style={{ width: 1, height: 36, background: "var(--line)" }}></div>
             <div>
               <div className="serif" style={{ fontSize: 32, fontWeight: 500, lineHeight: 1 }}>{wordsLabel}</div>
-              <div className="mono" style={{ fontSize: 10, color: "var(--ink-mute)", letterSpacing: "0.1em", textTransform: "uppercase", marginTop: 4 }}>Wörter zum Lesen</div>
+              <div className="mono" style={{ fontSize: 10, color: "var(--ink-mute)", letterSpacing: "0.1em", textTransform: "uppercase", marginTop: 4 }}>{t.statWordsToRead}</div>
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@ const Home = ({ lang, allBooks, progressMap, savedWords, setRoute, onUpload }) =
             <div className="n" style={{ display: "flex", alignItems: "baseline", gap: 6 }}>
               {Object.values(progressMap).length} <span style={{ fontSize: 16, color: "var(--ink-mute)" }}>/ {allBooks.length}</span>
             </div>
-            <div className="l">Begonnen</div>
+            <div className="l">{t.started}</div>
           </div>
         </div>
       </section>
@@ -124,7 +124,7 @@ const Home = ({ lang, allBooks, progressMap, savedWords, setRoute, onUpload }) =
         <section key={lvl} style={{ marginBottom: 56 }}>
           <div className="spread" style={{ marginBottom: 18 }}>
             <div className="row" style={{ gap: 12 }}>
-              <h2 className="h-section">Niveau <em style={{ fontStyle: "italic" }}>{lvl}</em></h2>
+              <h2 className="h-section">{t.level} <em style={{ fontStyle: "italic" }}>{lvl}</em></h2>
               <Level value={lvl} />
             </div>
             <a href={"#/library?lvl=" + lvl} className="btn btn-ghost btn-sm">{t.seeAll} →</a>
@@ -147,7 +147,7 @@ const Home = ({ lang, allBooks, progressMap, savedWords, setRoute, onUpload }) =
           <div className="eyebrow" style={{ marginBottom: 8 }}>{t.aboutAuthor}</div>
           <h2 className="h-section" style={{ marginBottom: 8 }}>Andrew Maier</h2>
           <p style={{ color: "var(--ink-soft)", fontSize: 15, maxWidth: 600, lineHeight: 1.6, margin: 0 }}>
-            Ich schreibe kurze Bücher in einfachem Deutsch. Jede Geschichte ist eine Stufe — kurze Sätze für Anfänger, längere für Fortgeschrittene. Was ich am liebsten lese, schreibe ich am liebsten: ruhige, kleine Welten mit warmem Licht.
+            {t.authorBio}
           </p>
         </div>
       </section>

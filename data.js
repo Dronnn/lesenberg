@@ -1,6 +1,10 @@
 // die Deutsche Bibliothek — books & dictionary
 // All content original. Written in simple German for learners.
 
+// Accounts run client-side only; there is no backend. Flip this to true to bring back the
+// sign-in / sign-up UI (the AuthModal, the header sign-in button and avatar dropdown).
+const AUTH_ENABLED = false;
+
 const UI_STRINGS = {
   de: {
     home: "Startseite",
@@ -76,6 +80,261 @@ const UI_STRINGS = {
     member: "Mitglied seit",
     howTo: "Wie funktioniert es?",
     supportAuthor: "Den Autor unterstützen",
+    donateHeadline: "Hilf mir, mehr Geschichten zu schreiben.",
+    donateIntro: "Diese Bibliothek ist kostenlos — und soll es bleiben. Wenn dir die Bücher beim Lernen helfen, freue ich mich über eine Spende. Sie gibt mir die Zeit, weiter zu schreiben und neue Niveaus aufzunehmen. Such dir einen der Wege unten aus.",
+    donateUsdtDesc: "Direkt, ohne Mittelsmann. Netzwerk: TRC20 (Tron). Sende USDT an die Adresse unten.",
+    donateNetwork: "Netzwerk",
+    donateCopy: "Adresse kopieren",
+    donateCopied: "Kopiert!",
+    donateCopyFail: "Konnte nicht kopiert werden — bitte von Hand markieren.",
+    donateTorNote: "Diese Adresse ist auch über das Tor-Netzwerk erreichbar, falls dir Privatsphäre wichtig ist.",
+    donateViaTor: "Über Tor öffnen",
+    donateBoostyDesc: "Monatliche Unterstützung über Boosty — mit Updates zu neuen Büchern.",
+    donatePatreonDesc: "Werde Patron auf Patreon und begleite jedes neue Buch von Anfang an.",
+    donateComingSoon: "Bald verfügbar",
+    donateOpen: "Öffnen",
+    donateNoteLabel: "Ein Wort vom Autor",
+    yourData: "Deine Daten",
+    backupTitle: "Sicherung & Wiederherstellung",
+    backupDesc: "Dein Fortschritt, deine Karteikarten und Lesezeichen werden nur in diesem Browser gespeichert. Exportiere sie als Datei, um eine Kopie zu behalten oder sie auf ein anderes Gerät zu übertragen, und importiere sie, um sie wiederherzustellen.",
+    exportData: "Exportieren",
+    importData: "Importieren",
+    importConfirm: "Dadurch werden alle Daten ersetzt, die zurzeit in diesem Browser gespeichert sind. Fortfahren?",
+    importSuccess: "Deine Daten wurden wiederhergestellt.",
+    importError: "Diese Sicherungsdatei konnte nicht gelesen werden.",
+    // — general / shared —
+    flashcards: "Karteikarten",
+    menu: "Menü",
+    close: "Schließen",
+    edit: "Bearbeiten",
+    delete: "Löschen",
+    remove: "Entfernen",
+    add2: "Hinzufügen",
+    or: "oder",
+    cover: "Cover",
+    display: "Anzeige",
+    loadingBooks: "Lade Bücher …",
+    footerRights: "Alle Rechte vorbehalten.",
+    bookNotFound: "Buch nicht gefunden.",
+    chapterNotFound: "Kapitel nicht gefunden.",
+    notTranslated: "Übersetzung entfernen",
+    colorScheme: "Farbschema",
+    themeLight: "Hell",
+    themeDark: "Dunkel",
+    themeSystem: "System",
+    baseForm: "Grundform",
+    editCard: "Karteikarte bearbeiten",
+    // — home —
+    heroTitleA: "Deutsch lernen, ",
+    heroTitleEm: "indem",
+    heroTitleB: " du Bücher liest.",
+    heroLead: "Originale Geschichten in einfachem Deutsch — geschrieben für Anfänger und Fortgeschrittene. Jedes Wort lässt sich antippen. Übersetzung auf Englisch und Russisch.",
+    statBooks: "Bücher",
+    statLevels: "Niveaus",
+    statWordsToRead: "Wörter zum Lesen",
+    started: "Begonnen",
+    authorBio: "Ich schreibe kurze Bücher in einfachem Deutsch. Jede Geschichte ist eine Stufe — kurze Sätze für Anfänger, längere für Fortgeschrittene. Was ich am liebsten lese, schreibe ich am liebsten: ruhige, kleine Welten mit warmem Licht.",
+    // — library —
+    bookSingular: "Buch",
+    bookPlural: "Bücher",
+    curatedBy: "kuratiert von A. Maier",
+    librarian: "BIBLIOTHEKAR",
+    librarianTooltip: "Du bist eingeloggt als Bibliothekar",
+    libManagement: "Bibliotheksverwaltung",
+    sourceFolder: "Quellordner",
+    adminScanDesc: "Der Server scannt diesen Ordner beim Start. Jede Markdown-Datei wird ein Buch. Front-Matter (title, level, subtitle, theme) bestimmt Cover und Metadaten.",
+    uploadFile: "Datei hochladen",
+    entries: "Einträge",
+    scannedAgo: "gescannt vor 2 Min.",
+    statusDraft: "ENTWURF",
+    statusPublished: "VERÖFFENTLICHT",
+    hide: "Ausblenden",
+    adminHint: "Lege eine .md-Datei in /books/ ab — sie erscheint beim nächsten Scan automatisch im Regal. Nutzer können nichts hochladen.",
+    // — upload modal —
+    titlePlaceholder: "Mein Buch",
+    subtitlePlaceholder: "Untertitel",
+    contentPlaceholder: "Anna ging in den Park…",
+    chooseFile: "Datei wählen (.txt / .md)",
+    uploaded: "Hochgeladen",
+    customBook: "Eigenes Buch.",
+    // — book detail —
+    afterReading: "Nach dem Lesen",
+    quizTeaser: "Teste nach jedem Kapitel die wichtigsten Wörter.",
+    // — vocabulary quiz —
+    vocabQuizTitle: "Wortschatz",
+    quizPrompt: "Was bedeutet dieses Wort?",
+    quizPerfect: "Hervorragend!",
+    quizGood: "Gut gemacht!",
+    quizTryAgain: "Lies das Kapitel noch einmal.",
+    quizScore: "Ergebnis",
+    quizRetry: "Nochmal",
+    quizNextChapter: "Nächstes Kapitel",
+    quizNotEnough: "Nicht genug Vokabeln in diesem Kapitel für ein Quiz.",
+    testChapterWords: "Wörter testen",
+    // — profile —
+    pleaseSignIn: "Bitte melde dich an.",
+    savedWordsEmpty: "Tippe Wörter im Reader an, um sie hier zu sammeln.",
+    account: "Konto",
+    // — auth —
+    signInSub: "Setze dein Lesen fort.",
+    signUpSub: "Speichere Fortschritt, Wörter und Notizen.",
+    namePlaceholder: "Anna Schmidt",
+    emailPlaceholder: "anna@beispiel.de",
+    demo: "DEMO",
+    asReader: "Als Leser",
+    asLibrarian: "Als Bibliothekar",
+    // — reader —
+    bookmarks: "Lesezeichen",
+    bookmarksEmpty: "Klicke auf das ⌘ Symbol neben einem Absatz, um ein Lesezeichen zu setzen.",
+    paragraph: "¶",
+    removeBookmark: "Lesezeichen entfernen",
+    addBookmark: "Lesezeichen hinzufügen",
+    wordsShort: "Wörter",
+    highlightsHeading: "Markierungen",
+    savedCount: "gespeichert",
+    howToSave: "So speicherst du:",
+    howToSaveTap: "Wort antippen für Übersetzung",
+    howToSavePhrase: "Text markieren für Phrasen & Sätze",
+    howToSaveEdit: "Bearbeiten ✎ für eigene Notizen",
+    editNote: "Notiz bearbeiten",
+    addNote: "Notiz hinzufügen",
+    // — card editor / phrase pop —
+    selection: "Auswahl",
+    highlight: "Markieren",
+    saveWithNote: "Mit Notiz speichern",
+    editPhrase: "Phrase bearbeiten",
+    dictionary: "Wörterbuch",
+    contextLabel: "Kontext",
+    contextHint: "(Satz aus dem Buch)",
+    contextPlaceholderPhrase: "Der Satz, in dem die Phrase vorkommt…",
+    contextPlaceholderWord: "Der Satz, in dem das Wort vorkommt…",
+    examplesLabel: "Beispiele",
+    examplesHint: "(eigene Sätze)",
+    examplePlaceholder: "z.B. Ich gehe gern in den Park.",
+    addExample: "Beispiel hinzufügen",
+    noteLabel: "Notiz",
+    notePlaceholder: "Eselsbrücken, Grammatik, alles, was dir hilft…",
+    yourTranslation: "Deine Übersetzung",
+    enPlaceholder: "auf Englisch…",
+    ruPlaceholder: "по-русски…",
+    color: "Farbe",
+    noColor: "Keine Farbe",
+    // — flashcards —
+    allCards: "Alle",
+    hard: "Schwer",
+    flashContextLabel: "KONTEXT",
+    flashExamplesLabel: "BEISPIELE",
+    flashNoteLabel: "NOTIZ",
+    clickToFlip: "klicken zum Umdrehen",
+    learnedTag: "✓ gelernt",
+    hardTag: "schwer",
+    phraseTag: "PHRASE",
+    noTranslationYet: "Noch keine Übersetzung.",
+    addAction: "hinzufügen",
+    allCardsLearned: "Alle Karten gelernt.",
+    noHardWords: "Noch keine schweren Wörter.",
+    nothingLearned: "Noch nichts gelernt.",
+    nothingToLearn: "Noch keine Wörter zum Lernen.",
+    allMasteredA: "Du hast",
+    allMasteredB: "Wörter gemeistert. Wechsle zum Tab Gelernt, um Karten zurück in den Stapel zu legen.",
+    markLearnedHint: "Markiere Karten mit „ich kann das“, um sie hier zu sammeln.",
+    tapToSaveHint: "Tippe Wörter im Reader an, um sie zu speichern.",
+    viewLearned: "Gelernte Karten ansehen",
+    resetAll: "Alle zurücksetzen",
+    skip: "überspringen",
+    backToDeck: "↺ zurück zum Stapel",
+    backToDeckTooltip: "Karte zurück in den Lernstapel legen",
+    skipTooltip: "Weiter",
+    hardActive: "✓ schwer",
+    markHardTooltip: "Als schwer zu lernen markieren",
+    iKnowThis: "ich kann das ✓",
+    iKnowThisTooltip: "Ich kann das — aus dem Stapel nehmen",
+    // — help —
+    levelBeginner: "Anfänger",
+    levelBasic: "Grundstufe",
+    levelIntermediate: "Mittelstufe",
+    helpA1Desc: "Du beginnst gerade. Du kennst einfache Wörter: Hallo, Tag, Buch.",
+    helpA2Desc: "Du verstehst Alltagsthemen. Du kannst über die Vergangenheit sprechen.",
+    helpB1Desc: "Du liest fließend. Du verstehst auch, was zwischen den Zeilen steht.",
+    helpA1F1: "Kurze Sätze",
+    helpA1F2: "Viel Wiederholung",
+    helpA1F3: "Präsens",
+    helpA1F4: "1.500–2.000 Wörter pro Buch",
+    helpA2F1: "Mehrere Zeitformen",
+    helpA2F2: "Längere Sätze",
+    helpA2F3: "Dialoge",
+    helpA2F4: "2.500–4.000 Wörter pro Buch",
+    helpB1F1: "Komplexe Sätze",
+    helpB1F2: "Nebensätze",
+    helpB1F3: "Idiome",
+    helpB1F4: "6.000–8.000 Wörter pro Buch",
+    helpStep1Title: "Wähle ein Buch",
+    helpStep1Desc: "Filtere in der Bibliothek nach deinem Niveau. Beginne mit A1, wenn du unsicher bist — du kannst jederzeit wechseln.",
+    helpStep2Title: "Tippe auf jedes Wort",
+    helpStep2Desc: "Im Reader öffnet ein Tap auf jedes Wort eine Übersetzung — auf Englisch und Russisch. Du kannst Wörter speichern oder als „gekannt“ markieren.",
+    helpStep3Title: "Lerne mit Karteikarten",
+    helpStep3Desc: "Deine gespeicherten Wörter werden zu Karteikarten. Drehe sie um — sieh die Übersetzung — und wiederhole, bis du sie kennst.",
+    helpStep4Title: "Verstehe mit Quizzen",
+    helpStep4Desc: "Nach jedem Buch gibt es ein kurzes Quiz. Drei Fragen — schnell und konkret.",
+    helpStep5Title: "Bleibe dran",
+    helpStep5Desc: "Schon zehn Minuten am Tag genügen. Dein Streak wächst, und mit ihm dein Wortschatz.",
+    faqQ1: "Brauche ich ein Konto?",
+    faqA1: "Nein. Du kannst alles ohne Anmeldung lesen. Wenn du dich anmeldest, wird dein Fortschritt zwischen Geräten synchronisiert.",
+    faqQ2: "Kann ich eigene Bücher hochladen?",
+    faqA2: "Nein — die Bibliothek ist eine kuratierte Sammlung. Andrew Maier schreibt die Bücher und pflegt das Regal. Wenn du eine Idee oder einen Wunsch hast, schreib mir gerne über die Spenden-Seite.",
+    faqQ3: "Sind die Übersetzungen automatisch?",
+    faqA3: "Die wichtigsten Wörter sind handgepflegt. Bei selteneren Wörtern siehst du eventuell „—“ — dann hilft dir ein Online-Wörterbuch.",
+    faqQ4: "Was bedeuten die Farben der Wörter?",
+    faqA4: "Unterstrichen gelb = gespeichert (du willst es lernen). Grau und blass = du hast es als „gekannt“ markiert. Schwarz = neutral.",
+    faqQ5: "Wie viel kosten die Bücher?",
+    faqA5: "Nichts. Die Bibliothek ist kostenlos. Wenn du das Projekt unterstützen willst, freue ich mich über eine Spende.",
+    faqQ6: "Auf welchen Geräten funktioniert das?",
+    faqA6: "Im Browser — auf Telefon, Tablet und Computer. Es gibt keine App, die du installieren musst.",
+    helpHeroEmA: "Lies. Tippe. ",
+    helpHeroEm: "Lerne.",
+    helpLead: "Diese Bibliothek funktioniert anders als die meisten Sprachlern-Apps. Du liest echte Geschichten — nicht isolierte Wörter. Hier ist, wie das geht.",
+    helpTryIt: "Probier es selbst",
+    helpTapHint: "↑ Tippe ein unterstrichenes Wort an",
+    helpThreeLevels: "Drei Niveaus",
+    helpFiveSteps: "In fünf Schritten",
+    helpWordStatesTitle: "Was die Wörter dir sagen",
+    helpWordNeutral: "Neutral — du hast es noch nicht angesehen",
+    helpWordSaved: "Gespeichert — kommt in deine Karteikarten",
+    helpWordKnown: "Gekannt — wird beim nächsten Mal abgeblendet",
+    helpFaqTitle: "Häufige Fragen",
+    helpCtaTitle: "Bereit?",
+    helpCtaSub: "Beginne mit einem A1-Buch. Es dauert zehn Minuten.",
+    // — about —
+    aboutFactLives: "Lebt in",
+    aboutFactWriting: "Schreibt seit",
+    aboutFactFont: "Lieblingsfont",
+    aboutFactBook: "Lieblingsbuch",
+    aboutBelief1Title: "Verständnis kommt vor Grammatik",
+    aboutBelief1Body: "Du lernst eine Sprache, indem du sie verstehst. Grammatik kann warten — zuerst muss das Lesen sich gut anfühlen.",
+    aboutBelief2Title: "Einfach ist nicht langweilig",
+    aboutBelief2Body: "A1-Sätze müssen nicht kindisch sein. Eine kurze Zeile kann eine ganze Stimmung tragen. Hemingway hat das schon gewusst.",
+    aboutBelief3Title: "Wiederholung ist Magie",
+    aboutBelief3Body: "Wenn dasselbe Wort fünfzehnmal in zehn Minuten erscheint, bleibst du nicht stehen — du lernst es nebenbei.",
+    aboutBelief4Title: "Übersetzung ist Hilfsrad",
+    aboutBelief4Body: "Sie soll nah sein, schnell, und dann wieder verschwinden. Nicht ablenken. Nicht erklären.",
+    aboutPhotoFollows: "Foto folgt — bis dahin das Monogramm.",
+    aboutBioP1: "Ich heiße Andrew. Ich bin Autor und vor langer Zeit war ich selbst Deutschschüler. Damals habe ich gefühlt, was alle Anfänger fühlen: Lehrbücher sind oft trocken, und richtige Bücher sind zu früh zu schwer.",
+    aboutBioP2: "Also schreibe ich genau die Art von Büchern, die ich damals brauchte. Geschichten in einfachem Deutsch — kurz und gut. Niemals herablassend. Mit Figuren, die man wirklich kennen lernt.",
+    aboutBioP3: "Jedes Buch hat ein eindeutiges Niveau: A1, A2 oder B1. Das Vokabular und die Grammatik sind streng kuratiert. Aber die Geschichten selbst — die sind so frei, wie sie sein können.",
+    aboutBioP4: "Wenn du eine Geschichte zu Ende liest und denkst „Ich habe das wirklich verstanden“ — dann hat dieses Projekt seinen Zweck erfüllt.",
+    aboutBeliefsEyebrow: "Wie ich darüber denke",
+    aboutBeliefsTitle: "Vier Überzeugungen",
+    aboutBibliographyEyebrow: "Bibliografie",
+    aboutBooksTitle: "Bücher in dieser Bibliothek",
+    aboutContactTitle: "Schreib mir",
+    aboutContactBody: "Hast du eine Frage, einen Vorschlag, oder einen Fehler gefunden? Ich antworte normalerweise innerhalb einer Woche.",
+    // — progress —
+    last30Days: "Letzte 30 Tage",
+    daysAgo30: "vor 30 Tagen",
+    less: "weniger",
+    more: "mehr",
+    today: "heute",
+    booksHeading: "Bücher",
   },
   en: {
     home: "Home",
@@ -151,6 +410,261 @@ const UI_STRINGS = {
     member: "Member since",
     howTo: "How it works",
     supportAuthor: "Support the author",
+    donateHeadline: "Help me write more stories.",
+    donateIntro: "This library is free — and it will stay that way. If the books help you learn, I'd be grateful for a donation. It gives me the time to keep writing and to add new levels. Pick whichever way works for you below.",
+    donateUsdtDesc: "Direct, no middleman. Network: TRC20 (Tron). Send USDT to the address below.",
+    donateNetwork: "Network",
+    donateCopy: "Copy address",
+    donateCopied: "Copied!",
+    donateCopyFail: "Couldn't copy — please select it by hand.",
+    donateTorNote: "This address is also reachable over the Tor network if privacy matters to you.",
+    donateViaTor: "Open via Tor",
+    donateBoostyDesc: "Monthly support through Boosty — with updates on new books.",
+    donatePatreonDesc: "Become a patron on Patreon and follow each new book from the start.",
+    donateComingSoon: "Coming soon",
+    donateOpen: "Open",
+    donateNoteLabel: "A word from the author",
+    yourData: "Your data",
+    backupTitle: "Backup & Restore",
+    backupDesc: "Your progress, flashcards and bookmarks are saved only in this browser. Export them to a file to keep a copy or move them to another device, and import to restore.",
+    exportData: "Export",
+    importData: "Import",
+    importConfirm: "This will replace all data currently saved in this browser. Continue?",
+    importSuccess: "Your data has been restored.",
+    importError: "Could not read this backup file.",
+    // — general / shared —
+    flashcards: "Flashcards",
+    menu: "Menu",
+    close: "Close",
+    edit: "Edit",
+    delete: "Delete",
+    remove: "Remove",
+    add2: "Add",
+    or: "or",
+    cover: "Cover",
+    display: "Display",
+    loadingBooks: "Loading books …",
+    footerRights: "All rights reserved.",
+    bookNotFound: "Book not found.",
+    chapterNotFound: "Chapter not found.",
+    notTranslated: "Remove highlight",
+    colorScheme: "Color scheme",
+    themeLight: "Light",
+    themeDark: "Dark",
+    themeSystem: "System",
+    baseForm: "Base form",
+    editCard: "Edit flashcard",
+    // — home —
+    heroTitleA: "Learn German ",
+    heroTitleEm: "by",
+    heroTitleB: " reading books.",
+    heroLead: "Original stories in simple German — written for beginners and advanced learners. Every word is tappable. Translations into English and Russian.",
+    statBooks: "Books",
+    statLevels: "Levels",
+    statWordsToRead: "Words to read",
+    started: "Started",
+    authorBio: "I write short books in simple German. Each story is a level — short sentences for beginners, longer ones for advanced readers. What I most love to read is what I most love to write: quiet little worlds with warm light.",
+    // — library —
+    bookSingular: "book",
+    bookPlural: "books",
+    curatedBy: "curated by A. Maier",
+    librarian: "LIBRARIAN",
+    librarianTooltip: "You are signed in as the librarian",
+    libManagement: "Library management",
+    sourceFolder: "Source folder",
+    adminScanDesc: "The server scans this folder on startup. Each Markdown file becomes a book. Front matter (title, level, subtitle, theme) defines the cover and metadata.",
+    uploadFile: "Upload file",
+    entries: "entries",
+    scannedAgo: "scanned 2 min ago",
+    statusDraft: "DRAFT",
+    statusPublished: "PUBLISHED",
+    hide: "Hide",
+    adminHint: "Drop a .md file into /books/ — it appears on the shelf automatically at the next scan. Users cannot upload anything.",
+    // — upload modal —
+    titlePlaceholder: "My book",
+    subtitlePlaceholder: "Subtitle",
+    contentPlaceholder: "Anna went to the park…",
+    chooseFile: "Choose file (.txt / .md)",
+    uploaded: "Uploaded",
+    customBook: "Custom book.",
+    // — book detail —
+    afterReading: "After reading",
+    quizTeaser: "Test the key words after every chapter.",
+    // — vocabulary quiz —
+    vocabQuizTitle: "Vocabulary",
+    quizPrompt: "What does this word mean?",
+    quizPerfect: "Excellent!",
+    quizGood: "Well done!",
+    quizTryAgain: "Read the chapter again.",
+    quizScore: "Score",
+    quizRetry: "Try again",
+    quizNextChapter: "Next chapter",
+    quizNotEnough: "Not enough vocabulary in this chapter for a quiz.",
+    testChapterWords: "Test the words",
+    // — profile —
+    pleaseSignIn: "Please sign in.",
+    savedWordsEmpty: "Tap words in the reader to collect them here.",
+    account: "Account",
+    // — auth —
+    signInSub: "Pick up where you left off.",
+    signUpSub: "Save your progress, words and notes.",
+    namePlaceholder: "Anna Schmidt",
+    emailPlaceholder: "anna@beispiel.de",
+    demo: "DEMO",
+    asReader: "As reader",
+    asLibrarian: "As librarian",
+    // — reader —
+    bookmarks: "Bookmarks",
+    bookmarksEmpty: "Click the ⌘ icon next to a paragraph to add a bookmark.",
+    paragraph: "¶",
+    removeBookmark: "Remove bookmark",
+    addBookmark: "Add bookmark",
+    wordsShort: "words",
+    highlightsHeading: "Highlights",
+    savedCount: "saved",
+    howToSave: "How to save:",
+    howToSaveTap: "Tap a word for its translation",
+    howToSavePhrase: "Select text for phrases & sentences",
+    howToSaveEdit: "Edit ✎ for your own notes",
+    editNote: "Edit note",
+    addNote: "Add note",
+    // — card editor / phrase pop —
+    selection: "Selection",
+    highlight: "Highlight",
+    saveWithNote: "Save with note",
+    editPhrase: "Edit phrase",
+    dictionary: "Dictionary",
+    contextLabel: "Context",
+    contextHint: "(sentence from the book)",
+    contextPlaceholderPhrase: "The sentence the phrase appears in…",
+    contextPlaceholderWord: "The sentence the word appears in…",
+    examplesLabel: "Examples",
+    examplesHint: "(your own sentences)",
+    examplePlaceholder: "e.g. I like going to the park.",
+    addExample: "Add example",
+    noteLabel: "Note",
+    notePlaceholder: "Mnemonics, grammar, anything that helps you…",
+    yourTranslation: "Your translation",
+    enPlaceholder: "in English…",
+    ruPlaceholder: "in Russian…",
+    color: "Color",
+    noColor: "No color",
+    // — flashcards —
+    allCards: "All",
+    hard: "Hard",
+    flashContextLabel: "CONTEXT",
+    flashExamplesLabel: "EXAMPLES",
+    flashNoteLabel: "NOTE",
+    clickToFlip: "click to flip",
+    learnedTag: "✓ learned",
+    hardTag: "hard",
+    phraseTag: "PHRASE",
+    noTranslationYet: "No translation yet.",
+    addAction: "add",
+    allCardsLearned: "All cards learned.",
+    noHardWords: "No hard words yet.",
+    nothingLearned: "Nothing learned yet.",
+    nothingToLearn: "No words to learn yet.",
+    allMasteredA: "You have mastered",
+    allMasteredB: "words. Switch to the Learned tab to put cards back into the deck.",
+    markLearnedHint: "Mark cards with “I know this” to collect them here.",
+    tapToSaveHint: "Tap words in the reader to save them.",
+    viewLearned: "View learned cards",
+    resetAll: "Reset all",
+    skip: "skip",
+    backToDeck: "↺ back to deck",
+    backToDeckTooltip: "Put the card back into the learning deck",
+    skipTooltip: "Next",
+    hardActive: "✓ hard",
+    markHardTooltip: "Mark as hard to learn",
+    iKnowThis: "I know this ✓",
+    iKnowThisTooltip: "I know this — take it out of the deck",
+    // — help —
+    levelBeginner: "Beginner",
+    levelBasic: "Elementary",
+    levelIntermediate: "Intermediate",
+    helpA1Desc: "You're just starting out. You know simple words: hello, day, book.",
+    helpA2Desc: "You understand everyday topics. You can talk about the past.",
+    helpB1Desc: "You read fluently. You also understand what's between the lines.",
+    helpA1F1: "Short sentences",
+    helpA1F2: "Lots of repetition",
+    helpA1F3: "Present tense",
+    helpA1F4: "1,500–2,000 words per book",
+    helpA2F1: "Several tenses",
+    helpA2F2: "Longer sentences",
+    helpA2F3: "Dialogues",
+    helpA2F4: "2,500–4,000 words per book",
+    helpB1F1: "Complex sentences",
+    helpB1F2: "Subordinate clauses",
+    helpB1F3: "Idioms",
+    helpB1F4: "6,000–8,000 words per book",
+    helpStep1Title: "Choose a book",
+    helpStep1Desc: "Filter the library by your level. Start with A1 if you're unsure — you can switch any time.",
+    helpStep2Title: "Tap every word",
+    helpStep2Desc: "In the reader, a tap on any word opens a translation — into English and Russian. You can save words or mark them as “known”.",
+    helpStep3Title: "Learn with flashcards",
+    helpStep3Desc: "Your saved words become flashcards. Flip them over — see the translation — and repeat until you know them.",
+    helpStep4Title: "Check yourself with quizzes",
+    helpStep4Desc: "After each book there's a short quiz. Three questions — quick and concrete.",
+    helpStep5Title: "Keep at it",
+    helpStep5Desc: "Even ten minutes a day is enough. Your streak grows, and your vocabulary with it.",
+    faqQ1: "Do I need an account?",
+    faqA1: "No. You can read everything without signing up. If you do sign in, your progress syncs between devices.",
+    faqQ2: "Can I upload my own books?",
+    faqA2: "No — the library is a curated collection. Andrew Maier writes the books and tends the shelf. If you have an idea or a request, feel free to write to me via the donation page.",
+    faqQ3: "Are the translations automatic?",
+    faqA3: "The most important words are maintained by hand. For rarer words you may see a “—” — then an online dictionary will help.",
+    faqQ4: "What do the word colors mean?",
+    faqA4: "Underlined yellow = saved (you want to learn it). Gray and faded = you've marked it as “known”. Black = neutral.",
+    faqQ5: "How much do the books cost?",
+    faqA5: "Nothing. The library is free. If you'd like to support the project, a donation is always welcome.",
+    faqQ6: "Which devices does this work on?",
+    faqA6: "In the browser — on phone, tablet and computer. There's no app to install.",
+    helpHeroEmA: "Read. Tap. ",
+    helpHeroEm: "Learn.",
+    helpLead: "This library works differently from most language-learning apps. You read real stories — not isolated words. Here's how it works.",
+    helpTryIt: "Try it yourself",
+    helpTapHint: "↑ Tap an underlined word",
+    helpThreeLevels: "Three levels",
+    helpFiveSteps: "In five steps",
+    helpWordStatesTitle: "What the words tell you",
+    helpWordNeutral: "Neutral — you haven't looked at it yet",
+    helpWordSaved: "Saved — goes into your flashcards",
+    helpWordKnown: "Known — fades out next time",
+    helpFaqTitle: "Frequently asked questions",
+    helpCtaTitle: "Ready?",
+    helpCtaSub: "Start with an A1 book. It takes ten minutes.",
+    // — about —
+    aboutFactLives: "Lives in",
+    aboutFactWriting: "Writing since",
+    aboutFactFont: "Favorite font",
+    aboutFactBook: "Favorite book",
+    aboutBelief1Title: "Understanding comes before grammar",
+    aboutBelief1Body: "You learn a language by understanding it. Grammar can wait — first the reading has to feel good.",
+    aboutBelief2Title: "Simple isn't boring",
+    aboutBelief2Body: "A1 sentences don't have to be childish. A short line can carry a whole mood. Hemingway already knew that.",
+    aboutBelief3Title: "Repetition is magic",
+    aboutBelief3Body: "When the same word appears fifteen times in ten minutes, you don't get stuck — you learn it in passing.",
+    aboutBelief4Title: "Translation is a training wheel",
+    aboutBelief4Body: "It should be close, fast, and then disappear again. Not distract. Not explain.",
+    aboutPhotoFollows: "Photo to come — until then, the monogram.",
+    aboutBioP1: "My name is Andrew. I'm a writer, and long ago I was a German learner myself. Back then I felt what every beginner feels: textbooks are often dry, and real books are too hard too soon.",
+    aboutBioP2: "So I write exactly the kind of books I needed back then. Stories in simple German — short and good. Never condescending. With characters you really get to know.",
+    aboutBioP3: "Every book has a clear level: A1, A2 or B1. The vocabulary and grammar are strictly curated. But the stories themselves — those are as free as they can be.",
+    aboutBioP4: "When you finish a story and think “I really understood that” — then this project has done its job.",
+    aboutBeliefsEyebrow: "How I think about it",
+    aboutBeliefsTitle: "Four convictions",
+    aboutBibliographyEyebrow: "Bibliography",
+    aboutBooksTitle: "Books in this library",
+    aboutContactTitle: "Write to me",
+    aboutContactBody: "Have a question, a suggestion, or found a mistake? I usually reply within a week.",
+    // — progress —
+    last30Days: "Last 30 days",
+    daysAgo30: "30 days ago",
+    less: "less",
+    more: "more",
+    today: "today",
+    booksHeading: "Books",
   },
   ru: {
     home: "Главная",
@@ -226,6 +740,261 @@ const UI_STRINGS = {
     member: "Участник с",
     howTo: "Как это работает",
     supportAuthor: "Поддержать автора",
+    donateHeadline: "Помоги мне писать больше историй.",
+    donateIntro: "Эта библиотека бесплатна — и останется такой. Если книги помогают тебе учиться, я буду благодарен за пожертвование. Оно даёт мне время писать дальше и добавлять новые уровни. Выбери любой удобный способ ниже.",
+    donateUsdtDesc: "Напрямую, без посредников. Сеть: TRC20 (Tron). Отправь USDT на адрес ниже.",
+    donateNetwork: "Сеть",
+    donateCopy: "Скопировать адрес",
+    donateCopied: "Скопировано!",
+    donateCopyFail: "Не удалось скопировать — выдели вручную.",
+    donateTorNote: "Этот адрес доступен и через сеть Tor, если для тебя важна приватность.",
+    donateViaTor: "Открыть через Tor",
+    donateBoostyDesc: "Ежемесячная поддержка через Boosty — с новостями о новых книгах.",
+    donatePatreonDesc: "Стань патроном на Patreon и следи за каждой новой книгой с самого начала.",
+    donateComingSoon: "Скоро",
+    donateOpen: "Открыть",
+    donateNoteLabel: "Слово от автора",
+    yourData: "Твои данные",
+    backupTitle: "Резервная копия",
+    backupDesc: "Твой прогресс, карточки и закладки хранятся только в этом браузере. Экспортируй их в файл, чтобы сохранить копию или перенести на другое устройство, а импорт восстановит данные.",
+    exportData: "Экспорт",
+    importData: "Импорт",
+    importConfirm: "Это заменит все данные, сохранённые сейчас в этом браузере. Продолжить?",
+    importSuccess: "Твои данные восстановлены.",
+    importError: "Не удалось прочитать этот файл резервной копии.",
+    // — general / shared —
+    flashcards: "Карточки",
+    menu: "Меню",
+    close: "Закрыть",
+    edit: "Изменить",
+    delete: "Удалить",
+    remove: "Убрать",
+    add2: "Добавить",
+    or: "или",
+    cover: "Обложка",
+    display: "Отображение",
+    loadingBooks: "Загружаю книги …",
+    footerRights: "Все права защищены.",
+    bookNotFound: "Книга не найдена.",
+    chapterNotFound: "Глава не найдена.",
+    notTranslated: "Убрать выделение",
+    colorScheme: "Цветовая схема",
+    themeLight: "Светлая",
+    themeDark: "Тёмная",
+    themeSystem: "Система",
+    baseForm: "Начальная форма",
+    editCard: "Изменить карточку",
+    // — home —
+    heroTitleA: "Учи немецкий, ",
+    heroTitleEm: "читая",
+    heroTitleB: " книги.",
+    heroLead: "Оригинальные истории на простом немецком — для начинающих и продолжающих. По любому слову можно нажать. Перевод на английский и русский.",
+    statBooks: "Книг",
+    statLevels: "Уровней",
+    statWordsToRead: "Слов для чтения",
+    started: "Начато",
+    authorBio: "Я пишу короткие книги на простом немецком. Каждая история — это уровень: короткие фразы для начинающих, длиннее — для продолжающих. Что больше всего люблю читать, то и пишу: тихие маленькие миры с тёплым светом.",
+    // — library —
+    bookSingular: "книга",
+    bookPlural: "книг",
+    curatedBy: "подборка А. Майера",
+    librarian: "БИБЛИОТЕКАРЬ",
+    librarianTooltip: "Ты вошёл как библиотекарь",
+    libManagement: "Управление библиотекой",
+    sourceFolder: "Исходная папка",
+    adminScanDesc: "Сервер сканирует эту папку при запуске. Каждый файл Markdown становится книгой. Front matter (title, level, subtitle, theme) задаёт обложку и метаданные.",
+    uploadFile: "Загрузить файл",
+    entries: "записей",
+    scannedAgo: "просканировано 2 мин назад",
+    statusDraft: "ЧЕРНОВИК",
+    statusPublished: "ОПУБЛИКОВАНО",
+    hide: "Скрыть",
+    adminHint: "Положи файл .md в /books/ — он появится на полке автоматически при следующем сканировании. Пользователи ничего загружать не могут.",
+    // — upload modal —
+    titlePlaceholder: "Моя книга",
+    subtitlePlaceholder: "Подзаголовок",
+    contentPlaceholder: "Анна пошла в парк…",
+    chooseFile: "Выбрать файл (.txt / .md)",
+    uploaded: "Загружено",
+    customBook: "Своя книга.",
+    // — book detail —
+    afterReading: "После чтения",
+    quizTeaser: "Проверяй ключевые слова после каждой главы.",
+    // — vocabulary quiz —
+    vocabQuizTitle: "Словарь",
+    quizPrompt: "Что означает это слово?",
+    quizPerfect: "Отлично!",
+    quizGood: "Хорошо!",
+    quizTryAgain: "Перечитай главу.",
+    quizScore: "Результат",
+    quizRetry: "Ещё раз",
+    quizNextChapter: "Следующая глава",
+    quizNotEnough: "В этой главе недостаточно слов для теста.",
+    testChapterWords: "Проверить слова",
+    // — profile —
+    pleaseSignIn: "Пожалуйста, войди.",
+    savedWordsEmpty: "Нажимай на слова в читалке, чтобы собирать их здесь.",
+    account: "Аккаунт",
+    // — auth —
+    signInSub: "Продолжи с того места, где остановился.",
+    signUpSub: "Сохраняй прогресс, слова и заметки.",
+    namePlaceholder: "Anna Schmidt",
+    emailPlaceholder: "anna@beispiel.de",
+    demo: "ДЕМО",
+    asReader: "Как читатель",
+    asLibrarian: "Как библиотекарь",
+    // — reader —
+    bookmarks: "Закладки",
+    bookmarksEmpty: "Нажми на значок ⌘ рядом с абзацем, чтобы поставить закладку.",
+    paragraph: "¶",
+    removeBookmark: "Убрать закладку",
+    addBookmark: "Добавить закладку",
+    wordsShort: "слов",
+    highlightsHeading: "Выделения",
+    savedCount: "сохранено",
+    howToSave: "Как сохранять:",
+    howToSaveTap: "Нажми на слово, чтобы увидеть перевод",
+    howToSavePhrase: "Выдели текст для фраз и предложений",
+    howToSaveEdit: "Изменить ✎ для своих заметок",
+    editNote: "Изменить заметку",
+    addNote: "Добавить заметку",
+    // — card editor / phrase pop —
+    selection: "Выделение",
+    highlight: "Выделить",
+    saveWithNote: "Сохранить с заметкой",
+    editPhrase: "Изменить фразу",
+    dictionary: "Словарь",
+    contextLabel: "Контекст",
+    contextHint: "(предложение из книги)",
+    contextPlaceholderPhrase: "Предложение, в котором встречается фраза…",
+    contextPlaceholderWord: "Предложение, в котором встречается слово…",
+    examplesLabel: "Примеры",
+    examplesHint: "(свои предложения)",
+    examplePlaceholder: "напр. Я люблю гулять в парке.",
+    addExample: "Добавить пример",
+    noteLabel: "Заметка",
+    notePlaceholder: "Мнемоника, грамматика, всё, что тебе помогает…",
+    yourTranslation: "Твой перевод",
+    enPlaceholder: "по-английски…",
+    ruPlaceholder: "по-русски…",
+    color: "Цвет",
+    noColor: "Без цвета",
+    // — flashcards —
+    allCards: "Все",
+    hard: "Сложные",
+    flashContextLabel: "КОНТЕКСТ",
+    flashExamplesLabel: "ПРИМЕРЫ",
+    flashNoteLabel: "ЗАМЕТКА",
+    clickToFlip: "нажми, чтобы перевернуть",
+    learnedTag: "✓ выучено",
+    hardTag: "сложное",
+    phraseTag: "ФРАЗА",
+    noTranslationYet: "Перевода пока нет.",
+    addAction: "добавить",
+    allCardsLearned: "Все карточки выучены.",
+    noHardWords: "Сложных слов пока нет.",
+    nothingLearned: "Пока ничего не выучено.",
+    nothingToLearn: "Слов для изучения пока нет.",
+    allMasteredA: "Ты освоил",
+    allMasteredB: "слов. Перейди на вкладку Выучено, чтобы вернуть карточки в колоду.",
+    markLearnedHint: "Отмечай карточки «я знаю это», чтобы собирать их здесь.",
+    tapToSaveHint: "Нажимай на слова в читалке, чтобы сохранять их.",
+    viewLearned: "Посмотреть выученные карточки",
+    resetAll: "Сбросить все",
+    skip: "пропустить",
+    backToDeck: "↺ вернуть в колоду",
+    backToDeckTooltip: "Вернуть карточку в колоду для изучения",
+    skipTooltip: "Дальше",
+    hardActive: "✓ сложное",
+    markHardTooltip: "Отметить как сложное для запоминания",
+    iKnowThis: "я знаю это ✓",
+    iKnowThisTooltip: "Я знаю это — убрать из колоды",
+    // — help —
+    levelBeginner: "Начинающий",
+    levelBasic: "Базовый",
+    levelIntermediate: "Средний",
+    helpA1Desc: "Ты только начинаешь. Ты знаешь простые слова: привет, день, книга.",
+    helpA2Desc: "Ты понимаешь повседневные темы. Можешь говорить о прошлом.",
+    helpB1Desc: "Ты читаешь бегло. Понимаешь и то, что между строк.",
+    helpA1F1: "Короткие фразы",
+    helpA1F2: "Много повторений",
+    helpA1F3: "Настоящее время",
+    helpA1F4: "1 500–2 000 слов на книгу",
+    helpA2F1: "Несколько времён",
+    helpA2F2: "Длиннее предложения",
+    helpA2F3: "Диалоги",
+    helpA2F4: "2 500–4 000 слов на книгу",
+    helpB1F1: "Сложные предложения",
+    helpB1F2: "Придаточные",
+    helpB1F3: "Идиомы",
+    helpB1F4: "6 000–8 000 слов на книгу",
+    helpStep1Title: "Выбери книгу",
+    helpStep1Desc: "Отфильтруй библиотеку по своему уровню. Начни с A1, если сомневаешься — поменять можно в любой момент.",
+    helpStep2Title: "Нажимай на каждое слово",
+    helpStep2Desc: "В читалке нажатие на любое слово открывает перевод — на английский и русский. Слова можно сохранять или отмечать как «знаю».",
+    helpStep3Title: "Учи с карточками",
+    helpStep3Desc: "Сохранённые слова становятся карточками. Переворачивай их — смотри перевод — и повторяй, пока не запомнишь.",
+    helpStep4Title: "Проверяй себя тестами",
+    helpStep4Desc: "После каждой книги есть короткий тест. Три вопроса — быстро и по делу.",
+    helpStep5Title: "Не бросай",
+    helpStep5Desc: "Хватит и десяти минут в день. Серия растёт, а вместе с ней и словарный запас.",
+    faqQ1: "Нужен ли аккаунт?",
+    faqA1: "Нет. Читать всё можно без регистрации. Если ты войдёшь, прогресс будет синхронизироваться между устройствами.",
+    faqQ2: "Можно ли загружать свои книги?",
+    faqA2: "Нет — библиотека это подобранная коллекция. Эндрю Майер пишет книги и ведёт полку. Если есть идея или пожелание, напиши мне через страницу поддержки.",
+    faqQ3: "Переводы автоматические?",
+    faqA3: "Самые важные слова сделаны вручную. У редких слов ты можешь увидеть «—» — тогда поможет онлайн-словарь.",
+    faqQ4: "Что значат цвета слов?",
+    faqA4: "Подчёркнуто жёлтым = сохранено (ты хочешь это выучить). Серое и бледное = ты отметил как «знаю». Чёрное = нейтральное.",
+    faqQ5: "Сколько стоят книги?",
+    faqA5: "Ничего. Библиотека бесплатна. Если хочешь поддержать проект, буду рад пожертвованию.",
+    faqQ6: "На каких устройствах это работает?",
+    faqA6: "В браузере — на телефоне, планшете и компьютере. Никакого приложения ставить не нужно.",
+    helpHeroEmA: "Читай. Нажимай. ",
+    helpHeroEm: "Учись.",
+    helpLead: "Эта библиотека работает не так, как большинство приложений для изучения языков. Ты читаешь настоящие истории — а не отдельные слова. Вот как это устроено.",
+    helpTryIt: "Попробуй сам",
+    helpTapHint: "↑ Нажми на подчёркнутое слово",
+    helpThreeLevels: "Три уровня",
+    helpFiveSteps: "За пять шагов",
+    helpWordStatesTitle: "Что говорят тебе слова",
+    helpWordNeutral: "Нейтральное — ты его ещё не смотрел",
+    helpWordSaved: "Сохранено — попадает в твои карточки",
+    helpWordKnown: "Знаю — в следующий раз станет бледнее",
+    helpFaqTitle: "Частые вопросы",
+    helpCtaTitle: "Готов?",
+    helpCtaSub: "Начни с книги A1. Это займёт десять минут.",
+    // — about —
+    aboutFactLives: "Живёт в",
+    aboutFactWriting: "Пишет с",
+    aboutFactFont: "Любимый шрифт",
+    aboutFactBook: "Любимая книга",
+    aboutBelief1Title: "Понимание важнее грамматики",
+    aboutBelief1Body: "Язык учишь, понимая его. Грамматика подождёт — сначала чтение должно приносить удовольствие.",
+    aboutBelief2Title: "Простое не значит скучное",
+    aboutBelief2Body: "Предложения уровня A1 не обязаны быть детскими. Короткая строка может нести целое настроение. Хемингуэй это уже знал.",
+    aboutBelief3Title: "Повторение — это магия",
+    aboutBelief3Body: "Когда одно и то же слово встречается пятнадцать раз за десять минут, ты не застреваешь — ты учишь его попутно.",
+    aboutBelief4Title: "Перевод — это страховочное колесо",
+    aboutBelief4Body: "Он должен быть рядом, быстрым, а потом снова исчезать. Не отвлекать. Не объяснять.",
+    aboutPhotoFollows: "Фото будет позже — пока монограмма.",
+    aboutBioP1: "Меня зовут Эндрю. Я писатель, и когда-то давно сам учил немецкий. Тогда я чувствовал то же, что и все начинающие: учебники часто сухие, а настоящие книги слишком рано слишком сложны.",
+    aboutBioP2: "Поэтому я пишу именно такие книги, какие были нужны мне тогда. Истории на простом немецком — короткие и хорошие. Никогда не снисходительные. С героями, которых правда узнаёшь.",
+    aboutBioP3: "У каждой книги чёткий уровень: A1, A2 или B1. Лексика и грамматика строго подобраны. Но сами истории — настолько свободны, насколько это возможно.",
+    aboutBioP4: "Когда ты дочитываешь историю и думаешь «я правда это понял» — значит, проект выполнил своё предназначение.",
+    aboutBeliefsEyebrow: "Как я об этом думаю",
+    aboutBeliefsTitle: "Четыре убеждения",
+    aboutBibliographyEyebrow: "Библиография",
+    aboutBooksTitle: "Книги в этой библиотеке",
+    aboutContactTitle: "Напиши мне",
+    aboutContactBody: "Есть вопрос, предложение или нашёл ошибку? Обычно отвечаю в течение недели.",
+    // — progress —
+    last30Days: "Последние 30 дней",
+    daysAgo30: "30 дней назад",
+    less: "меньше",
+    more: "больше",
+    today: "сегодня",
+    booksHeading: "Книги",
   },
 };
 
@@ -478,32 +1247,253 @@ const buildVocab = (book) => {
   });
 };
 
-// Quiz: generated from chapter text
-const makeQuiz = (book) => {
-  const qs = [];
-  const chapters = book.chapters;
-  // Q1: who/what is the protagonist
-  const protag = book.title.match(/Anna/) ? "Anna" : book.title.match(/Paul/) ? "Paul" : book.title.match(/Maria/) ? "Maria" : book.title.match(/Lukas/) ? "Lukas" : book.title.match(/Markus/) ? "Markus" : "Anna";
-  qs.push({
-    prompt: { de: `Wer ist die Hauptfigur in „${book.title}"?`, en: `Who is the main character in "${book.title}"?`, ru: `Кто главный герой в «${book.title}»?` },
-    options: [protag, "Hans", "Karl", "Lisa"].sort(() => Math.random() - 0.5),
-    answer: protag,
+// ---------- VOCABULARY QUIZ ----------
+// German function words (articles, pronouns, prepositions, conjunctions, auxiliaries/modals,
+// particles, common adverbs). Quiz words are drawn from CONTENT words only, so these are skipped.
+const STOPWORDS = new Set([
+  // articles
+  "der", "die", "das", "den", "dem", "des", "ein", "eine", "einen", "einem", "einer", "eines",
+  "kein", "keine", "keinen", "keinem", "keiner", "keines",
+  // demonstratives / quantifiers
+  "dieser", "diese", "dieses", "diesen", "diesem", "jener", "jene", "jenes",
+  "jeder", "jede", "jedes", "jeden", "alle", "alles", "allen", "manche", "mancher",
+  "viel", "viele", "vielen", "wenig", "wenige", "mehr", "etwas", "nichts", "beide",
+  // pronouns
+  "ich", "du", "er", "sie", "es", "wir", "ihr", "man", "sich", "selbst", "einander",
+  "mich", "mir", "dich", "dir", "ihn", "ihm", "uns", "euch", "ihnen", "ihrer",
+  "mein", "meine", "meinen", "meinem", "meiner", "meines",
+  "dein", "deine", "deinen", "deinem", "deiner",
+  "sein", "seine", "seinen", "seinem", "seiner",
+  "ihre", "ihren", "ihrem", "unser", "unsere", "unseren",
+  "wer", "wen", "wem", "wessen", "was", "welche", "welcher", "welches", "welchen",
+  // auxiliaries / modals (and common conjugations)
+  "ist", "sind", "bin", "bist", "seid", "war", "warst", "waren", "wart", "gewesen", "sei",
+  "hat", "habe", "hast", "habt", "haben", "hatte", "hattest", "hatten", "gehabt",
+  "wird", "werde", "wirst", "werdet", "werden", "wurde", "wurden", "worden", "geworden",
+  "kann", "kannst", "kannst", "könnt", "können", "konnte", "konnten",
+  "muss", "musst", "müsst", "müssen", "musste", "mussten",
+  "soll", "sollst", "sollt", "sollen", "sollte", "sollten",
+  "will", "willst", "wollt", "wollen", "wollte", "wollten",
+  "darf", "darfst", "dürft", "dürfen", "durfte", "durften",
+  "mag", "magst", "mögen", "möchte", "möchten", "möchtest",
+  // prepositions
+  "in", "im", "auf", "an", "am", "ans", "mit", "von", "vom", "zu", "zum", "zur",
+  "nach", "für", "über", "unter", "durch", "bei", "beim", "aus", "um", "ohne",
+  "gegen", "zwischen", "vor", "hinter", "neben", "seit", "bis", "ab", "wegen",
+  "während", "trotz", "statt", "innerhalb", "außerhalb", "gegenüber", "entlang",
+  // conjunctions / subordinators
+  "und", "oder", "aber", "denn", "sondern", "doch", "als", "wie", "wenn", "dass",
+  "weil", "ob", "obwohl", "damit", "sobald", "während", "bevor", "nachdem", "falls",
+  "sowie", "sowohl", "weder", "entweder", "je", "desto",
+  // common adverbs / particles
+  "nicht", "auch", "nur", "schon", "noch", "sehr", "dann", "dort", "hier", "so",
+  "ja", "nein", "doch", "mal", "eben", "halt", "wohl", "etwa", "zwar", "denn",
+  "jetzt", "immer", "nie", "oft", "manchmal", "wieder", "bald", "gleich", "sofort",
+  "heute", "gestern", "morgen", "hin", "her", "weg", "los", "wo", "wohin", "woher",
+  "warum", "wieso", "weshalb", "wann", "ganz", "fast", "kaum", "gar", "eigentlich",
+  "vielleicht", "natürlich", "wirklich", "genau", "ziemlich", "besonders", "leider",
+  "darauf", "dabei", "dazu", "davon", "daran", "damit", "darüber", "dafür", "dadurch",
+  "worauf", "wobei", "wozu", "wovon", "woran", "womit", "worüber", "wofür",
+  "oben", "unten", "vorn", "hinten", "links", "rechts", "drinnen", "draußen",
+  "diesmal", "ebenfalls", "trotzdem", "deshalb", "deswegen", "daher", "also", "zudem",
+]);
+
+// Shuffle an array in place (Fisher–Yates) and return it.
+const shuffleArr = (arr) => {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+};
+
+const QUIZ_WORD_RE = /[A-Za-zÄÖÜäöüßẞ][A-Za-zÄÖÜäöüßẞ'’\-]*/g;
+const QUIZ_POS = new Set(["noun", "verb", "adj", "adv"]);
+
+// Is a looked-up entry an eligible CONTENT word for the quiz (in the target language)?
+const isQuizEligible = (entry, meaning) => {
+  if (!entry || entry.unknown) return false;
+  if (!QUIZ_POS.has(entry.pos)) return false;
+  if (!meaning || meaning === "—") return false;
+  if (STOPWORDS.has((entry.word || "").toLowerCase())) return false;
+  return true;
+};
+
+// Collect deduped eligible content words for a single chapter, with in-chapter frequency.
+// Returns a Map keyed by dedupe key (lemma || word) → { key, word, meaning, count }.
+const collectChapterWords = (chapter, lang) => {
+  const map = new Map();
+  if (!chapter || !Array.isArray(chapter.text)) return map;
+  const tokens = chapter.text.join("\n").match(QUIZ_WORD_RE) || [];
+  for (const token of tokens) {
+    if (STOPWORDS.has(token.toLowerCase())) continue;
+    const entry = lookupWord(token);
+    if (!entry) continue;
+    const meaning = lang === "ru" ? entry.ru : entry.en;
+    if (!isQuizEligible(entry, meaning)) continue;
+    const display = entry.lemma || entry.word;
+    const key = display.toLowerCase();
+    const existing = map.get(key);
+    if (existing) existing.count += 1;
+    else map.set(key, { key, word: display, meaning, count: 1 });
+  }
+  return map;
+};
+
+// Generate a per-chapter multiple-choice vocabulary quiz.
+// Shows a German word; the reader picks its meaning (in `lang`) from 4 options.
+const makeChapterQuiz = (book, chapterIndex, lang, count = 7) => {
+  if (!book || !Array.isArray(book.chapters)) return [];
+  const chapter = book.chapters[chapterIndex];
+  if (!chapter) return [];
+
+  const chapterWords = collectChapterWords(chapter, lang);
+
+  // Distractor pool: eligible content words from across the whole book (this chapter + others),
+  // keyed the same way so we can exclude the current answer by key.
+  const pool = new Map();
+  book.chapters.forEach((ch) => {
+    collectChapterWords(ch, lang).forEach((v, k) => {
+      const existing = pool.get(k);
+      if (existing) existing.count += v.count;
+      else pool.set(k, { ...v });
+    });
   });
-  qs.push({
-    prompt: { de: `Was bedeutet „Tag"?`, en: `What does „Tag" mean?`, ru: `Что значит „Tag"?` },
-    options: ["night", "day", "tree", "house"],
-    answer: "day",
+
+  // Rank the chapter's words: frequency desc, then longer word as a mild tiebreak.
+  const ranked = [...chapterWords.values()].sort(
+    (a, b) => b.count - a.count || b.word.length - a.word.length
+  );
+  const selected = ranked.slice(0, count);
+
+  return selected.map((item) => {
+    // Gather distractor meanings (same language) from other content words, distinct from the answer.
+    const candidates = [...pool.values()].filter(
+      (p) => p.key !== item.key && p.meaning && p.meaning !== item.meaning
+    );
+    shuffleArr(candidates);
+    const distractors = [];
+    const usedMeanings = new Set([item.meaning]);
+    for (const c of candidates) {
+      if (distractors.length >= 3) break;
+      if (usedMeanings.has(c.meaning)) continue;
+      usedMeanings.add(c.meaning);
+      distractors.push(c.meaning);
+    }
+    const options = shuffleArr([item.meaning, ...distractors]);
+    return { word: item.word, prompt: item.word, options, answer: item.meaning };
   });
-  qs.push({
-    prompt: { de: "Wo spielt die erste Szene?", en: "Where does the first scene take place?", ru: "Где происходит первая сцена?" },
-    options: [chapters[0].title, "Im Schloss", "Auf dem Schiff", "Auf dem Mond"],
-    answer: chapters[0].title,
-  });
-  return qs;
+};
+
+// ---------- BACKUP & RESTORE ----------
+// All user data lives in localStorage under the "ddb:" prefix. These helpers let a reader
+// export everything to a JSON file and import it back (e.g. to move between devices). No backend.
+const DDB_PREFIX = "ddb:";
+const BACKUP_APP = "die-deutsche-bibliothek";
+const BACKUP_VERSION = 1;
+
+// Pure: read every ddb: key out of a Storage-like object and build the backup payload.
+// Kept free of DOM so it can be unit-tested. `store` defaults to window.localStorage.
+const collectUserData = (store) => {
+  const ls = store || (typeof localStorage !== "undefined" ? localStorage : null);
+  const data = {};
+  if (ls) {
+    for (let i = 0; i < ls.length; i++) {
+      const fullKey = ls.key(i);
+      if (!fullKey || fullKey.indexOf(DDB_PREFIX) !== 0) continue;
+      const bareKey = fullKey.slice(DDB_PREFIX.length);
+      const raw = ls.getItem(fullKey);
+      try {
+        data[bareKey] = JSON.parse(raw);
+      } catch {
+        data[bareKey] = raw;
+      }
+    }
+  }
+  return {
+    app: BACKUP_APP,
+    version: BACKUP_VERSION,
+    exportedAt: new Date().toISOString(),
+    data,
+  };
+};
+
+// Pure: write a backup payload's data map back into a Storage-like object. Returns the count.
+const restoreUserData = (payload, store) => {
+  if (!payload || typeof payload !== "object" || !payload.data || typeof payload.data !== "object") {
+    throw new Error("Invalid backup file.");
+  }
+  if (payload.app && payload.app !== BACKUP_APP) {
+    throw new Error("This file is not a die-Deutsche-Bibliothek backup.");
+  }
+  const ls = store || (typeof localStorage !== "undefined" ? localStorage : null);
+  let count = 0;
+  if (ls) {
+    Object.keys(payload.data).forEach((key) => {
+      ls.setItem(DDB_PREFIX + key, JSON.stringify(payload.data[key]));
+      count++;
+    });
+  }
+  return count;
+};
+
+const backupFilename = () => {
+  const d = new Date();
+  const pad = (n) => String(n).padStart(2, "0");
+  const stamp = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  return `deutsche-bibliothek-backup-${stamp}.json`;
+};
+
+// Build the backup, then trigger a download of it as a JSON file.
+const exportUserData = () => {
+  const payload = collectUserData();
+  const json = JSON.stringify(payload, null, 2);
+  if (typeof document === "undefined" || typeof URL === "undefined" || !URL.createObjectURL) {
+    return json;
+  }
+  const blob = new Blob([json], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = backupFilename();
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  return json;
+};
+
+// Read a chosen File, validate it, and write its data back into localStorage.
+// Resolves with the number of keys restored. The caller reloads the page.
+const importUserData = (file) => {
+  const readText = () => {
+    if (file && typeof file.text === "function") return file.text();
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(reader.result);
+      reader.onerror = () => reject(reader.error || new Error("File read failed."));
+      reader.readAsText(file);
+    });
+  };
+  return Promise.resolve()
+    .then(() => {
+      if (!file) throw new Error("No file selected.");
+      return readText();
+    })
+    .then((text) => {
+      let payload;
+      try {
+        payload = JSON.parse(text);
+      } catch {
+        throw new Error("This file is not valid JSON.");
+      }
+      return restoreUserData(payload);
+    });
 };
 
 window.UI_STRINGS = UI_STRINGS;
 window.DICT = DICT;
+window.AUTH_ENABLED = AUTH_ENABLED;
 function fmtReadingTime(m, minUnit) {
   if (m < 60) return m + " " + minUnit;
   const h = Math.floor(m / 60), mm = m % 60;
@@ -513,4 +1503,9 @@ window.fmtReadingTime = fmtReadingTime;
 window.lookupWord = lookupWord;
 window.BOOKS = BOOKS;
 window.buildVocab = buildVocab;
-window.makeQuiz = makeQuiz;
+window.STOPWORDS = STOPWORDS;
+window.makeChapterQuiz = makeChapterQuiz;
+window.collectUserData = collectUserData;
+window.restoreUserData = restoreUserData;
+window.exportUserData = exportUserData;
+window.importUserData = importUserData;

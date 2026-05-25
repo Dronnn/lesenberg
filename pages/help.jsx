@@ -6,108 +6,70 @@ const Help = ({ lang }) => {
   const levels = [
     {
       lvl: "A1",
-      label: "Anfänger",
-      desc: "Du beginnst gerade. Du kennst einfache Wörter: Hallo, Tag, Buch.",
-      features: ["Kurze Sätze", "Viel Wiederholung", "Präsens", "1.500–2.000 Wörter pro Buch"],
+      label: t.levelBeginner,
+      desc: t.helpA1Desc,
+      features: [t.helpA1F1, t.helpA1F2, t.helpA1F3, t.helpA1F4],
       example: "Anna geht in den Park. Sie sieht einen kleinen Hund.",
     },
     {
       lvl: "A2",
-      label: "Grundstufe",
-      desc: "Du verstehst Alltagsthemen. Du kannst über die Vergangenheit sprechen.",
-      features: ["Mehrere Zeitformen", "Längere Sätze", "Dialoge", "2.500–4.000 Wörter pro Buch"],
+      label: t.levelBasic,
+      desc: t.helpA2Desc,
+      features: [t.helpA2F1, t.helpA2F2, t.helpA2F3, t.helpA2F4],
       example: "Am Nachmittag kam der Zug an. Paul nahm seinen Koffer und ging zur Tür.",
     },
     {
       lvl: "B1",
-      label: "Mittelstufe",
-      desc: "Du liest fließend. Du verstehst auch, was zwischen den Zeilen steht.",
-      features: ["Komplexe Sätze", "Nebensätze", "Idiome", "6.000–8.000 Wörter pro Buch"],
+      label: t.levelIntermediate,
+      desc: t.helpB1Desc,
+      features: [t.helpB1F1, t.helpB1F2, t.helpB1F3, t.helpB1F4],
       example: "Manche Türen, sagte sie endlich, soll man nicht öffnen.",
     },
   ];
 
   const steps = [
-    {
-      n: "01",
-      title: "Wähle ein Buch",
-      desc: "Filtere in der Bibliothek nach deinem Niveau. Beginne mit A1, wenn du unsicher bist — du kannst jederzeit wechseln.",
-    },
-    {
-      n: "02",
-      title: "Tippe auf jedes Wort",
-      desc: `Im Reader öffnet ein Tap auf jedes Wort eine Übersetzung — auf Englisch und Russisch. Du kannst Wörter speichern oder als „gekannt" markieren.`,
-    },
-    {
-      n: "03",
-      title: "Lerne mit Karteikarten",
-      desc: "Deine gespeicherten Wörter werden zu Karteikarten. Drehe sie um — sieh die Übersetzung — und wiederhole, bis du sie kennst.",
-    },
-    {
-      n: "04",
-      title: "Verstehe mit Quizzen",
-      desc: "Nach jedem Buch gibt es ein kurzes Quiz. Drei Fragen — schnell und konkret.",
-    },
-    {
-      n: "05",
-      title: "Bleibe dran",
-      desc: "Schon zehn Minuten am Tag genügen. Dein Streak wächst, und mit ihm dein Wortschatz.",
-    },
+    { n: "01", title: t.helpStep1Title, desc: t.helpStep1Desc },
+    { n: "02", title: t.helpStep2Title, desc: t.helpStep2Desc },
+    { n: "03", title: t.helpStep3Title, desc: t.helpStep3Desc },
+    { n: "04", title: t.helpStep4Title, desc: t.helpStep4Desc },
+    { n: "05", title: t.helpStep5Title, desc: t.helpStep5Desc },
   ];
 
   const faqs = [
-    {
-      q: "Brauche ich ein Konto?",
-      a: "Nein. Du kannst alles ohne Anmeldung lesen. Wenn du dich anmeldest, wird dein Fortschritt zwischen Geräten synchronisiert.",
-    },
-    {
-      q: "Kann ich eigene Bücher hochladen?",
-      a: `Nein — die Bibliothek ist eine kuratierte Sammlung. Andrew Maier schreibt die Bücher und pflegt das Regal. Wenn du eine Idee oder einen Wunsch hast, schreib mir gerne über die Spenden-Seite.`,
-    },
-    {
-      q: "Sind die Übersetzungen automatisch?",
-      a: `Die wichtigsten Wörter sind handgepflegt. Bei selteneren Wörtern siehst du eventuell „—" — dann hilft dir ein Online-Wörterbuch.`,
-    },
-    {
-      q: "Was bedeuten die Farben der Wörter?",
-      a: `Unterstrichen gelb = gespeichert (du willst es lernen). Grau und blass = du hast es als „gekannt" markiert. Schwarz = neutral.`,
-    },
-    {
-      q: "Wie viel kosten die Bücher?",
-      a: "Nichts. Die Bibliothek ist kostenlos. Wenn du das Projekt unterstützen willst, freue ich mich über eine Spende.",
-    },
-    {
-      q: "Auf welchen Geräten funktioniert das?",
-      a: "Im Browser — auf Telefon, Tablet und Computer. Es gibt keine App, die du installieren musst.",
-    },
+    { q: t.faqQ1, a: t.faqA1 },
+    { q: t.faqQ2, a: t.faqA2 },
+    { q: t.faqQ3, a: t.faqA3 },
+    { q: t.faqQ4, a: t.faqA4 },
+    { q: t.faqQ5, a: t.faqA5 },
+    { q: t.faqQ6, a: t.faqA6 },
   ];
 
   return (
     <div className="page-narrow">
       <div className="eyebrow" style={{ marginBottom: 14 }}>{t.howTo}</div>
       <h1 className="h-display" style={{ fontSize: 56, marginBottom: 20 }}>
-        Lies. Tippe. <em>Lerne.</em>
+        {t.helpHeroEmA}<em>{t.helpHeroEm}</em>
       </h1>
       <p style={{ fontSize: 18, color: "var(--ink-soft)", maxWidth: 580, lineHeight: 1.6 }}>
-        Diese Bibliothek funktioniert anders als die meisten Sprachlern-Apps. Du liest echte Geschichten — nicht isolierte Wörter. Hier ist, wie das geht.
+        {t.helpLead}
       </p>
 
       {/* TAP DEMO */}
       <section style={{ marginTop: 56, marginBottom: 56 }}>
-        <h2 className="h-section" style={{ marginBottom: 18 }}>Probier es selbst</h2>
+        <h2 className="h-section" style={{ marginBottom: 18 }}>{t.helpTryIt}</h2>
         <div className="card" style={{ padding: 36, fontFamily: "var(--font-serif)", fontSize: 22, lineHeight: 1.7 }}>
           <p style={{ margin: 0 }}>
             Anna <DemoWord word="geht" en="goes" ru="идёт" /> in den <DemoWord word="Park" en="park" ru="парк" />. Der <DemoWord word="Tag" en="day" ru="день" /> ist <DemoWord word="schön" en="beautiful" ru="красивый" /> und <DemoWord word="warm" en="warm" ru="тёплый" />.
           </p>
           <div className="mono mute" style={{ fontSize: 11, marginTop: 22, letterSpacing: "0.08em", textTransform: "uppercase" }}>
-            ↑ Tippe ein unterstrichenes Wort an
+            ↑ {t.helpTapHint}
           </div>
         </div>
       </section>
 
       {/* LEVELS */}
       <section style={{ marginBottom: 56 }}>
-        <h2 className="h-section" style={{ marginBottom: 18 }}>Drei Niveaus</h2>
+        <h2 className="h-section" style={{ marginBottom: 18 }}>{t.helpThreeLevels}</h2>
         <div style={{ display: "grid", gap: 12 }}>
           {levels.map(l => (
             <div key={l.lvl} className="card" style={{ padding: 24, display: "grid", gridTemplateColumns: "80px 1fr 1fr", gap: 24, alignItems: "flex-start" }}>
@@ -142,7 +104,7 @@ const Help = ({ lang }) => {
 
       {/* STEPS */}
       <section style={{ marginBottom: 56 }}>
-        <h2 className="h-section" style={{ marginBottom: 24 }}>In fünf Schritten</h2>
+        <h2 className="h-section" style={{ marginBottom: 24 }}>{t.helpFiveSteps}</h2>
         <div style={{ display: "grid", gap: 0 }}>
           {steps.map((s, i) => (
             <div key={s.n} style={{
@@ -164,22 +126,22 @@ const Help = ({ lang }) => {
 
       {/* WORD STATES */}
       <section style={{ marginBottom: 56 }}>
-        <h2 className="h-section" style={{ marginBottom: 18 }}>Was die Wörter dir sagen</h2>
+        <h2 className="h-section" style={{ marginBottom: 18 }}>{t.helpWordStatesTitle}</h2>
         <div className="card" style={{ padding: 28 }}>
           <div style={{ display: "grid", gridTemplateColumns: "auto 1fr", gap: "18px 28px", alignItems: "center", fontFamily: "var(--font-serif)", fontSize: 18 }}>
             <span className="word">Tag</span>
-            <span className="soft" style={{ fontFamily: "var(--font-sans)", fontSize: 14 }}>Neutral — du hast es noch nicht angesehen</span>
+            <span className="soft" style={{ fontFamily: "var(--font-sans)", fontSize: 14 }}>{t.helpWordNeutral}</span>
             <span className="word saved">Tag</span>
-            <span className="soft" style={{ fontFamily: "var(--font-sans)", fontSize: 14 }}>Gespeichert — kommt in deine Karteikarten</span>
+            <span className="soft" style={{ fontFamily: "var(--font-sans)", fontSize: 14 }}>{t.helpWordSaved}</span>
             <span className="word known">Tag</span>
-            <span className="soft" style={{ fontFamily: "var(--font-sans)", fontSize: 14 }}>Gekannt — wird beim nächsten Mal abgeblendet</span>
+            <span className="soft" style={{ fontFamily: "var(--font-sans)", fontSize: 14 }}>{t.helpWordKnown}</span>
           </div>
         </div>
       </section>
 
       {/* FAQ */}
       <section style={{ marginBottom: 56 }}>
-        <h2 className="h-section" style={{ marginBottom: 18 }}>Häufige Fragen</h2>
+        <h2 className="h-section" style={{ marginBottom: 18 }}>{t.helpFaqTitle}</h2>
         <div className="card" style={{ padding: 0, overflow: "hidden" }}>
           {faqs.map((f, i) => (
             <div key={i} style={{ borderBottom: i < faqs.length - 1 ? "1px solid var(--line-soft)" : 0 }}>
@@ -203,8 +165,8 @@ const Help = ({ lang }) => {
 
       {/* CTA */}
       <section className="card" style={{ padding: 36, textAlign: "center", background: "var(--ink)", color: "var(--bg-soft)" }}>
-        <h3 className="serif" style={{ fontSize: 28, fontWeight: 500, margin: "0 0 8px" }}>Bereit?</h3>
-        <p style={{ color: "rgba(244, 237, 224, 0.7)", margin: "0 0 22px" }}>Beginne mit einem A1-Buch. Es dauert zehn Minuten.</p>
+        <h3 className="serif" style={{ fontSize: 28, fontWeight: 500, margin: "0 0 8px" }}>{t.helpCtaTitle}</h3>
+        <p style={{ color: "rgba(244, 237, 224, 0.7)", margin: "0 0 22px" }}>{t.helpCtaSub}</p>
         <a href="#/library?lvl=A1" className="btn btn-lg" style={{ background: "var(--paper)", color: "var(--ink)" }}>{t.library} →</a>
       </section>
     </div>

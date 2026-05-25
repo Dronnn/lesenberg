@@ -5,7 +5,8 @@
 const HL_COLORS = ["yellow", "green", "pink", "blue"];
 
 // ---------- SELECTION TOOLBAR (multi-word) ----------
-const PhrasePop = ({ phrase, context, position, onClose, onSave, onOpenEditor }) => {
+const PhrasePop = ({ phrase, context, position, onClose, onSave, onOpenEditor, lang }) => {
+  const t = UI_STRINGS[lang];
   const ref = useRef(null);
   useEffect(() => {
     const onDoc = (e) => {
@@ -23,15 +24,15 @@ const PhrasePop = ({ phrase, context, position, onClose, onSave, onOpenEditor })
   return (
     <div ref={ref} className="phrase-pop word-pop" style={{ left: position.x, top: position.y }}>
       <div className="pp-head">
-        <span className="pp-kind">Auswahl · {phrase.split(/\s+/).length} Wörter</span>
-        <button className="pp-close" onClick={onClose} aria-label="Schließen">×</button>
+        <span className="pp-kind">{t.selection} · {phrase.split(/\s+/).length} {t.wordsShort}</span>
+        <button className="pp-close" onClick={onClose} aria-label={t.close}>×</button>
       </div>
       <div className="pp-phrase">„{phrase}"</div>
       {context && context !== phrase && (
         <div className="pp-context">…{context}…</div>
       )}
       <div className="pp-row">
-        <span className="pp-label">Markieren</span>
+        <span className="pp-label">{t.highlight}</span>
         <div className="pp-colors">
           {HL_COLORS.map(c => (
             <button key={c} className={"sw " + c} title={c} onClick={() => onSave(c)}></button>
@@ -39,8 +40,8 @@ const PhrasePop = ({ phrase, context, position, onClose, onSave, onOpenEditor })
         </div>
       </div>
       <div className="pp-actions">
-        <button className="pp-btn ghost" onClick={onClose}>Abbrechen</button>
-        <button className="pp-btn primary" onClick={() => onOpenEditor()}>Mit Notiz speichern →</button>
+        <button className="pp-btn ghost" onClick={onClose}>{t.cancel}</button>
+        <button className="pp-btn primary" onClick={() => onOpenEditor()}>{t.saveWithNote} →</button>
       </div>
     </div>
   );
@@ -48,6 +49,7 @@ const PhrasePop = ({ phrase, context, position, onClose, onSave, onOpenEditor })
 
 // ---------- CARD EDITOR MODAL ----------
 const CardEditor = ({ entryKey, initial, dictLookup, onSave, onDelete, onClose, lang }) => {
+  const t = UI_STRINGS[lang];
   const isPhrase = !!initial.isPhrase;
   const [phrase] = useState(initial.phrase || "");
   const [context, setContext] = useState(initial.context || "");
@@ -82,55 +84,55 @@ const CardEditor = ({ entryKey, initial, dictLookup, onSave, onDelete, onClose, 
       <div className="modal card-editor" onClick={(e) => e.stopPropagation()}>
         <div className="ce-head">
           <div>
-            <div className="eyebrow">{isPhrase ? "Phrase bearbeiten" : "Karteikarte bearbeiten"}</div>
+            <div className="eyebrow">{isPhrase ? t.editPhrase : t.editCard}</div>
             <h2 className="ce-phrase">{phrase}</h2>
             {dict && dict.pos && dict.pos !== "—" && (
               <div className="ce-dict">
                 <span className="mono mute">{dict.pos}</span>
-                {dict.lemma && dict.lemma !== phrase && <span className="mono mute"> · Grundform: {dict.lemma}</span>}
+                {dict.lemma && dict.lemma !== phrase && <span className="mono mute"> · {t.baseForm}: {dict.lemma}</span>}
               </div>
             )}
           </div>
-          <button className="ce-x" onClick={onClose} aria-label="Schließen">×</button>
+          <button className="ce-x" onClick={onClose} aria-label={t.close}>×</button>
         </div>
 
         <div className="ce-grid">
           {/* LEFT — context + note + examples */}
           <div className="ce-col">
             <div className="field">
-              <label>Kontext <span className="mute">(Satz aus dem Buch)</span></label>
+              <label>{t.contextLabel} <span className="mute">{t.contextHint}</span></label>
               <textarea
                 value={context}
                 onChange={(e) => setContext(e.target.value)}
-                placeholder={isPhrase ? "Der Satz, in dem die Phrase vorkommt…" : "Der Satz, in dem das Wort vorkommt…"}
+                placeholder={isPhrase ? t.contextPlaceholderPhrase : t.contextPlaceholderWord}
                 rows={isPhrase ? 3 : 2}
               />
             </div>
 
             <div className="field">
-              <label>Beispiele <span className="mute">(eigene Sätze)</span></label>
+              <label>{t.examplesLabel} <span className="mute">{t.examplesHint}</span></label>
               {examples.map((ex, i) => (
                 <div key={i} className="ce-example">
                   <span className="mono mute">{i + 1}.</span>
                   <input
                     value={ex}
                     onChange={(e) => setExample(i, e.target.value)}
-                    placeholder="z.B. Ich gehe gern in den Park."
+                    placeholder={t.examplePlaceholder}
                   />
                   {examples.length > 1 && (
-                    <button className="ce-rm" onClick={() => removeExample(i)} title="Entfernen">×</button>
+                    <button className="ce-rm" onClick={() => removeExample(i)} title={t.remove}>×</button>
                   )}
                 </div>
               ))}
-              <button className="ce-add" onClick={addExample}>+ Beispiel hinzufügen</button>
+              <button className="ce-add" onClick={addExample}>+ {t.addExample}</button>
             </div>
 
             <div className="field">
-              <label>Notiz</label>
+              <label>{t.noteLabel}</label>
               <textarea
                 value={note}
                 onChange={(e) => setNote(e.target.value)}
-                placeholder="Eselsbrücken, Grammatik, alles, was dir hilft…"
+                placeholder={t.notePlaceholder}
                 rows={3}
               />
             </div>
@@ -140,31 +142,31 @@ const CardEditor = ({ entryKey, initial, dictLookup, onSave, onDelete, onClose, 
           <div className="ce-col ce-side">
             {dict && (
               <div className="ce-auto">
-                <div className="eyebrow">Wörterbuch</div>
+                <div className="eyebrow">{t.dictionary}</div>
                 <div className="ce-auto-row"><span className="mono mute">EN</span><span>{dict.en || "—"}</span></div>
                 <div className="ce-auto-row"><span className="mono mute">RU</span><span>{dict.ru || "—"}</span></div>
               </div>
             )}
 
             <div className="field">
-              <label>Deine Übersetzung <span className="mono mute" style={{ marginLeft: 4 }}>EN</span></label>
+              <label>{t.yourTranslation} <span className="mono mute" style={{ marginLeft: 4 }}>EN</span></label>
               <input
                 value={customEn}
                 onChange={(e) => setCustomEn(e.target.value)}
-                placeholder={dict?.en && dict.en !== "—" ? dict.en : "auf Englisch…"}
+                placeholder={dict?.en && dict.en !== "—" ? dict.en : t.enPlaceholder}
               />
             </div>
             <div className="field">
-              <label>Deine Übersetzung <span className="mono mute" style={{ marginLeft: 4 }}>RU</span></label>
+              <label>{t.yourTranslation} <span className="mono mute" style={{ marginLeft: 4 }}>RU</span></label>
               <input
                 value={customRu}
                 onChange={(e) => setCustomRu(e.target.value)}
-                placeholder={dict?.ru && dict.ru !== "—" ? dict.ru : "по-русски…"}
+                placeholder={dict?.ru && dict.ru !== "—" ? dict.ru : t.ruPlaceholder}
               />
             </div>
 
             <div className="field">
-              <label>Farbe</label>
+              <label>{t.color}</label>
               <div className="ce-colors">
                 {HL_COLORS.map(c => (
                   <button
@@ -177,7 +179,7 @@ const CardEditor = ({ entryKey, initial, dictLookup, onSave, onDelete, onClose, 
                 <button
                   className={"sw clear" + (!color ? " on" : "")}
                   onClick={() => setColor(null)}
-                  title="Keine Farbe"
+                  title={t.noColor}
                 >×</button>
               </div>
             </div>
@@ -185,10 +187,10 @@ const CardEditor = ({ entryKey, initial, dictLookup, onSave, onDelete, onClose, 
         </div>
 
         <div className="ce-foot">
-          <button className="btn btn-ghost" style={{ color: "var(--b1)" }} onClick={() => { onDelete(entryKey); onClose(); }}>Löschen</button>
+          <button className="btn btn-ghost" style={{ color: "var(--b1)" }} onClick={() => { onDelete(entryKey); onClose(); }}>{t.delete}</button>
           <div style={{ flex: 1 }}></div>
-          <button className="btn btn-ghost" onClick={onClose}>Abbrechen</button>
-          <button className="btn btn-primary" onClick={save}>Speichern</button>
+          <button className="btn btn-ghost" onClick={onClose}>{t.cancel}</button>
+          <button className="btn btn-primary" onClick={save}>{t.save}</button>
         </div>
       </div>
     </div>

@@ -46,9 +46,9 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
 
   const knownSet = useMemo(() => new Set(knownWords), [knownWords]);
 
-  if (!book) return <div className="page"><p>Buch nicht gefunden.</p></div>;
+  if (!book) return <div className="page"><p>{t.bookNotFound}</p></div>;
   const chapter = book.chapters[chapterIndex];
-  if (!chapter) return <div className="page"><p>Kapitel nicht gefunden.</p></div>;
+  if (!chapter) return <div className="page"><p>{t.chapterNotFound}</p></div>;
 
   const bookBookmarks = bookmarks[book.id] || [];
 
@@ -209,10 +209,10 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
           })}
         </div>
 
-        <div className="eyebrow" style={{ marginBottom: 10 }}>Lesezeichen</div>
+        <div className="eyebrow" style={{ marginBottom: 10 }}>{t.bookmarks}</div>
         {bookBookmarks.length === 0 ? (
           <div className="mute" style={{ fontSize: 11, fontStyle: "italic", marginBottom: 24 }}>
-            Klicke auf das ⌘ Symbol neben einem Absatz, um ein Lesezeichen zu setzen.
+            {t.bookmarksEmpty}
           </div>
         ) : (
           <div style={{ display: "flex", flexDirection: "column", gap: 0, marginBottom: 24 }}>
@@ -229,7 +229,7 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
                 color: "inherit",
               }}>
                 <div className="mono mute" style={{ fontSize: 9, letterSpacing: "0.06em" }}>
-                  {t.chapter} {b.chapter + 1} · ¶ {b.paragraph + 1}
+                  {t.chapter} {b.chapter + 1} · {t.paragraph} {b.paragraph + 1}
                 </div>
                 <div style={{ fontSize: 12, fontFamily: "var(--font-serif)", color: "var(--ink-soft)", marginTop: 2, lineHeight: 1.3, fontStyle: "italic" }}>
                   „{b.snippet}…"
@@ -248,7 +248,7 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
         </div>
 
         <div style={{ marginTop: 24 }}>
-          <div className="eyebrow" style={{ marginBottom: 10 }}>Anzeige</div>
+          <div className="eyebrow" style={{ marginBottom: 10 }}>{t.display}</div>
           <div style={{ display: "flex", gap: 6 }}>
             <button onClick={() => setFontScale(s => Math.max(0.8, s - 0.1))} className="btn btn-ghost btn-sm" style={{ flex: 1, justifyContent: "center", border: "1px solid var(--line)" }}>A−</button>
             <button onClick={() => setFontScale(1)} className="btn btn-ghost btn-sm" style={{ flex: 1, justifyContent: "center", border: "1px solid var(--line)" }}>A</button>
@@ -261,7 +261,7 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
       <main className="reader-stage" ref={stageRef} onClick={() => pop && closePop()} onMouseUp={onTextMouseUp}>
         <div className="reader-mobilebar">
           <button className="btn btn-ghost btn-sm" onClick={(e) => { e.stopPropagation(); setDrawer("chapters"); }}>☰ {t.chapters}</button>
-          <button className="btn btn-ghost btn-sm" onClick={(e) => { e.stopPropagation(); setDrawer("saved"); }}>Wörter</button>
+          <button className="btn btn-ghost btn-sm" onClick={(e) => { e.stopPropagation(); setDrawer("saved"); }}>{t.wordsShort}</button>
         </div>
         <div className="reader-body" style={{ fontSize: 20 * fontScale + "px", lineHeight: 1.7 }}>
           <div className="reader-meta">
@@ -273,27 +273,28 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
               <button
                 className="bm-btn"
                 onClick={(e) => { e.stopPropagation(); onToggleBookmark(book.id, chapterIndex, i, p.slice(0, 80)); }}
-                title={isBookmarked(i) ? "Lesezeichen entfernen" : "Lesezeichen hinzufügen"}>
+                title={isBookmarked(i) ? t.removeBookmark : t.addBookmark}>
                 {isBookmarked(i) ? "▰" : "▱"}
               </button>
               <TappableText text={p} onWord={onWordClick} onPhrase={onPhraseInlineClick} highlights={highlights} knownWords={knownSet} phrases={phrases} />
             </p>
           ))}
 
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 56, paddingTop: 24, borderTop: "1px solid var(--line)" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 12, marginTop: 56, paddingTop: 24, borderTop: "1px solid var(--line)" }}>
             <button className="btn btn-ghost"
               onClick={() => onChapter(Math.max(0, chapterIndex - 1))}
               disabled={chapterIndex === 0}
               style={{ visibility: chapterIndex === 0 ? "hidden" : "visible" }}>
               {t.readerPrev}
             </button>
-            {isLast ? (
-              <a href={"#/quiz/" + book.id} className="btn btn-primary">{t.quiz} →</a>
-            ) : (
-              <button className="btn btn-primary" onClick={() => onAdvance()}>
-                {t.readerNext}
-              </button>
-            )}
+            <div className="row" style={{ gap: 10 }}>
+              <a href={"#/quiz/" + book.id + "/" + chapterIndex} className="btn btn-outline">{t.testChapterWords}</a>
+              {!isLast && (
+                <button className="btn btn-primary" onClick={() => onAdvance()}>
+                  {t.readerNext}
+                </button>
+              )}
+            </div>
           </div>
         </div>
 
@@ -319,23 +320,24 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
             onClose={closePhrasePop}
             onSave={savePhraseQuick}
             onOpenEditor={openPhraseEditor}
+            lang={lang}
           />
         )}
       </main>
 
       {/* RIGHT — saved entries (words + phrases) */}
       <aside className={"reader-side right reader-pane reader-pane-right" + (drawer === "saved" ? " open" : "")}>
-        <div className="eyebrow" style={{ marginBottom: 10 }}>Markierungen</div>
+        <div className="eyebrow" style={{ marginBottom: 10 }}>{t.highlightsHeading}</div>
         <div className="mono mute" style={{ fontSize: 11, marginBottom: 18, letterSpacing: "0.04em" }}>
-          {highlightedWords.length} gespeichert · {knownWords.length} {t.known}
+          {highlightedWords.length} {t.savedCount} · {knownWords.length} {t.known}
         </div>
 
         {highlightedWords.length === 0 ? (
           <div style={{ padding: 18, border: "1px dashed var(--line)", borderRadius: 4, fontSize: 12, color: "var(--ink-mute)", lineHeight: 1.5 }}>
-            <strong style={{ display: "block", color: "var(--ink-soft)", marginBottom: 6, fontWeight: 600 }}>So speicherst du:</strong>
-            <span style={{ display: "block", marginBottom: 4 }}>· Wort antippen für Übersetzung</span>
-            <span style={{ display: "block", marginBottom: 4 }}>· Text markieren für Phrasen &amp; Sätze</span>
-            <span>· Bearbeiten ✎ für eigene Notizen</span>
+            <strong style={{ display: "block", color: "var(--ink-soft)", marginBottom: 6, fontWeight: 600 }}>{t.howToSave}</strong>
+            <span style={{ display: "block", marginBottom: 4 }}>· {t.howToSaveTap}</span>
+            <span style={{ display: "block", marginBottom: 4 }}>· {t.howToSavePhrase}</span>
+            <span>· {t.howToSaveEdit}</span>
           </div>
         ) : (
           <div style={{ display: "flex", flexDirection: "column", gap: 0 }}>
@@ -369,7 +371,7 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
                       <div className="sv-ctx">„{cardData.context.length > 70 ? cardData.context.slice(0, 70) + "…" : cardData.context}"</div>
                     )}
                   </div>
-                  <button className="sv-edit" onClick={() => openEditorForKey(k)} title={hasNote ? "Notiz bearbeiten" : "Notiz hinzufügen"}>
+                  <button className="sv-edit" onClick={() => openEditorForKey(k)} title={hasNote ? t.editNote : t.addNote}>
                     {hasNote ? "✎" : "+"}
                   </button>
                 </div>
@@ -380,7 +382,7 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
 
         <div style={{ marginTop: 24 }}>
           <a href={"#/flashcards/" + book.id} className="btn btn-outline btn-sm" style={{ width: "100%", justifyContent: "center" }}>
-            Karteikarten →
+            {t.flashcards} →
           </a>
         </div>
       </aside>
@@ -518,10 +520,10 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
   const sourceOptions = useMemo(() => {
     const learnedCount = fullDeck.filter(c => knownSet.has(c.key)).length;
     const opts = [
-      { id: "all", label: "Alle", count: fullDeck.filter(c => !knownSet.has(c.key)).length },
-      { id: "saved", label: "Gespeichert", count: fullDeck.filter(c => highlights[c.key] && !knownSet.has(c.key)).length },
-      { id: "hard", label: "Schwer", count: fullDeck.filter(c => hardSet.has(c.key) && !knownSet.has(c.key)).length },
-      { id: "learned", label: "Gelernt", count: learnedCount },
+      { id: "all", label: t.allCards, count: fullDeck.filter(c => !knownSet.has(c.key)).length },
+      { id: "saved", label: t.saved, count: fullDeck.filter(c => highlights[c.key] && !knownSet.has(c.key)).length },
+      { id: "hard", label: t.hard, count: fullDeck.filter(c => hardSet.has(c.key) && !knownSet.has(c.key)).length },
+      { id: "learned", label: t.learned, count: learnedCount },
     ];
     allBooks.forEach(b => {
       const n = fullDeck.filter(c => c.bookId === b.id && !knownSet.has(c.key)).length;
@@ -537,35 +539,35 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
       <div className="page-narrow" style={{ paddingTop: 56 }}>
         {book && <a href={"#/book/" + book.id} className="btn btn-ghost btn-sm" style={{ marginBottom: 18 }}>← {book.title}</a>}
         <div className="eyebrow" style={{ marginBottom: 14, textAlign: "center" }}>
-          {book ? `${book.title} · ${t.vocabulary}` : "Karteikarten"}
+          {book ? `${book.title} · ${t.vocabulary}` : t.flashcards}
         </div>
         <FlashSourceTabs options={sourceOptions} value={source} onChange={setSource} />
         <div style={{ textAlign: "center", paddingTop: 40 }}>
           <h2 className="h-section">
-            {allDone ? "Alle Karten gelernt." :
-             source === "hard" ? "Noch keine schweren Wörter." :
-             source === "learned" ? "Noch nichts gelernt." :
-             "Noch keine Wörter zum Lernen."}
+            {allDone ? t.allCardsLearned :
+             source === "hard" ? t.noHardWords :
+             source === "learned" ? t.nothingLearned :
+             t.nothingToLearn}
           </h2>
           <p className="soft" style={{ marginTop: 8 }}>
             {allDone
-              ? `Du hast ${fullDeck.length} Wörter gemeistert. Wechsle zum Tab Gelernt, um Karten zurück in den Stapel zu legen.`
+              ? `${t.allMasteredA} ${fullDeck.length} ${t.allMasteredB}`
               : source === "learned"
-                ? "Markiere Karten mit „ich kann das“, um sie hier zu sammeln."
-                : "Tippe Wörter im Reader an, um sie zu speichern."}
+                ? t.markLearnedHint
+                : t.tapToSaveHint}
           </p>
           <div className="row" style={{ justifyContent: "center", gap: 10, marginTop: 18 }}>
             {allDone && (
               <button
                 className="btn btn-outline"
                 onClick={() => setSource("learned")}
-              >Gelernte Karten ansehen</button>
+              >{t.viewLearned}</button>
             )}
             {allDone && (
               <button
                 className="btn btn-ghost"
                 onClick={() => fullDeck.forEach(c => onUnknowWord && onUnknowWord(c.key))}
-              >Alle zurücksetzen</button>
+              >{t.resetAll}</button>
             )}
           </div>
         </div>
@@ -642,13 +644,13 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
     <div className="page-narrow" style={{ paddingTop: 56 }}>
       {book && <a href={"#/book/" + book.id} className="btn btn-ghost btn-sm" style={{ marginBottom: 18 }}>← {book.title}</a>}
       <div className="eyebrow" style={{ marginBottom: 14, textAlign: "center" }}>
-        {book ? `${book.title} · ${t.vocabulary}` : "Karteikarten"}
+        {book ? `${book.title} · ${t.vocabulary}` : t.flashcards}
       </div>
 
       <FlashSourceTabs options={sourceOptions} value={source} onChange={setSource} />
 
       <div className="mono mute" style={{ fontSize: 11, marginBottom: 18, letterSpacing: "0.08em", textAlign: "center" }}>
-        {i + 1} / {remaining} · {totalDone}/{fullDeck.length} gelernt
+        {i + 1} / {remaining} · {totalDone}/{fullDeck.length} {t.learned}
       </div>
 
       <div className="flash-stage">
@@ -678,24 +680,24 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
                 },
                 dictLookup: card.isPhrase ? null : { pos: card.pos, en: card.autoEn, ru: card.autoRu, lemma: card.lemma },
               }); }}
-              title="Bearbeiten"
+              title={t.edit}
             >✎</button>
 
             <div className="flash-face flash-front">
-              {card.isPhrase && <span className="flash-tag flash-tag-phrase">PHRASE</span>}
-              {source === "learned" && <span className="flash-tag flash-tag-learned">✓ gelernt</span>}
-              {isHard && source !== "learned" && <span className="flash-tag">schwer</span>}
+              {card.isPhrase && <span className="flash-tag flash-tag-phrase">{t.phraseTag}</span>}
+              {source === "learned" && <span className="flash-tag flash-tag-learned">{t.learnedTag}</span>}
+              {isHard && source !== "learned" && <span className="flash-tag">{t.hardTag}</span>}
               <div className={"de" + (card.isPhrase ? " is-phrase" : "")}>{card.word}</div>
               <div className="pos">{card.pos}</div>
               {card.context && card.isPhrase && (
                 <div className="flash-ctx">„{card.context.length > 90 ? card.context.slice(0, 90) + "…" : card.context}"</div>
               )}
-              <div className="mono mute flash-hint">klicken zum Umdrehen</div>
+              <div className="mono mute flash-hint">{t.clickToFlip}</div>
             </div>
             <div className="flash-face flash-back">
-              {card.isPhrase && <span className="flash-tag flash-tag-phrase">PHRASE</span>}
-              {source === "learned" && <span className="flash-tag flash-tag-learned">✓ gelernt</span>}
-              {isHard && source !== "learned" && <span className="flash-tag">schwer</span>}
+              {card.isPhrase && <span className="flash-tag flash-tag-phrase">{t.phraseTag}</span>}
+              {source === "learned" && <span className="flash-tag flash-tag-learned">{t.learnedTag}</span>}
+              {isHard && source !== "learned" && <span className="flash-tag">{t.hardTag}</span>}
               <div className={"de" + (card.isPhrase ? " is-phrase" : "")} style={card.isPhrase ? null : { fontSize: 26 }}>{card.word}</div>
               <div className="pos">{card.pos}{card.lemma && card.lemma !== card.word ? " · " + card.lemma : ""}</div>
               {card.en && card.en !== "—" && (
@@ -718,22 +720,22 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
               )}
               {(card.en === "—" || !card.en) && (card.ru === "—" || !card.ru) && (
                 <div className="flash-empty-tr">
-                  Noch keine Übersetzung. <button className="flash-link" onClick={(e) => { e.stopPropagation(); setEditor({
+                  {t.noTranslationYet} <button className="flash-link" onClick={(e) => { e.stopPropagation(); setEditor({
                     key: card.key,
                     initial: { phrase: card.word, isPhrase: card.isPhrase, context: card.context, customEn: card.customEn, customRu: card.customRu, note: card.note, examples: card.examples, color: highlights[card.key] || null },
                     dictLookup: null,
-                  }); }}>hinzufügen ✎</button>
+                  }); }}>{t.addAction} ✎</button>
                 </div>
               )}
               {card.context && (
                 <div className="flash-back-ctx">
-                  <span className="mono mute">KONTEXT</span>
+                  <span className="mono mute">{t.flashContextLabel}</span>
                   <div>„{card.context}"</div>
                 </div>
               )}
               {card.examples && card.examples.length > 0 && (
                 <div className="flash-back-ex">
-                  <span className="mono mute">BEISPIELE</span>
+                  <span className="mono mute">{t.flashExamplesLabel}</span>
                   {card.examples.map((ex, k) => (
                     <div key={k}>· {ex}</div>
                   ))}
@@ -741,7 +743,7 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
               )}
               {card.note && (
                 <div className="flash-back-note">
-                  <span className="mono mute">NOTIZ</span>
+                  <span className="mono mute">{t.flashNoteLabel}</span>
                   <div>{card.note}</div>
                 </div>
               )}
@@ -756,29 +758,29 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
             <button
               className="btn btn-ghost flash-mark"
               onClick={goNext}
-              title="Weiter"
-            >überspringen</button>
+              title={t.skipTooltip}
+            >{t.skip}</button>
             <button
               className="btn btn-primary flash-mark"
               onClick={sendBackToDeck}
-              title="Karte zurück in den Lernstapel legen"
-            >↺ zurück zum Stapel</button>
+              title={t.backToDeckTooltip}
+            >{t.backToDeck}</button>
           </>
         ) : (
           <>
             <button
               className={`btn btn-outline flash-mark ${isHard ? "active" : ""}`}
               onClick={markHard}
-              title="Als schwer zu lernen markieren"
+              title={t.markHardTooltip}
             >
-              {isHard ? "✓ schwer" : "schwer"}
+              {isHard ? t.hardActive : t.hardTag}
             </button>
             <button
               className="btn btn-primary flash-mark flash-known"
               onClick={markKnown}
-              title="Ich kann das — aus dem Stapel nehmen"
+              title={t.iKnowThisTooltip}
             >
-              ich kann das ✓
+              {t.iKnowThis}
             </button>
           </>
         )}
@@ -805,44 +807,84 @@ const Flashcards = ({ lang, book, allBooks = [], highlights, cards = {}, knownWo
 };
 
 // ---------- QUIZ ----------
-const Quiz = ({ lang, book, onFinish }) => {
+// Per-chapter multiple-choice vocabulary quiz. Shows a German word; the reader picks its meaning
+// (in the interface language) from four options. Questions are generated once and frozen in state.
+const QUIZ_MIN_QUESTIONS = 3;
+
+const Quiz = ({ lang, book, chapterIndex = 0, onFinish }) => {
   const t = UI_STRINGS[lang];
-  const [questions] = useState(() => book ? makeQuiz(book) : []);
+  const [questions] = useState(() => book ? makeChapterQuiz(book, chapterIndex, lang) : []);
   const [i, setI] = useState(0);
   const [picked, setPicked] = useState(null);
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
 
-  if (!book) return <div className="page"><p>Buch nicht gefunden.</p></div>;
+  if (!book) return <div className="page"><p>{t.bookNotFound}</p></div>;
+
+  const chapter = book.chapters[chapterIndex];
+  const hasNext = chapterIndex + 1 < book.chapters.length;
+
+  // Not enough eligible vocabulary in this chapter for a quiz.
+  if (questions.length < QUIZ_MIN_QUESTIONS) {
+    return (
+      <div className="page-narrow" style={{ paddingTop: 56 }}>
+        <a href={"#/book/" + book.id} className="btn btn-ghost btn-sm" style={{ marginBottom: 24 }}>← {book.title}</a>
+        <div className="eyebrow" style={{ marginBottom: 12 }}>{book.title} · {t.vocabQuizTitle}</div>
+        <div className="quiz-card" style={{ textAlign: "center" }}>
+          <p className="soft" style={{ fontSize: 16, margin: "8px 0 24px" }}>{t.quizNotEnough}</p>
+          <div className="row" style={{ justifyContent: "center", gap: 10 }}>
+            <a href={"#/read/" + book.id + "/" + chapterIndex} className="btn btn-outline">← {chapter ? chapter.title : book.title}</a>
+            {hasNext && (
+              <a href={"#/read/" + book.id + "/" + (chapterIndex + 1)} className="btn btn-primary">{t.quizNextChapter} →</a>
+            )}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   const q = questions[i];
 
   const pick = (opt) => {
     if (picked) return;
     setPicked(opt);
-    if (opt === q.answer) setScore(s => s + 1);
+    const correct = opt === q.answer ? score + 1 : score;
+    if (opt === q.answer) setScore(correct);
     setTimeout(() => {
       if (i + 1 < questions.length) {
         setI(i + 1);
         setPicked(null);
       } else {
         setDone(true);
-        onFinish();
+        onFinish && onFinish(correct, questions.length);
       }
     }, 1000);
   };
 
+  const retry = () => {
+    setI(0);
+    setPicked(null);
+    setScore(0);
+    setDone(false);
+  };
+
   if (done) {
+    const feedback = score === questions.length ? t.quizPerfect : score >= questions.length / 2 ? t.quizGood : t.quizTryAgain;
     return (
       <div className="page-narrow" style={{ textAlign: "center", paddingTop: 80 }}>
-        <div className="eyebrow" style={{ marginBottom: 14 }}>{book.title} · {t.quiz}</div>
+        <div className="eyebrow" style={{ marginBottom: 14 }}>{book.title} · {t.vocabQuizTitle}</div>
         <h1 className="h-display" style={{ fontSize: 64 }}>{score} / {questions.length}</h1>
-        <p className="soft" style={{ fontSize: 17, marginTop: 12 }}>
-          {score === questions.length ? "Hervorragend!" : score >= questions.length / 2 ? "Gut gemacht!" : "Lies das Kapitel noch einmal."}
-        </p>
+        <p className="soft" style={{ fontSize: 17, marginTop: 12 }}>{feedback}</p>
         <div className="row" style={{ justifyContent: "center", gap: 10, marginTop: 28 }}>
-          <a href={"#/book/" + book.id} className="btn btn-outline">← {book.title}</a>
-          <a href="#/library" className="btn btn-primary">{t.library} →</a>
+          <button className="btn btn-ghost" onClick={retry}>{t.quizRetry}</button>
+          {hasNext ? (
+            <a href={"#/read/" + book.id + "/" + (chapterIndex + 1)} className="btn btn-primary">{t.quizNextChapter} →</a>
+          ) : (
+            <a href={"#/book/" + book.id} className="btn btn-primary">{book.title} →</a>
+          )}
+        </div>
+        <div style={{ marginTop: 14 }}>
+          <a href={"#/book/" + book.id} className="btn btn-ghost btn-sm">← {book.title}</a>
         </div>
       </div>
     );
@@ -851,13 +893,16 @@ const Quiz = ({ lang, book, onFinish }) => {
   return (
     <div className="page-narrow" style={{ paddingTop: 56 }}>
       <a href={"#/book/" + book.id} className="btn btn-ghost btn-sm" style={{ marginBottom: 24 }}>← {book.title}</a>
-      <div className="eyebrow" style={{ marginBottom: 12 }}>{book.title} · {t.quiz} · {i + 1} / {questions.length}</div>
+      <div className="eyebrow" style={{ marginBottom: 12 }}>
+        {book.title} · {t.vocabQuizTitle} · {t.chapter} {chapterIndex + 1}
+      </div>
       <div className="bar" style={{ maxWidth: 560, margin: "0 auto 32px" }}>
         <i style={{ width: ((i + 1) / questions.length * 100) + "%" }}></i>
       </div>
       <div className="quiz-card">
-        <div className="mono mute" style={{ fontSize: 11, letterSpacing: "0.1em", textTransform: "uppercase" }}>{t.chapter} {i + 1}</div>
-        <h2 className="quiz-prompt">{q.prompt[lang] || q.prompt.de}</h2>
+        <div className="mono mute" style={{ fontSize: 11, letterSpacing: "0.1em", textTransform: "uppercase" }}>{i + 1} / {questions.length}</div>
+        <h2 className="quiz-prompt">{q.prompt}</h2>
+        <p className="soft" style={{ marginTop: -8, marginBottom: 18, fontSize: 14 }}>{t.quizPrompt}</p>
         {q.options.map(opt => {
           let cls = "quiz-option";
           if (picked) {

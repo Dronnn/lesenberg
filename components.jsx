@@ -68,22 +68,25 @@ const THEME_ICON = {
     </svg>
   ),
 };
-const THEME_LABEL = { light: "Hell", dark: "Dunkel", system: "System" };
-const ThemeSwitch = ({ value, onChange }) => (
-  <div className="theme-switch" role="group" aria-label="Farbschema">
-    {["light", "dark", "system"].map(k => (
-      <button
-        key={k}
-        type="button"
-        className={k === value ? "on" : ""}
-        onClick={() => onChange(k)}
-        aria-pressed={k === value}
-        aria-label={THEME_LABEL[k]}
-        title={THEME_LABEL[k]}
-      >{THEME_ICON[k]}</button>
-    ))}
-  </div>
-);
+const ThemeSwitch = ({ value, onChange, lang }) => {
+  const t = UI_STRINGS[lang];
+  const labels = { light: t.themeLight, dark: t.themeDark, system: t.themeSystem };
+  return (
+    <div className="theme-switch" role="group" aria-label={t.colorScheme}>
+      {["light", "dark", "system"].map(k => (
+        <button
+          key={k}
+          type="button"
+          className={k === value ? "on" : ""}
+          onClick={() => onChange(k)}
+          aria-pressed={k === value}
+          aria-label={labels[k]}
+          title={labels[k]}
+        >{THEME_ICON[k]}</button>
+      ))}
+    </div>
+  );
+};
 
 // ---------- HEADER ----------
 const Header = ({ lang, setLang, theme, setTheme, streak, route, user, onSignInClick, onSignOut }) => {
@@ -110,7 +113,7 @@ const Header = ({ lang, setLang, theme, setTheme, streak, route, user, onSignInC
         <button
           type="button"
           className="nav-hamburger"
-          aria-label="Menü"
+          aria-label={t.menu}
           aria-expanded={navOpen}
           onClick={() => setNavOpen(o => !o)}
         >{navOpen ? "✕" : "☰"}</button>
@@ -118,7 +121,7 @@ const Header = ({ lang, setLang, theme, setTheme, streak, route, user, onSignInC
         <div className="nav-links">
           <a href="#/" className={route === "#/" ? "nav-link active" : "nav-link"} onClick={() => setNavOpen(false)}>{t.home}</a>
           <a href="#/library" className={route.startsWith("#/library") || route.startsWith("#/book") ? "nav-link active" : "nav-link"} onClick={() => setNavOpen(false)}>{t.library}</a>
-          <a href="#/flashcards" className={route.startsWith("#/flashcards") ? "nav-link active" : "nav-link"} onClick={() => setNavOpen(false)}>{t.flashcards || "Karteikarten"}</a>
+          <a href="#/flashcards" className={route.startsWith("#/flashcards") ? "nav-link active" : "nav-link"} onClick={() => setNavOpen(false)}>{t.flashcards}</a>
           <a href="#/help" className={active("#/help")} onClick={() => setNavOpen(false)}>{t.help}</a>
           <a href="#/about" className={active("#/about")} onClick={() => setNavOpen(false)}>{t.about}</a>
           <a href="#/donate" className={active("#/donate")} style={{ color: "var(--brown)", fontWeight: 600 }} onClick={() => setNavOpen(false)}>♥ {t.donate}</a>
@@ -135,8 +138,24 @@ const Header = ({ lang, setLang, theme, setTheme, streak, route, user, onSignInC
               <button key={l} className={l === lang ? "on" : ""} onClick={() => setLang(l)}>{l}</button>
             ))}
           </div>
-          <ThemeSwitch value={theme} onChange={setTheme} />
-          {user ? (
+          <ThemeSwitch value={theme} onChange={setTheme} lang={lang} />
+          {!AUTH_ENABLED ? (
+            <a
+              href="#/profile"
+              title={t.yourData}
+              aria-label={t.yourData}
+              style={{
+                width: 34, height: 34, borderRadius: "50%",
+                border: "1px solid var(--line)",
+                background: "var(--brown)", color: "var(--paper)",
+                display: "grid", placeItems: "center", cursor: "pointer",
+              }}
+            >
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4.4 0-8 2.7-8 6v1.5h16V20c0-3.3-3.6-6-8-6z" />
+              </svg>
+            </a>
+          ) : user ? (
             <div style={{ position: "relative" }} ref={menuRef}>
               <button onClick={() => setMenuOpen(o => !o)} style={{
                 width: 34, height: 34, borderRadius: "50%",
@@ -240,7 +259,7 @@ const WordPop = ({ data, position, onClose, onHighlight, onKnown, onEdit, curren
       </div>
       {data.lemma && data.lemma !== data.word && (
         <div className="wp-lemma">
-          <span className="l1">Grundform</span>
+          <span className="l1">{t.baseForm}</span>
           <span className="l2">{data.lemma}</span>
         </div>
       )}
@@ -253,13 +272,13 @@ const WordPop = ({ data, position, onClose, onHighlight, onKnown, onEdit, curren
         <span className="wp-val">{data.ru}</span>
       </div>
       <div className="wp-colors">
-        <div className={"sw clear" + (!currentColor ? " on" : "")} onClick={() => onHighlight(null)} title="Markierung entfernen">×</div>
+        <div className={"sw clear" + (!currentColor ? " on" : "")} onClick={() => onHighlight(null)} title={t.notTranslated}>×</div>
         {colors.map(c => (
           <div key={c} className={"sw " + c + (currentColor === c ? " on" : "")} onClick={() => onHighlight(c)}></div>
         ))}
         <div style={{ flex: 1 }}></div>
         {onEdit && (
-          <button onClick={onEdit} className="wp-edit" title="Karteikarte bearbeiten">✎</button>
+          <button onClick={onEdit} className="wp-edit" title={t.editCard}>✎</button>
         )}
         <button onClick={onKnown} style={{
           background: isKnown ? "var(--gold)" : "transparent",
@@ -401,7 +420,7 @@ const UploadModal = ({ onClose, onAdd, lang }) => {
     const book = {
       id: "user-" + Date.now(),
       title: title.trim(),
-      subtitle: subtitle.trim() || "Hochgeladen",
+      subtitle: subtitle.trim() || t.uploaded,
       level,
       author: "Andrew Maier",
       theme,
@@ -425,7 +444,7 @@ const UploadModal = ({ onClose, onAdd, lang }) => {
         <p>{t.addOwnSub}</p>
         <div className="field">
           <label>{t.title}</label>
-          <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Mein Buch" />
+          <input value={title} onChange={(e) => setTitle(e.target.value)} placeholder={t.titlePlaceholder} />
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
           <div className="field">
@@ -435,7 +454,7 @@ const UploadModal = ({ onClose, onAdd, lang }) => {
             </select>
           </div>
           <div className="field">
-            <label>Cover</label>
+            <label>{t.cover}</label>
             <select value={theme} onChange={(e) => setTheme(e.target.value)}>
               <option value="forest">Forest green</option>
               <option value="navy">Navy</option>
@@ -449,14 +468,14 @@ const UploadModal = ({ onClose, onAdd, lang }) => {
         </div>
         <div className="field">
           <label>{t.description}</label>
-          <input value={subtitle} onChange={(e) => setSubtitle(e.target.value)} placeholder="Untertitel" />
+          <input value={subtitle} onChange={(e) => setSubtitle(e.target.value)} placeholder={t.subtitlePlaceholder} />
         </div>
         <div className="field">
           <label>{t.content}</label>
-          <textarea value={content} onChange={(e) => setContent(e.target.value)} placeholder="Anna ging in den Park…"></textarea>
+          <textarea value={content} onChange={(e) => setContent(e.target.value)} placeholder={t.contentPlaceholder}></textarea>
           <div style={{ marginTop: 8 }}>
             <input type="file" ref={fileRef} accept=".txt,.md,text/plain" onChange={handleFile} style={{ display: "none" }} />
-            <button className="btn btn-ghost btn-sm" onClick={() => fileRef.current.click()}>↑ Datei wählen (.txt / .md)</button>
+            <button className="btn btn-ghost btn-sm" onClick={() => fileRef.current.click()}>↑ {t.chooseFile}</button>
           </div>
         </div>
         <div className="modal-foot">
@@ -468,4 +487,21 @@ const UploadModal = ({ onClose, onAdd, lang }) => {
   );
 };
 
-Object.assign(window, { useHash, useStore, Level, BookCover, Header, ThemeSwitch, BookCard, WordPop, TappableText, UploadModal });
+// Site-wide copyright footer, rendered once below every route.
+const Footer = ({ lang }) => {
+  const t = UI_STRINGS[lang];
+  return (
+    <footer style={{
+      borderTop: "1px solid var(--line-soft)",
+      marginTop: 80,
+      padding: "32px 0 40px",
+      textAlign: "center",
+    }}>
+      <div className="mute" style={{ fontSize: 12, letterSpacing: "0.02em" }}>
+        © 2026 Andreas Maier · lesenberg.com · {t.footerRights}
+      </div>
+    </footer>
+  );
+};
+
+Object.assign(window, { useHash, useStore, Level, BookCover, Header, ThemeSwitch, BookCard, WordPop, TappableText, UploadModal, Footer });

@@ -1,35 +1,21 @@
 // About the author — expanded standalone page
+const CONTACT_EMAIL = "contact@lesenberg.com";
+
 const About = ({ lang, allBooks }) => {
   const t = UI_STRINGS[lang];
 
   const facts = [
-    { label: "Lebt in", value: "Hamburg" },
-    { label: "Schreibt seit", value: "2019" },
-    { label: "Lieblingsfont", value: "Source Serif" },
-    { label: "Lieblingsbuch", value: "Stoner" },
+    { label: t.aboutFactLives, value: "Hamburg" },
+    { label: t.aboutFactWriting, value: "2019" },
+    { label: t.aboutFactFont, value: "Source Serif" },
+    { label: t.aboutFactBook, value: "Stoner" },
   ];
 
   const beliefs = [
-    {
-      n: "01",
-      title: "Verständnis kommt vor Grammatik",
-      body: "Du lernst eine Sprache, indem du sie verstehst. Grammatik kann warten — zuerst muss das Lesen sich gut anfühlen.",
-    },
-    {
-      n: "02",
-      title: "Einfach ist nicht langweilig",
-      body: "A1-Sätze müssen nicht kindisch sein. Eine kurze Zeile kann eine ganze Stimmung tragen. Hemingway hat das schon gewusst.",
-    },
-    {
-      n: "03",
-      title: "Wiederholung ist Magie",
-      body: "Wenn dasselbe Wort fünfzehnmal in zehn Minuten erscheint, bleibst du nicht stehen — du lernst es nebenbei.",
-    },
-    {
-      n: "04",
-      title: "Übersetzung ist Hilfsrad",
-      body: "Sie soll nah sein, schnell, und dann wieder verschwinden. Nicht ablenken. Nicht erklären.",
-    },
+    { n: "01", title: t.aboutBelief1Title, body: t.aboutBelief1Body },
+    { n: "02", title: t.aboutBelief2Title, body: t.aboutBelief2Body },
+    { n: "03", title: t.aboutBelief3Title, body: t.aboutBelief3Body },
+    { n: "04", title: t.aboutBelief4Title, body: t.aboutBelief4Body },
   ];
 
   return (
@@ -56,21 +42,21 @@ const About = ({ lang, allBooks }) => {
             marginBottom: 18,
           }}>AM</div>
           <div style={{ fontFamily: "var(--font-serif)", fontStyle: "italic", fontSize: 12, color: "var(--ink-mute)", textAlign: "center" }}>
-            Foto folgt — bis dahin das Monogramm.
+            {t.aboutPhotoFollows}
           </div>
         </div>
         <div style={{ fontSize: 18, lineHeight: 1.65, color: "var(--ink)" }}>
           <p style={{ marginTop: 0 }}>
-            Ich heiße Andrew. Ich bin Autor und vor langer Zeit war ich selbst Deutschschüler. Damals habe ich gefühlt, was alle Anfänger fühlen: Lehrbücher sind oft trocken, und richtige Bücher sind zu früh zu schwer.
+            {t.aboutBioP1}
           </p>
           <p>
-            Also schreibe ich genau die Art von Büchern, die ich damals brauchte. Geschichten in einfachem Deutsch — kurz und gut. Niemals herablassend. Mit Figuren, die man wirklich kennen lernt.
+            {t.aboutBioP2}
           </p>
           <p>
-            Jedes Buch hat ein eindeutiges Niveau: A1, A2 oder B1. Das Vokabular und die Grammatik sind streng kuratiert. Aber die Geschichten selbst — die sind so frei, wie sie sein können.
+            {t.aboutBioP3}
           </p>
           <p style={{ color: "var(--ink-soft)", fontStyle: "italic" }}>
-            Wenn du eine Geschichte zu Ende liest und denkst „Ich habe das wirklich verstanden" — dann hat dieses Projekt seinen Zweck erfüllt.
+            {t.aboutBioP4}
           </p>
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 0, marginTop: 32, paddingTop: 24, borderTop: "1px solid var(--line)" }}>
@@ -86,8 +72,8 @@ const About = ({ lang, allBooks }) => {
 
       {/* BELIEFS */}
       <section style={{ marginBottom: 64 }}>
-        <div className="eyebrow" style={{ marginBottom: 14 }}>Wie ich darüber denke</div>
-        <h2 className="h-section" style={{ marginBottom: 28, fontSize: 32 }}>Vier Überzeugungen</h2>
+        <div className="eyebrow" style={{ marginBottom: 14 }}>{t.aboutBeliefsEyebrow}</div>
+        <h2 className="h-section" style={{ marginBottom: 28, fontSize: 32 }}>{t.aboutBeliefsTitle}</h2>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
           {beliefs.map(b => (
             <div key={b.n} className="card" style={{ padding: 28 }}>
@@ -101,8 +87,8 @@ const About = ({ lang, allBooks }) => {
 
       {/* BOOKS TIMELINE */}
       <section style={{ marginBottom: 64 }}>
-        <div className="eyebrow" style={{ marginBottom: 14 }}>Bibliografie</div>
-        <h2 className="h-section" style={{ marginBottom: 28, fontSize: 32 }}>Bücher in dieser Bibliothek</h2>
+        <div className="eyebrow" style={{ marginBottom: 14 }}>{t.aboutBibliographyEyebrow}</div>
+        <h2 className="h-section" style={{ marginBottom: 28, fontSize: 32 }}>{t.aboutBooksTitle}</h2>
         <div className="card" style={{ padding: 0 }}>
           {allBooks.filter(b => !b.userAdded).map((b, i, arr) => (
             <a key={b.id} href={"#/book/" + b.id} style={{
@@ -127,12 +113,12 @@ const About = ({ lang, allBooks }) => {
 
       {/* CONTACT */}
       <section className="card" style={{ padding: 36, marginBottom: 32, background: "var(--bg-soft)" }}>
-        <h2 className="h-section" style={{ fontSize: 26, marginBottom: 10 }}>Schreib mir</h2>
+        <h2 className="h-section" style={{ fontSize: 26, marginBottom: 10 }}>{t.aboutContactTitle}</h2>
         <p style={{ color: "var(--ink-soft)", margin: "0 0 18px", maxWidth: 540 }}>
-          Hast du eine Frage, einen Vorschlag, oder einen Fehler gefunden? Ich antworte normalerweise innerhalb einer Woche.
+          {t.aboutContactBody}
         </p>
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 }}>
-          <a href="mailto:andrew@bibliothek.de" className="btn btn-outline" style={{ justifyContent: "center" }}>andrew@bibliothek.de</a>
+          <a href={`mailto:${CONTACT_EMAIL}`} className="btn btn-outline" style={{ justifyContent: "center" }}>{CONTACT_EMAIL}</a>
           <a href="#/donate" className="btn btn-primary" style={{ justifyContent: "center" }}>♥ {t.supportAuthor}</a>
         </div>
       </section>

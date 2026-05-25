@@ -34,11 +34,11 @@ const Library = ({ lang, allBooks, progressMap, isAdmin, onUpload }) => {
         <div>
           <div className="eyebrow" style={{ marginBottom: 10 }}>
             {t.yourLibrary}
-            {isAdmin && <span className="admin-pill" title="Du bist eingeloggt als Bibliothekar">BIBLIOTHEKAR</span>}
+            {isAdmin && <span className="admin-pill" title={t.librarianTooltip}>{t.librarian}</span>}
           </div>
           <h1 className="h-display" style={{ fontSize: 48 }}>{t.library}</h1>
           <p className="soft" style={{ maxWidth: 520, marginTop: 8 }}>
-            {filtered.length} {filtered.length === 1 ? "Buch" : "Bücher"} · {allBooks.reduce((s, b) => s + b.words, 0).toLocaleString()} {t.words} · kuratiert von A. Maier
+            {filtered.length} {filtered.length === 1 ? t.bookSingular : t.bookPlural} · {allBooks.reduce((s, b) => s + b.words, 0).toLocaleString()} {t.words} · {t.curatedBy}
           </p>
         </div>
         {isAdmin && (
@@ -69,7 +69,7 @@ const Library = ({ lang, allBooks, progressMap, isAdmin, onUpload }) => {
           ))}
         </div>
         <div style={{ display: "flex", gap: 6, background: "var(--bg-soft)", border: "1px solid var(--line)", borderRadius: 4, padding: 3 }}>
-          {[["all", "Alle"], ["new", t.notStarted], ["in", t.inProgress], ["done", t.finished]].map(([k, label]) => (
+          {[["all", t.allCards], ["new", t.notStarted], ["in", t.inProgress], ["done", t.finished]].map(([k, label]) => (
             <button key={k} onClick={() => setStatus(k)}
               style={{
                 padding: "6px 10px",
@@ -104,7 +104,7 @@ const Library = ({ lang, allBooks, progressMap, isAdmin, onUpload }) => {
 
       {/* ADMIN — server folder scan panel */}
       {isAdmin && (
-        <AdminShelfPanel allBooks={allBooks} onOpenUpload={() => setShowUpload(true)} />
+        <AdminShelfPanel lang={lang} allBooks={allBooks} onOpenUpload={() => setShowUpload(true)} />
       )}
 
       {showUpload && isAdmin && <UploadModal lang={lang} onClose={() => setShowUpload(false)} onAdd={onUpload} />}
@@ -114,45 +114,45 @@ const Library = ({ lang, allBooks, progressMap, isAdmin, onUpload }) => {
 
 // Mock admin panel that shows the /books/ folder as if scanned server-side.
 // In the real build, the server would walk this folder and emit a JSON manifest.
-const AdminShelfPanel = ({ allBooks, onOpenUpload }) => {
+const AdminShelfPanel = ({ lang, allBooks, onOpenUpload }) => {
+  const t = UI_STRINGS[lang];
   const slug = (b) => (b.id || b.title.toLowerCase()).replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
   return (
     <section className="admin-panel">
       <div className="admin-panel-head">
         <div>
-          <div className="eyebrow">Bibliotheksverwaltung</div>
-          <h3 className="h-section" style={{ marginTop: 6, fontSize: 22 }}>Quellordner <code className="mono-code">/books/</code></h3>
+          <div className="eyebrow">{t.libManagement}</div>
+          <h3 className="h-section" style={{ marginTop: 6, fontSize: 22 }}>{t.sourceFolder} <code className="mono-code">/books/</code></h3>
           <p className="soft" style={{ marginTop: 6, fontSize: 13, maxWidth: 560 }}>
-            Der Server scannt diesen Ordner beim Start. Jede Markdown-Datei wird ein Buch.
-            Front-Matter (<code className="mono-code">title</code>, <code className="mono-code">level</code>, <code className="mono-code">subtitle</code>, <code className="mono-code">theme</code>) bestimmt Cover und Metadaten.
+            {t.adminScanDesc}
           </p>
         </div>
-        <button className="btn btn-outline btn-sm" onClick={onOpenUpload}>+ Datei hochladen</button>
+        <button className="btn btn-outline btn-sm" onClick={onOpenUpload}>+ {t.uploadFile}</button>
       </div>
 
       <div className="admin-tree">
         <div className="admin-tree-head">
           <span>📂 /books/</span>
-          <span className="mono mute">{allBooks.length} Einträge · gescannt vor 2 Min.</span>
+          <span className="mono mute">{allBooks.length} {t.entries} · {t.scannedAgo}</span>
         </div>
         {allBooks.map(b => (
           <div key={b.id} className="admin-tree-row">
             <span className="atr-icon">📄</span>
             <span className="atr-name mono">{slug(b)}.md</span>
-            <span className="atr-meta mono mute">{b.level} · {b.words.toLocaleString()} Wörter</span>
+            <span className="atr-meta mono mute">{b.level} · {b.words.toLocaleString()} {t.wordsShort}</span>
             <span className="atr-status">
-              {b.userAdded ? <span className="atr-tag draft">ENTWURF</span> : <span className="atr-tag pub">VERÖFFENTLICHT</span>}
+              {b.userAdded ? <span className="atr-tag draft">{t.statusDraft}</span> : <span className="atr-tag pub">{t.statusPublished}</span>}
             </span>
             <span className="atr-actions">
-              <button className="atr-btn" title="Bearbeiten">✎</button>
-              <button className="atr-btn" title="Ausblenden">⊘</button>
+              <button className="atr-btn" title={t.edit}>✎</button>
+              <button className="atr-btn" title={t.hide}>⊘</button>
             </span>
           </div>
         ))}
       </div>
 
       <div className="admin-hint mono">
-        <span className="mute">→</span> Lege eine <code>.md</code>-Datei in <code>/books/</code> ab — sie erscheint beim nächsten Scan automatisch im Regal. Nutzer können nichts hochladen.
+        <span className="mute">→</span> {t.adminHint}
       </div>
     </section>
   );

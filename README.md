@@ -15,8 +15,12 @@ All texts are original, written in graded German for learners at **A1–B2**.
   English + Russian gloss. Every book ships with its own dictionary, so this works offline.
 - **Highlight & save.** Mark words in four colours and save them (with your own notes and example
   sentences) as flashcards.
+- **Test yourself.** After each chapter, a short vocabulary quiz built live from that chapter's own
+  key words — see a German word, pick its meaning.
 - **Track your reading.** Per-chapter progress, words learned, minutes read — all stored in your
   browser.
+- **No account needed.** Everything lives locally in your browser; you can **export** all your data
+  to a file and **import** it later or on another device.
 - **Download.** Save any book as a Markdown file.
 - **Trilingual interface** (German / English / Russian) and a light / dark / system theme.
 - **Works on phone and desktop** — the layout adapts to the screen.
@@ -89,7 +93,7 @@ dictionary files.
 
 ```
 index.html              entry point (script order)
-data.js                 base dictionary, UI strings, lookup, quiz
+data.js                 base dictionary, UI strings, lookup, per-chapter quiz generator
 loader.js               markdown → book parser + dictionary loader
 app.jsx                 root, routing, state
 components.jsx          shared components (header, covers, cards, popups, tappable text)
@@ -100,6 +104,11 @@ books/archive/          book texts (.md) + per-book dictionaries (.dict.json)
 tools/                  dictionary build scripts
 ```
 
+## Support
+
+The library is free and ad-free. If it helps you, you can support new books from the in-app donate
+page — via USDT (TRC20), Boosty, or Patreon.
+
 ## Author
 
-Texts and project by **Andreas Maier**.
+Texts and project by **Andreas Maier** — [contact@lesenberg.com](mailto:contact@lesenberg.com).

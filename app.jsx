@@ -15,7 +15,7 @@ const parseRoute = (hash) => {
   if (parts[0] === "signin") return { name: "signin" };
   if (parts[0] === "book" && parts[1]) return { name: "book", id: parts[1] };
   if (parts[0] === "read" && parts[1]) return { name: "read", id: parts[1], chapter: parseInt(parts[2] || "0", 10) };
-  if (parts[0] === "quiz" && parts[1]) return { name: "quiz", id: parts[1] };
+  if (parts[0] === "quiz" && parts[1]) return { name: "quiz", id: parts[1], chapter: parseInt(parts[2] || "0", 10) };
   if (parts[0] === "flashcards") return { name: "flashcards", id: parts[1] || null };
   return { name: "home" };
 };
@@ -53,6 +53,7 @@ const App = () => {
   const [knownWords, setKnownWords] = useStore("knownWords", []);
   const [hardWords, setHardWords] = useStore("hardWords", []);
   const [bookmarks, setBookmarks] = useStore("bookmarks", {}); // { bookId: [{chapter, paragraph, snippet, ts}] }
+  const [quizzes, setQuizzes] = useStore("quizzes", {}); // { bookId: { chapterIndex: { score, total, date } } }
   const [streak, setStreak] = useStore("streak", 7);
   const [showAuth, setShowAuth] = useState(false);
   const [authMode, setAuthMode] = useState("in");
@@ -72,6 +73,7 @@ const App = () => {
   // Auto-open auth if route asks for it
   useEffect(() => {
     if (route.name === "signin") {
+      if (!AUTH_ENABLED) { window.location.hash = "#/"; return; }
       setAuthMode("in");
       setShowAuth(true);
       window.location.hash = "#/";
@@ -209,7 +211,7 @@ const App = () => {
     if (next < book.chapters.length) {
       window.location.hash = "#/read/" + book.id + "/" + next;
     } else {
-      window.location.hash = "#/quiz/" + book.id;
+      window.location.hash = "#/quiz/" + book.id + "/" + route.chapter;
     }
   }, [route, allBooks, setProgressMap]);
 
@@ -218,14 +220,15 @@ const App = () => {
     window.location.hash = "#/read/" + id + "/" + idx;
   }, [route]);
 
-  const onFinishQuiz = useCallback(() => {
-    setProgressMap(prev => {
-      const cur = prev[route.id];
-      if (!cur) return prev;
-      const book = getBook(route.id);
-      return { ...prev, [route.id]: { chapter: book.chapters.length, finished: true } };
+  // Record a single chapter's quiz result. Does NOT mark the whole book finished.
+  const onFinishQuiz = useCallback((score, total) => {
+    const chap = route.chapter || 0;
+    setQuizzes(prev => {
+      const book = { ...(prev[route.id] || {}) };
+      book[chap] = { score, total, date: new Date().toISOString() };
+      return { ...prev, [route.id]: book };
     });
-  }, [route, setProgressMap]);
+  }, [route, setQuizzes]);
 
   const onSignIn = useCallback((u) => {
     setUser(u);
@@ -257,7 +260,7 @@ const App = () => {
       {booksLoading && (
         <div className="page">
           <div style={{ textAlign: "center", padding: "120px 0", color: "var(--ink-mute)" }}>
-            Lade Bücher …
+            {UI_STRINGS[lang].loadingBooks}
           </div>
         </div>
       )}
@@ -314,7 +317,7 @@ const App = () => {
       )}
 
       {!booksLoading && route.name === "quiz" && (
-        <Quiz lang={lang} book={getBook(route.id)} onFinish={onFinishQuiz} />
+        <Quiz lang={lang} book={getBook(route.id)} chapterIndex={route.chapter || 0} onFinish={onFinishQuiz} />
       )}
 
       {!booksLoading && route.name === "flashcards" && (
@@ -365,7 +368,9 @@ const App = () => {
         />
       )}
 
-      {showAuth && (
+      {!booksLoading && <Footer lang={lang} />}
+
+      {AUTH_ENABLED && showAuth && (
         <AuthModal
           lang={lang}
           initialMode={authMode}
@@ -416,7 +421,7 @@ const ProgressPage = ({ lang, allBooks, progressMap, savedWords, knownWords, str
       </section>
 
       <section style={{ marginBottom: 40 }}>
-        <h3 className="eyebrow" style={{ marginBottom: 14 }}>Letzte 30 Tage</h3>
+        <h3 className="eyebrow" style={{ marginBottom: 14 }}>{t.last30Days}</h3>
         <div className="card" style={{ padding: 24 }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(30, 1fr)", gap: 4 }}>
             {days.map((d, i) => (
@@ -428,19 +433,19 @@ const ProgressPage = ({ lang, allBooks, progressMap, savedWords, knownWords, str
             ))}
           </div>
           <div className="row" style={{ justifyContent: "space-between", marginTop: 14, color: "var(--ink-mute)", fontFamily: "var(--font-mono)", fontSize: 10, letterSpacing: "0.06em" }}>
-            <span>vor 30 Tagen</span>
+            <span>{t.daysAgo30}</span>
             <div className="row" style={{ gap: 4, alignItems: "center" }}>
-              <span>weniger</span>
+              <span>{t.less}</span>
               {[0.2, 0.4, 0.6, 0.8].map(o => <div key={o} style={{ width: 10, height: 10, background: `rgba(31, 58, 46, ${o})`, borderRadius: 2 }}></div>)}
-              <span>mehr</span>
+              <span>{t.more}</span>
             </div>
-            <span>heute</span>
+            <span>{t.today}</span>
           </div>
         </div>
       </section>
 
       <section>
-        <h3 className="eyebrow" style={{ marginBottom: 14 }}>Bücher</h3>
+        <h3 className="eyebrow" style={{ marginBottom: 14 }}>{t.booksHeading}</h3>
         <div className="card" style={{ padding: 0 }}>
           {allBooks.map((b, i) => {
             const p = progressMap[b.id];
