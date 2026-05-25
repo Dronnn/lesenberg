@@ -266,7 +266,7 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
       </aside>
 
       {/* CENTER — text */}
-      <main className="reader-stage" ref={stageRef} onClick={() => pop && closePop()} onMouseUp={onTextMouseUp}>
+      <main className="reader-stage" ref={stageRef} onClick={() => pop && closePop()} onMouseUp={onTextMouseUp} onTouchEnd={onTextMouseUp}>
         <div className="reader-mobilebar">
           <button className="btn btn-ghost btn-sm" onClick={(e) => { e.stopPropagation(); setDrawer("chapters"); }}>☰ {t.chapters}</button>
           <button className="btn btn-ghost btn-sm" onClick={(e) => { e.stopPropagation(); setDrawer("saved"); }}>{t.wordsShort}</button>

@@ -13,10 +13,14 @@ const PhrasePop = ({ phrase, context, position, onClose, onSave, onOpenEditor, l
       if (ref.current && !ref.current.contains(e.target)) onClose();
     };
     const onEsc = (e) => { if (e.key === "Escape") onClose(); };
-    setTimeout(() => document.addEventListener("mousedown", onDoc), 0);
+    setTimeout(() => {
+      document.addEventListener("mousedown", onDoc);
+      document.addEventListener("touchstart", onDoc);
+    }, 0);
     document.addEventListener("keydown", onEsc);
     return () => {
       document.removeEventListener("mousedown", onDoc);
+      document.removeEventListener("touchstart", onDoc);
       document.removeEventListener("keydown", onEsc);
     };
   }, [onClose]);

@@ -17,12 +17,13 @@ All texts are original, written in graded German for learners at **A1–B2**.
   *das Brötchen*, *die Bäckerei*). Separable verbs are recognised even when split across the
   sentence — tap either part of *sieht … aus* and you get *aussehen*. Every book ships with its
   own dictionary, so this works offline.
-- **Highlight & save.** Mark words in four colours and save them (with your own notes and example
-  sentences) as flashcards.
+- **Highlight & save.** Mark a word — or select a whole phrase — in four colours and save them
+  (with your own notes and example sentences) as flashcards.
 - **Test yourself.** After each chapter, a short vocabulary quiz built live from that chapter's own
   key words — see a German word, pick its meaning.
 - **Track your reading.** Per-chapter progress, words learned, minutes read — all stored in your
-  browser. Mark a chapter back to unread anytime to revisit it.
+  browser. Mark a chapter back to unread anytime to revisit it, and bookmark any paragraph to
+  jump back to it later.
 - **No account needed.** Everything lives locally in your browser; you can **export** all your data
   to a file and **import** it later or on another device.
 - **Download.** Save any book as a Markdown file.

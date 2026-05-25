@@ -1647,4 +1647,17 @@ img { display: block; max-width: 100%; }
     background: rgba(26, 19, 11, 0.45);
     z-index: 105;
   }
+
+  /* Bookmark marker: inline at paragraph start, always visible (no hover on touch) */
+  .para .bm-btn {
+    position: static;
+    display: inline-grid;
+    vertical-align: middle;
+    left: auto;
+    top: auto;
+    width: 22px;
+    height: 22px;
+    margin-right: 4px;
+    opacity: 0.5;
+  }
 }
