@@ -32,6 +32,13 @@ const Help = ({ lang }) => {
       features: [t.helpB2F1, t.helpB2F2, t.helpB2F3, t.helpB2F4],
       example: "Obwohl die Akten längst freigegeben waren, blieb die eigentliche Wahrheit zwischen den Zeilen verborgen.",
     },
+    {
+      lvl: "C2",
+      label: t.levelMastery,
+      desc: t.helpC2Desc,
+      features: [t.helpB2F1, t.helpB2F2, t.helpB2F3, t.helpB2F4],
+      example: "Im Dunst des Nebels, am Trave-Fluss nahe seiner Mündung, drängte sich eine kunterbunte Menge, die nichts ahnte von dem, was sie in der Fremde erwarten würde.",
+    },
   ];
 
   const steps = [

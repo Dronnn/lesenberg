@@ -21,8 +21,12 @@ function tokenize(text) {
 }
 
 // All unique lowercased word forms across every chapter of a parsed book.
+// Image-sentinel paragraphs (first char U+E000) carry a resolved image URL, not prose, so they're
+// skipped before tokenizing — otherwise the URL would be counted as words.
 function bookWords(book) {
-  const allText = book.chapters.map((c) => c.text.join("\n")).join("\n");
+  const allText = book.chapters
+    .map((c) => c.text.filter((p) => p.charCodeAt(0) !== 0xE000).join("\n"))
+    .join("\n");
   const set = new Set();
   for (const t of tokenize(allText)) set.add(t.toLowerCase());
   return set;

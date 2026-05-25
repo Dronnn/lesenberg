@@ -101,6 +101,27 @@
         "en": "In an old factory in Stade, Max and his two friends find a strange phone. It is warm, has no brand, and only a single contact: Helmut B. (2048). Someone is writing to them from the future. A warm story about courage, friendship, and a secret bigger than three boys.",
         "ru": "В старой фабрике в Штаде Макс и двое его друзей находят странный телефон. Он тёплый, без марки и с единственным контактом: Helmut B. (2048). Кто-то пишет им из будущего. Тёплая история о смелости, дружбе и тайне, которая больше, чем три мальчика."
       }
+    },
+    {
+      "id": "russland-deutscher",
+      "title": "Das Schicksal eines Russland-Deutschen",
+      "subtitle": "Erinnerungen",
+      "level": "C2",
+      "theme": "ink",
+      "author": "Robert Maier",
+      "year": 2022,
+      "file": "archive/Das_Schicksal_eines_Russland-Deutschen/Das_Schicksal_eines_Russland-Deutschen.md",
+      "chapterMode": "h2h3",
+      "words": 208279,
+      "minutes": 2083,
+      "pages": 1041,
+      "chapterCount": 27,
+      "pdf": "archive/Das_Schicksal_eines_Russland-Deutschen/Das Schicksal eines Russland-Deutschen.pdf",
+      "blurb": {
+        "de": "Die wahre Lebensgeschichte eines Russlanddeutschen - von den Vorfahren und der Kindheit über schwere Jahre in der Sowjetunion bis zu einem neuen Leben. Ein persönliches Familienzeugnis aus erster Hand.",
+        "en": "The true life story of a Russian-German - from his ancestors and childhood through hard years in the Soviet Union to a new life. A personal, first-hand family testimony.",
+        "ru": "Подлинная история жизни российского немца - от предков и детства через тяжёлые годы в Советском Союзе до новой жизни. Личное семейное свидетельство из первых рук."
+      }
     }
   ]
 }

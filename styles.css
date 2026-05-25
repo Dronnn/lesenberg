@@ -26,6 +26,8 @@
   --b1-bg: #ebd6db;
   --b2: #1d3d3a;
   --b2-bg: #d2e2df;
+  --c2: #33373d;
+  --c2-bg: #dde0e4;
 
   --radius: 4px;
   --radius-lg: 8px;
@@ -68,6 +70,8 @@
   --b1-bg: #4a2733;
   --b2: #a9d2cb;
   --b2-bg: #243f3c;
+  --c2: #b8c0c9;
+  --c2-bg: #2a2e33;
 
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5), 0 1px 1px rgba(0, 0, 0, 0.3);
   --shadow: 0 4px 14px rgba(0, 0, 0, 0.55), 0 1px 3px rgba(0, 0, 0, 0.35);
@@ -292,6 +296,7 @@ img { display: block; max-width: 100%; }
 .lvl-A2 { background: var(--a2-bg); color: var(--a2); }
 .lvl-B1 { background: var(--b1-bg); color: var(--b1); }
 .lvl-B2 { background: var(--b2-bg); color: var(--b2); }
+.lvl-C2 { background: var(--c2-bg); color: var(--c2); }
 
 /* ---------- BOOK COVER ---------- */
 .cover {
@@ -680,6 +685,8 @@ img { display: block; max-width: 100%; }
   margin: 0 auto;
 }
 .reader-body p { margin: 0 0 1.1em; text-wrap: pretty; }
+.book-figure { margin: 28px auto; text-align: center; }
+.book-figure img { max-width: 100%; height: auto; border-radius: 4px; border: 1px solid var(--line); }
 .reader-body h1 {
   font-size: 38px;
   font-weight: 500;

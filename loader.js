@@ -17,6 +17,25 @@ function vbust(path) {
   return path + (path.indexOf("?") === -1 ? "?" : "&") + "v=" + ASSET_V;
 }
 
+// Image-paragraph marker: a Private Use Area char (U+E000) prefixed onto a resolved image URL.
+// It's outside the word tokenizer's character class, so image URLs never leak into word lists,
+// and a paragraph is an image iff its first char is U+E000.
+const IMG_MARK = "";
+
+// Pull every markdown image reference out of a line. Returns the resolved sentinel paragraphs
+// (one per ![](...) tag) plus whatever non-image text is left on the line. `base` is the book's
+// markdown directory ("books/<dir>"); a relative image path is joined onto it.
+function extractImages(line, base) {
+  const images = [];
+  const text = line.replace(/!\[[^\]]*\]\(([^)]+)\)/g, (_, src) => {
+    src = src.trim();
+    const url = /^(https?:)?\//.test(src) || /^[a-z]+:/i.test(src) ? src : base + "/" + src;
+    images.push(IMG_MARK + url);
+    return " ";
+  });
+  return { images, text };
+}
+
 // Strip inline markdown markers, keep inner text, collapse whitespace, trim.
 function stripInline(s) {
   let out = s;
@@ -37,8 +56,10 @@ function isBlankLine(line) {
 }
 
 // Turn a block of body lines (no headings) into an array of cleaned paragraphs.
-// Paragraphs are separated by blank lines or by separator lines.
-function linesToParagraphs(lines) {
+// Paragraphs are separated by blank lines or by separator lines. When `base` is given, markdown
+// image references are pulled out and emitted as their own sentinel paragraphs (any leftover
+// caption text on the same line stays a normal paragraph).
+function linesToParagraphs(lines, base) {
   const paragraphs = [];
   let current = [];
   const flush = () => {
@@ -51,6 +72,13 @@ function linesToParagraphs(lines) {
   for (const line of lines) {
     if (isBlankLine(line) || isSeparatorLine(line)) {
       flush();
+    } else if (base && line.indexOf("![") !== -1) {
+      // The image(s) on this line break the current text paragraph: flush it, emit each image as
+      // its own sentinel paragraph, then keep any leftover caption text in the running paragraph.
+      const { images, text } = extractImages(line, base);
+      flush();
+      for (const img of images) paragraphs.push(img);
+      if (text.trim()) current.push(text);
     } else {
       current.push(line);
     }
@@ -59,13 +87,17 @@ function linesToParagraphs(lines) {
   return paragraphs;
 }
 
+function isImagePara(p) {
+  return typeof p === "string" && p.charCodeAt(0) === 0xE000;
+}
+
 function countWords(text) {
   const m = text.match(/\S+/g);
   return m ? m.length : 0;
 }
 
 function chapterWordCount(chapter) {
-  return chapter.text.reduce((sum, p) => sum + countWords(p), 0);
+  return chapter.text.reduce((sum, p) => (isImagePara(p) ? sum : sum + countWords(p)), 0);
 }
 
 function minutesFor(words) {
@@ -77,14 +109,14 @@ function pagesFor(words) {
 }
 
 // ----- h2: split on `## ` headings -----
-function parseH2(lines) {
+function parseH2(lines, base) {
   const chapters = [];
   let started = false;
   let title = null;
   let body = [];
   const flush = () => {
     if (title === null) return;
-    chapters.push({ title: stripInline(title), text: linesToParagraphs(body) });
+    chapters.push({ title: stripInline(title), text: linesToParagraphs(body, base) });
     body = [];
   };
   for (const line of lines) {
@@ -107,19 +139,22 @@ function parseH2(lines) {
 }
 
 // ----- h2h3: ## parts (label) + ### chapters -----
-function parseH2H3(lines) {
+function parseH2H3(lines, base) {
   // Collect headings with their body line ranges. Everything before the first
   // `## ` heading is preamble (title, ### subtitle, byline) and is dropped.
-  const blocks = []; // { level: 2|3, title, body: [] }
+  const blocks = []; // { level: 2|3, title, body: [], hasChildren }
   let cur = null;
+  let lastPart = null;
   let seenPart = false;
   for (const line of lines) {
     if (/^##\s+/.test(line) && !/^###\s+/.test(line)) {
       seenPart = true;
-      cur = { level: 2, title: line.replace(/^##\s+/, ""), body: [] };
+      cur = { level: 2, title: line.replace(/^##\s+/, ""), body: [], hasChildren: false };
+      lastPart = cur;
       blocks.push(cur);
     } else if (/^###\s+/.test(line)) {
       if (!seenPart) { cur = null; continue; } // preamble subheading — drop
+      if (lastPart) lastPart.hasChildren = true;
       cur = { level: 3, title: line.replace(/^###\s+/, ""), body: [] };
       blocks.push(cur);
     } else if (/^#\s+/.test(line)) {
@@ -132,27 +167,34 @@ function parseH2H3(lines) {
 
   const chapters = [];
   let currentPart = "";
+  let pendingIntro = []; // part body that appears before its first `### ` chapter
   for (const b of blocks) {
-    const paragraphs = linesToParagraphs(b.body);
+    const paragraphs = linesToParagraphs(b.body, base);
     const headingTitle = stripInline(b.title);
     if (b.level === 2) {
-      if (paragraphs.length === 0) {
-        // part label
+      if (b.hasChildren) {
+        // A part: it labels the `### ` chapters that follow. Any body it carries before its first
+        // `### ` (e.g. an intro image) is held over and prepended to that first chapter.
         currentPart = headingTitle;
+        pendingIntro = paragraphs;
       } else {
+        // A `## ` heading with no `### ` children is a standalone chapter (e.g. Vorwort, Anhang).
         currentPart = "";
+        pendingIntro = [];
         chapters.push({ title: headingTitle, text: paragraphs });
       }
     } else {
       const title = currentPart ? currentPart + " · " + headingTitle : headingTitle;
-      chapters.push({ title, text: paragraphs });
+      const text = pendingIntro.length ? [...pendingIntro, ...paragraphs] : paragraphs;
+      pendingIntro = [];
+      chapters.push({ title, text });
     }
   }
   return chapters;
 }
 
 // ----- scenes: no headings, split on `***`, group into targetChapters -----
-function parseScenes(lines, targetChapters) {
+function parseScenes(lines, targetChapters, base) {
   // Drop a leading H1 / preamble if present.
   let body = lines.slice();
   // Split on `***` separator lines into sections.
@@ -169,7 +211,7 @@ function parseScenes(lines, targetChapters) {
   sections.push(current);
 
   const sectionParas = sections
-    .map(sec => linesToParagraphs(sec))
+    .map(sec => linesToParagraphs(sec, base))
     .filter(paras => paras.length > 0);
 
   const total = sectionParas.length;
@@ -189,13 +231,18 @@ function parseMarkdownBook(md, meta) {
   const lines = md.split(/\r?\n/);
   const mode = meta.chapterMode;
 
+  // Image references in the markdown are resolved relative to the book's markdown directory.
+  // meta.file is e.g. "archive/foo/foo.md", so the served base is "books/archive/foo".
+  const slash = (meta.file || "").lastIndexOf("/");
+  const base = slash === -1 ? "books" : "books/" + meta.file.slice(0, slash);
+
   let chapters;
   if (mode === "h2h3") {
-    chapters = parseH2H3(lines);
+    chapters = parseH2H3(lines, base);
   } else if (mode === "scenes") {
-    chapters = parseScenes(lines, meta.targetChapters);
+    chapters = parseScenes(lines, meta.targetChapters, base);
   } else {
-    chapters = parseH2(lines);
+    chapters = parseH2(lines, base);
   }
 
   let totalWords = 0;

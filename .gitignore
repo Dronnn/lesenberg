@@ -9,3 +9,6 @@ logs/
 
 # Local dictionary-build cache (regenerable)
 tools/dictionary-cache.json
+
+# Intermediate dictionary-build batches (regenerable from the gap word list)
+tools/rd-batches/

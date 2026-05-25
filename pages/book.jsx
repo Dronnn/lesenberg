@@ -63,6 +63,9 @@ const BookDetail = ({ lang, book, progress, onMarkUnread, savedWords, knownWords
               document.body.appendChild(a); a.click(); document.body.removeChild(a);
               URL.revokeObjectURL(url);
             }}>↓ {t.download}</button>
+            {book.pdf && (
+              <a className="btn btn-outline" href={"books/" + encodeURI(book.pdf)} download>↓ {t.downloadPdf}</a>
+            )}
             <button className="btn btn-ghost" onClick={() => { window.location.hash = "#/donate"; }}>€ {t.buy}</button>
           </div>
         </div>

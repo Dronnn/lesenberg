@@ -298,15 +298,21 @@ const Reader = ({ lang, book, chapterIndex, progress, highlights, cards, knownWo
           </div>
           <h1>{chapter.title}</h1>
           {chapter.text.map((p, i) => (
-            <p key={i} className={"para" + (isBookmarked(i) ? " bookmarked" : "")}>
-              <button
-                className="bm-btn"
-                onClick={(e) => { e.stopPropagation(); onToggleBookmark(book.id, chapterIndex, i, p.slice(0, 80)); }}
-                title={isBookmarked(i) ? t.removeBookmark : t.addBookmark}>
-                {isBookmarked(i) ? "▰" : "▱"}
-              </button>
-              <TappableText text={p} onWord={onWordClick} onPhrase={onPhraseInlineClick} highlights={highlights} knownWords={knownSet} phrases={phrases} />
-            </p>
+            p.charCodeAt(0) === 0xE000 ? (
+              <figure key={i} className="book-figure">
+                <img src={p.slice(1)} alt="" loading="lazy" />
+              </figure>
+            ) : (
+              <p key={i} className={"para" + (isBookmarked(i) ? " bookmarked" : "")}>
+                <button
+                  className="bm-btn"
+                  onClick={(e) => { e.stopPropagation(); onToggleBookmark(book.id, chapterIndex, i, p.slice(0, 80)); }}
+                  title={isBookmarked(i) ? t.removeBookmark : t.addBookmark}>
+                  {isBookmarked(i) ? "▰" : "▱"}
+                </button>
+                <TappableText text={p} onWord={onWordClick} onPhrase={onPhraseInlineClick} highlights={highlights} knownWords={knownSet} phrases={phrases} />
+              </p>
+            )
           ))}
 
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 12, marginTop: 56, paddingTop: 24, borderTop: "1px solid var(--line)" }}>

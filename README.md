@@ -39,6 +39,7 @@ All texts are original, written in graded German for learners at **A1–B2**.
 | **Der Zodiac-Killer** | B1 | ~11,200 | 56 | 1 h 52 | California in the late 1960s: an unknown killer murders young couples and mails ciphered letters to the press. He was never caught. |
 | **Im Schatten der Akten** | B1 | ~15,900 | 79 | 2 h 39 | A novel based on true events — after the war, the chemist Henry Reed is drawn into the CIA's secret MKUltra programme. |
 | **Mörderland** | B2 | ~43,500 | 218 | 7 h 15 | Why did so many serial killers come from the American Northwest? A search for clues between Ted Bundy, the Zodiac killer, and an invisible cause — poison in the air, soil and water. |
+| **Das Schicksal eines Russland-Deutschen** | C2 | ~208,300 | 1,041 | 34 h 43 | The true life story of a Russian-German — from his ancestors and childhood through hard years in the Soviet Union to a new life. Robert Maier's first-hand family memoir, illustrated with original photographs. |
 
 <sub>Reading time assumes a learner pace of ~100 words/min; page counts assume ~200 words/page.</sub>
 
