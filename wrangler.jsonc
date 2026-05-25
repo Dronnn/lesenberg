@@ -1,0 +1,10 @@
+{
+  // Static-assets-only Worker: serves this repository as a static site.
+  // Workers Builds runs `npx wrangler deploy`, which reads this file to know
+  // which Worker to update (name) and which folder to serve (assets.directory).
+  "name": "lesenberg",
+  "compatibility_date": "2026-05-25",
+  "assets": {
+    "directory": "./"
+  }
+}
